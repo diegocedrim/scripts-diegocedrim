@@ -1,0 +1,82 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "", 
+    "closed_at": "2011-11-27T10:57:42Z", 
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }, 
+    "comments": 0, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/1502/comments", 
+    "created_at": "2011-11-27T10:57:00Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/1502/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/1502", 
+    "id": 2359495, 
+    "labels": [
+        {
+            "color": "328a58", 
+            "default": false, 
+            "id": 23172, 
+            "name": "feature", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/feature"
+        }, 
+        {
+            "color": "DDDDDD", 
+            "default": false, 
+            "id": 188705, 
+            "name": "v0.18.5", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.18.5"
+        }, 
+        {
+            "color": "DDDDDD", 
+            "default": false, 
+            "id": 174398, 
+            "name": "v0.19.0.RC1", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.19.0.RC1"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/1502/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 1502, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Upgrade to Lucene 3.5", 
+    "updated_at": "2011-11-27T10:57:42Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/1502", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }
+}

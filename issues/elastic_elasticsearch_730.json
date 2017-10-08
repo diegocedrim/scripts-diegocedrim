@@ -1,0 +1,57 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "`has_child` filter is a special type of filter that requires pre processing. Allow to use it in (non global) facets in a similar manner that it can be used in query element. This will also enable it to be used in the new search `filter` element.\n", 
+    "closed_at": "2011-03-01T02:45:34Z", 
+    "closed_by": null, 
+    "comments": 1, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/730/comments", 
+    "created_at": "2011-03-01T02:35:15Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/730/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/730", 
+    "id": 636371, 
+    "labels": [
+        {
+            "color": "4a4ea8", 
+            "default": true, 
+            "id": 23174, 
+            "name": "enhancement", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/enhancement"
+        }, 
+        {
+            "color": "ededed", 
+            "default": false, 
+            "id": 76649, 
+            "name": "v0.16.0", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.16.0"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/730/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 730, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Search: Allow to use has_child filter in facets", 
+    "updated_at": "2011-03-01T02:45:34Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/730", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }
+}

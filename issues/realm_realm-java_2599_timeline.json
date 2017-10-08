@@ -1,0 +1,913 @@
+[
+    {
+        "committer": {
+            "date": "2016-02-16T13:08:43Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "author": {
+            "date": "2016-02-16T13:08:43Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/f9c6311df59ccbf078c2df989f7c62a4aea2431b", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/b6f5ab254043e04da2492561b07089343d35fe23", 
+            "sha": "b6f5ab254043e04da2492561b07089343d35fe23"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/f9c6311df59ccbf078c2df989f7c62a4aea2431b", 
+        "sha": "f9c6311df59ccbf078c2df989f7c62a4aea2431b", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/445498cd8f0c3779ff3232651a3c2871b7996952", 
+                "sha": "445498cd8f0c3779ff3232651a3c2871b7996952", 
+                "html_url": "https://github.com/realm/realm-java/commit/445498cd8f0c3779ff3232651a3c2871b7996952"
+            }
+        ], 
+        "message": "Backup", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-02-17T15:26:22Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "author": {
+            "date": "2016-02-17T15:26:22Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/408d9b334daf332a9ba238956c04fb5d964ccef1", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/1ed49e1276ff0568ec4a3be8fb310430d73c6b57", 
+            "sha": "1ed49e1276ff0568ec4a3be8fb310430d73c6b57"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/408d9b334daf332a9ba238956c04fb5d964ccef1", 
+        "sha": "408d9b334daf332a9ba238956c04fb5d964ccef1", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/f9c6311df59ccbf078c2df989f7c62a4aea2431b", 
+                "sha": "f9c6311df59ccbf078c2df989f7c62a4aea2431b", 
+                "html_url": "https://github.com/realm/realm-java/commit/f9c6311df59ccbf078c2df989f7c62a4aea2431b"
+            }
+        ], 
+        "message": "Add RealmModel", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-04-07T10:42:10Z", 
+            "name": "Nabil Hachicha", 
+            "email": "nabil.hachicha@gmail.com"
+        }, 
+        "author": {
+            "date": "2016-04-07T10:42:10Z", 
+            "name": "Nabil Hachicha", 
+            "email": "nabil.hachicha@gmail.com"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/b5138bdfc23c8e003181970e60e76f7d999a9846", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/2185f182d35ca21758925cc454d9a04b63b70d43", 
+            "sha": "2185f182d35ca21758925cc454d9a04b63b70d43"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/b5138bdfc23c8e003181970e60e76f7d999a9846", 
+        "sha": "b5138bdfc23c8e003181970e60e76f7d999a9846", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/408d9b334daf332a9ba238956c04fb5d964ccef1", 
+                "sha": "408d9b334daf332a9ba238956c04fb5d964ccef1", 
+                "html_url": "https://github.com/realm/realm-java/commit/408d9b334daf332a9ba238956c04fb5d964ccef1"
+            }
+        ], 
+        "message": "Modifying the annotation processor & byte code modification to use RealmModel, add UnitTests", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-04-11T04:03:42Z", 
+            "name": "Nabil Hachicha", 
+            "email": "nabil.hachicha@gmail.com"
+        }, 
+        "author": {
+            "date": "2016-04-11T04:03:42Z", 
+            "name": "Nabil Hachicha", 
+            "email": "nabil.hachicha@gmail.com"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/6b84bb20575a442f947650c9726ecda2a37e8ec8", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/07963c87870895b165cd39da1f845b72c641273a", 
+            "sha": "07963c87870895b165cd39da1f845b72c641273a"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/6b84bb20575a442f947650c9726ecda2a37e8ec8", 
+        "sha": "6b84bb20575a442f947650c9726ecda2a37e8ec8", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/b5138bdfc23c8e003181970e60e76f7d999a9846", 
+                "sha": "b5138bdfc23c8e003181970e60e76f7d999a9846", 
+                "html_url": "https://github.com/realm/realm-java/commit/b5138bdfc23c8e003181970e60e76f7d999a9846"
+            }, 
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/8f92c2538f815658a2e2d273589347c702781c8d", 
+                "sha": "8f92c2538f815658a2e2d273589347c702781c8d", 
+                "html_url": "https://github.com/realm/realm-java/commit/8f92c2538f815658a2e2d273589347c702781c8d"
+            }
+        ], 
+        "message": "Merge remote-tracking branch 'origin/master' into cm/realmmodel", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-04-11T11:18:16Z", 
+            "name": "Nabil Hachicha", 
+            "email": "nabil.hachicha@gmail.com"
+        }, 
+        "author": {
+            "date": "2016-04-11T11:18:16Z", 
+            "name": "Nabil Hachicha", 
+            "email": "nabil.hachicha@gmail.com"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/74f0c8154f9a96750dd6e4c9ea40f19960be52a8", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/2dd2653679d34d820e9ab3bfee53e718a8e59810", 
+            "sha": "2dd2653679d34d820e9ab3bfee53e718a8e59810"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/74f0c8154f9a96750dd6e4c9ea40f19960be52a8", 
+        "sha": "74f0c8154f9a96750dd6e4c9ea40f19960be52a8", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/6b84bb20575a442f947650c9726ecda2a37e8ec8", 
+                "sha": "6b84bb20575a442f947650c9726ecda2a37e8ec8", 
+                "html_url": "https://github.com/realm/realm-java/commit/6b84bb20575a442f947650c9726ecda2a37e8ec8"
+            }
+        ], 
+        "message": "fixing examples", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-04-12T11:38:00Z", 
+            "name": "Nabil Hachicha", 
+            "email": "nabil.hachicha@gmail.com"
+        }, 
+        "author": {
+            "date": "2016-04-12T11:38:00Z", 
+            "name": "Nabil Hachicha", 
+            "email": "nabil.hachicha@gmail.com"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/9284466bbcf0725c698eeb32982f7e85a7b070c4", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/b68de52ced514c097e2f691f1caf5822615b6120", 
+            "sha": "b68de52ced514c097e2f691f1caf5822615b6120"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/9284466bbcf0725c698eeb32982f7e85a7b070c4", 
+        "sha": "9284466bbcf0725c698eeb32982f7e85a7b070c4", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/74f0c8154f9a96750dd6e4c9ea40f19960be52a8", 
+                "sha": "74f0c8154f9a96750dd6e4c9ea40f19960be52a8", 
+                "html_url": "https://github.com/realm/realm-java/commit/74f0c8154f9a96750dd6e4c9ea40f19960be52a8"
+            }
+        ], 
+        "message": "WIP", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-04-12T18:43:01Z", 
+            "name": "Nabil Hachicha", 
+            "email": "nabil.hachicha@gmail.com"
+        }, 
+        "author": {
+            "date": "2016-04-12T18:43:01Z", 
+            "name": "Nabil Hachicha", 
+            "email": "nabil.hachicha@gmail.com"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/bb60f67c677b4cdda598664674a028b6ebaf2f60", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/784673daf8030523511f771d2b6d8f0a4cda85ca", 
+            "sha": "784673daf8030523511f771d2b6d8f0a4cda85ca"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/bb60f67c677b4cdda598664674a028b6ebaf2f60", 
+        "sha": "bb60f67c677b4cdda598664674a028b6ebaf2f60", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/9284466bbcf0725c698eeb32982f7e85a7b070c4", 
+                "sha": "9284466bbcf0725c698eeb32982f7e85a7b070c4", 
+                "html_url": "https://github.com/realm/realm-java/commit/9284466bbcf0725c698eeb32982f7e85a7b070c4"
+            }
+        ], 
+        "message": "fix Annotation processor", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-04-12T18:49:22Z", 
+            "name": "Nabil Hachicha", 
+            "email": "nabil.hachicha@gmail.com"
+        }, 
+        "author": {
+            "date": "2016-04-12T18:49:22Z", 
+            "name": "Nabil Hachicha", 
+            "email": "nabil.hachicha@gmail.com"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/74220518d51c2675e9a9750227eb909666cd1fec", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/6732cd3256a57c0b734f6f5eb3fe09d20b13e9c8", 
+            "sha": "6732cd3256a57c0b734f6f5eb3fe09d20b13e9c8"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/74220518d51c2675e9a9750227eb909666cd1fec", 
+        "sha": "74220518d51c2675e9a9750227eb909666cd1fec", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/bb60f67c677b4cdda598664674a028b6ebaf2f60", 
+                "sha": "bb60f67c677b4cdda598664674a028b6ebaf2f60", 
+                "html_url": "https://github.com/realm/realm-java/commit/bb60f67c677b4cdda598664674a028b6ebaf2f60"
+            }, 
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/8265a4c58f9fef56c8a35d0df86ab5a05aebb7e7", 
+                "sha": "8265a4c58f9fef56c8a35d0df86ab5a05aebb7e7", 
+                "html_url": "https://github.com/realm/realm-java/commit/8265a4c58f9fef56c8a35d0df86ab5a05aebb7e7"
+            }
+        ], 
+        "message": "Merge remote-tracking branch 'origin/master' into cm/realmmodel", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-04-12T19:21:00Z", 
+            "name": "Nabil Hachicha", 
+            "email": "nabil.hachicha@gmail.com"
+        }, 
+        "author": {
+            "date": "2016-04-12T19:21:00Z", 
+            "name": "Nabil Hachicha", 
+            "email": "nabil.hachicha@gmail.com"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/1fb6b3b78f8f799221fd00a491f34cdb1d466853", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/9905871e99f1864e99ef13bc4bb4cb5561517a87", 
+            "sha": "9905871e99f1864e99ef13bc4bb4cb5561517a87"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/1fb6b3b78f8f799221fd00a491f34cdb1d466853", 
+        "sha": "1fb6b3b78f8f799221fd00a491f34cdb1d466853", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/74220518d51c2675e9a9750227eb909666cd1fec", 
+                "sha": "74220518d51c2675e9a9750227eb909666cd1fec", 
+                "html_url": "https://github.com/realm/realm-java/commit/74220518d51c2675e9a9750227eb909666cd1fec"
+            }
+        ], 
+        "message": "clean up", 
+        "event": "committed"
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/realm/realm-java/issues/events/624846948", 
+        "created_at": "2016-04-12T21:33:35Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/nhachicha/following{/other_user}", 
+            "events_url": "https://api.github.com/users/nhachicha/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/nhachicha/orgs", 
+            "url": "https://api.github.com/users/nhachicha", 
+            "gists_url": "https://api.github.com/users/nhachicha/gists{/gist_id}", 
+            "html_url": "https://github.com/nhachicha", 
+            "subscriptions_url": "https://api.github.com/users/nhachicha/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/1793238?v=3", 
+            "repos_url": "https://api.github.com/users/nhachicha/repos", 
+            "received_events_url": "https://api.github.com/users/nhachicha/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/nhachicha/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "nhachicha", 
+            "type": "User", 
+            "id": 1793238, 
+            "followers_url": "https://api.github.com/users/nhachicha/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "ededed", 
+            "name": "S:In Progress"
+        }, 
+        "id": 624846948
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/realm/realm-java/issues/events/624846951", 
+        "created_at": "2016-04-12T21:33:35Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/nhachicha/following{/other_user}", 
+            "events_url": "https://api.github.com/users/nhachicha/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/nhachicha/orgs", 
+            "url": "https://api.github.com/users/nhachicha", 
+            "gists_url": "https://api.github.com/users/nhachicha/gists{/gist_id}", 
+            "html_url": "https://github.com/nhachicha", 
+            "subscriptions_url": "https://api.github.com/users/nhachicha/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/1793238?v=3", 
+            "repos_url": "https://api.github.com/users/nhachicha/repos", 
+            "received_events_url": "https://api.github.com/users/nhachicha/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/nhachicha/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "nhachicha", 
+            "type": "User", 
+            "id": 1793238, 
+            "followers_url": "https://api.github.com/users/nhachicha/followers"
+        }, 
+        "event": "assigned", 
+        "assignee": {
+            "following_url": "https://api.github.com/users/nhachicha/following{/other_user}", 
+            "events_url": "https://api.github.com/users/nhachicha/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/nhachicha/orgs", 
+            "url": "https://api.github.com/users/nhachicha", 
+            "gists_url": "https://api.github.com/users/nhachicha/gists{/gist_id}", 
+            "html_url": "https://github.com/nhachicha", 
+            "subscriptions_url": "https://api.github.com/users/nhachicha/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/1793238?v=3", 
+            "repos_url": "https://api.github.com/users/nhachicha/repos", 
+            "received_events_url": "https://api.github.com/users/nhachicha/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/nhachicha/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "nhachicha", 
+            "type": "User", 
+            "id": 1793238, 
+            "followers_url": "https://api.github.com/users/nhachicha/followers"
+        }, 
+        "id": 624846951
+    }, 
+    {
+        "committer": {
+            "date": "2016-04-13T08:19:30Z", 
+            "name": "Nabil Hachicha", 
+            "email": "nabil.hachicha@gmail.com"
+        }, 
+        "author": {
+            "date": "2016-04-13T08:19:30Z", 
+            "name": "Nabil Hachicha", 
+            "email": "nabil.hachicha@gmail.com"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/0e3be4501b7cd64b1d19735d52cf9475d2ab31e1", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/9aab37f4d2a361c15a84b7587b12c0c2a31c8112", 
+            "sha": "9aab37f4d2a361c15a84b7587b12c0c2a31c8112"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/0e3be4501b7cd64b1d19735d52cf9475d2ab31e1", 
+        "sha": "0e3be4501b7cd64b1d19735d52cf9475d2ab31e1", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/1fb6b3b78f8f799221fd00a491f34cdb1d466853", 
+                "sha": "1fb6b3b78f8f799221fd00a491f34cdb1d466853", 
+                "html_url": "https://github.com/realm/realm-java/commit/1fb6b3b78f8f799221fd00a491f34cdb1d466853"
+            }
+        ], 
+        "message": "fix javadoc", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-04-15T08:38:03Z", 
+            "name": "Nabil Hachicha", 
+            "email": "nabil.hachicha@gmail.com"
+        }, 
+        "author": {
+            "date": "2016-04-15T08:38:03Z", 
+            "name": "Nabil Hachicha", 
+            "email": "nabil.hachicha@gmail.com"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/21b9ec263267bafad383560f16f2150620cd89b5", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/4363902d01c16fc3ba512423fecce21b92957bb5", 
+            "sha": "4363902d01c16fc3ba512423fecce21b92957bb5"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/21b9ec263267bafad383560f16f2150620cd89b5", 
+        "sha": "21b9ec263267bafad383560f16f2150620cd89b5", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/0e3be4501b7cd64b1d19735d52cf9475d2ab31e1", 
+                "sha": "0e3be4501b7cd64b1d19735d52cf9475d2ab31e1", 
+                "html_url": "https://github.com/realm/realm-java/commit/0e3be4501b7cd64b1d19735d52cf9475d2ab31e1"
+            }
+        ], 
+        "message": "add transformer tests & fix DynamicRealm tests", 
+        "event": "committed"
+    }, 
+    {
+        "body": "@realm/java ", 
+        "url": "https://api.github.com/repos/realm/realm-java/issues/comments/210369522", 
+        "event": "commented", 
+        "created_at": "2016-04-15T08:55:09Z", 
+        "html_url": "https://github.com/realm/realm-java/pull/2599#issuecomment-210369522", 
+        "actor": {
+            "following_url": "https://api.github.com/users/nhachicha/following{/other_user}", 
+            "events_url": "https://api.github.com/users/nhachicha/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/nhachicha/orgs", 
+            "url": "https://api.github.com/users/nhachicha", 
+            "gists_url": "https://api.github.com/users/nhachicha/gists{/gist_id}", 
+            "html_url": "https://github.com/nhachicha", 
+            "subscriptions_url": "https://api.github.com/users/nhachicha/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/1793238?v=3", 
+            "repos_url": "https://api.github.com/users/nhachicha/repos", 
+            "received_events_url": "https://api.github.com/users/nhachicha/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/nhachicha/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "nhachicha", 
+            "type": "User", 
+            "id": 1793238, 
+            "followers_url": "https://api.github.com/users/nhachicha/followers"
+        }, 
+        "updated_at": "2016-04-15T08:55:09Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/nhachicha/following{/other_user}", 
+            "events_url": "https://api.github.com/users/nhachicha/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/nhachicha/orgs", 
+            "url": "https://api.github.com/users/nhachicha", 
+            "gists_url": "https://api.github.com/users/nhachicha/gists{/gist_id}", 
+            "html_url": "https://github.com/nhachicha", 
+            "subscriptions_url": "https://api.github.com/users/nhachicha/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/1793238?v=3", 
+            "repos_url": "https://api.github.com/users/nhachicha/repos", 
+            "received_events_url": "https://api.github.com/users/nhachicha/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/nhachicha/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "nhachicha", 
+            "type": "User", 
+            "id": 1793238, 
+            "followers_url": "https://api.github.com/users/nhachicha/followers"
+        }, 
+        "id": 210369522, 
+        "issue_url": "https://api.github.com/repos/realm/realm-java/issues/2599"
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/realm/realm-java/issues/events/628612774", 
+        "created_at": "2016-04-15T08:55:09Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/kneth/following{/other_user}", 
+            "events_url": "https://api.github.com/users/kneth/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/kneth/orgs", 
+            "url": "https://api.github.com/users/kneth", 
+            "gists_url": "https://api.github.com/users/kneth/gists{/gist_id}", 
+            "html_url": "https://github.com/kneth", 
+            "subscriptions_url": "https://api.github.com/users/kneth/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/1225363?v=3", 
+            "repos_url": "https://api.github.com/users/kneth/repos", 
+            "received_events_url": "https://api.github.com/users/kneth/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/kneth/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "kneth", 
+            "type": "User", 
+            "id": 1225363, 
+            "followers_url": "https://api.github.com/users/kneth/followers"
+        }, 
+        "event": "subscribed", 
+        "id": 628612774
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/realm/realm-java/issues/events/628612775", 
+        "created_at": "2016-04-15T08:55:09Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/emanuelez/following{/other_user}", 
+            "events_url": "https://api.github.com/users/emanuelez/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/emanuelez/orgs", 
+            "url": "https://api.github.com/users/emanuelez", 
+            "gists_url": "https://api.github.com/users/emanuelez/gists{/gist_id}", 
+            "html_url": "https://github.com/emanuelez", 
+            "subscriptions_url": "https://api.github.com/users/emanuelez/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/473050?v=3", 
+            "repos_url": "https://api.github.com/users/emanuelez/repos", 
+            "received_events_url": "https://api.github.com/users/emanuelez/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/emanuelez/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "emanuelez", 
+            "type": "User", 
+            "id": 473050, 
+            "followers_url": "https://api.github.com/users/emanuelez/followers"
+        }, 
+        "event": "subscribed", 
+        "id": 628612775
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/realm/realm-java/issues/events/628612776", 
+        "created_at": "2016-04-15T08:55:09Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/bmunkholm/following{/other_user}", 
+            "events_url": "https://api.github.com/users/bmunkholm/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/bmunkholm/orgs", 
+            "url": "https://api.github.com/users/bmunkholm", 
+            "gists_url": "https://api.github.com/users/bmunkholm/gists{/gist_id}", 
+            "html_url": "https://github.com/bmunkholm", 
+            "subscriptions_url": "https://api.github.com/users/bmunkholm/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/1215687?v=3", 
+            "repos_url": "https://api.github.com/users/bmunkholm/repos", 
+            "received_events_url": "https://api.github.com/users/bmunkholm/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/bmunkholm/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "bmunkholm", 
+            "type": "User", 
+            "id": 1215687, 
+            "followers_url": "https://api.github.com/users/bmunkholm/followers"
+        }, 
+        "event": "subscribed", 
+        "id": 628612776
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/realm/realm-java/issues/events/628612777", 
+        "created_at": "2016-04-15T08:55:09Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/cmelchior/following{/other_user}", 
+            "events_url": "https://api.github.com/users/cmelchior/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/cmelchior/orgs", 
+            "url": "https://api.github.com/users/cmelchior", 
+            "gists_url": "https://api.github.com/users/cmelchior/gists{/gist_id}", 
+            "html_url": "https://github.com/cmelchior", 
+            "subscriptions_url": "https://api.github.com/users/cmelchior/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/406066?v=3", 
+            "repos_url": "https://api.github.com/users/cmelchior/repos", 
+            "received_events_url": "https://api.github.com/users/cmelchior/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/cmelchior/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "cmelchior", 
+            "type": "User", 
+            "id": 406066, 
+            "followers_url": "https://api.github.com/users/cmelchior/followers"
+        }, 
+        "event": "subscribed", 
+        "id": 628612777
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/realm/realm-java/issues/events/628612778", 
+        "created_at": "2016-04-15T08:55:09Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/beeender/following{/other_user}", 
+            "events_url": "https://api.github.com/users/beeender/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/beeender/orgs", 
+            "url": "https://api.github.com/users/beeender", 
+            "gists_url": "https://api.github.com/users/beeender/gists{/gist_id}", 
+            "html_url": "https://github.com/beeender", 
+            "subscriptions_url": "https://api.github.com/users/beeender/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/449296?v=3", 
+            "repos_url": "https://api.github.com/users/beeender/repos", 
+            "received_events_url": "https://api.github.com/users/beeender/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/beeender/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "beeender", 
+            "type": "User", 
+            "id": 449296, 
+            "followers_url": "https://api.github.com/users/beeender/followers"
+        }, 
+        "event": "subscribed", 
+        "id": 628612778
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/realm/realm-java/issues/events/628612779", 
+        "created_at": "2016-04-15T08:55:09Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/nhachicha/following{/other_user}", 
+            "events_url": "https://api.github.com/users/nhachicha/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/nhachicha/orgs", 
+            "url": "https://api.github.com/users/nhachicha", 
+            "gists_url": "https://api.github.com/users/nhachicha/gists{/gist_id}", 
+            "html_url": "https://github.com/nhachicha", 
+            "subscriptions_url": "https://api.github.com/users/nhachicha/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/1793238?v=3", 
+            "repos_url": "https://api.github.com/users/nhachicha/repos", 
+            "received_events_url": "https://api.github.com/users/nhachicha/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/nhachicha/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "nhachicha", 
+            "type": "User", 
+            "id": 1793238, 
+            "followers_url": "https://api.github.com/users/nhachicha/followers"
+        }, 
+        "event": "subscribed", 
+        "id": 628612779
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/realm/realm-java/issues/events/628612780", 
+        "created_at": "2016-04-15T08:55:09Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/zaki50/following{/other_user}", 
+            "events_url": "https://api.github.com/users/zaki50/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/zaki50/orgs", 
+            "url": "https://api.github.com/users/zaki50", 
+            "gists_url": "https://api.github.com/users/zaki50/gists{/gist_id}", 
+            "html_url": "https://github.com/zaki50", 
+            "subscriptions_url": "https://api.github.com/users/zaki50/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/406660?v=3", 
+            "repos_url": "https://api.github.com/users/zaki50/repos", 
+            "received_events_url": "https://api.github.com/users/zaki50/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/zaki50/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "zaki50", 
+            "type": "User", 
+            "id": 406660, 
+            "followers_url": "https://api.github.com/users/zaki50/followers"
+        }, 
+        "event": "subscribed", 
+        "id": 628612780
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/realm/realm-java/issues/events/628612781", 
+        "created_at": "2016-04-15T08:55:09Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/dalinaum/following{/other_user}", 
+            "events_url": "https://api.github.com/users/dalinaum/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/dalinaum/orgs", 
+            "url": "https://api.github.com/users/dalinaum", 
+            "gists_url": "https://api.github.com/users/dalinaum/gists{/gist_id}", 
+            "html_url": "https://github.com/dalinaum", 
+            "subscriptions_url": "https://api.github.com/users/dalinaum/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/145585?v=3", 
+            "repos_url": "https://api.github.com/users/dalinaum/repos", 
+            "received_events_url": "https://api.github.com/users/dalinaum/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/dalinaum/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "dalinaum", 
+            "type": "User", 
+            "id": 145585, 
+            "followers_url": "https://api.github.com/users/dalinaum/followers"
+        }, 
+        "event": "subscribed", 
+        "id": 628612781
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/realm/realm-java/issues/events/628612782", 
+        "created_at": "2016-04-15T08:55:09Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/stk1m1/following{/other_user}", 
+            "events_url": "https://api.github.com/users/stk1m1/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/stk1m1/orgs", 
+            "url": "https://api.github.com/users/stk1m1", 
+            "gists_url": "https://api.github.com/users/stk1m1/gists{/gist_id}", 
+            "html_url": "https://github.com/stk1m1", 
+            "subscriptions_url": "https://api.github.com/users/stk1m1/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/16395854?v=3", 
+            "repos_url": "https://api.github.com/users/stk1m1/repos", 
+            "received_events_url": "https://api.github.com/users/stk1m1/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/stk1m1/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "stk1m1", 
+            "type": "User", 
+            "id": 16395854, 
+            "followers_url": "https://api.github.com/users/stk1m1/followers"
+        }, 
+        "event": "subscribed", 
+        "id": 628612782
+    }, 
+    {
+        "committer": {
+            "date": "2016-04-16T12:13:18Z", 
+            "name": "Nabil Hachicha", 
+            "email": "nabil.hachicha@gmail.com"
+        }, 
+        "author": {
+            "date": "2016-04-16T12:13:18Z", 
+            "name": "Nabil Hachicha", 
+            "email": "nabil.hachicha@gmail.com"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/e815cb0dfea5daf1cb5868cc741321f22cf1623a", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/150668c7bf3bf5ce67da3f744bb450fb9f8028a7", 
+            "sha": "150668c7bf3bf5ce67da3f744bb450fb9f8028a7"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/e815cb0dfea5daf1cb5868cc741321f22cf1623a", 
+        "sha": "e815cb0dfea5daf1cb5868cc741321f22cf1623a", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/21b9ec263267bafad383560f16f2150620cd89b5", 
+                "sha": "21b9ec263267bafad383560f16f2150620cd89b5", 
+                "html_url": "https://github.com/realm/realm-java/commit/21b9ec263267bafad383560f16f2150620cd89b5"
+            }, 
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/33aa1d4945a547cfe02ce30dc7ebf639b6bde481", 
+                "sha": "33aa1d4945a547cfe02ce30dc7ebf639b6bde481", 
+                "html_url": "https://github.com/realm/realm-java/commit/33aa1d4945a547cfe02ce30dc7ebf639b6bde481"
+            }
+        ], 
+        "message": "Merge remote-tracking branch 'origin/master' into cm/realmmodel", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-04-16T12:21:45Z", 
+            "name": "Nabil Hachicha", 
+            "email": "nabil.hachicha@gmail.com"
+        }, 
+        "author": {
+            "date": "2016-04-16T12:21:45Z", 
+            "name": "Nabil Hachicha", 
+            "email": "nabil.hachicha@gmail.com"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/bf4ba62059e15577adaa3606ccd7a6b82292e067", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/8643f60d875b99eaff2c9855bc133f8b661e9a47", 
+            "sha": "8643f60d875b99eaff2c9855bc133f8b661e9a47"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/bf4ba62059e15577adaa3606ccd7a6b82292e067", 
+        "sha": "bf4ba62059e15577adaa3606ccd7a6b82292e067", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/e815cb0dfea5daf1cb5868cc741321f22cf1623a", 
+                "sha": "e815cb0dfea5daf1cb5868cc741321f22cf1623a", 
+                "html_url": "https://github.com/realm/realm-java/commit/e815cb0dfea5daf1cb5868cc741321f22cf1623a"
+            }
+        ], 
+        "message": "fixing tests", 
+        "event": "committed"
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/realm/realm-java/issues/events/631124865", 
+        "created_at": "2016-04-18T11:03:33Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/nhachicha/following{/other_user}", 
+            "events_url": "https://api.github.com/users/nhachicha/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/nhachicha/orgs", 
+            "url": "https://api.github.com/users/nhachicha", 
+            "gists_url": "https://api.github.com/users/nhachicha/gists{/gist_id}", 
+            "html_url": "https://github.com/nhachicha", 
+            "subscriptions_url": "https://api.github.com/users/nhachicha/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/1793238?v=3", 
+            "repos_url": "https://api.github.com/users/nhachicha/repos", 
+            "received_events_url": "https://api.github.com/users/nhachicha/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/nhachicha/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "nhachicha", 
+            "type": "User", 
+            "id": 1793238, 
+            "followers_url": "https://api.github.com/users/nhachicha/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "ededed", 
+            "name": "S:Review"
+        }, 
+        "id": 631124865
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/realm/realm-java/issues/events/631124939", 
+        "created_at": "2016-04-18T11:03:36Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/nhachicha/following{/other_user}", 
+            "events_url": "https://api.github.com/users/nhachicha/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/nhachicha/orgs", 
+            "url": "https://api.github.com/users/nhachicha", 
+            "gists_url": "https://api.github.com/users/nhachicha/gists{/gist_id}", 
+            "html_url": "https://github.com/nhachicha", 
+            "subscriptions_url": "https://api.github.com/users/nhachicha/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/1793238?v=3", 
+            "repos_url": "https://api.github.com/users/nhachicha/repos", 
+            "received_events_url": "https://api.github.com/users/nhachicha/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/nhachicha/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "nhachicha", 
+            "type": "User", 
+            "id": 1793238, 
+            "followers_url": "https://api.github.com/users/nhachicha/followers"
+        }, 
+        "event": "unlabeled", 
+        "label": {
+            "color": "ededed", 
+            "name": "S:In Progress"
+        }, 
+        "id": 631124939
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/realm/realm-java/issues/events/631143871", 
+        "created_at": "2016-04-18T11:22:03Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/code/following{/other_user}", 
+            "events_url": "https://api.github.com/users/code/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/code/orgs", 
+            "url": "https://api.github.com/users/code", 
+            "gists_url": "https://api.github.com/users/code/gists{/gist_id}", 
+            "html_url": "https://github.com/code", 
+            "subscriptions_url": "https://api.github.com/users/code/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/7318?v=3", 
+            "repos_url": "https://api.github.com/users/code/repos", 
+            "received_events_url": "https://api.github.com/users/code/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/code/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "code", 
+            "type": "Organization", 
+            "id": 7318, 
+            "followers_url": "https://api.github.com/users/code/followers"
+        }, 
+        "event": "mentioned", 
+        "id": 631143871
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/realm/realm-java/issues/events/631143872", 
+        "created_at": "2016-04-18T11:22:03Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/code/following{/other_user}", 
+            "events_url": "https://api.github.com/users/code/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/code/orgs", 
+            "url": "https://api.github.com/users/code", 
+            "gists_url": "https://api.github.com/users/code/gists{/gist_id}", 
+            "html_url": "https://github.com/code", 
+            "subscriptions_url": "https://api.github.com/users/code/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/7318?v=3", 
+            "repos_url": "https://api.github.com/users/code/repos", 
+            "received_events_url": "https://api.github.com/users/code/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/code/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "code", 
+            "type": "Organization", 
+            "id": 7318, 
+            "followers_url": "https://api.github.com/users/code/followers"
+        }, 
+        "event": "subscribed", 
+        "id": 631143872
+    }, 
+    {
+        "body": "After first round of review: I have a few minor comments.", 
+        "url": "https://api.github.com/repos/realm/realm-java/issues/comments/211345077", 
+        "event": "commented", 
+        "created_at": "2016-04-18T11:52:53Z", 
+        "html_url": "https://github.com/realm/realm-java/pull/2599#issuecomment-211345077", 
+        "actor": {
+            "following_url": "https://api.github.com/users/kneth/following{/other_user}", 
+            "events_url": "https://api.github.com/users/kneth/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/kneth/orgs", 
+            "url": "https://api.github.com/users/kneth", 
+            "gists_url": "https://api.github.com/users/kneth/gists{/gist_id}", 
+            "html_url": "https://github.com/kneth", 
+            "subscriptions_url": "https://api.github.com/users/kneth/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/1225363?v=3", 
+            "repos_url": "https://api.github.com/users/kneth/repos", 
+            "received_events_url": "https://api.github.com/users/kneth/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/kneth/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "kneth", 
+            "type": "User", 
+            "id": 1225363, 
+            "followers_url": "https://api.github.com/users/kneth/followers"
+        }, 
+        "updated_at": "2016-04-18T11:52:53Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/kneth/following{/other_user}", 
+            "events_url": "https://api.github.com/users/kneth/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/kneth/orgs", 
+            "url": "https://api.github.com/users/kneth", 
+            "gists_url": "https://api.github.com/users/kneth/gists{/gist_id}", 
+            "html_url": "https://github.com/kneth", 
+            "subscriptions_url": "https://api.github.com/users/kneth/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/1225363?v=3", 
+            "repos_url": "https://api.github.com/users/kneth/repos", 
+            "received_events_url": "https://api.github.com/users/kneth/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/kneth/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "kneth", 
+            "type": "User", 
+            "id": 1225363, 
+            "followers_url": "https://api.github.com/users/kneth/followers"
+        }, 
+        "id": 211345077, 
+        "issue_url": "https://api.github.com/repos/realm/realm-java/issues/2599"
+    }
+]

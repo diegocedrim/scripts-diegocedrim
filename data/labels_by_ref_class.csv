@@ -1,0 +1,87 @@
+label,refactoring,count
+adoptme,Negative,1
+aggregations,Negative,2
+aggregations,Neutral,11
+aggregations,Positive,1
+allocation,Negative,2
+allocation,Neutral,6
+allocation,Positive,1
+breaking,Negative,35
+breaking,Neutral,572
+breaking,Positive,12
+breaking-java,Negative,4
+breaking-java,Neutral,10
+bug,Negative,24
+bug,Neutral,45
+bug,Positive,5
+cache,Negative,1
+cache,Neutral,7
+cla: signed,Negative,1
+cla: signed,Neutral,1
+cluster,Negative,7
+cluster,Neutral,1
+core,Neutral,37
+core,Positive,8
+das awesome,Negative,8
+das awesome,Neutral,2
+deprecation,Neutral,1
+discovery,Negative,1
+discovery,Neutral,1
+enhancement,Negative,54
+enhancement,Neutral,139
+enhancement,Positive,19
+feature,Negative,49
+feature,Neutral,80
+feature,Positive,6
+fielddata,Negative,1
+fielddata,Neutral,1
+fielddata,Positive,2
+hamcrest,Negative,1
+high hanging fruit,Negative,1
+internal,Negative,6
+internal,Neutral,39
+internal,Positive,5
+java api,Neutral,12
+low hanging fruit,Negative,1
+lowhanging,Negative,1
+mapping,Negative,10
+mapping,Neutral,6
+mapping,Positive,3
+network,Neutral,1
+network,Positive,2
+non-issue,Negative,14
+non-issue,Neutral,15
+non-issue,Positive,3
+nonregression,Negative,2
+parameterized,Negative,1
+parameterized,Neutral,1
+plugins,Negative,1
+recovery,Negative,1
+recovery,Neutral,1
+recovery,Positive,1
+regression,Neutral,1
+release highlight,Negative,8
+release highlight,Neutral,2
+resiliency,Negative,1
+resiliency,Neutral,2
+review,Negative,12
+review,Neutral,21
+review,Positive,4
+s:review,Negative,1
+scripting,Neutral,14
+settings,Negative,1
+settings,Neutral,1
+stats,Negative,2
+stats,Neutral,25
+stats,Positive,2
+status: accepted,Negative,1
+status: accepted,Neutral,1
+store,Negative,1
+t:bug,Negative,4
+t:enhancement,Neutral,2
+t:enhancement,Positive,1
+test,Negative,4
+test,Neutral,3
+theories,Negative,6
+upgrade,Neutral,36
+upgrade,Positive,8

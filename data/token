@@ -1,0 +1,5 @@
+cfd35f4b08269fcc99b9e4ef3945d73a6800a535
+
+LOAD DATA INFILE '/Users/diego/PycharmProjects/issues_ref_base/data/re-refactored.csv' INTO TABLE re_refactoring
+  FIELDS TERMINATED BY ';';
+

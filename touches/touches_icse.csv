@@ -1,0 +1,78 @@
+ref_name,smell_name,touches
+"Extract interface",ClassDataShouldBePrivate,2
+"Extract interface",LazyClass,2
+"Extract interface",RefusedBequest,1
+"Extract method",ClassDataShouldBePrivate,130
+"Extract method",ComplexClass,878
+"Extract method",FeatureEnvy,1735
+"Extract method",GodClass,375
+"Extract method",LazyClass,10
+"Extract method",LongMethod,372
+"Extract method",LongParameterList,111
+"Extract method",MessageChain,180
+"Extract method",RefusedBequest,107
+"Extract method",SpaghettiCode,404
+"Extract method",SpeculativeGenerality,106
+"Extract superclass",ClassDataShouldBePrivate,4
+"Extract superclass",ComplexClass,8
+"Extract superclass",GodClass,1
+"Extract superclass",LazyClass,7
+"Extract superclass",RefusedBequest,2
+"Extract superclass",SpaghettiCode,1
+"Extract superclass",SpeculativeGenerality,15
+"Inline method",ClassDataShouldBePrivate,14
+"Inline method",ComplexClass,105
+"Inline method",FeatureEnvy,325
+"Inline method",GodClass,38
+"Inline method",LazyClass,1
+"Inline method",LongMethod,66
+"Inline method",LongParameterList,14
+"Inline method",MessageChain,15
+"Inline method",RefusedBequest,39
+"Inline method",SpaghettiCode,51
+"Inline method",SpeculativeGenerality,26
+"Move Attribute",ClassDataShouldBePrivate,86
+"Move Attribute",ComplexClass,2509
+"Move Attribute",GodClass,100
+"Move Attribute",LazyClass,67
+"Move Attribute",RefusedBequest,210
+"Move Attribute",SpaghettiCode,250
+"Move Attribute",SpeculativeGenerality,116
+"Move method",ClassDataShouldBePrivate,93
+"Move method",ComplexClass,368
+"Move method",GodClass,225
+"Move method",LazyClass,50
+"Move method",RefusedBequest,62
+"Move method",SpaghettiCode,112
+"Move method",SpeculativeGenerality,148
+"Pull Up Attribute",ClassDataShouldBePrivate,30
+"Pull Up Attribute",ComplexClass,126
+"Pull Up Attribute",GodClass,29
+"Pull Up Attribute",LazyClass,4
+"Pull Up Attribute",RefusedBequest,60
+"Pull Up Attribute",SpaghettiCode,64
+"Pull Up Attribute",SpeculativeGenerality,111
+"Pull up method",ClassDataShouldBePrivate,63
+"Pull up method",ComplexClass,128
+"Pull up method",GodClass,61
+"Pull up method",LazyClass,14
+"Pull up method",RefusedBequest,24
+"Pull up method",SpaghettiCode,58
+"Pull up method",SpeculativeGenerality,222
+"Push Down Attribute",ClassDataShouldBePrivate,3
+"Push Down Attribute",ComplexClass,16
+"Push Down Attribute",GodClass,6
+"Push Down Attribute",RefusedBequest,9
+"Push Down Attribute",SpaghettiCode,8
+"Push Down Attribute",SpeculativeGenerality,26
+"Push down method",ClassDataShouldBePrivate,4
+"Push down method",ComplexClass,22
+"Push down method",GodClass,10
+"Push down method",LazyClass,2
+"Push down method",RefusedBequest,7
+"Push down method",SpaghettiCode,6
+"Push down method",SpeculativeGenerality,41
+"Rename method",FeatureEnvy,5181
+"Rename method",LongMethod,276
+"Rename method",LongParameterList,202
+"Rename method",MessageChain,499

@@ -1,0 +1,82 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "Add `ignore_malformed` flag to all numeric / date types.\n", 
+    "closed_at": "2012-08-03T07:53:09Z", 
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }, 
+    "comments": 1, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/2120/comments", 
+    "created_at": "2012-07-27T19:10:50Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/2120/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/2120", 
+    "id": 5883441, 
+    "labels": [
+        {
+            "color": "4a4ea8", 
+            "default": true, 
+            "id": 23174, 
+            "name": "enhancement", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/enhancement"
+        }, 
+        {
+            "color": "DDDDDD", 
+            "default": false, 
+            "id": 8259882, 
+            "name": "v0.19.9", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.19.9"
+        }, 
+        {
+            "color": "DDDDDD", 
+            "default": false, 
+            "id": 232920, 
+            "name": "v0.20.0.RC1", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.20.0.RC1"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/2120/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 2120, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Mapping: Numeric/Date types to have a flag to ignore wrongly formatted values", 
+    "updated_at": "2012-08-03T07:53:35Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/2120", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "The breaking changes are the configuration for default (previously dynamic) mapping location and names. `dynamic-mapping.json` renamed to `default-mapping.json`, and the setting `index.mapper.dynamic_mapping_location` renamed to `index.mapper.default_mapping_location`.\n\nThe feature include automatic inclusion of the default mapping in any other mappings, with the actual mapping overriding whatever is set in the default mapping. This means that default mapping definitions can be set and will be applied to any mappings, either fully dynamically created ones, or explicit ones.\n", 
+    "closed_at": "2010-07-25T18:31:30Z", 
+    "closed_by": null, 
+    "comments": 1, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/275/comments", 
+    "created_at": "2010-07-25T13:59:10Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/275/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/275", 
+    "id": 258962, 
+    "labels": [
+        {
+            "color": "ff0000", 
+            "default": false, 
+            "id": 33660, 
+            "name": "breaking", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/breaking"
+        }, 
+        {
+            "color": "328a58", 
+            "default": false, 
+            "id": 23172, 
+            "name": "feature", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/feature"
+        }, 
+        {
+            "color": "DDDDDD", 
+            "default": false, 
+            "id": 34099, 
+            "name": "v0.09.0", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.09.0"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/275/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 275, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Mapping: Revise dynamic mapping (into default), merge default to new mappings", 
+    "updated_at": "2010-07-25T18:31:30Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/275", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }
+}

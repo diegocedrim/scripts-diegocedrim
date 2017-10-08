@@ -1,0 +1,146 @@
+ref_name,smell_name,touches
+Extract Interface,SpaghettiCode,4
+Extract Interface,SpeculativeGenerality,2
+Extract Interface,DataClass,3
+Extract Interface,RefusedBequest,1
+Extract Interface,LazyClass,5
+Extract Interface,GodClass,1
+Extract Interface,ComplexClass,10
+Extract Method,SpeculativeGenerality,121
+Extract Method,ClassDataShouldBePrivate,221
+Extract Method,BrainMethod,14
+Extract Method,DispersedCoupling,100
+Extract Method,LongMethod,346
+Extract Method,ComplexClass,1006
+Extract Method,RefusedBequest,32
+Extract Method,IntensiveCoupling,221
+Extract Method,DataClass,63
+Extract Method,GodClass,455
+Extract Method,LongParameterList,134
+Extract Method,FeatureEnvy,326
+Extract Method,MessageChain,18
+Extract Method,ShotgunSurgery,10
+Extract Method,SpaghettiCode,626
+Extract Method,LazyClass,3
+Extract Method,BrainClass,57
+Extract Superclass,ClassDataShouldBePrivate,5
+Extract Superclass,GodClass,8
+Extract Superclass,SpeculativeGenerality,11
+Extract Superclass,LazyClass,2
+Extract Superclass,BrainClass,3
+Extract Superclass,ComplexClass,26
+Extract Superclass,DataClass,17
+Extract Superclass,SpaghettiCode,12
+Inline Method,IntensiveCoupling,37
+Inline Method,SpeculativeGenerality,24
+Inline Method,ComplexClass,156
+Inline Method,BrainClass,6
+Inline Method,LongMethod,68
+Inline Method,SpaghettiCode,81
+Inline Method,MessageChain,5
+Inline Method,ClassDataShouldBePrivate,29
+Inline Method,FeatureEnvy,60
+Inline Method,ShotgunSurgery,1
+Inline Method,GodClass,70
+Inline Method,LongParameterList,29
+Inline Method,BrainMethod,1
+Inline Method,DataClass,16
+Inline Method,LazyClass,1
+Inline Method,DispersedCoupling,24
+Inline Method,RefusedBequest,5
+Move Attribute,GodClass,46
+Move Attribute,ClassDataShouldBePrivate,57
+Move Attribute,RefusedBequest,22
+Move Attribute,SpeculativeGenerality,45
+Move Attribute,ComplexClass,1375
+Move Attribute,DataClass,1280
+Move Attribute,SpaghettiCode,77
+Move Attribute,LazyClass,13533
+Move Attribute,BrainClass,8
+Move Class,BrainClass,1
+Move Class,SpeculativeGenerality,5
+Move Class,LazyClass,90
+Move Class,GodClass,2
+Move Class,RefusedBequest,6
+Move Class,ComplexClass,28
+Move Class,ClassDataShouldBePrivate,6
+Move Class,DataClass,19
+Move Class,SpaghettiCode,8
+Move Method,FeatureEnvy,14
+Move Method,LongMethod,4
+Move Method,GodClass,74
+Move Method,IntensiveCoupling,4
+Move Method,RefusedBequest,11
+Move Method,ClassDataShouldBePrivate,215
+Move Method,SpaghettiCode,102
+Move Method,SpeculativeGenerality,94
+Move Method,DispersedCoupling,2
+Move Method,LongParameterList,1
+Move Method,LazyClass,44
+Move Method,DataClass,114
+Move Method,MessageChain,1
+Move Method,ComplexClass,252
+Move Method,BrainClass,7
+Pull Up Attribute,ClassDataShouldBePrivate,117
+Pull Up Attribute,GodClass,93
+Pull Up Attribute,LazyClass,87
+Pull Up Attribute,SpaghettiCode,97
+Pull Up Attribute,ComplexClass,151
+Pull Up Attribute,BrainClass,4
+Pull Up Attribute,RefusedBequest,64
+Pull Up Attribute,SpeculativeGenerality,106
+Pull Up Attribute,DataClass,94
+Pull Up Method,RefusedBequest,90
+Pull Up Method,FeatureEnvy,37
+Pull Up Method,ClassDataShouldBePrivate,133
+Pull Up Method,DispersedCoupling,13
+Pull Up Method,BrainClass,15
+Pull Up Method,LongParameterList,5
+Pull Up Method,SpaghettiCode,203
+Pull Up Method,IntensiveCoupling,6
+Pull Up Method,SpeculativeGenerality,296
+Pull Up Method,MessageChain,5
+Pull Up Method,DataClass,248
+Pull Up Method,ShotgunSurgery,1
+Pull Up Method,LazyClass,104
+Pull Up Method,GodClass,210
+Pull Up Method,ComplexClass,322
+Pull Up Method,LongMethod,9
+Push Down Attribute,SpeculativeGenerality,8
+Push Down Attribute,LazyClass,1
+Push Down Attribute,DataClass,3
+Push Down Attribute,GodClass,9
+Push Down Attribute,SpaghettiCode,13
+Push Down Attribute,ComplexClass,17
+Push Down Method,LazyClass,1
+Push Down Method,ComplexClass,27
+Push Down Method,GodClass,11
+Push Down Method,FeatureEnvy,1
+Push Down Method,DataClass,5
+Push Down Method,SpeculativeGenerality,13
+Push Down Method,SpaghettiCode,12
+Push Down Method,RefusedBequest,1
+Push Down Method,ClassDataShouldBePrivate,2
+Rename Class,DataClass,10
+Rename Class,GodClass,6
+Rename Class,SpaghettiCode,11
+Rename Class,ClassDataShouldBePrivate,13
+Rename Class,ComplexClass,19
+Rename Class,LazyClass,41
+Rename Class,SpeculativeGenerality,11
+Rename Class,RefusedBequest,6
+Rename Method,LongMethod,45
+Rename Method,DispersedCoupling,17
+Rename Method,FeatureEnvy,104
+Rename Method,BrainClass,6
+Rename Method,MessageChain,9
+Rename Method,SpaghettiCode,461
+Rename Method,LongParameterList,39
+Rename Method,IntensiveCoupling,19
+Rename Method,DataClass,101
+Rename Method,SpeculativeGenerality,55
+Rename Method,RefusedBequest,18
+Rename Method,LazyClass,6
+Rename Method,GodClass,143
+Rename Method,ClassDataShouldBePrivate,315
+Rename Method,ComplexClass,358

@@ -1,0 +1,900 @@
+[
+    {
+        "body": "I update the pull request to include the semi join changes.", 
+        "url": "https://api.github.com/repos/prestodb/presto/issues/comments/23615735", 
+        "event": "commented", 
+        "created_at": "2013-08-31T23:14:32Z", 
+        "html_url": "https://github.com/prestodb/presto/pull/741#issuecomment-23615735", 
+        "actor": {
+            "following_url": "https://api.github.com/users/dain/following{/other_user}", 
+            "events_url": "https://api.github.com/users/dain/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/dain/orgs", 
+            "url": "https://api.github.com/users/dain", 
+            "gists_url": "https://api.github.com/users/dain/gists{/gist_id}", 
+            "html_url": "https://github.com/dain", 
+            "subscriptions_url": "https://api.github.com/users/dain/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/58298?v=3", 
+            "repos_url": "https://api.github.com/users/dain/repos", 
+            "received_events_url": "https://api.github.com/users/dain/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/dain/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "dain", 
+            "type": "User", 
+            "id": 58298, 
+            "followers_url": "https://api.github.com/users/dain/followers"
+        }, 
+        "updated_at": "2013-08-31T23:14:32Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/dain/following{/other_user}", 
+            "events_url": "https://api.github.com/users/dain/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/dain/orgs", 
+            "url": "https://api.github.com/users/dain", 
+            "gists_url": "https://api.github.com/users/dain/gists{/gist_id}", 
+            "html_url": "https://github.com/dain", 
+            "subscriptions_url": "https://api.github.com/users/dain/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/58298?v=3", 
+            "repos_url": "https://api.github.com/users/dain/repos", 
+            "received_events_url": "https://api.github.com/users/dain/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/dain/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "dain", 
+            "type": "User", 
+            "id": 58298, 
+            "followers_url": "https://api.github.com/users/dain/followers"
+        }, 
+        "id": 23615735, 
+        "issue_url": "https://api.github.com/repos/prestodb/presto/issues/741"
+    }, 
+    {
+        "body": "Overall looks good. @martint should review SqlTaskExecution, TaskExecutor and NewLocalExecutionPlanner.", 
+        "url": "https://api.github.com/repos/prestodb/presto/issues/comments/24010847", 
+        "event": "commented", 
+        "created_at": "2013-09-07T22:10:08Z", 
+        "html_url": "https://github.com/prestodb/presto/pull/741#issuecomment-24010847", 
+        "actor": {
+            "following_url": "https://api.github.com/users/electrum/following{/other_user}", 
+            "events_url": "https://api.github.com/users/electrum/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/electrum/orgs", 
+            "url": "https://api.github.com/users/electrum", 
+            "gists_url": "https://api.github.com/users/electrum/gists{/gist_id}", 
+            "html_url": "https://github.com/electrum", 
+            "subscriptions_url": "https://api.github.com/users/electrum/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/9230?v=3", 
+            "repos_url": "https://api.github.com/users/electrum/repos", 
+            "received_events_url": "https://api.github.com/users/electrum/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/electrum/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "electrum", 
+            "type": "User", 
+            "id": 9230, 
+            "followers_url": "https://api.github.com/users/electrum/followers"
+        }, 
+        "updated_at": "2013-09-07T22:10:08Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/electrum/following{/other_user}", 
+            "events_url": "https://api.github.com/users/electrum/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/electrum/orgs", 
+            "url": "https://api.github.com/users/electrum", 
+            "gists_url": "https://api.github.com/users/electrum/gists{/gist_id}", 
+            "html_url": "https://github.com/electrum", 
+            "subscriptions_url": "https://api.github.com/users/electrum/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/9230?v=3", 
+            "repos_url": "https://api.github.com/users/electrum/repos", 
+            "received_events_url": "https://api.github.com/users/electrum/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/electrum/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "electrum", 
+            "type": "User", 
+            "id": 9230, 
+            "followers_url": "https://api.github.com/users/electrum/followers"
+        }, 
+        "id": 24010847, 
+        "issue_url": "https://api.github.com/repos/prestodb/presto/issues/741"
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/prestodb/presto/issues/events/64360952", 
+        "created_at": "2013-09-07T22:10:08Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/martint/following{/other_user}", 
+            "events_url": "https://api.github.com/users/martint/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/martint/orgs", 
+            "url": "https://api.github.com/users/martint", 
+            "gists_url": "https://api.github.com/users/martint/gists{/gist_id}", 
+            "html_url": "https://github.com/martint", 
+            "subscriptions_url": "https://api.github.com/users/martint/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/14387?v=3", 
+            "repos_url": "https://api.github.com/users/martint/repos", 
+            "received_events_url": "https://api.github.com/users/martint/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/martint/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "martint", 
+            "type": "User", 
+            "id": 14387, 
+            "followers_url": "https://api.github.com/users/martint/followers"
+        }, 
+        "event": "mentioned", 
+        "id": 64360952
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/prestodb/presto/issues/events/64360953", 
+        "created_at": "2013-09-07T22:10:08Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/martint/following{/other_user}", 
+            "events_url": "https://api.github.com/users/martint/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/martint/orgs", 
+            "url": "https://api.github.com/users/martint", 
+            "gists_url": "https://api.github.com/users/martint/gists{/gist_id}", 
+            "html_url": "https://github.com/martint", 
+            "subscriptions_url": "https://api.github.com/users/martint/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/14387?v=3", 
+            "repos_url": "https://api.github.com/users/martint/repos", 
+            "received_events_url": "https://api.github.com/users/martint/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/martint/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "martint", 
+            "type": "User", 
+            "id": 14387, 
+            "followers_url": "https://api.github.com/users/martint/followers"
+        }, 
+        "event": "subscribed", 
+        "id": 64360953
+    }, 
+    {
+        "body": "Last few commits looks good", 
+        "url": "https://api.github.com/repos/prestodb/presto/issues/comments/24353337", 
+        "event": "commented", 
+        "created_at": "2013-09-12T20:31:56Z", 
+        "html_url": "https://github.com/prestodb/presto/pull/741#issuecomment-24353337", 
+        "actor": {
+            "following_url": "https://api.github.com/users/martint/following{/other_user}", 
+            "events_url": "https://api.github.com/users/martint/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/martint/orgs", 
+            "url": "https://api.github.com/users/martint", 
+            "gists_url": "https://api.github.com/users/martint/gists{/gist_id}", 
+            "html_url": "https://github.com/martint", 
+            "subscriptions_url": "https://api.github.com/users/martint/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/14387?v=3", 
+            "repos_url": "https://api.github.com/users/martint/repos", 
+            "received_events_url": "https://api.github.com/users/martint/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/martint/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "martint", 
+            "type": "User", 
+            "id": 14387, 
+            "followers_url": "https://api.github.com/users/martint/followers"
+        }, 
+        "updated_at": "2013-09-12T20:31:56Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/martint/following{/other_user}", 
+            "events_url": "https://api.github.com/users/martint/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/martint/orgs", 
+            "url": "https://api.github.com/users/martint", 
+            "gists_url": "https://api.github.com/users/martint/gists{/gist_id}", 
+            "html_url": "https://github.com/martint", 
+            "subscriptions_url": "https://api.github.com/users/martint/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/14387?v=3", 
+            "repos_url": "https://api.github.com/users/martint/repos", 
+            "received_events_url": "https://api.github.com/users/martint/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/martint/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "martint", 
+            "type": "User", 
+            "id": 14387, 
+            "followers_url": "https://api.github.com/users/martint/followers"
+        }, 
+        "id": 24353337, 
+        "issue_url": "https://api.github.com/repos/prestodb/presto/issues/741"
+    }, 
+    {
+        "committer": {
+            "date": "2013-09-12T20:34:10Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "author": {
+            "date": "2013-08-31T23:00:21Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/7443666b909e3b22af1a01d220f02be0f189fb3c", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/e168d51ae62c9e4d9c4e590483d93b8dc883df8d", 
+            "sha": "e168d51ae62c9e4d9c4e590483d93b8dc883df8d"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/7443666b909e3b22af1a01d220f02be0f189fb3c", 
+        "sha": "7443666b909e3b22af1a01d220f02be0f189fb3c", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/63392141edd4ab2431a0e10e6c15ecb844875b05", 
+                "sha": "63392141edd4ab2431a0e10e6c15ecb844875b05", 
+                "html_url": "https://github.com/prestodb/presto/commit/63392141edd4ab2431a0e10e6c15ecb844875b05"
+            }
+        ], 
+        "message": "Add new operator framework", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-09-12T20:34:10Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "author": {
+            "date": "2013-08-31T23:00:21Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/775ff91694d8fdf2eb6c384b5b5ad1e1a954c81d", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/4c06c864b55c0a0c2ccb5f986c3b6cf1e222c3d9", 
+            "sha": "4c06c864b55c0a0c2ccb5f986c3b6cf1e222c3d9"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/775ff91694d8fdf2eb6c384b5b5ad1e1a954c81d", 
+        "sha": "775ff91694d8fdf2eb6c384b5b5ad1e1a954c81d", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/7443666b909e3b22af1a01d220f02be0f189fb3c", 
+                "sha": "7443666b909e3b22af1a01d220f02be0f189fb3c", 
+                "html_url": "https://github.com/prestodb/presto/commit/7443666b909e3b22af1a01d220f02be0f189fb3c"
+            }
+        ], 
+        "message": "Add testing framework for new style operators", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-09-12T20:34:10Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "author": {
+            "date": "2013-08-31T23:00:21Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/bd05c5bea499008bcb3c6b6ba22a44a02ed35426", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/730ceb8e55ed55a46c0ba757c6b3791d8b1c61f9", 
+            "sha": "730ceb8e55ed55a46c0ba757c6b3791d8b1c61f9"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/bd05c5bea499008bcb3c6b6ba22a44a02ed35426", 
+        "sha": "bd05c5bea499008bcb3c6b6ba22a44a02ed35426", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/775ff91694d8fdf2eb6c384b5b5ad1e1a954c81d", 
+                "sha": "775ff91694d8fdf2eb6c384b5b5ad1e1a954c81d", 
+                "html_url": "https://github.com/prestodb/presto/commit/775ff91694d8fdf2eb6c384b5b5ad1e1a954c81d"
+            }
+        ], 
+        "message": "Add new style alignment operator", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-09-12T20:34:10Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "author": {
+            "date": "2013-08-31T23:00:22Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/c3f7a3d9775e36364c2bf98ee3bc875548565266", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/b8eae95225a75a3cb101e7e05f2a6b526ef348eb", 
+            "sha": "b8eae95225a75a3cb101e7e05f2a6b526ef348eb"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/c3f7a3d9775e36364c2bf98ee3bc875548565266", 
+        "sha": "c3f7a3d9775e36364c2bf98ee3bc875548565266", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/bd05c5bea499008bcb3c6b6ba22a44a02ed35426", 
+                "sha": "bd05c5bea499008bcb3c6b6ba22a44a02ed35426", 
+                "html_url": "https://github.com/prestodb/presto/commit/bd05c5bea499008bcb3c6b6ba22a44a02ed35426"
+            }
+        ], 
+        "message": "Add new style hash aggregation operator", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-09-12T20:34:10Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "author": {
+            "date": "2013-08-31T23:00:22Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/e64b06b1ff04e001035403d129c00ab2656032c1", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/85604b87351055fee71e3bcf075db07aebcc8b51", 
+            "sha": "85604b87351055fee71e3bcf075db07aebcc8b51"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/e64b06b1ff04e001035403d129c00ab2656032c1", 
+        "sha": "e64b06b1ff04e001035403d129c00ab2656032c1", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/c3f7a3d9775e36364c2bf98ee3bc875548565266", 
+                "sha": "c3f7a3d9775e36364c2bf98ee3bc875548565266", 
+                "html_url": "https://github.com/prestodb/presto/commit/c3f7a3d9775e36364c2bf98ee3bc875548565266"
+            }
+        ], 
+        "message": "Add new style filter and projet operator", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-09-12T20:34:10Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "author": {
+            "date": "2013-08-31T23:00:22Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/4fcb486da4885f12d9d4746cd0408cc36bb7520e", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/c8fc0a16adc60b3a0e4d274bedfe973e51b03928", 
+            "sha": "c8fc0a16adc60b3a0e4d274bedfe973e51b03928"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/4fcb486da4885f12d9d4746cd0408cc36bb7520e", 
+        "sha": "4fcb486da4885f12d9d4746cd0408cc36bb7520e", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/e64b06b1ff04e001035403d129c00ab2656032c1", 
+                "sha": "e64b06b1ff04e001035403d129c00ab2656032c1", 
+                "html_url": "https://github.com/prestodb/presto/commit/e64b06b1ff04e001035403d129c00ab2656032c1"
+            }
+        ], 
+        "message": "Add new style aggregation operator", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-09-12T20:34:10Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "author": {
+            "date": "2013-08-31T23:00:22Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/e3516fad1fa9c2ef703a400aa9bea2ee6c1c06d1", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/281976f08f7446946d15fe9f690e2052088a6b18", 
+            "sha": "281976f08f7446946d15fe9f690e2052088a6b18"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/e3516fad1fa9c2ef703a400aa9bea2ee6c1c06d1", 
+        "sha": "e3516fad1fa9c2ef703a400aa9bea2ee6c1c06d1", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/4fcb486da4885f12d9d4746cd0408cc36bb7520e", 
+                "sha": "4fcb486da4885f12d9d4746cd0408cc36bb7520e", 
+                "html_url": "https://github.com/prestodb/presto/commit/4fcb486da4885f12d9d4746cd0408cc36bb7520e"
+            }
+        ], 
+        "message": "Add new style limit operator", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-09-12T20:34:11Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "author": {
+            "date": "2013-08-31T23:00:22Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/5ad7fb7b1b1d30ef389b4381d0cab42eaf129e07", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/16cd4eecaa1f0250f96cfd2affc2716921bd43d3", 
+            "sha": "16cd4eecaa1f0250f96cfd2affc2716921bd43d3"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/5ad7fb7b1b1d30ef389b4381d0cab42eaf129e07", 
+        "sha": "5ad7fb7b1b1d30ef389b4381d0cab42eaf129e07", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/e3516fad1fa9c2ef703a400aa9bea2ee6c1c06d1", 
+                "sha": "e3516fad1fa9c2ef703a400aa9bea2ee6c1c06d1", 
+                "html_url": "https://github.com/prestodb/presto/commit/e3516fad1fa9c2ef703a400aa9bea2ee6c1c06d1"
+            }
+        ], 
+        "message": "Add new style order by operator", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-09-12T20:34:11Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "author": {
+            "date": "2013-08-31T23:00:23Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/2806fb4c02aadd7d22a5b3401678d2c58cd88c48", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/92fe1020157d01d22df7210becbf89328fb02bb6", 
+            "sha": "92fe1020157d01d22df7210becbf89328fb02bb6"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/2806fb4c02aadd7d22a5b3401678d2c58cd88c48", 
+        "sha": "2806fb4c02aadd7d22a5b3401678d2c58cd88c48", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/5ad7fb7b1b1d30ef389b4381d0cab42eaf129e07", 
+                "sha": "5ad7fb7b1b1d30ef389b4381d0cab42eaf129e07", 
+                "html_url": "https://github.com/prestodb/presto/commit/5ad7fb7b1b1d30ef389b4381d0cab42eaf129e07"
+            }
+        ], 
+        "message": "Add new style hash join operator", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-09-12T20:34:11Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "author": {
+            "date": "2013-08-31T23:00:23Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/d08ad012684b8f76a622f84a752aafce99eb24d2", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/d6000fa1c4f2e6a356042d9c53d5d21926e18c5c", 
+            "sha": "d6000fa1c4f2e6a356042d9c53d5d21926e18c5c"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/d08ad012684b8f76a622f84a752aafce99eb24d2", 
+        "sha": "d08ad012684b8f76a622f84a752aafce99eb24d2", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/2806fb4c02aadd7d22a5b3401678d2c58cd88c48", 
+                "sha": "2806fb4c02aadd7d22a5b3401678d2c58cd88c48", 
+                "html_url": "https://github.com/prestodb/presto/commit/2806fb4c02aadd7d22a5b3401678d2c58cd88c48"
+            }
+        ], 
+        "message": "Add new style semi join operator", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-09-12T20:34:11Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "author": {
+            "date": "2013-08-31T23:00:23Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/4ac5bba433d241e329ba2fae402222fd57015073", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/0ef897aa6300af5484479d7cf6c733ac9c979cc2", 
+            "sha": "0ef897aa6300af5484479d7cf6c733ac9c979cc2"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/4ac5bba433d241e329ba2fae402222fd57015073", 
+        "sha": "4ac5bba433d241e329ba2fae402222fd57015073", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/d08ad012684b8f76a622f84a752aafce99eb24d2", 
+                "sha": "d08ad012684b8f76a622f84a752aafce99eb24d2", 
+                "html_url": "https://github.com/prestodb/presto/commit/d08ad012684b8f76a622f84a752aafce99eb24d2"
+            }
+        ], 
+        "message": "Add new style TopN operator", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-09-12T20:34:11Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "author": {
+            "date": "2013-08-31T23:00:23Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/882ec5024af591711c34fd18a37956b21b5080f5", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/024b042dadaad4fec76ba523b0541a3790e87efe", 
+            "sha": "024b042dadaad4fec76ba523b0541a3790e87efe"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/882ec5024af591711c34fd18a37956b21b5080f5", 
+        "sha": "882ec5024af591711c34fd18a37956b21b5080f5", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/4ac5bba433d241e329ba2fae402222fd57015073", 
+                "sha": "4ac5bba433d241e329ba2fae402222fd57015073", 
+                "html_url": "https://github.com/prestodb/presto/commit/4ac5bba433d241e329ba2fae402222fd57015073"
+            }
+        ], 
+        "message": "Add new style window operator", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-09-12T20:34:11Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "author": {
+            "date": "2013-08-31T23:00:23Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/c561b5e93676791ae75431934e1c1b85a8aa1320", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/c78e36653daf965cfd88a6ebae7ccdfd76f763ee", 
+            "sha": "c78e36653daf965cfd88a6ebae7ccdfd76f763ee"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/c561b5e93676791ae75431934e1c1b85a8aa1320", 
+        "sha": "c561b5e93676791ae75431934e1c1b85a8aa1320", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/882ec5024af591711c34fd18a37956b21b5080f5", 
+                "sha": "882ec5024af591711c34fd18a37956b21b5080f5", 
+                "html_url": "https://github.com/prestodb/presto/commit/882ec5024af591711c34fd18a37956b21b5080f5"
+            }
+        ], 
+        "message": "Add new style record project operator", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-09-12T20:34:11Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "author": {
+            "date": "2013-08-31T23:00:24Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/4cbecc9a15eeeb47bbd0d154f5099f67303d27a9", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/933bf6bcc8f76501b416818022818b1cfee40c26", 
+            "sha": "933bf6bcc8f76501b416818022818b1cfee40c26"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/4cbecc9a15eeeb47bbd0d154f5099f67303d27a9", 
+        "sha": "4cbecc9a15eeeb47bbd0d154f5099f67303d27a9", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/c561b5e93676791ae75431934e1c1b85a8aa1320", 
+                "sha": "c561b5e93676791ae75431934e1c1b85a8aa1320", 
+                "html_url": "https://github.com/prestodb/presto/commit/c561b5e93676791ae75431934e1c1b85a8aa1320"
+            }
+        ], 
+        "message": "Add new style table scan operator", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-09-12T20:34:11Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "author": {
+            "date": "2013-08-31T23:00:24Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/99bba1a9cf6170b00456437b8f45b937fade6778", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/a8015c936d9bd72b7e579d1c8ef06d15d9cd276d", 
+            "sha": "a8015c936d9bd72b7e579d1c8ef06d15d9cd276d"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/99bba1a9cf6170b00456437b8f45b937fade6778", 
+        "sha": "99bba1a9cf6170b00456437b8f45b937fade6778", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/4cbecc9a15eeeb47bbd0d154f5099f67303d27a9", 
+                "sha": "4cbecc9a15eeeb47bbd0d154f5099f67303d27a9", 
+                "html_url": "https://github.com/prestodb/presto/commit/4cbecc9a15eeeb47bbd0d154f5099f67303d27a9"
+            }
+        ], 
+        "message": "Add new style exchange operator", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-09-12T20:34:11Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "author": {
+            "date": "2013-08-31T23:00:24Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/e108af142a027c6b7e8171bba15ca7ceeda9e31a", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/e393c24c18e3256595aec1d1e3b0e31e14d2b27c", 
+            "sha": "e393c24c18e3256595aec1d1e3b0e31e14d2b27c"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/e108af142a027c6b7e8171bba15ca7ceeda9e31a", 
+        "sha": "e108af142a027c6b7e8171bba15ca7ceeda9e31a", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/99bba1a9cf6170b00456437b8f45b937fade6778", 
+                "sha": "99bba1a9cf6170b00456437b8f45b937fade6778", 
+                "html_url": "https://github.com/prestodb/presto/commit/99bba1a9cf6170b00456437b8f45b937fade6778"
+            }
+        ], 
+        "message": "Add new style in memory exchange operator", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-09-12T20:34:11Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "author": {
+            "date": "2013-08-31T23:00:24Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/ba4fefe4679c0ff1ec5f4bfdb66346d2012e588b", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/8d02f93a9c811d191585607bcd33afd7eb249a08", 
+            "sha": "8d02f93a9c811d191585607bcd33afd7eb249a08"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/ba4fefe4679c0ff1ec5f4bfdb66346d2012e588b", 
+        "sha": "ba4fefe4679c0ff1ec5f4bfdb66346d2012e588b", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/e108af142a027c6b7e8171bba15ca7ceeda9e31a", 
+                "sha": "e108af142a027c6b7e8171bba15ca7ceeda9e31a", 
+                "html_url": "https://github.com/prestodb/presto/commit/e108af142a027c6b7e8171bba15ca7ceeda9e31a"
+            }
+        ], 
+        "message": "Add new style table writer operator", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-09-12T20:34:12Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "author": {
+            "date": "2013-08-31T23:00:24Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/03eeadc6229a7d3a83b01f4e23b9a840d1b7b956", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/65dd99ea7213bbf2dc5509135c2df177f963e182", 
+            "sha": "65dd99ea7213bbf2dc5509135c2df177f963e182"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/03eeadc6229a7d3a83b01f4e23b9a840d1b7b956", 
+        "sha": "03eeadc6229a7d3a83b01f4e23b9a840d1b7b956", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/ba4fefe4679c0ff1ec5f4bfdb66346d2012e588b", 
+                "sha": "ba4fefe4679c0ff1ec5f4bfdb66346d2012e588b", 
+                "html_url": "https://github.com/prestodb/presto/commit/ba4fefe4679c0ff1ec5f4bfdb66346d2012e588b"
+            }
+        ], 
+        "message": "Convert task execution to use new operator framework", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-09-12T20:34:12Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "author": {
+            "date": "2013-08-31T23:00:24Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/bba27a4b6884af42bde387f044a7f1435a8d96ba", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/01ee884476742266a857dd106fea745d6008a357", 
+            "sha": "01ee884476742266a857dd106fea745d6008a357"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/bba27a4b6884af42bde387f044a7f1435a8d96ba", 
+        "sha": "bba27a4b6884af42bde387f044a7f1435a8d96ba", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/03eeadc6229a7d3a83b01f4e23b9a840d1b7b956", 
+                "sha": "03eeadc6229a7d3a83b01f4e23b9a840d1b7b956", 
+                "html_url": "https://github.com/prestodb/presto/commit/03eeadc6229a7d3a83b01f4e23b9a840d1b7b956"
+            }
+        ], 
+        "message": "Favor interactive queries in task scheduler", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-09-12T20:34:12Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "author": {
+            "date": "2013-08-31T23:00:25Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/0b05bc0e8232c8ca0b37d4437d3da37a3dc11d85", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/87e7a16066415bb5c0d44894f92dbdc8e687a7ef", 
+            "sha": "87e7a16066415bb5c0d44894f92dbdc8e687a7ef"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/0b05bc0e8232c8ca0b37d4437d3da37a3dc11d85", 
+        "sha": "0b05bc0e8232c8ca0b37d4437d3da37a3dc11d85", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/bba27a4b6884af42bde387f044a7f1435a8d96ba", 
+                "sha": "bba27a4b6884af42bde387f044a7f1435a8d96ba", 
+                "html_url": "https://github.com/prestodb/presto/commit/bba27a4b6884af42bde387f044a7f1435a8d96ba"
+            }
+        ], 
+        "message": "Add blocking support to operators", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-09-12T20:34:12Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "author": {
+            "date": "2013-08-31T23:00:25Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/258637c4e33b8bb06999f668b82065b5a6e36660", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/95413bef3f0626cc080bb665ab8981881271fc79", 
+            "sha": "95413bef3f0626cc080bb665ab8981881271fc79"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/258637c4e33b8bb06999f668b82065b5a6e36660", 
+        "sha": "258637c4e33b8bb06999f668b82065b5a6e36660", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/0b05bc0e8232c8ca0b37d4437d3da37a3dc11d85", 
+                "sha": "0b05bc0e8232c8ca0b37d4437d3da37a3dc11d85", 
+                "html_url": "https://github.com/prestodb/presto/commit/0b05bc0e8232c8ca0b37d4437d3da37a3dc11d85"
+            }
+        ], 
+        "message": "Add new context and stats for execution system", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-09-12T20:34:12Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "author": {
+            "date": "2013-08-31T23:00:25Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/dee95fe8e41de58b94a6c1287950595c65952b1d", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/30e8afa07c0bd18fd0e42dd780486b2cc74e933e", 
+            "sha": "30e8afa07c0bd18fd0e42dd780486b2cc74e933e"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/dee95fe8e41de58b94a6c1287950595c65952b1d", 
+        "sha": "dee95fe8e41de58b94a6c1287950595c65952b1d", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/258637c4e33b8bb06999f668b82065b5a6e36660", 
+                "sha": "258637c4e33b8bb06999f668b82065b5a6e36660", 
+                "html_url": "https://github.com/prestodb/presto/commit/258637c4e33b8bb06999f668b82065b5a6e36660"
+            }
+        ], 
+        "message": "Measure raw and processed input of pipelines\n\nDeclare raw input and output sizes in pipelines", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-09-12T20:34:12Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "author": {
+            "date": "2013-08-31T23:00:25Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/95d05b75c813eb0d9e2da62cc89624417bc1d5d7", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/c000ded878e4a404c670e50632a938a5f8b4b68a", 
+            "sha": "c000ded878e4a404c670e50632a938a5f8b4b68a"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/95d05b75c813eb0d9e2da62cc89624417bc1d5d7", 
+        "sha": "95d05b75c813eb0d9e2da62cc89624417bc1d5d7", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/dee95fe8e41de58b94a6c1287950595c65952b1d", 
+                "sha": "dee95fe8e41de58b94a6c1287950595c65952b1d", 
+                "html_url": "https://github.com/prestodb/presto/commit/dee95fe8e41de58b94a6c1287950595c65952b1d"
+            }
+        ], 
+        "message": "Add new style compiled filter and project operator", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-09-12T20:34:12Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "author": {
+            "date": "2013-08-31T23:00:26Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/e3bdd25ea808a64c07ce6f92bec92b20b264947a", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/14e3a95f831dfd137bb903ae04f1e0660594035b", 
+            "sha": "14e3a95f831dfd137bb903ae04f1e0660594035b"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/e3bdd25ea808a64c07ce6f92bec92b20b264947a", 
+        "sha": "e3bdd25ea808a64c07ce6f92bec92b20b264947a", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/95d05b75c813eb0d9e2da62cc89624417bc1d5d7", 
+                "sha": "95d05b75c813eb0d9e2da62cc89624417bc1d5d7", 
+                "html_url": "https://github.com/prestodb/presto/commit/95d05b75c813eb0d9e2da62cc89624417bc1d5d7"
+            }
+        ], 
+        "message": "Add new style scan, filter, and project operator", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-09-12T20:34:13Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "author": {
+            "date": "2013-08-31T23:00:26Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/cefb2ca4603a4ca4f058f1cfe518ec1ea778f602", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/74390a7197992304898ac73d8abcc9dc7477cd0d", 
+            "sha": "74390a7197992304898ac73d8abcc9dc7477cd0d"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/cefb2ca4603a4ca4f058f1cfe518ec1ea778f602", 
+        "sha": "cefb2ca4603a4ca4f058f1cfe518ec1ea778f602", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/e3bdd25ea808a64c07ce6f92bec92b20b264947a", 
+                "sha": "e3bdd25ea808a64c07ce6f92bec92b20b264947a", 
+                "html_url": "https://github.com/prestodb/presto/commit/e3bdd25ea808a64c07ce6f92bec92b20b264947a"
+            }
+        ], 
+        "message": "Add new style compiled scan, filter, and project operator", 
+        "event": "committed"
+    }
+]

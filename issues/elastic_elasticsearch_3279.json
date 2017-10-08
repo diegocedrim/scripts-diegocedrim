@@ -1,0 +1,82 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "One might argue that not being able to handle primitive arrays is not a bug. I wanted to report this anyway because it took me a very long time to debug. When doing something like this\n\n``` java\nMap<String, Object> map = ...;\nmap.put(LON_LAT, new double[]{123, 321});\n\nclient.index(new IndexRequestBuilder(client, indexName())\n                        .setId(...)\n                        .setType(...)\n                        .setSource(map)\n                        .request());\n```\n\nI received \n\n```\nCaused by: org.elasticsearch.ElasticSearchIllegalArgumentException: the character '[' is not a valid geohash character\n    at org.elasticsearch.common.geo.GeoHashUtils.decode(GeoHashUtils.java:280)\n    at org.elasticsearch.common.geo.GeoHashUtils.decodeCell(GeoHashUtils.java:320)\n    at org.elasticsearch.common.geo.GeoHashUtils.decode(GeoHashUtils.java:297)\n    at org.elasticsearch.common.geo.GeoHashUtils.decode(GeoHashUtils.java:286)\n    at org.elasticsearch.index.mapper.geo.GeoPointFieldMapper.parseGeohash(GeoPointFieldMapper.java:456)\n    at org.elasticsearch.index.mapper.geo.GeoPointFieldMapper.parseStringLatLon(GeoPointFieldMapper.java:382)\n    at org.elasticsearch.index.mapper.geo.GeoPointFieldMapper.parse(GeoPointFieldMapper.java:367)\n    at org.elasticsearch.index.mapper.object.ObjectMapper.serializeValue(ObjectMapper.java:599)\n    at org.elasticsearch.index.mapper.object.ObjectMapper.parse(ObjectMapper.java:467)\n    at org.elasticsearch.index.mapper.object.ObjectMapper.serializeObject(ObjectMapper.java:515)\n    at org.elasticsearch.index.mapper.object.ObjectMapper.parse(ObjectMapper.java:457)\n    at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:507)\n    ...\n```\n\nChanging `new double[]{}` to `new Double[]{}` fixes the problem. Looking at `XContentMapConverter.java`, I have found that `writeValue(...)` does not handle primitive arrays. \n\nDepending how you look at it, this can be a bug. :)\n", 
+    "closed_at": "2013-07-01T19:48:02Z", 
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }, 
+    "comments": 2, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/3279/comments", 
+    "created_at": "2013-07-01T18:24:11Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/3279/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/3279", 
+    "id": 16228073, 
+    "labels": [
+        {
+            "color": "4a4ea8", 
+            "default": true, 
+            "id": 23174, 
+            "name": "enhancement", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/enhancement"
+        }, 
+        {
+            "color": "DDDDDD", 
+            "default": false, 
+            "id": 45109570, 
+            "name": "v0.90.3", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.90.3"
+        }, 
+        {
+            "color": "DDDDDD", 
+            "default": false, 
+            "id": 37906111, 
+            "name": "v1.0.0.Beta1", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v1.0.0.Beta1"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/3279/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 3279, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "(Java) Using primitive arrays instead of Object with map/builder", 
+    "updated_at": "2013-07-01T19:51:58Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/3279", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/260667?v=3", 
+        "events_url": "https://api.github.com/users/amir20/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/amir20/followers", 
+        "following_url": "https://api.github.com/users/amir20/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/amir20/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/amir20", 
+        "id": 260667, 
+        "login": "amir20", 
+        "organizations_url": "https://api.github.com/users/amir20/orgs", 
+        "received_events_url": "https://api.github.com/users/amir20/received_events", 
+        "repos_url": "https://api.github.com/users/amir20/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/amir20/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/amir20/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/amir20"
+    }
+}

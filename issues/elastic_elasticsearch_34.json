@@ -1,0 +1,57 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "1. When adding mapping definitions, they are now merged with the current mapping definitions. Duplicates are silently ignore unless specified in the put mapping API (HTTP param ignoreDuplicates set to false). Note, duplicates refer only to field mapping, object mapping are recursively checked.\n2. Mappings definitions are now clustered. Up until now, when creating mapping, the mappings were not merged (see point 1) but they were broadcasted to the cluster. But, when a document indexed resulted in updated mapping, this fact was lost. Now, this changed mapping are updated on the master and merged, and broadcasted to the whole cluster, which means all the different nodes will know about the new types introduced almost immediately. \n", 
+    "closed_at": "2010-02-21T20:57:48Z", 
+    "closed_by": null, 
+    "comments": 7, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/34/comments", 
+    "created_at": "2010-02-21T20:56:27Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/34/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/34", 
+    "id": 137255, 
+    "labels": [
+        {
+            "color": "328a58", 
+            "default": false, 
+            "id": 23172, 
+            "name": "feature", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/feature"
+        }, 
+        {
+            "color": "DDDDDD", 
+            "default": false, 
+            "id": 23175, 
+            "name": "v0.05.0", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.05.0"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/34/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 34, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Mapping Overhaul - More user friendly, cluster aware", 
+    "updated_at": "2010-03-02T18:17:24Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/34", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }
+}

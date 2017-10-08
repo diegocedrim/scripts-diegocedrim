@@ -1,0 +1,88 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "Currently, the cluster service is tightly coupled to the transport service by both managing node connections and requiring the bound address in order to create the local disco node. This commit introduces a new NodeConnectionsService which is in charge of node connection management and makes it possible to remove all network related calls from the cluster service. The local DiscoNode is now created by DiscoveryNodeService and is set both the cluster service and the transport service during node start up.\n\nCloses #16788\n\nNote that this simplifies constructing the InternalClusterService making a viable option for testing. I already moved some of its testing to a unit test. As a follow up, I will attempt removing all test implementations of ClusterService and move InternalClusterService to be the one and only ClusterService.\n", 
+    "closed_at": "2016-03-10T10:52:50Z", 
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1006375?v=3", 
+        "events_url": "https://api.github.com/users/bleskes/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/bleskes/followers", 
+        "following_url": "https://api.github.com/users/bleskes/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/bleskes/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/bleskes", 
+        "id": 1006375, 
+        "login": "bleskes", 
+        "organizations_url": "https://api.github.com/users/bleskes/orgs", 
+        "received_events_url": "https://api.github.com/users/bleskes/received_events", 
+        "repos_url": "https://api.github.com/users/bleskes/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/bleskes/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/bleskes/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/bleskes"
+    }, 
+    "comments": 8, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/16872/comments", 
+    "created_at": "2016-02-29T20:15:13Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/16872/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/pull/16872", 
+    "id": 137359467, 
+    "labels": [
+        {
+            "color": "009800", 
+            "default": false, 
+            "id": 184103632, 
+            "name": ":Internal", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/:Internal"
+        }, 
+        {
+            "color": "4a4ea8", 
+            "default": true, 
+            "id": 23174, 
+            "name": "enhancement", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/enhancement"
+        }, 
+        {
+            "color": "dddddd", 
+            "default": false, 
+            "id": 246685314, 
+            "name": "v5.0.0-alpha1", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v5.0.0-alpha1"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/16872/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 16872, 
+    "pull_request": {
+        "diff_url": "https://github.com/elastic/elasticsearch/pull/16872.diff", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/16872", 
+        "patch_url": "https://github.com/elastic/elasticsearch/pull/16872.patch", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/pulls/16872"
+    }, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Decouple the TransportService and ClusterService", 
+    "updated_at": "2016-03-10T10:52:53Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/16872", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1006375?v=3", 
+        "events_url": "https://api.github.com/users/bleskes/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/bleskes/followers", 
+        "following_url": "https://api.github.com/users/bleskes/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/bleskes/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/bleskes", 
+        "id": 1006375, 
+        "login": "bleskes", 
+        "organizations_url": "https://api.github.com/users/bleskes/orgs", 
+        "received_events_url": "https://api.github.com/users/bleskes/received_events", 
+        "repos_url": "https://api.github.com/users/bleskes/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/bleskes/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/bleskes/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/bleskes"
+    }
+}

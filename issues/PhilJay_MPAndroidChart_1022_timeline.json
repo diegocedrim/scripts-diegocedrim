@@ -1,0 +1,56 @@
+[
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/PhilJay/MPAndroidChart/issues/events/407162433", 
+        "created_at": "2015-09-11T14:56:05Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/PhilJay/following{/other_user}", 
+            "events_url": "https://api.github.com/users/PhilJay/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/PhilJay/orgs", 
+            "url": "https://api.github.com/users/PhilJay", 
+            "gists_url": "https://api.github.com/users/PhilJay/gists{/gist_id}", 
+            "html_url": "https://github.com/PhilJay", 
+            "subscriptions_url": "https://api.github.com/users/PhilJay/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/6759734?v=3", 
+            "repos_url": "https://api.github.com/users/PhilJay/repos", 
+            "received_events_url": "https://api.github.com/users/PhilJay/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/PhilJay/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "PhilJay", 
+            "type": "User", 
+            "id": 6759734, 
+            "followers_url": "https://api.github.com/users/PhilJay/followers"
+        }, 
+        "event": "closed", 
+        "id": 407162433
+    }, 
+    {
+        "commit_id": "14810e3dfde950803139353e3afe148a6282f2c9", 
+        "commit_url": "https://api.github.com/repos/PhilJay/MPAndroidChart/commits/14810e3dfde950803139353e3afe148a6282f2c9", 
+        "url": "https://api.github.com/repos/PhilJay/MPAndroidChart/issues/events/407162552", 
+        "created_at": "2015-09-11T14:56:09Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/PhilJay/following{/other_user}", 
+            "events_url": "https://api.github.com/users/PhilJay/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/PhilJay/orgs", 
+            "url": "https://api.github.com/users/PhilJay", 
+            "gists_url": "https://api.github.com/users/PhilJay/gists{/gist_id}", 
+            "html_url": "https://github.com/PhilJay", 
+            "subscriptions_url": "https://api.github.com/users/PhilJay/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/6759734?v=3", 
+            "repos_url": "https://api.github.com/users/PhilJay/repos", 
+            "received_events_url": "https://api.github.com/users/PhilJay/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/PhilJay/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "PhilJay", 
+            "type": "User", 
+            "id": 6759734, 
+            "followers_url": "https://api.github.com/users/PhilJay/followers"
+        }, 
+        "event": "referenced", 
+        "id": 407162552
+    }
+]

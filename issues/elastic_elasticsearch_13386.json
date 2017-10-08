@@ -1,0 +1,141 @@
+{
+    "assignee": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+        "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/s1monw/followers", 
+        "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/s1monw", 
+        "id": 973334, 
+        "login": "s1monw", 
+        "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+        "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+        "repos_url": "https://api.github.com/users/s1monw/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/s1monw"
+    }, 
+    "assignees": [
+        {
+            "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+            "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/s1monw/followers", 
+            "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/s1monw", 
+            "id": 973334, 
+            "login": "s1monw", 
+            "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+            "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+            "repos_url": "https://api.github.com/users/s1monw/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/s1monw"
+        }
+    ], 
+    "body": "For example, `open_contexts`. When there are open search contexts when an index is being deleted, the count is accumulated in `OldShardsStats` and it keeps growing.\n(It looks it's because [freeing context](https://github.com/elastic/elasticsearch/blob/4173b00241cf9522427eeb81e9451619fe334c76/core/src/main/java/org/elasticsearch/search/SearchService.java#L175-L189) is called after [it collects old shard stats](https://github.com/elastic/elasticsearch/blob/8a06fef019a608153cc22b3ba6d29b5943348ead/core/src/main/java/org/elasticsearch/indices/IndicesService.java#L458-L469))\n\nAnother example is `current*` in merge stats. If an index is deleted while it's merging segment(s), those stats are accumulated.\n\nI think those point-in-time stats shouldn't be accumulated.\n", 
+    "closed_at": "2015-10-19T09:48:21Z", 
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+        "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/s1monw/followers", 
+        "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/s1monw", 
+        "id": 973334, 
+        "login": "s1monw", 
+        "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+        "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+        "repos_url": "https://api.github.com/users/s1monw/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/s1monw"
+    }, 
+    "comments": 1, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/13386/comments", 
+    "created_at": "2015-09-08T03:56:03Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/13386/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/13386", 
+    "id": 105295600, 
+    "labels": [
+        {
+            "color": "009800", 
+            "default": false, 
+            "id": 146836529, 
+            "name": ":Stats", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/:Stats"
+        }, 
+        {
+            "color": "9e2c2c", 
+            "default": true, 
+            "id": 23173, 
+            "name": "bug", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/bug"
+        }, 
+        {
+            "color": "dddddd", 
+            "default": false, 
+            "id": 275922394, 
+            "name": "v2.0.1", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v2.0.1"
+        }, 
+        {
+            "color": "dddddd", 
+            "default": false, 
+            "id": 182815976, 
+            "name": "v2.1.0", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v2.1.0"
+        }, 
+        {
+            "color": "dddddd", 
+            "default": false, 
+            "id": 266898191, 
+            "name": "v2.2.0", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v2.2.0"
+        }, 
+        {
+            "color": "dddddd", 
+            "default": false, 
+            "id": 246685314, 
+            "name": "v5.0.0-alpha1", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v5.0.0-alpha1"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/13386/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 13386, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Some stats for deleted indices shouldn't be accumulated", 
+    "updated_at": "2015-10-25T10:21:44Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/13386", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/572174?v=3", 
+        "events_url": "https://api.github.com/users/masaruh/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/masaruh/followers", 
+        "following_url": "https://api.github.com/users/masaruh/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/masaruh/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/masaruh", 
+        "id": 572174, 
+        "login": "masaruh", 
+        "organizations_url": "https://api.github.com/users/masaruh/orgs", 
+        "received_events_url": "https://api.github.com/users/masaruh/received_events", 
+        "repos_url": "https://api.github.com/users/masaruh/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/masaruh/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/masaruh/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/masaruh"
+    }
+}

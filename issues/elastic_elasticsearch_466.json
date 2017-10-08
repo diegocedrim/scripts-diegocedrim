@@ -1,0 +1,57 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "The problem stems from the reusing of existing index files when doing recovery. Checksums should be added, but, in order to have it performant, they are computed on write.\n\nThis menas that existing indices will still work, but might suffer from it. New internal index files will get checksummed, and eventually the index will be fully checksummed, though, it is recommended to reindex the data.\n", 
+    "closed_at": "2010-11-02T04:00:26Z", 
+    "closed_by": null, 
+    "comments": 6, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/466/comments", 
+    "created_at": "2010-11-01T20:58:38Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/466/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/466", 
+    "id": 394371, 
+    "labels": [
+        {
+            "color": "9e2c2c", 
+            "default": true, 
+            "id": 23173, 
+            "name": "bug", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/bug"
+        }, 
+        {
+            "color": "DDDDDD", 
+            "default": false, 
+            "id": 53377, 
+            "name": "v0.13.0", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.13.0"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/466/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 466, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Possible (rare) shard index corruption / different doc count on recovery (gateway / shard)", 
+    "updated_at": "2010-11-01T23:15:46Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/466", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }
+}

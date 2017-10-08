@@ -1,0 +1,88 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "Today unknown parameters are ignored yet carried through serialization.\n", 
+    "closed_at": "2016-03-22T17:54:04Z", 
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+        "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/jpountz/followers", 
+        "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/jpountz", 
+        "id": 299848, 
+        "login": "jpountz", 
+        "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+        "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+        "repos_url": "https://api.github.com/users/jpountz/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/jpountz"
+    }, 
+    "comments": 1, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/17249/comments", 
+    "created_at": "2016-03-22T17:35:27Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/17249/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/pull/17249", 
+    "id": 142722495, 
+    "labels": [
+        {
+            "color": "009800", 
+            "default": false, 
+            "id": 141145460, 
+            "name": ":Mapping", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/:Mapping"
+        }, 
+        {
+            "color": "9e2c2c", 
+            "default": true, 
+            "id": 23173, 
+            "name": "bug", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/bug"
+        }, 
+        {
+            "color": "dddddd", 
+            "default": false, 
+            "id": 246685314, 
+            "name": "v5.0.0-alpha1", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v5.0.0-alpha1"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/17249/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 17249, 
+    "pull_request": {
+        "diff_url": "https://github.com/elastic/elasticsearch/pull/17249.diff", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/17249", 
+        "patch_url": "https://github.com/elastic/elasticsearch/pull/17249.patch", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/pulls/17249"
+    }, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Make dynamic template parsing less lenient.", 
+    "updated_at": "2016-03-22T17:54:04Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/17249", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+        "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/jpountz/followers", 
+        "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/jpountz", 
+        "id": 299848, 
+        "login": "jpountz", 
+        "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+        "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+        "repos_url": "https://api.github.com/users/jpountz/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/jpountz"
+    }
+}

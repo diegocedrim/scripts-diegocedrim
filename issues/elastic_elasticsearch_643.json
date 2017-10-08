@@ -1,0 +1,57 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "Strict dynamic mapping setting will refuse to index documents with fields that are not explicitly mapped. This can be set on any object level mapping, and inherits by default the root object mapping. Here is an example:\n\n```\n{\n    \"my_type\" : {\n        \"dynamic\" : \"strict\"\n    }\n}\n```\n\nThe other possible values for dynamic are the typical boolean values, `false` and `true`, which retain their previous behavior.\n", 
+    "closed_at": "2011-01-22T07:09:03Z", 
+    "closed_by": null, 
+    "comments": 3, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/643/comments", 
+    "created_at": "2011-01-20T20:57:58Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/643/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/643", 
+    "id": 540071, 
+    "labels": [
+        {
+            "color": "4a4ea8", 
+            "default": true, 
+            "id": 23174, 
+            "name": "enhancement", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/enhancement"
+        }, 
+        {
+            "color": "ededed", 
+            "default": false, 
+            "id": 65354, 
+            "name": "v0.15.0", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.15.0"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/643/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 643, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Strict dynamic setting: Refuse to index a document with fields not present in the mapping definition", 
+    "updated_at": "2011-02-08T09:38:22Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/643", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/503821?v=3", 
+        "events_url": "https://api.github.com/users/MBaechle/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/MBaechle/followers", 
+        "following_url": "https://api.github.com/users/MBaechle/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/MBaechle/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/MBaechle", 
+        "id": 503821, 
+        "login": "MBaechle", 
+        "organizations_url": "https://api.github.com/users/MBaechle/orgs", 
+        "received_events_url": "https://api.github.com/users/MBaechle/received_events", 
+        "repos_url": "https://api.github.com/users/MBaechle/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/MBaechle/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/MBaechle/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/MBaechle"
+    }
+}

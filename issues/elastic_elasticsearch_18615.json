@@ -1,0 +1,95 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "This PR contains a number of cleanups related to recent changes in RoutingNodes:\n- PR #17821 (Immutable ShardRouting) changed RoutingNode to use a map indexed by ShardId to manage ShardRouting elements. This means that we can directly select the right ShardRouting without iterating over all elements. This lets us get rid of RoutingNodeIterator and all kind of iterations all over the place.\n- Second cleanup is an extension of #18390 (Expose cluster state before reroute in RoutingAllocation instead of RoutingNodes). We should not reexpose RoutingTable in RoutingNodes and only use it in the constructor. This makes it clear that the RoutingTable is only used to construct the RoutingNodes and can diverge from it afterwards (only RoutingNodes is mutable).\n- Remove AllocationService.applyNewNodes() (that is already done as part of construction of RoutingNodes)\n", 
+    "closed_at": "2016-05-31T14:37:58Z", 
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/3718355?v=3", 
+        "events_url": "https://api.github.com/users/ywelsch/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/ywelsch/followers", 
+        "following_url": "https://api.github.com/users/ywelsch/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/ywelsch/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/ywelsch", 
+        "id": 3718355, 
+        "login": "ywelsch", 
+        "organizations_url": "https://api.github.com/users/ywelsch/orgs", 
+        "received_events_url": "https://api.github.com/users/ywelsch/received_events", 
+        "repos_url": "https://api.github.com/users/ywelsch/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/ywelsch/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/ywelsch/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/ywelsch"
+    }, 
+    "comments": 4, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18615/comments", 
+    "created_at": "2016-05-27T14:44:14Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18615/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/pull/18615", 
+    "id": 157222408, 
+    "labels": [
+        {
+            "color": "009800", 
+            "default": false, 
+            "id": 144797753, 
+            "name": ":Allocation", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/:Allocation"
+        }, 
+        {
+            "color": "cfcfcf", 
+            "default": false, 
+            "id": 73544, 
+            "name": "non-issue", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/non-issue"
+        }, 
+        {
+            "color": "0052cc", 
+            "default": false, 
+            "id": 94283388, 
+            "name": "review", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/review"
+        }, 
+        {
+            "color": "dddddd", 
+            "default": false, 
+            "id": 381894283, 
+            "name": "v5.0.0-alpha4", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v5.0.0-alpha4"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18615/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 18615, 
+    "pull_request": {
+        "diff_url": "https://github.com/elastic/elasticsearch/pull/18615.diff", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/18615", 
+        "patch_url": "https://github.com/elastic/elasticsearch/pull/18615.patch", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/pulls/18615"
+    }, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Clean up RoutingNodes", 
+    "updated_at": "2016-05-31T14:37:58Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/18615", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/3718355?v=3", 
+        "events_url": "https://api.github.com/users/ywelsch/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/ywelsch/followers", 
+        "following_url": "https://api.github.com/users/ywelsch/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/ywelsch/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/ywelsch", 
+        "id": 3718355, 
+        "login": "ywelsch", 
+        "organizations_url": "https://api.github.com/users/ywelsch/orgs", 
+        "received_events_url": "https://api.github.com/users/ywelsch/received_events", 
+        "repos_url": "https://api.github.com/users/ywelsch/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/ywelsch/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/ywelsch/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/ywelsch"
+    }
+}

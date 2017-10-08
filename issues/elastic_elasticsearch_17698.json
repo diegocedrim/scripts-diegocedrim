@@ -1,0 +1,102 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "#14259 added a check to honor rebalancing policies (i.e., rebalance only on green state) when moving shards due to changes in allocation filtering rules. The rebalancing policy is there to make sure that we don't try to even out the number of shards per node when we are still missing shards. However, it should not interfere with explicit user commands (allocation filtering) or things like the disk threshold wanting to move shards because of a node hitting the high water mark.\n#14259 was done to address #14057 where people reported that using allocation filtering caused many shards to be moved at once. This is however a none issue - with 1.7 (where the issue was reported) and 2.x, we protect recovery source nodes by limitting the number of concurrent data streams they can open (i.e., we can have many recoveries, but they will be throttled). In 5.0 we came up with a simpler and more understandable approach where we have a hard limit on the number of outgoing recoveries per node (on top of the incoming recoveries we already had).\n", 
+    "closed_at": "2016-04-13T18:44:41Z", 
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1006375?v=3", 
+        "events_url": "https://api.github.com/users/bleskes/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/bleskes/followers", 
+        "following_url": "https://api.github.com/users/bleskes/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/bleskes/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/bleskes", 
+        "id": 1006375, 
+        "login": "bleskes", 
+        "organizations_url": "https://api.github.com/users/bleskes/orgs", 
+        "received_events_url": "https://api.github.com/users/bleskes/received_events", 
+        "repos_url": "https://api.github.com/users/bleskes/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/bleskes/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/bleskes/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/bleskes"
+    }, 
+    "comments": 2, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/17698/comments", 
+    "created_at": "2016-04-13T08:31:32Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/17698/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/pull/17698", 
+    "id": 147985131, 
+    "labels": [
+        {
+            "color": "009800", 
+            "default": false, 
+            "id": 144797753, 
+            "name": ":Allocation", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/:Allocation"
+        }, 
+        {
+            "color": "9e2c2c", 
+            "default": true, 
+            "id": 23173, 
+            "name": "bug", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/bug"
+        }, 
+        {
+            "color": "dddddd", 
+            "default": false, 
+            "id": 352364331, 
+            "name": "v2.3.2", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v2.3.2"
+        }, 
+        {
+            "color": "dddddd", 
+            "default": false, 
+            "id": 342561351, 
+            "name": "v2.4.0", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v2.4.0"
+        }, 
+        {
+            "color": "dddddd", 
+            "default": false, 
+            "id": 352250322, 
+            "name": "v5.0.0-alpha2", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v5.0.0-alpha2"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/17698/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 17698, 
+    "pull_request": {
+        "diff_url": "https://github.com/elastic/elasticsearch/pull/17698.diff", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/17698", 
+        "patch_url": "https://github.com/elastic/elasticsearch/pull/17698.patch", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/pulls/17698"
+    }, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Rebalancing policy shouldn't prevent hard allocation decisions", 
+    "updated_at": "2016-04-13T19:19:56Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/17698", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1006375?v=3", 
+        "events_url": "https://api.github.com/users/bleskes/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/bleskes/followers", 
+        "following_url": "https://api.github.com/users/bleskes/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/bleskes/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/bleskes", 
+        "id": 1006375, 
+        "login": "bleskes", 
+        "organizations_url": "https://api.github.com/users/bleskes/orgs", 
+        "received_events_url": "https://api.github.com/users/bleskes/received_events", 
+        "repos_url": "https://api.github.com/users/bleskes/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/bleskes/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/bleskes/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/bleskes"
+    }
+}

@@ -1,0 +1,4 @@
+se um desenvolvedor para de trabalahr em uma classe e vai pra outra, dizemos que o batch anterior se encerrou
+se ele voltar a trabalhar na outra classe, se inicia um novo batch
+assim, delimitamos um batch por uma "unit of work" de dev
+se fizer um commit em uma outra classe, o batch se encerra

@@ -1,0 +1,82 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "Hiya - there is a bug with `auto_expand_replicas: [0-all]` in v 0.16.1 which causes loss of all data in that index.\n\nTo replicate:\n- start two nodes\n- run the script below\n- count for index `bar` : 3\n- kill the node that holds the primary shard for index `bar`\n- count for index `bar`: 0\n\nIf you change auto expand to `[1-all]` then data is not lost.\n\n```\ncurl -XDELETE 'http://127.0.0.1:9200/bar,foo/?pretty=1'\n\ncurl -XPUT 'http://127.0.0.1:9200/foo/?pretty=1'  -d '\n{\n   \"settings\" : {\n      \"number_of_replicas\" : 0,\n      \"number_of_shards\" : 1\n   }\n}\n'\n\ncurl -XPUT 'http://127.0.0.1:9200/bar/?pretty=1'  -d '\n{\n   \"settings\" : {\n      \"index\" : {\n         \"number_of_replicas\" : 0,\n         \"number_of_shards\" : 1\n      }\n   }\n}\n'\n\n\ncurl -XGET 'http://127.0.0.1:9200/_cluster/health/bar?pretty=1&wait_for_status=green' \n\n\ncurl -XPOST 'http://127.0.0.1:9200/_bulk?pretty=1'  -d '\n{\"index\" : {\"_index\" : \"bar\", \"_type\" : \"name\"}}\n{\"tokens\" : [\"stuart\", \"watt\"], \"context\" : \"/2850246/all\", \"rank\" : 1}\n{\"index\" : {\"_index\" : \"bar\", \"_type\" : \"name\"}}\n{\"tokens\" : [\"stuart\", \"watt\"], \"context\" : \"/2850246/jpnw/all\", \"rank\" : 1}\n{\"index\" : {\"_index\" : \"bar\", \"_type\" : \"name\"}}\n{\"tokens\" : [\"stuart\", \"watt\"], \"context\" : \"/2850246/jpnw_pres/all\", \"rank\" : 1}\n{\"index\" : {\"_index\" : \"bar\", \"_type\" : \"name\"}}\n'\n\ncurl -XPOST 'http://127.0.0.1:9200/bar/_refresh?pretty=1' \n\ncurl -XPUT 'http://127.0.0.1:9200/bar/_settings?pretty=1'  -d '\n{\n   \"index\" : {\n      \"auto_expand_replicas\" : \"0-all\"\n   }\n}\n'\n\ncurl -XGET 'http://127.0.0.1:9200/_cluster/health/bar?pretty=1&wait_for_status=green' \n\n\ncurl -XGET 'http://127.0.0.1:9200/bar/_count?pretty=1'  -d '\n{\n   \"match_all\" : {}\n}\n'\n```\n", 
+    "closed_at": "2011-05-16T22:41:18Z", 
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }, 
+    "comments": 1, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/934/comments", 
+    "created_at": "2011-05-16T13:12:11Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/934/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/934", 
+    "id": 906387, 
+    "labels": [
+        {
+            "color": "9e2c2c", 
+            "default": true, 
+            "id": 23173, 
+            "name": "bug", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/bug"
+        }, 
+        {
+            "color": "DDDDDD", 
+            "default": false, 
+            "id": 103600, 
+            "name": "v0.16.2", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.16.2"
+        }, 
+        {
+            "color": "DDDDDD", 
+            "default": false, 
+            "id": 97023, 
+            "name": "v0.17.0", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.17.0"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/934/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 934, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "auto_expand_replicas: [0-all] can cause data loss when nodes are removed", 
+    "updated_at": "2011-05-17T10:20:36Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/934", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/56599?v=3", 
+        "events_url": "https://api.github.com/users/clintongormley/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/clintongormley/followers", 
+        "following_url": "https://api.github.com/users/clintongormley/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/clintongormley/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/clintongormley", 
+        "id": 56599, 
+        "login": "clintongormley", 
+        "organizations_url": "https://api.github.com/users/clintongormley/orgs", 
+        "received_events_url": "https://api.github.com/users/clintongormley/received_events", 
+        "repos_url": "https://api.github.com/users/clintongormley/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/clintongormley/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/clintongormley/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/clintongormley"
+    }
+}

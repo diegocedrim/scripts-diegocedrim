@@ -1,0 +1,57 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "Terms API should support numbers and dates natively, and not treat them as strings. This means that from/to should support numbers/dates, and the terms returned should be in the number/date format and not in their internal format.\n\nThe convert parameter should be removed also since it is not required anymore.\n", 
+    "closed_at": "2010-03-22T00:34:52Z", 
+    "closed_by": null, 
+    "comments": 1, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/78/comments", 
+    "created_at": "2010-03-22T00:33:27Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/78/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/78", 
+    "id": 155599, 
+    "labels": [
+        {
+            "color": "328a58", 
+            "default": false, 
+            "id": 23172, 
+            "name": "feature", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/feature"
+        }, 
+        {
+            "color": "DDDDDD", 
+            "default": false, 
+            "id": 25452, 
+            "name": "v0.06.0", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.06.0"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/78/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 78, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Terms API: Support numbers/dates", 
+    "updated_at": "2010-03-22T00:34:52Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/78", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }
+}

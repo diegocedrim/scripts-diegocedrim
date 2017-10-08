@@ -1,0 +1,84 @@
+[
+    {
+        "commit_id": "633722f90bcc1c6730f7cec8e2e2c22b16874a7a", 
+        "commit_url": "https://api.github.com/repos/PhilJay/MPAndroidChart/commits/633722f90bcc1c6730f7cec8e2e2c22b16874a7a", 
+        "url": "https://api.github.com/repos/PhilJay/MPAndroidChart/issues/events/332868330", 
+        "created_at": "2015-06-17T07:28:51Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/PhilJay/following{/other_user}", 
+            "events_url": "https://api.github.com/users/PhilJay/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/PhilJay/orgs", 
+            "url": "https://api.github.com/users/PhilJay", 
+            "gists_url": "https://api.github.com/users/PhilJay/gists{/gist_id}", 
+            "html_url": "https://github.com/PhilJay", 
+            "subscriptions_url": "https://api.github.com/users/PhilJay/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/6759734?v=3", 
+            "repos_url": "https://api.github.com/users/PhilJay/repos", 
+            "received_events_url": "https://api.github.com/users/PhilJay/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/PhilJay/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "PhilJay", 
+            "type": "User", 
+            "id": 6759734, 
+            "followers_url": "https://api.github.com/users/PhilJay/followers"
+        }, 
+        "event": "referenced", 
+        "id": 332868330
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/PhilJay/MPAndroidChart/issues/events/332868593", 
+        "created_at": "2015-06-17T07:29:14Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/PhilJay/following{/other_user}", 
+            "events_url": "https://api.github.com/users/PhilJay/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/PhilJay/orgs", 
+            "url": "https://api.github.com/users/PhilJay", 
+            "gists_url": "https://api.github.com/users/PhilJay/gists{/gist_id}", 
+            "html_url": "https://github.com/PhilJay", 
+            "subscriptions_url": "https://api.github.com/users/PhilJay/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/6759734?v=3", 
+            "repos_url": "https://api.github.com/users/PhilJay/repos", 
+            "received_events_url": "https://api.github.com/users/PhilJay/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/PhilJay/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "PhilJay", 
+            "type": "User", 
+            "id": 6759734, 
+            "followers_url": "https://api.github.com/users/PhilJay/followers"
+        }, 
+        "event": "closed", 
+        "id": 332868593
+    }, 
+    {
+        "source": {
+            "url": "https://api.github.com/repos/PhilJay/MPAndroidChart/issues/775", 
+            "id": 88956853, 
+            "actor": {
+                "following_url": "https://api.github.com/users/fguf/following{/other_user}", 
+                "events_url": "https://api.github.com/users/fguf/events{/privacy}", 
+                "organizations_url": "https://api.github.com/users/fguf/orgs", 
+                "url": "https://api.github.com/users/fguf", 
+                "gists_url": "https://api.github.com/users/fguf/gists{/gist_id}", 
+                "html_url": "https://github.com/fguf", 
+                "subscriptions_url": "https://api.github.com/users/fguf/subscriptions", 
+                "avatar_url": "https://avatars.githubusercontent.com/u/12274954?v=3", 
+                "repos_url": "https://api.github.com/users/fguf/repos", 
+                "received_events_url": "https://api.github.com/users/fguf/received_events", 
+                "gravatar_id": "", 
+                "starred_url": "https://api.github.com/users/fguf/starred{/owner}{/repo}", 
+                "site_admin": false, 
+                "login": "fguf", 
+                "type": "User", 
+                "id": 12274954, 
+                "followers_url": "https://api.github.com/users/fguf/followers"
+            }
+        }, 
+        "created_at": "2015-06-17T05:40:56-03:00", 
+        "updated_at": "2015-06-17T05:40:56-03:00", 
+        "event": "cross-referenced"
+    }
+]

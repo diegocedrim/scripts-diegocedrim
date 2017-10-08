@@ -1,0 +1,88 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "Similar reasoning as #18133 but for the aggs API. One important change is that\nI moved the base PipelineAggregatorBuilder class to the o.e.s.aggregations\npackage instead of o.e.s.aggregations.pipeline so that the create method does\nnot need to be public.\n", 
+    "closed_at": "2016-06-01T08:23:45Z", 
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+        "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/jpountz/followers", 
+        "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/jpountz", 
+        "id": 299848, 
+        "login": "jpountz", 
+        "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+        "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+        "repos_url": "https://api.github.com/users/jpountz/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/jpountz"
+    }, 
+    "comments": 1, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18368/comments", 
+    "created_at": "2016-05-16T08:56:54Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18368/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/pull/18368", 
+    "id": 154987767, 
+    "labels": [
+        {
+            "color": "009800", 
+            "default": false, 
+            "id": 141141324, 
+            "name": ":Aggregations", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/:Aggregations"
+        }, 
+        {
+            "color": "4a4ea8", 
+            "default": true, 
+            "id": 23174, 
+            "name": "enhancement", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/enhancement"
+        }, 
+        {
+            "color": "dddddd", 
+            "default": false, 
+            "id": 381894283, 
+            "name": "v5.0.0-alpha4", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v5.0.0-alpha4"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18368/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 18368, 
+    "pull_request": {
+        "diff_url": "https://github.com/elastic/elasticsearch/pull/18368.diff", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/18368", 
+        "patch_url": "https://github.com/elastic/elasticsearch/pull/18368.patch", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/pulls/18368"
+    }, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "AggregatorBuilder and PipelineAggregatorBuilder do not need generics.", 
+    "updated_at": "2016-06-01T08:23:45Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/18368", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+        "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/jpountz/followers", 
+        "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/jpountz", 
+        "id": 299848, 
+        "login": "jpountz", 
+        "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+        "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+        "repos_url": "https://api.github.com/users/jpountz/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/jpountz"
+    }
+}

@@ -1,0 +1,271 @@
+[
+    {
+        "body": "Other than those minor comments, it looks good", 
+        "url": "https://api.github.com/repos/prestodb/presto/issues/comments/22295317", 
+        "event": "commented", 
+        "created_at": "2013-08-08T00:49:10Z", 
+        "html_url": "https://github.com/prestodb/presto/pull/696#issuecomment-22295317", 
+        "actor": {
+            "following_url": "https://api.github.com/users/martint/following{/other_user}", 
+            "events_url": "https://api.github.com/users/martint/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/martint/orgs", 
+            "url": "https://api.github.com/users/martint", 
+            "gists_url": "https://api.github.com/users/martint/gists{/gist_id}", 
+            "html_url": "https://github.com/martint", 
+            "subscriptions_url": "https://api.github.com/users/martint/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/14387?v=3", 
+            "repos_url": "https://api.github.com/users/martint/repos", 
+            "received_events_url": "https://api.github.com/users/martint/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/martint/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "martint", 
+            "type": "User", 
+            "id": 14387, 
+            "followers_url": "https://api.github.com/users/martint/followers"
+        }, 
+        "updated_at": "2013-08-08T00:49:10Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/martint/following{/other_user}", 
+            "events_url": "https://api.github.com/users/martint/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/martint/orgs", 
+            "url": "https://api.github.com/users/martint", 
+            "gists_url": "https://api.github.com/users/martint/gists{/gist_id}", 
+            "html_url": "https://github.com/martint", 
+            "subscriptions_url": "https://api.github.com/users/martint/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/14387?v=3", 
+            "repos_url": "https://api.github.com/users/martint/repos", 
+            "received_events_url": "https://api.github.com/users/martint/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/martint/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "martint", 
+            "type": "User", 
+            "id": 14387, 
+            "followers_url": "https://api.github.com/users/martint/followers"
+        }, 
+        "id": 22295317, 
+        "issue_url": "https://api.github.com/repos/prestodb/presto/issues/696"
+    }, 
+    {
+        "committer": {
+            "date": "2013-08-08T22:23:20Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "author": {
+            "date": "2013-07-18T01:45:13Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/93b6c89212172fb12e6b5ee6d07acd37b3f335a0", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/ce2c271378b0ab97b3071be54489f55c83a727cd", 
+            "sha": "ce2c271378b0ab97b3071be54489f55c83a727cd"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/93b6c89212172fb12e6b5ee6d07acd37b3f335a0", 
+        "sha": "93b6c89212172fb12e6b5ee6d07acd37b3f335a0", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/9b2fe930fdf7a46c7a69069ff38d0951af48e23c", 
+                "sha": "9b2fe930fdf7a46c7a69069ff38d0951af48e23c", 
+                "html_url": "https://github.com/prestodb/presto/commit/9b2fe930fdf7a46c7a69069ff38d0951af48e23c"
+            }
+        ], 
+        "message": "SimplifyExpressions drop filter if the predicate is just TRUE", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-08-08T22:23:20Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "author": {
+            "date": "2013-07-18T01:48:42Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/eb7d7189826a659a4f5c78af7a2df9c9aad44103", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/8c147f7684c940ecec068004cbc7680307af6a56", 
+            "sha": "8c147f7684c940ecec068004cbc7680307af6a56"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/eb7d7189826a659a4f5c78af7a2df9c9aad44103", 
+        "sha": "eb7d7189826a659a4f5c78af7a2df9c9aad44103", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/93b6c89212172fb12e6b5ee6d07acd37b3f335a0", 
+                "sha": "93b6c89212172fb12e6b5ee6d07acd37b3f335a0", 
+                "html_url": "https://github.com/prestodb/presto/commit/93b6c89212172fb12e6b5ee6d07acd37b3f335a0"
+            }
+        ], 
+        "message": "Make combineConjuncts do some minor simplification + other utils", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-08-08T22:23:20Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "author": {
+            "date": "2013-07-18T01:52:13Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/6b1f5599639edc839ad61ae83bec26cd781b6a45", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/4aea81624839b8e2e58a94725166c30efb4e39a3", 
+            "sha": "4aea81624839b8e2e58a94725166c30efb4e39a3"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/6b1f5599639edc839ad61ae83bec26cd781b6a45", 
+        "sha": "6b1f5599639edc839ad61ae83bec26cd781b6a45", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/eb7d7189826a659a4f5c78af7a2df9c9aad44103", 
+                "sha": "eb7d7189826a659a4f5c78af7a2df9c9aad44103", 
+                "html_url": "https://github.com/prestodb/presto/commit/eb7d7189826a659a4f5c78af7a2df9c9aad44103"
+            }
+        ], 
+        "message": "Pull out NoOpSymbolResolver", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-08-08T22:23:20Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "author": {
+            "date": "2013-07-18T01:58:54Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/8cd5fcb96101fc8218d62aad2bd571dac0d60c9a", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/ed3d6c65a09a6e9ffd90b70da6370f7c11d068b7", 
+            "sha": "ed3d6c65a09a6e9ffd90b70da6370f7c11d068b7"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/8cd5fcb96101fc8218d62aad2bd571dac0d60c9a", 
+        "sha": "8cd5fcb96101fc8218d62aad2bd571dac0d60c9a", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/6b1f5599639edc839ad61ae83bec26cd781b6a45", 
+                "sha": "6b1f5599639edc839ad61ae83bec26cd781b6a45", 
+                "html_url": "https://github.com/prestodb/presto/commit/6b1f5599639edc839ad61ae83bec26cd781b6a45"
+            }
+        ], 
+        "message": "Add full predicate move around\n\nAlso includes:\n- Expression equality inference (instead of only on symbols). This means we can replace parts of expressions to move predicates around.\n- Smart(er) selection of expression canonicalization when moving predicates around\n- Join clause optimizations (for inner join)\n- Predicate pull up\n- Complete refactored predicate pushdown for joins\n\nFuture work:\n- Expression normalization (math and predicates)\n- Ability to transform expressions via multiple rewrites\n- More precise Expression cost estimator for EqualityInference\n- Join clause optimizations for outer joins", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-08-08T22:54:24Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "author": {
+            "date": "2013-08-08T22:54:24Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/ae0a1dadea341c006763acb28f52049ef6d5bfaf", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/14ce4c4273a48c075af27ec478b7acef702ca922", 
+            "sha": "14ce4c4273a48c075af27ec478b7acef702ca922"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/ae0a1dadea341c006763acb28f52049ef6d5bfaf", 
+        "sha": "ae0a1dadea341c006763acb28f52049ef6d5bfaf", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/8cd5fcb96101fc8218d62aad2bd571dac0d60c9a", 
+                "sha": "8cd5fcb96101fc8218d62aad2bd571dac0d60c9a", 
+                "html_url": "https://github.com/prestodb/presto/commit/8cd5fcb96101fc8218d62aad2bd571dac0d60c9a"
+            }
+        ], 
+        "message": "Fix review comments for pull #696", 
+        "event": "committed"
+    }, 
+    {
+        "commit_id": "ae0a1dadea341c006763acb28f52049ef6d5bfaf", 
+        "commit_url": "https://api.github.com/repos/prestodb/presto/commits/ae0a1dadea341c006763acb28f52049ef6d5bfaf", 
+        "url": "https://api.github.com/repos/prestodb/presto/issues/events/60106454", 
+        "created_at": "2013-08-08T23:03:12Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/erichwang/following{/other_user}", 
+            "events_url": "https://api.github.com/users/erichwang/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/erichwang/orgs", 
+            "url": "https://api.github.com/users/erichwang", 
+            "gists_url": "https://api.github.com/users/erichwang/gists{/gist_id}", 
+            "html_url": "https://github.com/erichwang", 
+            "subscriptions_url": "https://api.github.com/users/erichwang/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/737851?v=3", 
+            "repos_url": "https://api.github.com/users/erichwang/repos", 
+            "received_events_url": "https://api.github.com/users/erichwang/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/erichwang/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "erichwang", 
+            "type": "User", 
+            "id": 737851, 
+            "followers_url": "https://api.github.com/users/erichwang/followers"
+        }, 
+        "event": "merged", 
+        "id": 60106454
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/prestodb/presto/issues/events/60106456", 
+        "created_at": "2013-08-08T23:03:12Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/erichwang/following{/other_user}", 
+            "events_url": "https://api.github.com/users/erichwang/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/erichwang/orgs", 
+            "url": "https://api.github.com/users/erichwang", 
+            "gists_url": "https://api.github.com/users/erichwang/gists{/gist_id}", 
+            "html_url": "https://github.com/erichwang", 
+            "subscriptions_url": "https://api.github.com/users/erichwang/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/737851?v=3", 
+            "repos_url": "https://api.github.com/users/erichwang/repos", 
+            "received_events_url": "https://api.github.com/users/erichwang/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/erichwang/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "erichwang", 
+            "type": "User", 
+            "id": 737851, 
+            "followers_url": "https://api.github.com/users/erichwang/followers"
+        }, 
+        "event": "closed", 
+        "id": 60106456
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/prestodb/presto/issues/events/60106595", 
+        "created_at": "2013-08-08T23:04:36Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/erichwang/following{/other_user}", 
+            "events_url": "https://api.github.com/users/erichwang/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/erichwang/orgs", 
+            "url": "https://api.github.com/users/erichwang", 
+            "gists_url": "https://api.github.com/users/erichwang/gists{/gist_id}", 
+            "html_url": "https://github.com/erichwang", 
+            "subscriptions_url": "https://api.github.com/users/erichwang/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/737851?v=3", 
+            "repos_url": "https://api.github.com/users/erichwang/repos", 
+            "received_events_url": "https://api.github.com/users/erichwang/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/erichwang/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "erichwang", 
+            "type": "User", 
+            "id": 737851, 
+            "followers_url": "https://api.github.com/users/erichwang/followers"
+        }, 
+        "event": "head_ref_deleted", 
+        "id": 60106595
+    }
+]

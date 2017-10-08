@@ -1,0 +1,251 @@
+[
+    {
+        "committer": {
+            "date": "2012-12-19T23:43:39Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "author": {
+            "date": "2012-12-19T20:19:49Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/52650abf9534d95b6c106d04f0f817398bc71e30", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/f26f27fbda533c158b539c28874950e9bde45003", 
+            "sha": "f26f27fbda533c158b539c28874950e9bde45003"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/52650abf9534d95b6c106d04f0f817398bc71e30", 
+        "sha": "52650abf9534d95b6c106d04f0f817398bc71e30", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/ec5e6054f1c28989a428eff1c3048d3873ed5b91", 
+                "sha": "ec5e6054f1c28989a428eff1c3048d3873ed5b91", 
+                "html_url": "https://github.com/prestodb/presto/commit/ec5e6054f1c28989a428eff1c3048d3873ed5b91"
+            }
+        ], 
+        "message": "HttpClient should only stop a single output buffer not cancel the entire task", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2012-12-19T23:43:39Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "author": {
+            "date": "2012-12-19T22:46:45Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/f8f49dc51694f046155ae1226806c63e128b4b39", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/eba8b1474d4179c56437f926b8a556c6804fa1e8", 
+            "sha": "eba8b1474d4179c56437f926b8a556c6804fa1e8"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/f8f49dc51694f046155ae1226806c63e128b4b39", 
+        "sha": "f8f49dc51694f046155ae1226806c63e128b4b39", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/52650abf9534d95b6c106d04f0f817398bc71e30", 
+                "sha": "52650abf9534d95b6c106d04f0f817398bc71e30", 
+                "html_url": "https://github.com/prestodb/presto/commit/52650abf9534d95b6c106d04f0f817398bc71e30"
+            }
+        ], 
+        "message": "Only remove queries from the system after a waiting period", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2012-12-20T00:45:03Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "author": {
+            "date": "2012-12-20T00:45:03Z", 
+            "name": "Dain Sundstrom", 
+            "email": "dain@iq80.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/e902eb260d24fc89d48e4b6b77bf2e8703b75947", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/f23427d2fb7cac8ffbcecbe956f9215a00cdcfe5", 
+            "sha": "f23427d2fb7cac8ffbcecbe956f9215a00cdcfe5"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/e902eb260d24fc89d48e4b6b77bf2e8703b75947", 
+        "sha": "e902eb260d24fc89d48e4b6b77bf2e8703b75947", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/f8f49dc51694f046155ae1226806c63e128b4b39", 
+                "sha": "f8f49dc51694f046155ae1226806c63e128b4b39", 
+                "html_url": "https://github.com/prestodb/presto/commit/f8f49dc51694f046155ae1226806c63e128b4b39"
+            }
+        ], 
+        "message": "Cancel abandonded queries", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2012-12-20T01:56:05Z", 
+            "name": "David Phillips", 
+            "email": "david@acz.org"
+        }, 
+        "author": {
+            "date": "2012-12-19T02:06:47Z", 
+            "name": "David Phillips", 
+            "email": "david@acz.org"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/9efa52e77816dccaad68f9b1b29a58757e558ffd", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/d9835dac9cfe3a73f14151698312bba2694bd118", 
+            "sha": "d9835dac9cfe3a73f14151698312bba2694bd118"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/9efa52e77816dccaad68f9b1b29a58757e558ffd", 
+        "sha": "9efa52e77816dccaad68f9b1b29a58757e558ffd", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/e902eb260d24fc89d48e4b6b77bf2e8703b75947", 
+                "sha": "e902eb260d24fc89d48e4b6b77bf2e8703b75947", 
+                "html_url": "https://github.com/prestodb/presto/commit/e902eb260d24fc89d48e4b6b77bf2e8703b75947"
+            }
+        ], 
+        "message": "Move serializers out of module", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2012-12-20T01:56:05Z", 
+            "name": "David Phillips", 
+            "email": "david@acz.org"
+        }, 
+        "author": {
+            "date": "2012-12-20T01:25:24Z", 
+            "name": "David Phillips", 
+            "email": "david@acz.org"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/cf98bbe1be73771f6f61355718978bab30aa6798", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/b97132936a1f8dc0b634f590feb2e3378fa07595", 
+            "sha": "b97132936a1f8dc0b634f590feb2e3378fa07595"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/cf98bbe1be73771f6f61355718978bab30aa6798", 
+        "sha": "cf98bbe1be73771f6f61355718978bab30aa6798", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/9efa52e77816dccaad68f9b1b29a58757e558ffd", 
+                "sha": "9efa52e77816dccaad68f9b1b29a58757e558ffd", 
+                "html_url": "https://github.com/prestodb/presto/commit/9efa52e77816dccaad68f9b1b29a58757e558ffd"
+            }
+        ], 
+        "message": "Refactor running queries from the CLI", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2012-12-20T02:01:07Z", 
+            "name": "David Phillips", 
+            "email": "david@acz.org"
+        }, 
+        "author": {
+            "date": "2012-12-20T01:48:50Z", 
+            "name": "David Phillips", 
+            "email": "david@acz.org"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/43679719f0be379088a9c2eab7f2f366c2605728", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/48f33ac739a4780e6aff96b0cf8e29715acf2a7f", 
+            "sha": "48f33ac739a4780e6aff96b0cf8e29715acf2a7f"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/43679719f0be379088a9c2eab7f2f366c2605728", 
+        "sha": "43679719f0be379088a9c2eab7f2f366c2605728", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/cf98bbe1be73771f6f61355718978bab30aa6798", 
+                "sha": "cf98bbe1be73771f6f61355718978bab30aa6798", 
+                "html_url": "https://github.com/prestodb/presto/commit/cf98bbe1be73771f6f61355718978bab30aa6798"
+            }
+        ], 
+        "message": "Handle aborting queries in console", 
+        "event": "committed"
+    }, 
+    {
+        "commit_id": "027d2ed8980b05049df5c83e00dfa218382c9eae", 
+        "commit_url": "https://api.github.com/repos/prestodb/presto/commits/027d2ed8980b05049df5c83e00dfa218382c9eae", 
+        "url": "https://api.github.com/repos/prestodb/presto/issues/events/32651228", 
+        "created_at": "2012-12-20T18:41:52Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/dain/following{/other_user}", 
+            "events_url": "https://api.github.com/users/dain/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/dain/orgs", 
+            "url": "https://api.github.com/users/dain", 
+            "gists_url": "https://api.github.com/users/dain/gists{/gist_id}", 
+            "html_url": "https://github.com/dain", 
+            "subscriptions_url": "https://api.github.com/users/dain/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/58298?v=3", 
+            "repos_url": "https://api.github.com/users/dain/repos", 
+            "received_events_url": "https://api.github.com/users/dain/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/dain/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "dain", 
+            "type": "User", 
+            "id": 58298, 
+            "followers_url": "https://api.github.com/users/dain/followers"
+        }, 
+        "event": "referenced", 
+        "id": 32651228
+    }, 
+    {
+        "commit_id": "43679719f0be379088a9c2eab7f2f366c2605728", 
+        "commit_url": "https://api.github.com/repos/prestodb/presto/commits/43679719f0be379088a9c2eab7f2f366c2605728", 
+        "url": "https://api.github.com/repos/prestodb/presto/issues/events/32651232", 
+        "created_at": "2012-12-20T18:41:53Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/dain/following{/other_user}", 
+            "events_url": "https://api.github.com/users/dain/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/dain/orgs", 
+            "url": "https://api.github.com/users/dain", 
+            "gists_url": "https://api.github.com/users/dain/gists{/gist_id}", 
+            "html_url": "https://github.com/dain", 
+            "subscriptions_url": "https://api.github.com/users/dain/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/58298?v=3", 
+            "repos_url": "https://api.github.com/users/dain/repos", 
+            "received_events_url": "https://api.github.com/users/dain/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/dain/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "dain", 
+            "type": "User", 
+            "id": 58298, 
+            "followers_url": "https://api.github.com/users/dain/followers"
+        }, 
+        "event": "merged", 
+        "id": 32651232
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/prestodb/presto/issues/events/32651233", 
+        "created_at": "2012-12-20T18:41:54Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/dain/following{/other_user}", 
+            "events_url": "https://api.github.com/users/dain/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/dain/orgs", 
+            "url": "https://api.github.com/users/dain", 
+            "gists_url": "https://api.github.com/users/dain/gists{/gist_id}", 
+            "html_url": "https://github.com/dain", 
+            "subscriptions_url": "https://api.github.com/users/dain/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/58298?v=3", 
+            "repos_url": "https://api.github.com/users/dain/repos", 
+            "received_events_url": "https://api.github.com/users/dain/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/dain/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "dain", 
+            "type": "User", 
+            "id": 58298, 
+            "followers_url": "https://api.github.com/users/dain/followers"
+        }, 
+        "event": "closed", 
+        "id": 32651233
+    }
+]

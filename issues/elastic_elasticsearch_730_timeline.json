@@ -1,0 +1,78 @@
+[
+    {
+        "body": "Search: Allow to use has_child filter in facets, closed by e639ffbc935b00b3d017931022548382676f92bf.", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/comments/820820", 
+        "event": "commented", 
+        "created_at": "2011-03-01T02:45:34Z", 
+        "html_url": "https://github.com/elastic/elasticsearch/issues/730#issuecomment-820820", 
+        "actor": {
+            "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+            "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+            "url": "https://api.github.com/users/kimchy", 
+            "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+            "html_url": "https://github.com/kimchy", 
+            "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+            "repos_url": "https://api.github.com/users/kimchy/repos", 
+            "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "kimchy", 
+            "type": "User", 
+            "id": 41300, 
+            "followers_url": "https://api.github.com/users/kimchy/followers"
+        }, 
+        "updated_at": "2011-03-01T02:45:34Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+            "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+            "url": "https://api.github.com/users/kimchy", 
+            "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+            "html_url": "https://github.com/kimchy", 
+            "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+            "repos_url": "https://api.github.com/users/kimchy/repos", 
+            "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "kimchy", 
+            "type": "User", 
+            "id": 41300, 
+            "followers_url": "https://api.github.com/users/kimchy/followers"
+        }, 
+        "id": 820820, 
+        "issue_url": "https://api.github.com/repos/elastic/elasticsearch/issues/730"
+    }, 
+    {
+        "source": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/issues/14029", 
+            "id": 110452106, 
+            "actor": {
+                "following_url": "https://api.github.com/users/nik9000/following{/other_user}", 
+                "events_url": "https://api.github.com/users/nik9000/events{/privacy}", 
+                "organizations_url": "https://api.github.com/users/nik9000/orgs", 
+                "url": "https://api.github.com/users/nik9000", 
+                "gists_url": "https://api.github.com/users/nik9000/gists{/gist_id}", 
+                "html_url": "https://github.com/nik9000", 
+                "subscriptions_url": "https://api.github.com/users/nik9000/subscriptions", 
+                "avatar_url": "https://avatars.githubusercontent.com/u/215970?v=3", 
+                "repos_url": "https://api.github.com/users/nik9000/repos", 
+                "received_events_url": "https://api.github.com/users/nik9000/received_events", 
+                "gravatar_id": "", 
+                "starred_url": "https://api.github.com/users/nik9000/starred{/owner}{/repo}", 
+                "site_admin": false, 
+                "login": "nik9000", 
+                "type": "User", 
+                "id": 215970, 
+                "followers_url": "https://api.github.com/users/nik9000/followers"
+            }
+        }, 
+        "created_at": "2015-10-08T10:36:15-03:00", 
+        "updated_at": "2015-10-08T10:36:15-03:00", 
+        "event": "cross-referenced"
+    }
+]

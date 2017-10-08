@@ -1,0 +1,57 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "Because JSON doesn't take order into account, sort should be an array, not an object.\n\nFor instance:\n    sort : {\n        postDate : {reverse : true},\n        user : { },\n        score : { }\n    }\n\nis the equivalent of:\n\n```\nsort : {\n    score : { }\n    user : { },\n    postDate : {reverse : true},\n}\n```\n\nInstead, perhaps this syntax:\n\n```\nsort : [\n    \"score\",\n    \"user\",\n    { \"postDate\": { \"reverse\": true}} \n]\n```\n\nclint\n", 
+    "closed_at": "2010-02-20T00:48:32Z", 
+    "closed_by": null, 
+    "comments": 4, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/30/comments", 
+    "created_at": "2010-02-19T19:08:11Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/30/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/30", 
+    "id": 136172, 
+    "labels": [
+        {
+            "color": "4a4ea8", 
+            "default": true, 
+            "id": 23174, 
+            "name": "enhancement", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/enhancement"
+        }, 
+        {
+            "color": "DDDDDD", 
+            "default": false, 
+            "id": 23175, 
+            "name": "v0.05.0", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.05.0"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/30/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 30, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "query.sort should be an array, not an object", 
+    "updated_at": "2010-02-20T15:35:32Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/30", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/56599?v=3", 
+        "events_url": "https://api.github.com/users/clintongormley/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/clintongormley/followers", 
+        "following_url": "https://api.github.com/users/clintongormley/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/clintongormley/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/clintongormley", 
+        "id": 56599, 
+        "login": "clintongormley", 
+        "organizations_url": "https://api.github.com/users/clintongormley/orgs", 
+        "received_events_url": "https://api.github.com/users/clintongormley/received_events", 
+        "repos_url": "https://api.github.com/users/clintongormley/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/clintongormley/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/clintongormley/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/clintongormley"
+    }
+}

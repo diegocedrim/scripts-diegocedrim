@@ -1,0 +1,88 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "This removes dead/duplicate code and makes the `_index` field not configurable.\n(Configuration used to just be ignored, now we would throw an exception if anything\nis provided.)\n", 
+    "closed_at": "2016-05-10T06:14:55Z", 
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+        "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/jpountz/followers", 
+        "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/jpountz", 
+        "id": 299848, 
+        "login": "jpountz", 
+        "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+        "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+        "repos_url": "https://api.github.com/users/jpountz/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/jpountz"
+    }, 
+    "comments": 1, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18180/comments", 
+    "created_at": "2016-05-06T10:45:37Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18180/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/pull/18180", 
+    "id": 153426175, 
+    "labels": [
+        {
+            "color": "009800", 
+            "default": false, 
+            "id": 141145460, 
+            "name": ":Mapping", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/:Mapping"
+        }, 
+        {
+            "color": "cfcfcf", 
+            "default": false, 
+            "id": 73544, 
+            "name": "non-issue", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/non-issue"
+        }, 
+        {
+            "color": "dddddd", 
+            "default": false, 
+            "id": 364411189, 
+            "name": "v5.0.0-alpha3", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v5.0.0-alpha3"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18180/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 18180, 
+    "pull_request": {
+        "diff_url": "https://github.com/elastic/elasticsearch/pull/18180.diff", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/18180", 
+        "patch_url": "https://github.com/elastic/elasticsearch/pull/18180.patch", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/pulls/18180"
+    }, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Mapping cleanups.", 
+    "updated_at": "2016-05-10T06:14:55Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/18180", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+        "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/jpountz/followers", 
+        "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/jpountz", 
+        "id": 299848, 
+        "login": "jpountz", 
+        "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+        "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+        "repos_url": "https://api.github.com/users/jpountz/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/jpountz"
+    }
+}

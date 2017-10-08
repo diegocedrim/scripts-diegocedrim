@@ -1,0 +1,807 @@
+[
+    {
+        "committer": {
+            "date": "2016-06-10T12:48:08Z", 
+            "name": "Boaz Leskes", 
+            "email": "b.leskes@gmail.com"
+        }, 
+        "author": {
+            "date": "2016-06-10T12:48:08Z", 
+            "name": "Boaz Leskes", 
+            "email": "b.leskes@gmail.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/552ae226fb9d0972c5de9a8c9617521a7c1e3495", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/02525e4484c1be8e49fd672b39a4937ff2afe0d8", 
+            "sha": "02525e4484c1be8e49fd672b39a4937ff2afe0d8"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/552ae226fb9d0972c5de9a8c9617521a7c1e3495", 
+        "sha": "552ae226fb9d0972c5de9a8c9617521a7c1e3495", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/c0da8e4060b19ef8cdbea8c95514df322a4e07ec", 
+                "sha": "c0da8e4060b19ef8cdbea8c95514df322a4e07ec", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/c0da8e4060b19ef8cdbea8c95514df322a4e07ec"
+            }
+        ], 
+        "message": "cluster state batch submission", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-06-12T07:21:23Z", 
+            "name": "Boaz Leskes", 
+            "email": "b.leskes@gmail.com"
+        }, 
+        "author": {
+            "date": "2016-06-11T04:32:12Z", 
+            "name": "Boaz Leskes", 
+            "email": "b.leskes@gmail.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/1f2fa0c960259d0663e9c6049680a2f49faf80cc", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/db4a79cdc166fea466c609abb705f6ec65619c4b", 
+            "sha": "db4a79cdc166fea466c609abb705f6ec65619c4b"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/1f2fa0c960259d0663e9c6049680a2f49faf80cc", 
+        "sha": "1f2fa0c960259d0663e9c6049680a2f49faf80cc", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/552ae226fb9d0972c5de9a8c9617521a7c1e3495", 
+                "sha": "552ae226fb9d0972c5de9a8c9617521a7c1e3495", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/552ae226fb9d0972c5de9a8c9617521a7c1e3495"
+            }
+        ], 
+        "message": "rewrote NodeJoinController", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-06-12T07:37:26Z", 
+            "name": "Boaz Leskes", 
+            "email": "b.leskes@gmail.com"
+        }, 
+        "author": {
+            "date": "2016-06-12T07:37:26Z", 
+            "name": "Boaz Leskes", 
+            "email": "b.leskes@gmail.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/4d2db2a536d573e9f7f0146f32233110f9804bb7", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/92b94d122fe1104b16c78deba158f05299ad4b01", 
+            "sha": "92b94d122fe1104b16c78deba158f05299ad4b01"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/4d2db2a536d573e9f7f0146f32233110f9804bb7", 
+        "sha": "4d2db2a536d573e9f7f0146f32233110f9804bb7", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/1f2fa0c960259d0663e9c6049680a2f49faf80cc", 
+                "sha": "1f2fa0c960259d0663e9c6049680a2f49faf80cc", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/1f2fa0c960259d0663e9c6049680a2f49faf80cc"
+            }
+        ], 
+        "message": "don't allow submission of the same task twice", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-06-12T13:12:11Z", 
+            "name": "Boaz Leskes", 
+            "email": "b.leskes@gmail.com"
+        }, 
+        "author": {
+            "date": "2016-06-12T13:12:11Z", 
+            "name": "Boaz Leskes", 
+            "email": "b.leskes@gmail.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/3aa678c9518fabc1542191fde20ef075716a4956", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/11717b849d7ac9e87658562aaceec40012e3abd4", 
+            "sha": "11717b849d7ac9e87658562aaceec40012e3abd4"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/3aa678c9518fabc1542191fde20ef075716a4956", 
+        "sha": "3aa678c9518fabc1542191fde20ef075716a4956", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/4d2db2a536d573e9f7f0146f32233110f9804bb7", 
+                "sha": "4d2db2a536d573e9f7f0146f32233110f9804bb7", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/4d2db2a536d573e9f7f0146f32233110f9804bb7"
+            }
+        ], 
+        "message": "simplify NodeJoinController further", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-06-12T15:07:32Z", 
+            "name": "Boaz Leskes", 
+            "email": "b.leskes@gmail.com"
+        }, 
+        "author": {
+            "date": "2016-06-12T13:27:28Z", 
+            "name": "Boaz Leskes", 
+            "email": "b.leskes@gmail.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/e6d1a1f9af828958f1a75b35416e122bbadbaebf", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/cfb8c59113b8a4de17ef8abe7bfe20f7829b7dd6", 
+            "sha": "cfb8c59113b8a4de17ef8abe7bfe20f7829b7dd6"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/e6d1a1f9af828958f1a75b35416e122bbadbaebf", 
+        "sha": "e6d1a1f9af828958f1a75b35416e122bbadbaebf", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/3aa678c9518fabc1542191fde20ef075716a4956", 
+                "sha": "3aa678c9518fabc1542191fde20ef075716a4956", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/3aa678c9518fabc1542191fde20ef075716a4956"
+            }
+        ], 
+        "message": "beter identity checks in ClusterService", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-06-12T22:07:29Z", 
+            "name": "Boaz Leskes", 
+            "email": "b.leskes@gmail.com"
+        }, 
+        "author": {
+            "date": "2016-06-12T22:05:22Z", 
+            "name": "Boaz Leskes", 
+            "email": "b.leskes@gmail.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/e4ea230682773e9941db9e41436be645073cf6d1", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/217e21a8485f110c6e7ff1d99b14298bd3b00b54", 
+            "sha": "217e21a8485f110c6e7ff1d99b14298bd3b00b54"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/e4ea230682773e9941db9e41436be645073cf6d1", 
+        "sha": "e4ea230682773e9941db9e41436be645073cf6d1", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/e6d1a1f9af828958f1a75b35416e122bbadbaebf", 
+                "sha": "e6d1a1f9af828958f1a75b35416e122bbadbaebf", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/e6d1a1f9af828958f1a75b35416e122bbadbaebf"
+            }
+        ], 
+        "message": "tweak", 
+        "event": "committed"
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/689829393", 
+        "created_at": "2016-06-12T22:16:20Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/bleskes/following{/other_user}", 
+            "events_url": "https://api.github.com/users/bleskes/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/bleskes/orgs", 
+            "url": "https://api.github.com/users/bleskes", 
+            "gists_url": "https://api.github.com/users/bleskes/gists{/gist_id}", 
+            "html_url": "https://github.com/bleskes", 
+            "subscriptions_url": "https://api.github.com/users/bleskes/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/1006375?v=3", 
+            "repos_url": "https://api.github.com/users/bleskes/repos", 
+            "received_events_url": "https://api.github.com/users/bleskes/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/bleskes/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "bleskes", 
+            "type": "User", 
+            "id": 1006375, 
+            "followers_url": "https://api.github.com/users/bleskes/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "cfcfcf", 
+            "name": "non-issue"
+        }, 
+        "id": 689829393
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/689829396", 
+        "created_at": "2016-06-12T22:16:20Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/bleskes/following{/other_user}", 
+            "events_url": "https://api.github.com/users/bleskes/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/bleskes/orgs", 
+            "url": "https://api.github.com/users/bleskes", 
+            "gists_url": "https://api.github.com/users/bleskes/gists{/gist_id}", 
+            "html_url": "https://github.com/bleskes", 
+            "subscriptions_url": "https://api.github.com/users/bleskes/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/1006375?v=3", 
+            "repos_url": "https://api.github.com/users/bleskes/repos", 
+            "received_events_url": "https://api.github.com/users/bleskes/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/bleskes/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "bleskes", 
+            "type": "User", 
+            "id": 1006375, 
+            "followers_url": "https://api.github.com/users/bleskes/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "009800", 
+            "name": ":Discovery"
+        }, 
+        "id": 689829396
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/689829397", 
+        "created_at": "2016-06-12T22:16:20Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/bleskes/following{/other_user}", 
+            "events_url": "https://api.github.com/users/bleskes/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/bleskes/orgs", 
+            "url": "https://api.github.com/users/bleskes", 
+            "gists_url": "https://api.github.com/users/bleskes/gists{/gist_id}", 
+            "html_url": "https://github.com/bleskes", 
+            "subscriptions_url": "https://api.github.com/users/bleskes/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/1006375?v=3", 
+            "repos_url": "https://api.github.com/users/bleskes/repos", 
+            "received_events_url": "https://api.github.com/users/bleskes/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/bleskes/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "bleskes", 
+            "type": "User", 
+            "id": 1006375, 
+            "followers_url": "https://api.github.com/users/bleskes/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "dddddd", 
+            "name": "v5.0.0"
+        }, 
+        "id": 689829397
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/689829398", 
+        "created_at": "2016-06-12T22:16:20Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/bleskes/following{/other_user}", 
+            "events_url": "https://api.github.com/users/bleskes/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/bleskes/orgs", 
+            "url": "https://api.github.com/users/bleskes", 
+            "gists_url": "https://api.github.com/users/bleskes/gists{/gist_id}", 
+            "html_url": "https://github.com/bleskes", 
+            "subscriptions_url": "https://api.github.com/users/bleskes/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/1006375?v=3", 
+            "repos_url": "https://api.github.com/users/bleskes/repos", 
+            "received_events_url": "https://api.github.com/users/bleskes/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/bleskes/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "bleskes", 
+            "type": "User", 
+            "id": 1006375, 
+            "followers_url": "https://api.github.com/users/bleskes/followers"
+        }, 
+        "event": "assigned", 
+        "assignee": {
+            "following_url": "https://api.github.com/users/jasontedor/following{/other_user}", 
+            "events_url": "https://api.github.com/users/jasontedor/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/jasontedor/orgs", 
+            "url": "https://api.github.com/users/jasontedor", 
+            "gists_url": "https://api.github.com/users/jasontedor/gists{/gist_id}", 
+            "html_url": "https://github.com/jasontedor", 
+            "subscriptions_url": "https://api.github.com/users/jasontedor/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/4744941?v=3", 
+            "repos_url": "https://api.github.com/users/jasontedor/repos", 
+            "received_events_url": "https://api.github.com/users/jasontedor/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/jasontedor/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "jasontedor", 
+            "type": "User", 
+            "id": 4744941, 
+            "followers_url": "https://api.github.com/users/jasontedor/followers"
+        }, 
+        "id": 689829398
+    }, 
+    {
+        "committer": {
+            "date": "2016-06-13T04:30:47Z", 
+            "name": "Boaz Leskes", 
+            "email": "b.leskes@gmail.com"
+        }, 
+        "author": {
+            "date": "2016-06-13T04:30:47Z", 
+            "name": "Boaz Leskes", 
+            "email": "b.leskes@gmail.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/0d04511e324735cbc61c35d3e53adab99f87d239", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/5a878fec15e6abf61b8924714095b0c9944b08f7", 
+            "sha": "5a878fec15e6abf61b8924714095b0c9944b08f7"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/0d04511e324735cbc61c35d3e53adab99f87d239", 
+        "sha": "0d04511e324735cbc61c35d3e53adab99f87d239", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/e4ea230682773e9941db9e41436be645073cf6d1", 
+                "sha": "e4ea230682773e9941db9e41436be645073cf6d1", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/e4ea230682773e9941db9e41436be645073cf6d1"
+            }
+        ], 
+        "message": "fix concurrency issues waitToBeElectedAsMaster", 
+        "event": "committed"
+    }, 
+    {
+        "body": "@bleskes It's really beautiful. The changes to `ClusterService` look great, and I gave `NodeJoinController` a super-careful review outside of the diff. I left a few comments, but it LGTM. No need for another round unless you want it.", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/comments/225994124", 
+        "event": "commented", 
+        "created_at": "2016-06-14T19:44:13Z", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/18832#issuecomment-225994124", 
+        "actor": {
+            "following_url": "https://api.github.com/users/jasontedor/following{/other_user}", 
+            "events_url": "https://api.github.com/users/jasontedor/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/jasontedor/orgs", 
+            "url": "https://api.github.com/users/jasontedor", 
+            "gists_url": "https://api.github.com/users/jasontedor/gists{/gist_id}", 
+            "html_url": "https://github.com/jasontedor", 
+            "subscriptions_url": "https://api.github.com/users/jasontedor/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/4744941?v=3", 
+            "repos_url": "https://api.github.com/users/jasontedor/repos", 
+            "received_events_url": "https://api.github.com/users/jasontedor/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/jasontedor/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "jasontedor", 
+            "type": "User", 
+            "id": 4744941, 
+            "followers_url": "https://api.github.com/users/jasontedor/followers"
+        }, 
+        "updated_at": "2016-06-14T19:44:13Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/jasontedor/following{/other_user}", 
+            "events_url": "https://api.github.com/users/jasontedor/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/jasontedor/orgs", 
+            "url": "https://api.github.com/users/jasontedor", 
+            "gists_url": "https://api.github.com/users/jasontedor/gists{/gist_id}", 
+            "html_url": "https://github.com/jasontedor", 
+            "subscriptions_url": "https://api.github.com/users/jasontedor/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/4744941?v=3", 
+            "repos_url": "https://api.github.com/users/jasontedor/repos", 
+            "received_events_url": "https://api.github.com/users/jasontedor/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/jasontedor/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "jasontedor", 
+            "type": "User", 
+            "id": 4744941, 
+            "followers_url": "https://api.github.com/users/jasontedor/followers"
+        }, 
+        "id": 225994124, 
+        "issue_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18832"
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/692341325", 
+        "created_at": "2016-06-14T19:44:13Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/bleskes/following{/other_user}", 
+            "events_url": "https://api.github.com/users/bleskes/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/bleskes/orgs", 
+            "url": "https://api.github.com/users/bleskes", 
+            "gists_url": "https://api.github.com/users/bleskes/gists{/gist_id}", 
+            "html_url": "https://github.com/bleskes", 
+            "subscriptions_url": "https://api.github.com/users/bleskes/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/1006375?v=3", 
+            "repos_url": "https://api.github.com/users/bleskes/repos", 
+            "received_events_url": "https://api.github.com/users/bleskes/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/bleskes/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "bleskes", 
+            "type": "User", 
+            "id": 1006375, 
+            "followers_url": "https://api.github.com/users/bleskes/followers"
+        }, 
+        "event": "mentioned", 
+        "id": 692341325
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/692341326", 
+        "created_at": "2016-06-14T19:44:13Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/bleskes/following{/other_user}", 
+            "events_url": "https://api.github.com/users/bleskes/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/bleskes/orgs", 
+            "url": "https://api.github.com/users/bleskes", 
+            "gists_url": "https://api.github.com/users/bleskes/gists{/gist_id}", 
+            "html_url": "https://github.com/bleskes", 
+            "subscriptions_url": "https://api.github.com/users/bleskes/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/1006375?v=3", 
+            "repos_url": "https://api.github.com/users/bleskes/repos", 
+            "received_events_url": "https://api.github.com/users/bleskes/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/bleskes/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "bleskes", 
+            "type": "User", 
+            "id": 1006375, 
+            "followers_url": "https://api.github.com/users/bleskes/followers"
+        }, 
+        "event": "subscribed", 
+        "id": 692341326
+    }, 
+    {
+        "committer": {
+            "date": "2016-06-15T04:29:10Z", 
+            "name": "Boaz Leskes", 
+            "email": "b.leskes@gmail.com"
+        }, 
+        "author": {
+            "date": "2016-06-15T04:29:10Z", 
+            "name": "Boaz Leskes", 
+            "email": "b.leskes@gmail.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/c9359249b77757e1046b9450af1ae318b34cc133", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/b515a71e0a07659ad0041f25e6b910bf30d8e23e", 
+            "sha": "b515a71e0a07659ad0041f25e6b910bf30d8e23e"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/c9359249b77757e1046b9450af1ae318b34cc133", 
+        "sha": "c9359249b77757e1046b9450af1ae318b34cc133", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/0d04511e324735cbc61c35d3e53adab99f87d239", 
+                "sha": "0d04511e324735cbc61c35d3e53adab99f87d239", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/0d04511e324735cbc61c35d3e53adab99f87d239"
+            }
+        ], 
+        "message": "feedback", 
+        "event": "committed"
+    }, 
+    {
+        "body": "@jasontedor thx for your review. I pushed another commit addressing all your comments (and responded to some).", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/comments/226086143", 
+        "event": "commented", 
+        "created_at": "2016-06-15T04:39:26Z", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/18832#issuecomment-226086143", 
+        "actor": {
+            "following_url": "https://api.github.com/users/bleskes/following{/other_user}", 
+            "events_url": "https://api.github.com/users/bleskes/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/bleskes/orgs", 
+            "url": "https://api.github.com/users/bleskes", 
+            "gists_url": "https://api.github.com/users/bleskes/gists{/gist_id}", 
+            "html_url": "https://github.com/bleskes", 
+            "subscriptions_url": "https://api.github.com/users/bleskes/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/1006375?v=3", 
+            "repos_url": "https://api.github.com/users/bleskes/repos", 
+            "received_events_url": "https://api.github.com/users/bleskes/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/bleskes/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "bleskes", 
+            "type": "User", 
+            "id": 1006375, 
+            "followers_url": "https://api.github.com/users/bleskes/followers"
+        }, 
+        "updated_at": "2016-06-15T04:39:26Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/bleskes/following{/other_user}", 
+            "events_url": "https://api.github.com/users/bleskes/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/bleskes/orgs", 
+            "url": "https://api.github.com/users/bleskes", 
+            "gists_url": "https://api.github.com/users/bleskes/gists{/gist_id}", 
+            "html_url": "https://github.com/bleskes", 
+            "subscriptions_url": "https://api.github.com/users/bleskes/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/1006375?v=3", 
+            "repos_url": "https://api.github.com/users/bleskes/repos", 
+            "received_events_url": "https://api.github.com/users/bleskes/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/bleskes/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "bleskes", 
+            "type": "User", 
+            "id": 1006375, 
+            "followers_url": "https://api.github.com/users/bleskes/followers"
+        }, 
+        "id": 226086143, 
+        "issue_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18832"
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/692748792", 
+        "created_at": "2016-06-15T04:39:26Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/jasontedor/following{/other_user}", 
+            "events_url": "https://api.github.com/users/jasontedor/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/jasontedor/orgs", 
+            "url": "https://api.github.com/users/jasontedor", 
+            "gists_url": "https://api.github.com/users/jasontedor/gists{/gist_id}", 
+            "html_url": "https://github.com/jasontedor", 
+            "subscriptions_url": "https://api.github.com/users/jasontedor/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/4744941?v=3", 
+            "repos_url": "https://api.github.com/users/jasontedor/repos", 
+            "received_events_url": "https://api.github.com/users/jasontedor/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/jasontedor/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "jasontedor", 
+            "type": "User", 
+            "id": 4744941, 
+            "followers_url": "https://api.github.com/users/jasontedor/followers"
+        }, 
+        "event": "mentioned", 
+        "id": 692748792
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/692748793", 
+        "created_at": "2016-06-15T04:39:26Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/jasontedor/following{/other_user}", 
+            "events_url": "https://api.github.com/users/jasontedor/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/jasontedor/orgs", 
+            "url": "https://api.github.com/users/jasontedor", 
+            "gists_url": "https://api.github.com/users/jasontedor/gists{/gist_id}", 
+            "html_url": "https://github.com/jasontedor", 
+            "subscriptions_url": "https://api.github.com/users/jasontedor/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/4744941?v=3", 
+            "repos_url": "https://api.github.com/users/jasontedor/repos", 
+            "received_events_url": "https://api.github.com/users/jasontedor/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/jasontedor/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "jasontedor", 
+            "type": "User", 
+            "id": 4744941, 
+            "followers_url": "https://api.github.com/users/jasontedor/followers"
+        }, 
+        "event": "subscribed", 
+        "id": 692748793
+    }, 
+    {
+        "committer": {
+            "date": "2016-06-15T08:27:15Z", 
+            "name": "Boaz Leskes", 
+            "email": "b.leskes@gmail.com"
+        }, 
+        "author": {
+            "date": "2016-06-15T08:23:31Z", 
+            "name": "Boaz Leskes", 
+            "email": "b.leskes@gmail.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/342b136c8c27a596bcb9333799ac70248f20614b", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/172551ea961a9d1fa40ab5c3126b025817878bdb", 
+            "sha": "172551ea961a9d1fa40ab5c3126b025817878bdb"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/342b136c8c27a596bcb9333799ac70248f20614b", 
+        "sha": "342b136c8c27a596bcb9333799ac70248f20614b", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/c9359249b77757e1046b9450af1ae318b34cc133", 
+                "sha": "c9359249b77757e1046b9450af1ae318b34cc133", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/c9359249b77757e1046b9450af1ae318b34cc133"
+            }
+        ], 
+        "message": "cross your <T>'s", 
+        "event": "committed"
+    }, 
+    {
+        "body": "@jasontedor thx again. I'll merge this in when I have the cycles to deal with potential test failures", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/comments/226166888", 
+        "event": "commented", 
+        "created_at": "2016-06-15T12:01:45Z", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/18832#issuecomment-226166888", 
+        "actor": {
+            "following_url": "https://api.github.com/users/bleskes/following{/other_user}", 
+            "events_url": "https://api.github.com/users/bleskes/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/bleskes/orgs", 
+            "url": "https://api.github.com/users/bleskes", 
+            "gists_url": "https://api.github.com/users/bleskes/gists{/gist_id}", 
+            "html_url": "https://github.com/bleskes", 
+            "subscriptions_url": "https://api.github.com/users/bleskes/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/1006375?v=3", 
+            "repos_url": "https://api.github.com/users/bleskes/repos", 
+            "received_events_url": "https://api.github.com/users/bleskes/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/bleskes/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "bleskes", 
+            "type": "User", 
+            "id": 1006375, 
+            "followers_url": "https://api.github.com/users/bleskes/followers"
+        }, 
+        "updated_at": "2016-06-15T12:01:45Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/bleskes/following{/other_user}", 
+            "events_url": "https://api.github.com/users/bleskes/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/bleskes/orgs", 
+            "url": "https://api.github.com/users/bleskes", 
+            "gists_url": "https://api.github.com/users/bleskes/gists{/gist_id}", 
+            "html_url": "https://github.com/bleskes", 
+            "subscriptions_url": "https://api.github.com/users/bleskes/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/1006375?v=3", 
+            "repos_url": "https://api.github.com/users/bleskes/repos", 
+            "received_events_url": "https://api.github.com/users/bleskes/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/bleskes/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "bleskes", 
+            "type": "User", 
+            "id": 1006375, 
+            "followers_url": "https://api.github.com/users/bleskes/followers"
+        }, 
+        "id": 226166888, 
+        "issue_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18832"
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/693138618", 
+        "created_at": "2016-06-15T12:01:45Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/jasontedor/following{/other_user}", 
+            "events_url": "https://api.github.com/users/jasontedor/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/jasontedor/orgs", 
+            "url": "https://api.github.com/users/jasontedor", 
+            "gists_url": "https://api.github.com/users/jasontedor/gists{/gist_id}", 
+            "html_url": "https://github.com/jasontedor", 
+            "subscriptions_url": "https://api.github.com/users/jasontedor/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/4744941?v=3", 
+            "repos_url": "https://api.github.com/users/jasontedor/repos", 
+            "received_events_url": "https://api.github.com/users/jasontedor/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/jasontedor/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "jasontedor", 
+            "type": "User", 
+            "id": 4744941, 
+            "followers_url": "https://api.github.com/users/jasontedor/followers"
+        }, 
+        "event": "mentioned", 
+        "id": 693138618
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/693138619", 
+        "created_at": "2016-06-15T12:01:45Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/jasontedor/following{/other_user}", 
+            "events_url": "https://api.github.com/users/jasontedor/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/jasontedor/orgs", 
+            "url": "https://api.github.com/users/jasontedor", 
+            "gists_url": "https://api.github.com/users/jasontedor/gists{/gist_id}", 
+            "html_url": "https://github.com/jasontedor", 
+            "subscriptions_url": "https://api.github.com/users/jasontedor/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/4744941?v=3", 
+            "repos_url": "https://api.github.com/users/jasontedor/repos", 
+            "received_events_url": "https://api.github.com/users/jasontedor/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/jasontedor/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "jasontedor", 
+            "type": "User", 
+            "id": 4744941, 
+            "followers_url": "https://api.github.com/users/jasontedor/followers"
+        }, 
+        "event": "subscribed", 
+        "id": 693138619
+    }, 
+    {
+        "commit_id": "f25676917991c5827da9247a85f51334d96612e6", 
+        "commit_url": "https://api.github.com/repos/elastic/elasticsearch/commits/f25676917991c5827da9247a85f51334d96612e6", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/695601417", 
+        "created_at": "2016-06-17T07:22:15Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/bleskes/following{/other_user}", 
+            "events_url": "https://api.github.com/users/bleskes/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/bleskes/orgs", 
+            "url": "https://api.github.com/users/bleskes", 
+            "gists_url": "https://api.github.com/users/bleskes/gists{/gist_id}", 
+            "html_url": "https://github.com/bleskes", 
+            "subscriptions_url": "https://api.github.com/users/bleskes/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/1006375?v=3", 
+            "repos_url": "https://api.github.com/users/bleskes/repos", 
+            "received_events_url": "https://api.github.com/users/bleskes/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/bleskes/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "bleskes", 
+            "type": "User", 
+            "id": 1006375, 
+            "followers_url": "https://api.github.com/users/bleskes/followers"
+        }, 
+        "event": "referenced", 
+        "id": 695601417
+    }, 
+    {
+        "commit_id": "f25676917991c5827da9247a85f51334d96612e6", 
+        "commit_url": "https://api.github.com/repos/elastic/elasticsearch/commits/f25676917991c5827da9247a85f51334d96612e6", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/695601418", 
+        "created_at": "2016-06-17T07:22:15Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/bleskes/following{/other_user}", 
+            "events_url": "https://api.github.com/users/bleskes/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/bleskes/orgs", 
+            "url": "https://api.github.com/users/bleskes", 
+            "gists_url": "https://api.github.com/users/bleskes/gists{/gist_id}", 
+            "html_url": "https://github.com/bleskes", 
+            "subscriptions_url": "https://api.github.com/users/bleskes/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/1006375?v=3", 
+            "repos_url": "https://api.github.com/users/bleskes/repos", 
+            "received_events_url": "https://api.github.com/users/bleskes/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/bleskes/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "bleskes", 
+            "type": "User", 
+            "id": 1006375, 
+            "followers_url": "https://api.github.com/users/bleskes/followers"
+        }, 
+        "event": "merged", 
+        "id": 695601418
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/695601421", 
+        "created_at": "2016-06-17T07:22:15Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/bleskes/following{/other_user}", 
+            "events_url": "https://api.github.com/users/bleskes/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/bleskes/orgs", 
+            "url": "https://api.github.com/users/bleskes", 
+            "gists_url": "https://api.github.com/users/bleskes/gists{/gist_id}", 
+            "html_url": "https://github.com/bleskes", 
+            "subscriptions_url": "https://api.github.com/users/bleskes/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/1006375?v=3", 
+            "repos_url": "https://api.github.com/users/bleskes/repos", 
+            "received_events_url": "https://api.github.com/users/bleskes/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/bleskes/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "bleskes", 
+            "type": "User", 
+            "id": 1006375, 
+            "followers_url": "https://api.github.com/users/bleskes/followers"
+        }, 
+        "event": "closed", 
+        "id": 695601421
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/695601475", 
+        "created_at": "2016-06-17T07:22:19Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/bleskes/following{/other_user}", 
+            "events_url": "https://api.github.com/users/bleskes/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/bleskes/orgs", 
+            "url": "https://api.github.com/users/bleskes", 
+            "gists_url": "https://api.github.com/users/bleskes/gists{/gist_id}", 
+            "html_url": "https://github.com/bleskes", 
+            "subscriptions_url": "https://api.github.com/users/bleskes/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/1006375?v=3", 
+            "repos_url": "https://api.github.com/users/bleskes/repos", 
+            "received_events_url": "https://api.github.com/users/bleskes/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/bleskes/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "bleskes", 
+            "type": "User", 
+            "id": 1006375, 
+            "followers_url": "https://api.github.com/users/bleskes/followers"
+        }, 
+        "event": "head_ref_deleted", 
+        "id": 695601475
+    }
+]

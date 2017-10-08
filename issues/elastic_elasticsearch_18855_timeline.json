@@ -1,0 +1,279 @@
+[
+    {
+        "committer": {
+            "date": "2016-06-14T12:55:49Z", 
+            "name": "Simon Willnauer", 
+            "email": "simonw@apache.org"
+        }, 
+        "author": {
+            "date": "2016-06-14T12:55:49Z", 
+            "name": "Simon Willnauer", 
+            "email": "simonw@apache.org"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/c1626607dcec2641afca0239166d42204c450c1c", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/3b84cff51a3b3d5cc144793432e346072f97d2be", 
+            "sha": "3b84cff51a3b3d5cc144793432e346072f97d2be"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/c1626607dcec2641afca0239166d42204c450c1c", 
+        "sha": "c1626607dcec2641afca0239166d42204c450c1c", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/f8738c853b4be8c22c2da5da5d6374a0ab68e4ce", 
+                "sha": "f8738c853b4be8c22c2da5da5d6374a0ab68e4ce", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/f8738c853b4be8c22c2da5da5d6374a0ab68e4ce"
+            }
+        ], 
+        "message": "Remove dead code and dead parameters", 
+        "event": "committed"
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/691777941", 
+        "created_at": "2016-06-14T12:56:23Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+            "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+            "url": "https://api.github.com/users/s1monw", 
+            "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+            "html_url": "https://github.com/s1monw", 
+            "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+            "repos_url": "https://api.github.com/users/s1monw/repos", 
+            "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "s1monw", 
+            "type": "User", 
+            "id": 973334, 
+            "followers_url": "https://api.github.com/users/s1monw/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "cfcfcf", 
+            "name": "non-issue"
+        }, 
+        "id": 691777941
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/691777942", 
+        "created_at": "2016-06-14T12:56:23Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+            "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+            "url": "https://api.github.com/users/s1monw", 
+            "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+            "html_url": "https://github.com/s1monw", 
+            "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+            "repos_url": "https://api.github.com/users/s1monw/repos", 
+            "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "s1monw", 
+            "type": "User", 
+            "id": 973334, 
+            "followers_url": "https://api.github.com/users/s1monw/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "0052cc", 
+            "name": "review"
+        }, 
+        "id": 691777942
+    }, 
+    {
+        "body": "LGTM.", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/comments/225873002", 
+        "event": "commented", 
+        "created_at": "2016-06-14T12:58:47Z", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/18855#issuecomment-225873002", 
+        "actor": {
+            "following_url": "https://api.github.com/users/jasontedor/following{/other_user}", 
+            "events_url": "https://api.github.com/users/jasontedor/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/jasontedor/orgs", 
+            "url": "https://api.github.com/users/jasontedor", 
+            "gists_url": "https://api.github.com/users/jasontedor/gists{/gist_id}", 
+            "html_url": "https://github.com/jasontedor", 
+            "subscriptions_url": "https://api.github.com/users/jasontedor/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/4744941?v=3", 
+            "repos_url": "https://api.github.com/users/jasontedor/repos", 
+            "received_events_url": "https://api.github.com/users/jasontedor/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/jasontedor/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "jasontedor", 
+            "type": "User", 
+            "id": 4744941, 
+            "followers_url": "https://api.github.com/users/jasontedor/followers"
+        }, 
+        "updated_at": "2016-06-14T12:58:47Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/jasontedor/following{/other_user}", 
+            "events_url": "https://api.github.com/users/jasontedor/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/jasontedor/orgs", 
+            "url": "https://api.github.com/users/jasontedor", 
+            "gists_url": "https://api.github.com/users/jasontedor/gists{/gist_id}", 
+            "html_url": "https://github.com/jasontedor", 
+            "subscriptions_url": "https://api.github.com/users/jasontedor/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/4744941?v=3", 
+            "repos_url": "https://api.github.com/users/jasontedor/repos", 
+            "received_events_url": "https://api.github.com/users/jasontedor/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/jasontedor/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "jasontedor", 
+            "type": "User", 
+            "id": 4744941, 
+            "followers_url": "https://api.github.com/users/jasontedor/followers"
+        }, 
+        "id": 225873002, 
+        "issue_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18855"
+    }, 
+    {
+        "commit_id": "4d78f280ed11aaa6515fca232c2b1230ae0b47dc", 
+        "commit_url": "https://api.github.com/repos/elastic/elasticsearch/commits/4d78f280ed11aaa6515fca232c2b1230ae0b47dc", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/691814145", 
+        "created_at": "2016-06-14T13:25:44Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+            "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+            "url": "https://api.github.com/users/s1monw", 
+            "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+            "html_url": "https://github.com/s1monw", 
+            "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+            "repos_url": "https://api.github.com/users/s1monw/repos", 
+            "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "s1monw", 
+            "type": "User", 
+            "id": 973334, 
+            "followers_url": "https://api.github.com/users/s1monw/followers"
+        }, 
+        "event": "referenced", 
+        "id": 691814145
+    }, 
+    {
+        "commit_id": "4d78f280ed11aaa6515fca232c2b1230ae0b47dc", 
+        "commit_url": "https://api.github.com/repos/elastic/elasticsearch/commits/4d78f280ed11aaa6515fca232c2b1230ae0b47dc", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/691814146", 
+        "created_at": "2016-06-14T13:25:44Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+            "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+            "url": "https://api.github.com/users/s1monw", 
+            "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+            "html_url": "https://github.com/s1monw", 
+            "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+            "repos_url": "https://api.github.com/users/s1monw/repos", 
+            "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "s1monw", 
+            "type": "User", 
+            "id": 973334, 
+            "followers_url": "https://api.github.com/users/s1monw/followers"
+        }, 
+        "event": "merged", 
+        "id": 691814146
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/691814148", 
+        "created_at": "2016-06-14T13:25:44Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+            "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+            "url": "https://api.github.com/users/s1monw", 
+            "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+            "html_url": "https://github.com/s1monw", 
+            "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+            "repos_url": "https://api.github.com/users/s1monw/repos", 
+            "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "s1monw", 
+            "type": "User", 
+            "id": 973334, 
+            "followers_url": "https://api.github.com/users/s1monw/followers"
+        }, 
+        "event": "closed", 
+        "id": 691814148
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/691814197", 
+        "created_at": "2016-06-14T13:25:46Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+            "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+            "url": "https://api.github.com/users/s1monw", 
+            "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+            "html_url": "https://github.com/s1monw", 
+            "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+            "repos_url": "https://api.github.com/users/s1monw/repos", 
+            "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "s1monw", 
+            "type": "User", 
+            "id": 973334, 
+            "followers_url": "https://api.github.com/users/s1monw/followers"
+        }, 
+        "event": "head_ref_deleted", 
+        "id": 691814197
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/691814357", 
+        "created_at": "2016-06-14T13:25:53Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+            "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+            "url": "https://api.github.com/users/s1monw", 
+            "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+            "html_url": "https://github.com/s1monw", 
+            "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+            "repos_url": "https://api.github.com/users/s1monw/repos", 
+            "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "s1monw", 
+            "type": "User", 
+            "id": 973334, 
+            "followers_url": "https://api.github.com/users/s1monw/followers"
+        }, 
+        "event": "unlabeled", 
+        "label": {
+            "color": "0052cc", 
+            "name": "review"
+        }, 
+        "id": 691814357
+    }
+]

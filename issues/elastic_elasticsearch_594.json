@@ -1,0 +1,57 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "The versioning feature allows to handle conflicts when doing a get/search and then index/delete. Each document has a version number, and each index and delete (tombstone) increase the version number.\n\nA conflict is detected when providing a version parameter to the index/delete request and there is a mismatch between the version provided and the _real time version_ of the current document. If a version number is not provided, then the operation is forced without doing any version check.\n\nSearch and get operations return the version number associated with the hit under `_version`. Note, the version number reflects the near real time status of the search. In other words, the version number will point to the doc when the index was last refreshed.\n\nNice side affects of this feature include returning on delete if the document was actually found or not, as well as fixing a rare out of order replication sync between a primary and its replica (under heavy changes of the same doc within a short period of time).\n\nAdded features include:\n1. Index with create flag will now fail if there is already an indexed doc. This basically allows to use create as a putIfAbsent logic.\n2. Indexing a document that does not exists will be as fast as with create flag set to true. So no need to set it anymore to improve fresh data indexing performance.\n\nThe bulk operation supports providing a version number as well using `_version` on each bulk item.\n## Upgrade Notes\n\nThe versioning support is backward compatible, though only new operations on documents will cause the versioning system to start and kick in for that doc.\n", 
+    "closed_at": "2011-01-04T10:04:49Z", 
+    "closed_by": null, 
+    "comments": 1, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/594/comments", 
+    "created_at": "2011-01-04T02:03:03Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/594/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/594", 
+    "id": 504859, 
+    "labels": [
+        {
+            "color": "328a58", 
+            "default": false, 
+            "id": 23172, 
+            "name": "feature", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/feature"
+        }, 
+        {
+            "color": "ededed", 
+            "default": false, 
+            "id": 65354, 
+            "name": "v0.15.0", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.15.0"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/594/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 594, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Versioning", 
+    "updated_at": "2011-01-05T12:22:58Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/594", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }
+}

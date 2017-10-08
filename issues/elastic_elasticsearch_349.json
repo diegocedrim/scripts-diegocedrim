@@ -1,0 +1,57 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "The script fields support in the search API to allow to extract source elements. The extract element (and its \"tree\" of data) is then streamed back to the user. Here is an example:\n\n```\n{\n    \"query\" : {  \"match_all\" : {} },\n    \"script_fields\" : {\n        \"test1\" : { \"script\" : \"_source.obj1.arr\" }\n    }\n}\n```\n\nNote the `_source` keyword here to navigate the json like model.\n\nIts important to understand the difference between `doc['my_field'].value` and `_source.my_field`. The first, using the `doc` keyword, will cause the terms for that field to be loaded to memory (cached), which will result in faster execution, but more memory consumption. Also, it only allows for simple valued fields (can't return a json object from it).\n\nThe `_source` on the other hand causes the source to be loaded, parsed, and then only the relevant part of the json is returned.\n\nSince its a script, logic can also be applied here.\n", 
+    "closed_at": "2010-09-02T18:29:58Z", 
+    "closed_by": null, 
+    "comments": 1, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/349/comments", 
+    "created_at": "2010-09-02T18:18:26Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/349/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/349", 
+    "id": 299857, 
+    "labels": [
+        {
+            "color": "328a58", 
+            "default": false, 
+            "id": 23172, 
+            "name": "feature", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/feature"
+        }, 
+        {
+            "color": "DDDDDD", 
+            "default": false, 
+            "id": 45098, 
+            "name": "v0.11.0", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.11.0"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/349/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 349, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Search API: Allow for script fields to extract parts of the stored _`source`", 
+    "updated_at": "2010-09-02T18:29:58Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/349", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }
+}

@@ -1,0 +1,847 @@
+[
+    {
+        "committer": {
+            "date": "2015-09-23T09:44:22Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "author": {
+            "date": "2015-09-14T12:36:54Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/a96f14ecc61255309860dfec61673fb3a47d2021", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/b6f2ae1d1858da650097b55c1815264bd3e8c1bb", 
+            "sha": "b6f2ae1d1858da650097b55c1815264bd3e8c1bb"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/a96f14ecc61255309860dfec61673fb3a47d2021", 
+        "sha": "a96f14ecc61255309860dfec61673fb3a47d2021", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/6350470ee30dddc1ba40c97797db96af30796780", 
+                "sha": "6350470ee30dddc1ba40c97797db96af30796780", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/6350470ee30dddc1ba40c97797db96af30796780"
+            }
+        ], 
+        "message": "new SearchSourceBuilder to use as the search request", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2015-09-23T09:44:22Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "author": {
+            "date": "2015-09-14T14:15:15Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/5623dd29509d8d93873ebbe94c9de6df58c168b8", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/eb59fcf68e8a395e8e70d77bf4457fd7da367fd8", 
+            "sha": "eb59fcf68e8a395e8e70d77bf4457fd7da367fd8"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/5623dd29509d8d93873ebbe94c9de6df58c168b8", 
+        "sha": "5623dd29509d8d93873ebbe94c9de6df58c168b8", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/a96f14ecc61255309860dfec61673fb3a47d2021", 
+                "sha": "a96f14ecc61255309860dfec61673fb3a47d2021", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/a96f14ecc61255309860dfec61673fb3a47d2021"
+            }
+        ], 
+        "message": "implemented hashCode, equals and fromXContent in  NewSearchSourceBuidler", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2015-09-23T09:44:22Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "author": {
+            "date": "2015-09-14T14:19:14Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/e73052bce2a6536f03dfff8c8119235437a193de", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/7043c9fae2f150d639dcad940efd6352953f8f73", 
+            "sha": "7043c9fae2f150d639dcad940efd6352953f8f73"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/e73052bce2a6536f03dfff8c8119235437a193de", 
+        "sha": "e73052bce2a6536f03dfff8c8119235437a193de", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/5623dd29509d8d93873ebbe94c9de6df58c168b8", 
+                "sha": "5623dd29509d8d93873ebbe94c9de6df58c168b8", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/5623dd29509d8d93873ebbe94c9de6df58c168b8"
+            }
+        ], 
+        "message": "cleanup of commented out code", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2015-09-23T09:44:22Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "author": {
+            "date": "2015-09-15T08:41:13Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/eed6ab7b82db24eb9fcfad3005b95c63db284672", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/78f7a3a1fbaf53e4f5361ec61df1eb62596fb1c5", 
+            "sha": "78f7a3a1fbaf53e4f5361ec61df1eb62596fb1c5"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/eed6ab7b82db24eb9fcfad3005b95c63db284672", 
+        "sha": "eed6ab7b82db24eb9fcfad3005b95c63db284672", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/e73052bce2a6536f03dfff8c8119235437a193de", 
+                "sha": "e73052bce2a6536f03dfff8c8119235437a193de", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/e73052bce2a6536f03dfff8c8119235437a193de"
+            }
+        ], 
+        "message": "various fixes after a review", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2015-09-23T09:44:22Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "author": {
+            "date": "2015-09-15T16:31:33Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/3c8c6c02505ffd6b87245659c2a7ab7e7054fbec", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/6876cf7db1fbed5fcdc0cedf0dcfca52b9277d20", 
+            "sha": "6876cf7db1fbed5fcdc0cedf0dcfca52b9277d20"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/3c8c6c02505ffd6b87245659c2a7ab7e7054fbec", 
+        "sha": "3c8c6c02505ffd6b87245659c2a7ab7e7054fbec", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/eed6ab7b82db24eb9fcfad3005b95c63db284672", 
+                "sha": "eed6ab7b82db24eb9fcfad3005b95c63db284672", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/eed6ab7b82db24eb9fcfad3005b95c63db284672"
+            }
+        ], 
+        "message": "Completed serialisation to/from son and transport protocol and added a unit test", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2015-09-23T09:44:22Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "author": {
+            "date": "2015-09-16T10:51:58Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/9116c1c19f8f9e299d0cdb6f108f798b5fcc41a5", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/b574e9856f57fedf29f19f4fb7df488eaa27e826", 
+            "sha": "b574e9856f57fedf29f19f4fb7df488eaa27e826"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/9116c1c19f8f9e299d0cdb6f108f798b5fcc41a5", 
+        "sha": "9116c1c19f8f9e299d0cdb6f108f798b5fcc41a5", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/3c8c6c02505ffd6b87245659c2a7ab7e7054fbec", 
+                "sha": "3c8c6c02505ffd6b87245659c2a7ab7e7054fbec", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/3c8c6c02505ffd6b87245659c2a7ab7e7054fbec"
+            }
+        ], 
+        "message": "Renamed SearchSourceBuilder to OldSearchSourceBuilder and NewSearchSourceBuilder to SearchSourceBuilder", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2015-09-23T09:44:22Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "author": {
+            "date": "2015-09-16T13:51:12Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/e1759b1a605389311671da362d3a7d2c15d6bab3", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/f7ce64b915a0c80a162c787a1762a07ed705a8d7", 
+            "sha": "f7ce64b915a0c80a162c787a1762a07ed705a8d7"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/e1759b1a605389311671da362d3a7d2c15d6bab3", 
+        "sha": "e1759b1a605389311671da362d3a7d2c15d6bab3", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/9116c1c19f8f9e299d0cdb6f108f798b5fcc41a5", 
+                "sha": "9116c1c19f8f9e299d0cdb6f108f798b5fcc41a5", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/9116c1c19f8f9e299d0cdb6f108f798b5fcc41a5"
+            }
+        ], 
+        "message": "cleanup codebase to work with SearchSourceBuilder", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2015-09-23T09:44:23Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "author": {
+            "date": "2015-09-17T13:40:27Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/3cb3514474b3d35ec4b55b6eac6a9fab3d0aa726", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/c01c14d6cb95523489a7ceda5a7c6e35a2148242", 
+            "sha": "c01c14d6cb95523489a7ceda5a7c6e35a2148242"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/3cb3514474b3d35ec4b55b6eac6a9fab3d0aa726", 
+        "sha": "3cb3514474b3d35ec4b55b6eac6a9fab3d0aa726", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/e1759b1a605389311671da362d3a7d2c15d6bab3", 
+                "sha": "e1759b1a605389311671da362d3a7d2c15d6bab3", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/e1759b1a605389311671da362d3a7d2c15d6bab3"
+            }
+        ], 
+        "message": "clean up for methods in SearchRequestBuilder so it works with SearchSourceBuilder", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2015-09-23T09:44:23Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "author": {
+            "date": "2015-09-22T09:55:03Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/b4dd6a5429ee8811de9077d54e053edb00a0d6fb", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/598995c3ece4ad0a20ca0fbbe7060b9456e8430f", 
+            "sha": "598995c3ece4ad0a20ca0fbbe7060b9456e8430f"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/b4dd6a5429ee8811de9077d54e053edb00a0d6fb", 
+        "sha": "b4dd6a5429ee8811de9077d54e053edb00a0d6fb", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/3cb3514474b3d35ec4b55b6eac6a9fab3d0aa726", 
+                "sha": "3cb3514474b3d35ec4b55b6eac6a9fab3d0aa726", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/3cb3514474b3d35ec4b55b6eac6a9fab3d0aa726"
+            }
+        ], 
+        "message": "fixes to tests", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2015-09-23T09:44:23Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "author": {
+            "date": "2015-09-22T10:46:54Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/aa3d29dfbc92bab0c572731840d2a27cf362c740", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/98a129973401d77d96c34b74810881aa4458b116", 
+            "sha": "98a129973401d77d96c34b74810881aa4458b116"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/aa3d29dfbc92bab0c572731840d2a27cf362c740", 
+        "sha": "aa3d29dfbc92bab0c572731840d2a27cf362c740", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/b4dd6a5429ee8811de9077d54e053edb00a0d6fb", 
+                "sha": "b4dd6a5429ee8811de9077d54e053edb00a0d6fb", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/b4dd6a5429ee8811de9077d54e053edb00a0d6fb"
+            }
+        ], 
+        "message": "small parsing fix for fields", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2015-09-23T09:44:23Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "author": {
+            "date": "2015-09-22T10:59:18Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/41e63505b903e4b145017b0580d604babd04c2e3", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/f45fc524f02cc9529d4a6ada1f06aaf85b78c1ef", 
+            "sha": "f45fc524f02cc9529d4a6ada1f06aaf85b78c1ef"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/41e63505b903e4b145017b0580d604babd04c2e3", 
+        "sha": "41e63505b903e4b145017b0580d604babd04c2e3", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/aa3d29dfbc92bab0c572731840d2a27cf362c740", 
+                "sha": "aa3d29dfbc92bab0c572731840d2a27cf362c740", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/aa3d29dfbc92bab0c572731840d2a27cf362c740"
+            }
+        ], 
+        "message": "muted failing test", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2015-09-23T09:44:23Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "author": {
+            "date": "2015-09-22T14:24:43Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/ab01ec5b2892d347ca031ecf0da7667ed39b5da8", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/0bea100c0c951072e38e4650eaee2ee68cdaf958", 
+            "sha": "0bea100c0c951072e38e4650eaee2ee68cdaf958"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/ab01ec5b2892d347ca031ecf0da7667ed39b5da8", 
+        "sha": "ab01ec5b2892d347ca031ecf0da7667ed39b5da8", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/41e63505b903e4b145017b0580d604babd04c2e3", 
+                "sha": "41e63505b903e4b145017b0580d604babd04c2e3", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/41e63505b903e4b145017b0580d604babd04c2e3"
+            }
+        ], 
+        "message": "SearchRequest.source() now returns a SearchSourceBuilder.\n\nLots of NOCOMMITS are in the code as lots of compile errors have been temporarily commented out", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2015-09-23T09:44:24Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "author": {
+            "date": "2015-09-23T09:42:31Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/b98f7cf0232988633927deda6adf12304383d844", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/4e59a58282a4c2844eb0558f7edfc6576af5c16b", 
+            "sha": "4e59a58282a4c2844eb0558f7edfc6576af5c16b"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/b98f7cf0232988633927deda6adf12304383d844", 
+        "sha": "b98f7cf0232988633927deda6adf12304383d844", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/ab01ec5b2892d347ca031ecf0da7667ed39b5da8", 
+                "sha": "ab01ec5b2892d347ca031ecf0da7667ed39b5da8", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/ab01ec5b2892d347ca031ecf0da7667ed39b5da8"
+            }
+        ], 
+        "message": "updates to fix some of the NOCOMMITs", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2015-09-23T10:07:20Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "author": {
+            "date": "2015-09-23T10:07:20Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/ac8c1722acd627a22f9513bf5bf8ef8760059a4e", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/c20a2649809475ec3cffc6591922960a8ef3ad47", 
+            "sha": "c20a2649809475ec3cffc6591922960a8ef3ad47"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/ac8c1722acd627a22f9513bf5bf8ef8760059a4e", 
+        "sha": "ac8c1722acd627a22f9513bf5bf8ef8760059a4e", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/b98f7cf0232988633927deda6adf12304383d844", 
+                "sha": "b98f7cf0232988633927deda6adf12304383d844", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/b98f7cf0232988633927deda6adf12304383d844"
+            }
+        ], 
+        "message": "fix compile errors", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2015-09-23T10:24:07Z", 
+            "name": "Simon Willnauer", 
+            "email": "simonw@apache.org"
+        }, 
+        "author": {
+            "date": "2015-09-22T18:37:24Z", 
+            "name": "Simon Willnauer", 
+            "email": "simonw@apache.org"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/6c335f4a47d0adb675dd8a38c3ef2718c4931dc6", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/b9489afd8160c248846a943669430c1b9dcbe32d", 
+            "sha": "b9489afd8160c248846a943669430c1b9dcbe32d"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/6c335f4a47d0adb675dd8a38c3ef2718c4931dc6", 
+        "sha": "6c335f4a47d0adb675dd8a38c3ef2718c4931dc6", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/ac8c1722acd627a22f9513bf5bf8ef8760059a4e", 
+                "sha": "ac8c1722acd627a22f9513bf5bf8ef8760059a4e", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/ac8c1722acd627a22f9513bf5bf8ef8760059a4e"
+            }
+        ], 
+        "message": "Parse source, extra-source and template-source on the coordinating node\n\nThis commit removes all the opaque bytes for extra_source and template_source.\nInstead source and extra_source etc. are represented as SearchSourceBuilder which can\nin-place be modified and is updated with the content of the request parameters.\nTemplate Source is parsed and evaluated which in-turn replaces the actual source.", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2015-09-23T14:07:33Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "author": {
+            "date": "2015-09-23T14:07:33Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/083f28a704c8e7d4438461bf0a26136a18ce8f5e", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/15e42539ac46a0c3e2281ef3921580a658aa0a81", 
+            "sha": "15e42539ac46a0c3e2281ef3921580a658aa0a81"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/083f28a704c8e7d4438461bf0a26136a18ce8f5e", 
+        "sha": "083f28a704c8e7d4438461bf0a26136a18ce8f5e", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/6c335f4a47d0adb675dd8a38c3ef2718c4931dc6", 
+                "sha": "6c335f4a47d0adb675dd8a38c3ef2718c4931dc6", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/6c335f4a47d0adb675dd8a38c3ef2718c4931dc6"
+            }
+        ], 
+        "message": "remove index from QueryParseContext Constructor", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2015-09-23T14:43:35Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "author": {
+            "date": "2015-09-23T14:43:35Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/a53cf896dca3b9977fc3ff6331ee2f9b572f62cc", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/755e3ff0422f33b3545172153ee1b945b183cb7e", 
+            "sha": "755e3ff0422f33b3545172153ee1b945b183cb7e"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/a53cf896dca3b9977fc3ff6331ee2f9b572f62cc", 
+        "sha": "a53cf896dca3b9977fc3ff6331ee2f9b572f62cc", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/083f28a704c8e7d4438461bf0a26136a18ce8f5e", 
+                "sha": "083f28a704c8e7d4438461bf0a26136a18ce8f5e", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/083f28a704c8e7d4438461bf0a26136a18ce8f5e"
+            }
+        ], 
+        "message": "Parsing of rescuer and sort ByteReferences.\n\nNot the neatest implementation in the world. Maybe we should consider changing the builders so it is a single builder for sort and a single builder for rescore instead of a list of builders for each?", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2015-09-23T15:40:58Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "author": {
+            "date": "2015-09-23T15:40:58Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/d7429a6c63ddce038d14237d5bf3b3f0dcc8bd2b", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/5b71db26dd89c5cbe6379802a45eeab63316069e", 
+            "sha": "5b71db26dd89c5cbe6379802a45eeab63316069e"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/d7429a6c63ddce038d14237d5bf3b3f0dcc8bd2b", 
+        "sha": "d7429a6c63ddce038d14237d5bf3b3f0dcc8bd2b", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/a53cf896dca3b9977fc3ff6331ee2f9b572f62cc", 
+                "sha": "a53cf896dca3b9977fc3ff6331ee2f9b572f62cc", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/a53cf896dca3b9977fc3ff6331ee2f9b572f62cc"
+            }
+        ], 
+        "message": "Search service can now fully populate SearchContext from SearchSourceBuilder", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2015-09-23T15:57:25Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "author": {
+            "date": "2015-09-23T15:57:25Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/2e3cc50a0f9bab96fa239f9a178837e4d2136c47", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/9d0e9d3847e0ef8eeac5341f73a1c385479ee099", 
+            "sha": "9d0e9d3847e0ef8eeac5341f73a1c385479ee099"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/2e3cc50a0f9bab96fa239f9a178837e4d2136c47", 
+        "sha": "2e3cc50a0f9bab96fa239f9a178837e4d2136c47", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/d7429a6c63ddce038d14237d5bf3b3f0dcc8bd2b", 
+                "sha": "d7429a6c63ddce038d14237d5bf3b3f0dcc8bd2b", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/d7429a6c63ddce038d14237d5bf3b3f0dcc8bd2b"
+            }
+        ], 
+        "message": "removed sysout", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2015-09-23T16:26:18Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "author": {
+            "date": "2015-09-23T16:26:18Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/585ed07c5bb279ef4fa59035924739f6e560c15b", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/5839e730793d2cab32d8c14d0ae5be624f227841", 
+            "sha": "5839e730793d2cab32d8c14d0ae5be624f227841"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/585ed07c5bb279ef4fa59035924739f6e560c15b", 
+        "sha": "585ed07c5bb279ef4fa59035924739f6e560c15b", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/2e3cc50a0f9bab96fa239f9a178837e4d2136c47", 
+                "sha": "2e3cc50a0f9bab96fa239f9a178837e4d2136c47", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/2e3cc50a0f9bab96fa239f9a178837e4d2136c47"
+            }
+        ], 
+        "message": "unit test fixes", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2015-09-23T16:33:05Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "author": {
+            "date": "2015-09-23T16:33:05Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/52d9664993f6f0b45b97e2d1e7a8703dbd0b9e51", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/bda0ff01c77143aff27b49ccd5d7f085b1183108", 
+            "sha": "bda0ff01c77143aff27b49ccd5d7f085b1183108"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/52d9664993f6f0b45b97e2d1e7a8703dbd0b9e51", 
+        "sha": "52d9664993f6f0b45b97e2d1e7a8703dbd0b9e51", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/585ed07c5bb279ef4fa59035924739f6e560c15b", 
+                "sha": "585ed07c5bb279ef4fa59035924739f6e560c15b", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/585ed07c5bb279ef4fa59035924739f6e560c15b"
+            }
+        ], 
+        "message": "fix to sort parsing in SearchService", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2015-09-23T16:34:28Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "author": {
+            "date": "2015-09-23T16:34:28Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/394e551365f2f45f7735d08e2ea57123d86de46a", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/0c6d33950dc8e5dd2ad8e0b349a013acb2d5446a", 
+            "sha": "0c6d33950dc8e5dd2ad8e0b349a013acb2d5446a"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/394e551365f2f45f7735d08e2ea57123d86de46a", 
+        "sha": "394e551365f2f45f7735d08e2ea57123d86de46a", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/52d9664993f6f0b45b97e2d1e7a8703dbd0b9e51", 
+                "sha": "52d9664993f6f0b45b97e2d1e7a8703dbd0b9e51", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/52d9664993f6f0b45b97e2d1e7a8703dbd0b9e51"
+            }
+        ], 
+        "message": "removed sysouts", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2015-09-23T17:07:30Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "author": {
+            "date": "2015-09-23T17:07:30Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/08ae68c19544a3bcf4e517d78093bac8ef60949f", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/5526804cbb4769f9c8cf663d3cf7485ed2874d6b", 
+            "sha": "5526804cbb4769f9c8cf663d3cf7485ed2874d6b"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/08ae68c19544a3bcf4e517d78093bac8ef60949f", 
+        "sha": "08ae68c19544a3bcf4e517d78093bac8ef60949f", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/394e551365f2f45f7735d08e2ea57123d86de46a", 
+                "sha": "394e551365f2f45f7735d08e2ea57123d86de46a", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/394e551365f2f45f7735d08e2ea57123d86de46a"
+            }, 
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/dbb01f5b43704ee75c92aff30ed2ee62b791e0d8", 
+                "sha": "dbb01f5b43704ee75c92aff30ed2ee62b791e0d8", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/dbb01f5b43704ee75c92aff30ed2ee62b791e0d8"
+            }
+        ], 
+        "message": "Merge branch 'feature/query-refactoring' into feature/search-request-refactoring\n\n# Conflicts:\n#\tcore/src/test/java/org/elasticsearch/search/functionscore/DecayFunctionScoreIT.java\n#\tcore/src/test/java/org/elasticsearch/search/functionscore/FunctionScoreFieldValueIT.java\n#\tcore/src/test/java/org/elasticsearch/search/functionscore/FunctionScoreIT.java\n#\tcore/src/test/java/org/elasticsearch/search/rescore/QueryRescorerIT.java", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2015-09-23T17:50:45Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "author": {
+            "date": "2015-09-23T17:50:45Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/63da68e48067dc0388414deed1be4f78ddcc0f69", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/050e57e90d357f76376bf8ee7855eaf90cd62e4d", 
+            "sha": "050e57e90d357f76376bf8ee7855eaf90cd62e4d"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/63da68e48067dc0388414deed1be4f78ddcc0f69", 
+        "sha": "63da68e48067dc0388414deed1be4f78ddcc0f69", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/08ae68c19544a3bcf4e517d78093bac8ef60949f", 
+                "sha": "08ae68c19544a3bcf4e517d78093bac8ef60949f", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/08ae68c19544a3bcf4e517d78093bac8ef60949f"
+            }
+        ], 
+        "message": "test fixes", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2015-09-23T17:58:16Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "author": {
+            "date": "2015-09-23T17:58:16Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/85f4c39b69d5a1d0deedbc98e8e7ad1c719a2f5f", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/7b9727e58a5dae8d86cda45228c4572bd3d03c5d", 
+            "sha": "7b9727e58a5dae8d86cda45228c4572bd3d03c5d"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/85f4c39b69d5a1d0deedbc98e8e7ad1c719a2f5f", 
+        "sha": "85f4c39b69d5a1d0deedbc98e8e7ad1c719a2f5f", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/63da68e48067dc0388414deed1be4f78ddcc0f69", 
+                "sha": "63da68e48067dc0388414deed1be4f78ddcc0f69", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/63da68e48067dc0388414deed1be4f78ddcc0f69"
+            }
+        ], 
+        "message": "more test fixes", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2015-09-23T18:57:59Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "author": {
+            "date": "2015-09-23T18:57:59Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/2de450ca0b25723ec3974e98521631e92d649394", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/4c9dae9845cf2a78f3153bc022beda393e6d0ea0", 
+            "sha": "4c9dae9845cf2a78f3153bc022beda393e6d0ea0"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/2de450ca0b25723ec3974e98521631e92d649394", 
+        "sha": "2de450ca0b25723ec3974e98521631e92d649394", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/85f4c39b69d5a1d0deedbc98e8e7ad1c719a2f5f", 
+                "sha": "85f4c39b69d5a1d0deedbc98e8e7ad1c719a2f5f", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/85f4c39b69d5a1d0deedbc98e8e7ad1c719a2f5f"
+            }
+        ], 
+        "message": "fixes and debugging", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2015-09-23T19:31:00Z", 
+            "name": "Simon Willnauer", 
+            "email": "simonw@apache.org"
+        }, 
+        "author": {
+            "date": "2015-09-23T19:29:11Z", 
+            "name": "Simon Willnauer", 
+            "email": "simonw@apache.org"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/95a7b6aa833bccde15c39aed13ae8275f8375b09", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/4511823436ebdd3e497adfd3a28b561e1d84cc64", 
+            "sha": "4511823436ebdd3e497adfd3a28b561e1d84cc64"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/95a7b6aa833bccde15c39aed13ae8275f8375b09", 
+        "sha": "95a7b6aa833bccde15c39aed13ae8275f8375b09", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/2de450ca0b25723ec3974e98521631e92d649394", 
+                "sha": "2de450ca0b25723ec3974e98521631e92d649394", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/2de450ca0b25723ec3974e98521631e92d649394"
+            }
+        ], 
+        "message": "Add a late-parsing SearchSoruce wrapper for index warmers", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2015-09-23T19:50:30Z", 
+            "name": "Simon Willnauer", 
+            "email": "simonw@apache.org"
+        }, 
+        "author": {
+            "date": "2015-09-23T19:50:30Z", 
+            "name": "Simon Willnauer", 
+            "email": "simonw@apache.org"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/04864dc7d7c4cdfed34c6977e4ae72ae020897a8", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/0bbe68b8309d1026895e337fa1d1618a9cad76a4", 
+            "sha": "0bbe68b8309d1026895e337fa1d1618a9cad76a4"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/04864dc7d7c4cdfed34c6977e4ae72ae020897a8", 
+        "sha": "04864dc7d7c4cdfed34c6977e4ae72ae020897a8", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/95a7b6aa833bccde15c39aed13ae8275f8375b09", 
+                "sha": "95a7b6aa833bccde15c39aed13ae8275f8375b09", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/95a7b6aa833bccde15c39aed13ae8275f8375b09"
+            }
+        ], 
+        "message": "Impl SearchSource#hashCode|equals|toString", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2015-09-23T19:52:57Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "author": {
+            "date": "2015-09-23T19:52:44Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/7a209cc600ed5ad4c4dd78e00f98eaee346c00f7", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/7d4c3b342339ca0d57c4bf58300f4bd75068e0d9", 
+            "sha": "7d4c3b342339ca0d57c4bf58300f4bd75068e0d9"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/7a209cc600ed5ad4c4dd78e00f98eaee346c00f7", 
+        "sha": "7a209cc600ed5ad4c4dd78e00f98eaee346c00f7", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/04864dc7d7c4cdfed34c6977e4ae72ae020897a8", 
+                "sha": "04864dc7d7c4cdfed34c6977e4ae72ae020897a8", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/04864dc7d7c4cdfed34c6977e4ae72ae020897a8"
+            }
+        ], 
+        "message": "more test fixes", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2015-09-23T20:02:55Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "author": {
+            "date": "2015-09-23T20:02:55Z", 
+            "name": "Colin Goodheart-Smithe", 
+            "email": "colings86@users.noreply.github.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/4996b072058245101885f85f15f0f91b3326034b", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/cde34c4e214fb85ea29b25a40ab104e73e54fd8b", 
+            "sha": "cde34c4e214fb85ea29b25a40ab104e73e54fd8b"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/4996b072058245101885f85f15f0f91b3326034b", 
+        "sha": "4996b072058245101885f85f15f0f91b3326034b", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/7a209cc600ed5ad4c4dd78e00f98eaee346c00f7", 
+                "sha": "7a209cc600ed5ad4c4dd78e00f98eaee346c00f7", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/7a209cc600ed5ad4c4dd78e00f98eaee346c00f7"
+            }
+        ], 
+        "message": "update rest tests to expect default boost to be returned in warmer responses", 
+        "event": "committed"
+    }
+]

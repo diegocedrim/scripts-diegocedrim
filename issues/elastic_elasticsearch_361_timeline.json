@@ -1,0 +1,50 @@
+[
+    {
+        "body": "Mapper: `geo_point` to support passing array of [lat, lon], closed by ad5945f141489dcf4a43c31d667353a303ffc743.", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/comments/393290", 
+        "event": "commented", 
+        "created_at": "2010-09-07T16:38:12Z", 
+        "html_url": "https://github.com/elastic/elasticsearch/issues/361#issuecomment-393290", 
+        "actor": {
+            "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+            "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+            "url": "https://api.github.com/users/kimchy", 
+            "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+            "html_url": "https://github.com/kimchy", 
+            "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+            "repos_url": "https://api.github.com/users/kimchy/repos", 
+            "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "kimchy", 
+            "type": "User", 
+            "id": 41300, 
+            "followers_url": "https://api.github.com/users/kimchy/followers"
+        }, 
+        "updated_at": "2010-09-07T16:38:12Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+            "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+            "url": "https://api.github.com/users/kimchy", 
+            "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+            "html_url": "https://github.com/kimchy", 
+            "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+            "repos_url": "https://api.github.com/users/kimchy/repos", 
+            "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "kimchy", 
+            "type": "User", 
+            "id": 41300, 
+            "followers_url": "https://api.github.com/users/kimchy/followers"
+        }, 
+        "id": 393290, 
+        "issue_url": "https://api.github.com/repos/elastic/elasticsearch/issues/361"
+    }
+]

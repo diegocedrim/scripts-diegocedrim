@@ -1,0 +1,57 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "Getting terms (from one or more indices) and their document frequency (the number of time those terms appear in a document) is very handy. For example, implementing tag clouds, or providing basic auto suggest search box.\n\nThere should be several options for this API, including sorting by term (lex) or doc freq, bounding size, from/to (inclusive or not), min/max freq, prefix and regexp filtering.\n\nThe rest api should be: /{index}/_terms\n", 
+    "closed_at": "2010-02-16T19:48:04Z", 
+    "closed_by": null, 
+    "comments": 10, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/21/comments", 
+    "created_at": "2010-02-16T19:47:05Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/21/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/21", 
+    "id": 134137, 
+    "labels": [
+        {
+            "color": "328a58", 
+            "default": false, 
+            "id": 23172, 
+            "name": "feature", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/feature"
+        }, 
+        {
+            "color": "DDDDDD", 
+            "default": false, 
+            "id": 23175, 
+            "name": "v0.05.0", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.05.0"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/21/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 21, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Terms API: Allow to get terms for one or more field", 
+    "updated_at": "2014-02-12T01:34:19Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/21", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }
+}

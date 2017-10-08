@@ -1,0 +1,88 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "This PR simplifies the delayed shard allocation implementation by assigning clear responsibilities to the various components that are affected by delayed shard allocation:\n- `UnassignedInfo` gets a boolean flag `delayed` which determines whether assignment of the shard should be delayed. The flag gets persisted in the cluster state and is thus available across nodes, i.e. each node knows whether a shard was delayed-unassigned in a specific cluster state. Before, nodes other than the current master were unaware of that information.\n- This flag is initially set as `true` if the shard becomes unassigned due to a node leaving and the index setting `index.unassigned.node_left.delayed_timeout` being strictly positive. From then on, unassigned shards can only transition from delayed to non-delayed, never in the other direction.\n- The reroute step is in charge of removing the delay marker (comparing timestamp when node left to current timestamp). \n- A dedicated service `DelayedAllocationService`, reacting to cluster change events, has the responsibility to schedule reroutes to remove the delay marker.\n\nRelates to #18293\n", 
+    "closed_at": "2016-05-26T11:39:55Z", 
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/3718355?v=3", 
+        "events_url": "https://api.github.com/users/ywelsch/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/ywelsch/followers", 
+        "following_url": "https://api.github.com/users/ywelsch/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/ywelsch/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/ywelsch", 
+        "id": 3718355, 
+        "login": "ywelsch", 
+        "organizations_url": "https://api.github.com/users/ywelsch/orgs", 
+        "received_events_url": "https://api.github.com/users/ywelsch/received_events", 
+        "repos_url": "https://api.github.com/users/ywelsch/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/ywelsch/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/ywelsch/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/ywelsch"
+    }, 
+    "comments": 5, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18351/comments", 
+    "created_at": "2016-05-14T15:05:21Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18351/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/pull/18351", 
+    "id": 154858332, 
+    "labels": [
+        {
+            "color": "009800", 
+            "default": false, 
+            "id": 144797753, 
+            "name": ":Allocation", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/:Allocation"
+        }, 
+        {
+            "color": "4a4ea8", 
+            "default": true, 
+            "id": 23174, 
+            "name": "enhancement", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/enhancement"
+        }, 
+        {
+            "color": "dddddd", 
+            "default": false, 
+            "id": 381894283, 
+            "name": "v5.0.0-alpha4", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v5.0.0-alpha4"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18351/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 18351, 
+    "pull_request": {
+        "diff_url": "https://github.com/elastic/elasticsearch/pull/18351.diff", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/18351", 
+        "patch_url": "https://github.com/elastic/elasticsearch/pull/18351.patch", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/pulls/18351"
+    }, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Simplify delayed shard allocation", 
+    "updated_at": "2016-05-26T11:39:55Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/18351", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/3718355?v=3", 
+        "events_url": "https://api.github.com/users/ywelsch/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/ywelsch/followers", 
+        "following_url": "https://api.github.com/users/ywelsch/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/ywelsch/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/ywelsch", 
+        "id": 3718355, 
+        "login": "ywelsch", 
+        "organizations_url": "https://api.github.com/users/ywelsch/orgs", 
+        "received_events_url": "https://api.github.com/users/ywelsch/received_events", 
+        "repos_url": "https://api.github.com/users/ywelsch/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/ywelsch/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/ywelsch/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/ywelsch"
+    }
+}

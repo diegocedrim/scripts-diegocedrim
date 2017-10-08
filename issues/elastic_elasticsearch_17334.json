@@ -1,0 +1,88 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "FieldStatsProvider had to perform instanceof calls to properly handle dates or\nip addresses. By moving the logic to MappedFieldType, each field type can check\nwhether all values are within bounds its way.\n\nNote that this commit only keeps rewriting support for dates, which are the only\nfield for which the rewriting mechanism is likely to help (because of time-based\nindices).\n", 
+    "closed_at": "2016-04-01T08:29:51Z", 
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+        "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/jpountz/followers", 
+        "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/jpountz", 
+        "id": 299848, 
+        "login": "jpountz", 
+        "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+        "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+        "repos_url": "https://api.github.com/users/jpountz/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/jpountz"
+    }, 
+    "comments": 3, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/17334/comments", 
+    "created_at": "2016-03-24T17:54:42Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/17334/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/pull/17334", 
+    "id": 143316469, 
+    "labels": [
+        {
+            "color": "009800", 
+            "default": false, 
+            "id": 184103632, 
+            "name": ":Internal", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/:Internal"
+        }, 
+        {
+            "color": "4a4ea8", 
+            "default": true, 
+            "id": 23174, 
+            "name": "enhancement", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/enhancement"
+        }, 
+        {
+            "color": "dddddd", 
+            "default": false, 
+            "id": 246685314, 
+            "name": "v5.0.0-alpha1", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v5.0.0-alpha1"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/17334/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 17334, 
+    "pull_request": {
+        "diff_url": "https://github.com/elastic/elasticsearch/pull/17334.diff", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/17334", 
+        "patch_url": "https://github.com/elastic/elasticsearch/pull/17334.patch", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/pulls/17334"
+    }, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Replace FieldStatsProvider with a method on MappedFieldType.", 
+    "updated_at": "2016-04-01T08:29:51Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/17334", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+        "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/jpountz/followers", 
+        "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/jpountz", 
+        "id": 299848, 
+        "login": "jpountz", 
+        "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+        "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+        "repos_url": "https://api.github.com/users/jpountz/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/jpountz"
+    }
+}

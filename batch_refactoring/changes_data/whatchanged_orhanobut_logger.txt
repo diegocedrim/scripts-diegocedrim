@@ -1,0 +1,327 @@
+commit=441d244d07c69b8a0a94086bcabf0de19534bf4b:orhanobut@gmail.com
+
+:100644 100644 ac44b79... c0e7740... M	README.md
+commit=fcbb21b30230cdb1c17247d10c395d4e7bfb21ad:orhanobut@gmail.com
+
+:100644 100644 2a1c6f0... ac44b79... M	README.md
+commit=143e1f8a96429bcae791bd27ce2d3fd9be3cc71b:orhanobut@gmail.com
+
+:100644 100644 2b434e3... 96c4533... M	CHANGELOG.md
+:100644 100644 72a474c... 2a1c6f0... M	README.md
+:100644 100644 76f21c6... bfdc491... M	gradle.properties
+:100644 100644 50e961d... 50e961d... R100	maven_push.gradle	gradle/maven_push.gradle
+:100644 100644 ed0d138... 579096e... M	logger/build.gradle
+:100644 100644 40232c8... 4f6ba77... M	logger/src/main/java/com/orhanobut/logger/Logger.java
+:100644 100644 8206fbe... aa9f816... M	logger/src/main/java/com/orhanobut/logger/LoggerPrinter.java
+:100644 100644 c801dea... a8dce32... M	logger/src/main/java/com/orhanobut/logger/Printer.java
+:000000 100644 0000000... 7ca19a0... A	logger/src/test/java/com.orhanobut.logger/LogAssert.java
+:100644 100644 db73cd1... 9b550f7... M	logger/src/test/java/com.orhanobut.logger/LoggerTest.java
+commit=dc20ff899ab6b461cb0365d73d2ef909bf7e651f:orhanobut@gmail.com
+
+:100644 100644 041edcf... 72a474c... M	README.md
+commit=30f73221e4a129023a274b8e4f38560b7939030a:orhanobut@gmail.com
+
+:100644 100644 c59448f... 2b434e3... M	CHANGELOG.md
+:100644 100644 5aefeed... 041edcf... M	README.md
+:100644 100644 ab3944d... 76f21c6... M	gradle.properties
+:100644 100644 77b772c... 40232c8... M	logger/src/main/java/com/orhanobut/logger/Logger.java
+:100644 100644 571ce92... 8206fbe... M	logger/src/main/java/com/orhanobut/logger/LoggerPrinter.java
+:100644 100644 d4acc08... c801dea... M	logger/src/main/java/com/orhanobut/logger/Printer.java
+:100644 100644 bccf764... db73cd1... M	logger/src/test/java/com.orhanobut.logger/LoggerTest.java
+commit=40b5740b7bb66624638e1c3c5fab117569c34e3e:orhanobut@gmail.com
+
+:100644 100644 afb2b98... 5aefeed... M	README.md
+commit=26228b17f923893cd27cad91266d9a443e11a3fe:orhanobut@gmail.com
+
+:100644 100644 4e4b277... 2f90513... M	.travis.yml
+:000000 100644 0000000... c59448f... A	CHANGELOG.md
+:100644 100644 f7fc076... afb2b98... M	README.md
+:100644 100644 0e59d01... 4ed22df... M	build.gradle
+:100644 100644 1d3591c... ab3944d... M	gradle.properties
+:100644 100644 0c71e76... d570517... M	gradle/wrapper/gradle-wrapper.properties
+:100644 100644 8518c28... ed0d138... M	logger/build.gradle
+:000000 100644 0000000... c090841... A	logger/gradle.properties
+:100644 100644 3e960b0... 83abecf... R092	logger/src/main/java/com/orhanobut/logger/AndroidLogTool.java	logger/src/main/java/com/orhanobut/logger/AndroidLogAdapter.java
+:100644 100644 ed999be... bc0c24d... M	logger/src/main/java/com/orhanobut/logger/Helper.java
+:100644 100644 a0b5a13... cab5d8c... R089	logger/src/main/java/com/orhanobut/logger/LogTool.java	logger/src/main/java/com/orhanobut/logger/LogAdapter.java
+:100644 100644 02fa0c7... 77b772c... M	logger/src/main/java/com/orhanobut/logger/Logger.java
+:100644 100644 493be39... 571ce92... M	logger/src/main/java/com/orhanobut/logger/LoggerPrinter.java
+:100644 100644 38bfeee... 2431794... M	logger/src/main/java/com/orhanobut/logger/Settings.java
+:000000 100644 0000000... 8be9ce5... A	logger/src/test/java/com.orhanobut.logger/HelperTest.java
+:100644 100644 085e2f9... bccf764... M	logger/src/test/java/com.orhanobut.logger/LoggerTest.java
+:100644 100644 b8ff88b... b3058b5... M	logger/src/test/java/com.orhanobut.logger/SettingsTest.java
+:000000 100644 0000000... 50e961d... A	maven_push.gradle
+:100644 100644 4b6c2a7... 559512e... M	settings.gradle
+commit=7ba738304b4203419f60dc71a7c3ba69148b1df5:ljubisa987@gmail.com
+
+:100644 100644 605a6ed... 3e960b0... M	logger/src/main/java/com/orhanobut/logger/AndroidLogTool.java
+:000000 100644 0000000... ed999be... A	logger/src/main/java/com/orhanobut/logger/Helper.java
+:100644 100644 b0ec823... 493be39... M	logger/src/main/java/com/orhanobut/logger/LoggerPrinter.java
+commit=9002b7499eeec2039455f3be36b44778cade18f3:mrhariskrasniqi@gmail.com
+
+:100644 100644 a8f6843... 37a0ac0... M	logger/src/main/java/com/orhanobut/logger/LoggerPrinter.java
+commit=3109fd932518b85922228c995cfd62107f0c76a2:mrhariskrasniqi@gmail.com
+
+:100644 100644 75de5b3... a81a506... M	logger/src/main/java/com/orhanobut/logger/LoggerPrinter.java
+commit=7ed355908b8668db5c5fa4a2927e5ef85d5d02bb:mrhariskrasniqi@gmail.com
+
+:100644 100644 a8f6843... 75de5b3... M	logger/src/main/java/com/orhanobut/logger/LoggerPrinter.java
+commit=b41c0714a45da0a98074410f11961e6a05f2268a:orhanobut@gmail.com
+
+:100644 100644 6623fd5... f7fc076... M	README.md
+commit=5da267afc1d6ff944bae8b32d596f83df0d64ab7:orhanobut@gmail.com
+
+:100644 100644 3591fe2... 6623fd5... M	README.md
+commit=dae90084660dbe4e4e400a9611af0132c7169978:orhanobut@gmail.com
+
+:100644 100644 12e0a08... 4e4b277... M	.travis.yml
+:100644 000000 80bbf1b... 0000000... D	app/build.gradle
+:100644 000000 e8cd682... 0000000... D	app/src/androidTest/java/com/orhanobut/loggersample/ApplicationTest.java
+:100644 000000 6ce8697... 0000000... D	app/src/main/AndroidManifest.xml
+:100644 000000 13c4479... 0000000... D	app/src/main/java/com/orhanobut/loggersample/Dummy.java
+:100644 000000 f480333... 0000000... D	app/src/main/java/com/orhanobut/loggersample/Foo.java
+:100644 000000 ff76a21... 0000000... D	app/src/main/java/com/orhanobut/loggersample/MainActivity.java
+:100644 000000 bd9d20a... 0000000... D	app/src/main/res/layout/activity_main.xml
+:100644 000000 a459e0a... 0000000... D	app/src/main/res/menu/menu_main.xml
+:100644 000000 cde69bc... 0000000... D	app/src/main/res/mipmap-hdpi/ic_launcher.png
+:100644 000000 c133a0c... 0000000... D	app/src/main/res/mipmap-mdpi/ic_launcher.png
+:100644 000000 bfa42f0... 0000000... D	app/src/main/res/mipmap-xhdpi/ic_launcher.png
+:100644 000000 324e72c... 0000000... D	app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+:100644 000000 63fc816... 0000000... D	app/src/main/res/values-w820dp/dimens.xml
+:100644 000000 47c8224... 0000000... D	app/src/main/res/values/dimens.xml
+:100644 000000 1b898d3... 0000000... D	app/src/main/res/values/strings.xml
+:100644 000000 766ab99... 0000000... D	app/src/main/res/values/styles.xml
+:100644 100644 211664d... 0e59d01... M	build.gradle
+:000000 100755 0000000... 055d7b1... A	checkstyle.xml
+:100644 100644 0f95cc2... 1d3591c... M	gradle.properties
+:100644 100644 cf90e90... 8518c28... M	logger/build.gradle
+:100644 000000 e6e9e50... 0000000... D	logger/gradle.properties
+:100644 100644 206c6db... 6022e0f... M	logger/src/main/AndroidManifest.xml
+:000000 100644 0000000... 605a6ed... A	logger/src/main/java/com/orhanobut/logger/AndroidLogTool.java
+:100644 100644 1ba680b... e3a33ed... M	logger/src/main/java/com/orhanobut/logger/LogLevel.java
+:000000 100644 0000000... a0b5a13... A	logger/src/main/java/com/orhanobut/logger/LogTool.java
+:100644 100644 c16194b... 02fa0c7... M	logger/src/main/java/com/orhanobut/logger/Logger.java
+:100644 100644 18f402c... a8f6843... M	logger/src/main/java/com/orhanobut/logger/LoggerPrinter.java
+:100644 100644 4d5e7c4... d4acc08... M	logger/src/main/java/com/orhanobut/logger/Printer.java
+:100644 100644 3292f49... 38bfeee... M	logger/src/main/java/com/orhanobut/logger/Settings.java
+:100644 100644 0104391... 085e2f9... M	logger/src/test/java/com.orhanobut.logger/LoggerTest.java
+:100644 100644 257b0c1... b8ff88b... M	logger/src/test/java/com.orhanobut.logger/SettingsTest.java
+:100644 000000 67a6436... 0000000... D	maven_push.gradle
+:100644 100644 2ebe718... 4b6c2a7... M	settings.gradle
+commit=8a60376af984e5846416941703ec0fd252af9a3b:orhanobut@gmail.com
+
+:100644 100644 6223a8f... 3591fe2... M	README.md
+commit=0c59f7b01c15f67921459fd0064cd021d33e5f61:orhanobut@gmail.com
+
+:100644 100644 2ff847e... 6223a8f... M	README.md
+commit=7a73cbf4bb30e128990efff796696c1f5c94fa53:orhanobut@gmail.com
+
+:100644 100644 888ffba... 2ff847e... M	README.md
+commit=ebba488b6370be4e90ce4c861c3cf2a4b53e63c1:orhanobut@gmail.com
+
+:000000 100644 0000000... 12e0a08... A	.travis.yml
+:100644 100644 8be31ce... 211664d... M	build.gradle
+:100644 100644 f1ad695... cf90e90... M	logger/build.gradle
+:100644 100644 14deb93... 206c6db... M	logger/src/main/AndroidManifest.xml
+:100644 100644 54e86f3... 1ba680b... M	logger/src/main/java/com/orhanobut/logger/LogLevel.java
+:100644 100644 8cf03f1... c16194b... M	logger/src/main/java/com/orhanobut/logger/Logger.java
+:100644 100644 7cd3399... 18f402c... M	logger/src/main/java/com/orhanobut/logger/LoggerPrinter.java
+:100644 100644 c5eac50... 4d5e7c4... M	logger/src/main/java/com/orhanobut/logger/Printer.java
+commit=022e977ba612518b5d4500496bb4d93b134e4b5c:orhanobut@gmail.com
+
+:100644 100644 ecd7728... 0f95cc2... M	gradle.properties
+:100644 100644 27e75ed... f1ad695... M	logger/build.gradle
+:100644 000000 75ec973... 0000000... D	logger/src/androidTest/java/com/orhanobut/logger/LoggerTest.java
+:100644 100644 42718b6... 14deb93... M	logger/src/main/AndroidManifest.xml
+:100644 100644 fb359af... 3292f49... M	logger/src/main/java/com/orhanobut/logger/Settings.java
+:000000 100644 0000000... 0104391... A	logger/src/test/java/com.orhanobut.logger/LoggerTest.java
+:000000 100644 0000000... 257b0c1... A	logger/src/test/java/com.orhanobut.logger/SettingsTest.java
+commit=c527157e446709d7b6fafed57e645cac6f535e6d:orhanobut@gmail.com
+
+:100644 100644 296d526... 888ffba... M	README.md
+:100644 100644 6daff93... ff76a21... M	app/src/main/java/com/orhanobut/loggersample/MainActivity.java
+:100644 100644 ae9fbe1... ecd7728... M	gradle.properties
+:100644 100644 2971705... 75ec973... M	logger/src/androidTest/java/com/orhanobut/logger/LoggerTest.java
+:100644 100644 1ccbffc... 7cd3399... M	logger/src/main/java/com/orhanobut/logger/LoggerPrinter.java
+:100644 100644 76a0bc1... fb359af... M	logger/src/main/java/com/orhanobut/logger/Settings.java
+commit=522d44d484c0d907d7b23b743770becbd733c112:orhanobut@gmail.com
+
+:100644 100644 b11367e... 296d526... M	README.md
+:100644 100644 cee0bc9... 80bbf1b... M	app/build.gradle
+:100644 100644 70148b0... 6daff93... M	app/src/main/java/com/orhanobut/loggersample/MainActivity.java
+:100644 100644 2720b1d... ae9fbe1... M	gradle.properties
+:100644 100644 46484c9... 8cf03f1... M	logger/src/main/java/com/orhanobut/logger/Logger.java
+:100644 100644 fa46b60... 1ccbffc... M	logger/src/main/java/com/orhanobut/logger/LoggerPrinter.java
+:100644 100644 7d40038... c5eac50... M	logger/src/main/java/com/orhanobut/logger/Printer.java
+commit=8ef1e6bd213d59d701d70bdccadcbbcdb5354a06:orhanobut@gmail.com
+
+:100644 100644 ea4199b... b11367e... M	README.md
+:100644 100644 ff4c632... 2720b1d... M	gradle.properties
+:100644 100644 f96260e... fa46b60... M	logger/src/main/java/com/orhanobut/logger/LoggerPrinter.java
+commit=99d3aaf5c98eda40653a10435aae2e3708ef830d:orhanobut@gmail.com
+
+:100644 100644 1a60217... ea4199b... M	README.md
+:100644 100644 fcaf2f7... ff4c632... M	gradle.properties
+:100644 100644 ac9cb2a... f96260e... M	logger/src/main/java/com/orhanobut/logger/LoggerPrinter.java
+commit=0219996fd04c78d1267ddccb6df4dcf4ac3ff05f:orhanobut@gmail.com
+
+:100644 100644 573fade... 1a60217... M	README.md
+:100644 100644 80bbf1b... cee0bc9... M	app/build.gradle
+:100644 100644 84b3f14... fcaf2f7... M	gradle.properties
+commit=9e603b97182c9ad0a70b3d718adeda710d263c85:orhanobut@gmail.com
+
+:100644 100644 64ef7ee... 573fade... M	README.md
+commit=8367ae57fbd8a4cc3ea8f3c83c6e058a4e8b609b:engstrom.joakim@gmail.com
+
+:100644 100644 1b7e6df... 46484c9... M	logger/src/main/java/com/orhanobut/logger/Logger.java
+:100644 100644 9723062... ac9cb2a... M	logger/src/main/java/com/orhanobut/logger/LoggerPrinter.java
+:100644 100644 fe871b8... 7d40038... M	logger/src/main/java/com/orhanobut/logger/Printer.java
+commit=d713a3a8f7ae410f513bc1fdd7426b236f799fb1:orhanobut@gmail.com
+
+:100644 100644 00a6252... 64ef7ee... M	README.md
+:100644 100644 adf1947... 84b3f14... M	gradle.properties
+commit=79f1e1e8611774f6c0cb68e9dd8d739e95e66d66:orhanobut@gmail.com
+
+:100644 100644 5a45eb8... 9723062... M	logger/src/main/java/com/orhanobut/logger/LoggerPrinter.java
+commit=a1f5f1152e7d719df5297342c6be4fc0943502d2:orhanobut@gmail.com
+
+:100644 100644 0953517... 70148b0... M	app/src/main/java/com/orhanobut/loggersample/MainActivity.java
+:100644 100644 969e98d... 2971705... M	logger/src/androidTest/java/com/orhanobut/logger/LoggerTest.java
+:100644 100644 4272b82... 1b7e6df... M	logger/src/main/java/com/orhanobut/logger/Logger.java
+:000000 100644 0000000... 5a45eb8... A	logger/src/main/java/com/orhanobut/logger/LoggerPrinter.java
+:000000 100644 0000000... fe871b8... A	logger/src/main/java/com/orhanobut/logger/Printer.java
+:000000 100644 0000000... 76a0bc1... A	logger/src/main/java/com/orhanobut/logger/Settings.java
+commit=dd975fe185f5f7dbd6dda1433a102332c61f2eee:moltak@moltak-iMac.local
+
+:100644 100644 07af6ba... 969e98d... M	logger/src/androidTest/java/com/orhanobut/logger/LoggerTest.java
+:100644 100644 f166a4b... 4272b82... M	logger/src/main/java/com/orhanobut/logger/Logger.java
+commit=63ec96612a74088d0098d0ec987b85db6bb4991d:orhanobut@gmail.com
+
+:100644 100644 ed2f98e... 00a6252... M	README.md
+commit=9aa90616500a1870fe65f1586c2714e3ff8c593c:orhanobut@gmail.com
+
+:100644 100644 6db9c59... ed2f98e... M	README.md
+:100644 100644 3f9f021... 0953517... M	app/src/main/java/com/orhanobut/loggersample/MainActivity.java
+:100644 100644 504e332... 8be31ce... M	build.gradle
+:100644 100644 429c749... adf1947... M	gradle.properties
+commit=31f459155c50bd4f461ba766f6300cd1641f15de:ccunniff@gmail.com
+
+:100644 100644 7085d4c... f166a4b... M	logger/src/main/java/com/orhanobut/logger/Logger.java
+commit=ab3e4e2d74fb907c37b449d32d1f855cf995f383:ccunniff@gmail.com
+
+:100644 100644 664db23... 7085d4c... M	logger/src/main/java/com/orhanobut/logger/Logger.java
+commit=42fe4c823c4f1fe7670ef044b87ecd70bb2fe254:ts@mobvoi.com
+
+:100644 100644 33f5ba0... 664db23... M	logger/src/main/java/com/orhanobut/logger/Logger.java
+commit=fa9dc6820da70aca47da6bd3e4731f93a04aaced:ts@mobvoi.com
+
+:100644 100644 0acce73... 33f5ba0... M	logger/src/main/java/com/orhanobut/logger/Logger.java
+commit=d01e32311b96b4c056b210ef1aa8b8d3d95d1a87:orhanobut@gmail.com
+
+:100644 100644 c2daabb... 6db9c59... M	README.md
+:100644 100644 013153d... 429c749... M	gradle.properties
+commit=81ba00f6b0eb13cf87d95afbf5c9a3c78d560391:orhanobut@gmail.com
+
+:100644 100644 af3b6ab... c2daabb... M	README.md
+commit=c32b63f543096c80eaa937cad0386484e31fadc1:orhanobut@gmail.com
+
+:100644 100644 0252296... af3b6ab... M	README.md
+:100644 100644 1beb724... 3f9f021... M	app/src/main/java/com/orhanobut/loggersample/MainActivity.java
+:100644 100644 2210789... 07af6ba... M	logger/src/androidTest/java/com/orhanobut/logger/LoggerTest.java
+:100644 100644 7bcf97b... 0acce73... M	logger/src/main/java/com/orhanobut/logger/Logger.java
+commit=02b3ceae735ea9d3db838962549f4ab786d24f80:orhanobut@gmail.com
+
+:100644 100644 447bcb5... 0252296... M	README.md
+:000000 100644 0000000... 54257be... A	images/custom-tag.png
+:000000 100644 0000000... 0493143... A	images/wrap-closed.png
+commit=c33ec58560d1df9234faaf850fa23c1f309e81bf:orhanobut@gmail.com
+
+:100644 100644 ad7ffe4... 1beb724... M	app/src/main/java/com/orhanobut/loggersample/MainActivity.java
+:100644 000000 796b96d... 0000000... D	logger/.gitignore
+:100644 100644 07af6ba... 2210789... M	logger/src/androidTest/java/com/orhanobut/logger/LoggerTest.java
+:100644 100644 b9a2302... 7bcf97b... M	logger/src/main/java/com/orhanobut/logger/Logger.java
+commit=a642ef1fa79d54c54d75f2bed67d2759130e0c3f:orhanobut@gmail.com
+
+:100644 100644 9d21942... 447bcb5... M	README.md
+commit=f16635cdec2c6579607cb3c5d84c9e861338c25b:orhanobut@gmail.com
+
+:100644 100644 c22cb62... 013153d... M	gradle.properties
+:100644 100644 c284e8f... e6e9e50... M	logger/gradle.properties
+commit=253fabf654dcf9fb811ced4d77970414530d2b26:orhanobut@gmail.com
+
+:100644 100644 2f8de4f... 9d21942... M	README.md
+commit=e71b06d6be0027b42fb355a0330b42f03b6e2d64:orhanobut@gmail.com
+
+:100644 100644 36a9cf8... 2f8de4f... M	README.md
+commit=7806d1d20f0541ff1765bf8d81687f9d8b3ebab5:orhanobut@gmail.com
+
+:100644 100644 ebad4cd... 36a9cf8... M	README.md
+:100644 100644 63e6426... c22cb62... M	gradle.properties
+:000000 100644 0000000... 54e86f3... A	logger/src/main/java/com/orhanobut/logger/LogLevel.java
+:100644 100644 4e744cb... b9a2302... M	logger/src/main/java/com/orhanobut/logger/Logger.java
+commit=41788c0855414ed510cf7ce149850ea2e1ded90c:orhanobut@gmail.com
+
+:100644 100644 1cb3e79... ebad4cd... M	README.md
+commit=fb42bf7a17b3955d121759e8ad028f5ed413e03e:orhanobut@gmail.com
+
+:100644 100644 ab16e03... 1cb3e79... M	README.md
+commit=3fe1253dae502bc30285c5cd753e5e3c29678b97:orhanobut@gmail.com
+
+:100644 100644 9b99c0c... ab16e03... M	README.md
+:100644 100644 5477a00... ad7ffe4... M	app/src/main/java/com/orhanobut/loggersample/MainActivity.java
+:100644 100644 b4680e7... d2c9c6c... M	images/one-method-with-thread.png
+commit=9ba6855a3a02ebbdd2c6b4c62b1643a2d7af2916:orhanobut@gmail.com
+
+:100644 100644 e68da69... 9b99c0c... M	README.md
+commit=c33e6cb6d1c13a6a23144c4d07e3515e17d85c87:orhanobut@gmail.com
+
+:100644 100644 b13918e... bdeff11... M	images/logger-log.png
+commit=6053fe089c692106badb6cfc288ba0cd5cf99a01:orhanobut@gmail.com
+
+:100644 100644 82d38b7... e68da69... M	README.md
+:100644 100644 c9a6a08... 5477a00... M	app/src/main/java/com/orhanobut/loggersample/MainActivity.java
+:000000 100644 0000000... b4680e7... A	images/one-method-with-thread.png
+:000000 100644 0000000... 5aa440f... A	images/two-method-with-thread-desc.png
+commit=aea3c0d8bd0049b9fe34c1381dd1a68f2865f732:orhanobut@gmail.com
+
+:000000 100644 0000000... 258b4ef... A	.gitignore
+:000000 100644 0000000... e06d208... A	LICENSE
+:000000 100644 0000000... 82d38b7... A	README.md
+:000000 100644 0000000... 80bbf1b... A	app/build.gradle
+:000000 100644 0000000... e8cd682... A	app/src/androidTest/java/com/orhanobut/loggersample/ApplicationTest.java
+:000000 100644 0000000... 6ce8697... A	app/src/main/AndroidManifest.xml
+:000000 100644 0000000... 13c4479... A	app/src/main/java/com/orhanobut/loggersample/Dummy.java
+:000000 100644 0000000... f480333... A	app/src/main/java/com/orhanobut/loggersample/Foo.java
+:000000 100644 0000000... c9a6a08... A	app/src/main/java/com/orhanobut/loggersample/MainActivity.java
+:000000 100644 0000000... bd9d20a... A	app/src/main/res/layout/activity_main.xml
+:000000 100644 0000000... a459e0a... A	app/src/main/res/menu/menu_main.xml
+:000000 100644 0000000... cde69bc... A	app/src/main/res/mipmap-hdpi/ic_launcher.png
+:000000 100644 0000000... c133a0c... A	app/src/main/res/mipmap-mdpi/ic_launcher.png
+:000000 100644 0000000... bfa42f0... A	app/src/main/res/mipmap-xhdpi/ic_launcher.png
+:000000 100644 0000000... 324e72c... A	app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+:000000 100644 0000000... 63fc816... A	app/src/main/res/values-w820dp/dimens.xml
+:000000 100644 0000000... 47c8224... A	app/src/main/res/values/dimens.xml
+:000000 100644 0000000... 1b898d3... A	app/src/main/res/values/strings.xml
+:000000 100644 0000000... 766ab99... A	app/src/main/res/values/styles.xml
+:000000 100644 0000000... 504e332... A	build.gradle
+:000000 100644 0000000... 63e6426... A	gradle.properties
+:000000 100644 0000000... 8c0fb64... A	gradle/wrapper/gradle-wrapper.jar
+:000000 100644 0000000... 0c71e76... A	gradle/wrapper/gradle-wrapper.properties
+:000000 100755 0000000... 91a7e26... A	gradlew
+:000000 100644 0000000... 8a0b282... A	gradlew.bat
+:000000 100644 0000000... e9a0866... A	images/current-log.png
+:000000 100644 0000000... 8eec5d5... A	images/description.png
+:000000 100644 0000000... c77972f... A	images/filter.png
+:000000 100644 0000000... 7f89987... A	images/json-log.png
+:000000 100644 0000000... 9f4786f... A	images/just-content.png
+:000000 100644 0000000... b13918e... A	images/logger-log.png
+:000000 100644 0000000... 9d64bfa... A	images/logger-logo.png
+:000000 100644 0000000... 1fbc880... A	images/one-method-no-header.png
+:000000 100644 0000000... 796b96d... A	logger/.gitignore
+:000000 100644 0000000... 27e75ed... A	logger/build.gradle
+:000000 100644 0000000... c284e8f... A	logger/gradle.properties
+:000000 100644 0000000... 07af6ba... A	logger/src/androidTest/java/com/orhanobut/logger/LoggerTest.java
+:000000 100644 0000000... 42718b6... A	logger/src/main/AndroidManifest.xml
+:000000 100644 0000000... 4e744cb... A	logger/src/main/java/com/orhanobut/logger/Logger.java
+:000000 100644 0000000... 67a6436... A	maven_push.gradle
+:000000 100644 0000000... 2ebe718... A	settings.gradle

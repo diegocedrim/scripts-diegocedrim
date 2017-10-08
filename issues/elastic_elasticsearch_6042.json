@@ -1,0 +1,95 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "Search operation threading is an option that is not really used, and current non default implementations are flawed. Handling it also creates quite the complexity in the search handling codebase...\nThis is a breaking change, but one that is actually a good one, since I haven't seen/heard anybody use it, and if its used, its problematic...\n", 
+    "closed_at": "2014-05-05T09:39:36Z", 
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }, 
+    "comments": 2, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/6042/comments", 
+    "created_at": "2014-05-05T09:05:10Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/6042/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/pull/6042", 
+    "id": 32795525, 
+    "labels": [
+        {
+            "color": "009800", 
+            "default": false, 
+            "id": 146829143, 
+            "name": ":Java API", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/:Java%20API"
+        }, 
+        {
+            "color": "ff0000", 
+            "default": false, 
+            "id": 33660, 
+            "name": "breaking", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/breaking"
+        }, 
+        {
+            "color": "dddddd", 
+            "default": false, 
+            "id": 85667032, 
+            "name": "v1.2.0", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v1.2.0"
+        }, 
+        {
+            "color": "dddddd", 
+            "default": false, 
+            "id": 76184120, 
+            "name": "v2.0.0-beta1", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v2.0.0-beta1"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/6042/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 6042, 
+    "pull_request": {
+        "diff_url": "https://github.com/elastic/elasticsearch/pull/6042.diff", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/6042", 
+        "patch_url": "https://github.com/elastic/elasticsearch/pull/6042.patch", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/pulls/6042"
+    }, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Remove search operation threading option", 
+    "updated_at": "2015-06-06T16:59:17Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/6042", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }
+}

@@ -1,0 +1,1015 @@
+commit=3f9844799ab8cff7a23415d9c10b4b02564ee249:shun.sato1@gmail.com
+
+:100644 100644 6964979... 18bb74e... M	leakcanary-analyzer/src/main/java/com/squareup/leakcanary/HeapAnalyzer.java
+commit=a32d62e854e8f09e273bbcc64f372c0899094b24:py.ricau@gmail.com
+
+:100644 100644 f4d82cc... 534efbb... M	CHANGELOG.md
+commit=050b554887cd590c80803c25dcd6c05bdf89eadc:py@squareup.com
+
+:100644 100644 9a41f16... 3f6bd3d... M	build.gradle
+commit=00f37f552efec8aac768aac8ad8445a8f241ab72:py@squareup.com
+
+:100644 100644 bf3a654... f4d82cc... M	CHANGELOG.md
+:100644 100644 487d779... 75b3a3e... M	README.md
+:100644 100644 d03a1ad... 9a41f16... M	build.gradle
+commit=111609ecc2afacf48812fea95916ee2d0e742f2b:py@squareup.com
+
+:000000 100644 0000000... 5f6a202... A	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidRefWatcherBuilder.java
+:100644 100644 44eb3ef... c0011c8... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidWatchExecutor.java
+:100644 100644 98eda00... 9495755... M	leakcanary-android/src/main/java/com/squareup/leakcanary/DefaultLeakDirectoryProvider.java
+:100644 100644 ffbb17d... 98f8325... M	leakcanary-android/src/main/java/com/squareup/leakcanary/LeakCanary.java
+:100644 000000 b719737... 0000000... D	leakcanary-android/src/main/res/values/leak_canary_int.xml
+:100644 100644 b5f11b9... 7e90f59... M	leakcanary-android/src/main/res/values/leak_canary_public.xml
+:100644 100644 fe88f38... ee20158... M	leakcanary-watcher/src/main/java/com/squareup/leakcanary/HeapDump.java
+:100644 100644 344c740... 43a9499... M	leakcanary-watcher/src/main/java/com/squareup/leakcanary/HeapDumper.java
+:100644 100644 2d2340f... 57ee1e3... M	leakcanary-watcher/src/main/java/com/squareup/leakcanary/RefWatcher.java
+:000000 100644 0000000... 9e5d2a1... A	leakcanary-watcher/src/main/java/com/squareup/leakcanary/RefWatcherBuilder.java
+:100644 100644 81579df... d9d19d4... M	leakcanary-watcher/src/main/java/com/squareup/leakcanary/Retryable.java
+:100644 100644 85fd90b... 9446877... M	leakcanary-watcher/src/main/java/com/squareup/leakcanary/WatchExecutor.java
+:100644 100644 b5c2537... c10b4d7... M	leakcanary-watcher/src/test/java/com/squareup/leakcanary/RefWatcherTest.java
+commit=633c37d056c4b264cfa188d2b24409e970eaa221:py@squareup.com
+
+:100644 100644 3b1effb... 6964979... M	leakcanary-analyzer/src/main/java/com/squareup/leakcanary/HeapAnalyzer.java
+:000000 100644 0000000... 61990d1... A	leakcanary-analyzer/src/main/java/com/squareup/leakcanary/TrackedReference.java
+:100644 100644 0d5607d... 584e37c... M	leakcanary-analyzer/src/test/java/com/squareup/leakcanary/HeapAnalyzerTest.java
+:100644 100644 5542808... 340ae3e... M	leakcanary-analyzer/src/test/java/com/squareup/leakcanary/TestUtil.java
+:000000 100644 0000000... af52397... A	leakcanary-analyzer/src/test/java/com/squareup/leakcanary/TrackedReferencesTest.java
+commit=3286a1acfbd7162a8e29e88a164eed83bbd6e209:py@squareup.com
+
+:100644 100644 c46435f... 3002cd7... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidHeapDumper.java
+:100644 100644 8f8eff4... 44eb3ef... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidWatchExecutor.java
+:100644 100644 5642ab7... 98eda00... M	leakcanary-android/src/main/java/com/squareup/leakcanary/DefaultLeakDirectoryProvider.java
+:100644 100644 afdc4e9... 24e8842... M	leakcanary-android/src/main/java/com/squareup/leakcanary/DisplayLeakService.java
+:100644 100644 1081ae3... ffbb17d... M	leakcanary-android/src/main/java/com/squareup/leakcanary/LeakCanary.java
+:100644 100644 1e7ebf8... 1dfa218... M	leakcanary-android/src/main/java/com/squareup/leakcanary/LeakDirectoryProvider.java
+:100644 100644 9739bf9... e1fbb68... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakActivity.java
+:100644 100644 cdb5a05... ab25c64... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/LeakCanaryInternals.java
+:100644 100644 715d089... 344c740... M	leakcanary-watcher/src/main/java/com/squareup/leakcanary/HeapDumper.java
+:100644 100644 5d12453... 2d2340f... M	leakcanary-watcher/src/main/java/com/squareup/leakcanary/RefWatcher.java
+:000000 100644 0000000... 81579df... A	leakcanary-watcher/src/main/java/com/squareup/leakcanary/Retryable.java
+:000000 100644 0000000... 85fd90b... A	leakcanary-watcher/src/main/java/com/squareup/leakcanary/WatchExecutor.java
+:100644 100644 15b44de... b5c2537... M	leakcanary-watcher/src/test/java/com/squareup/leakcanary/RefWatcherTest.java
+commit=baf3f2d46bf657c190390a29ea8c8c0fb70d5fe9:john.rodriguez@gmail.com
+
+:100644 100644 4ab1baf... 9739bf9... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakActivity.java
+:100644 100644 6e43e4d... b81463c... M	leakcanary-android/src/main/res/values-de/leak_canary_strings.xml
+:100644 100644 d9aaee1... 2fec1f1... M	leakcanary-android/src/main/res/values/leak_canary_strings.xml
+commit=5e3f8636620c51508d158bdce63118eb19df8ca5:john.rodriguez@gmail.com
+
+:100644 100644 8fc8a58... a978414... M	leakcanary-android-no-op/src/main/java/com/squareup/leakcanary/LeakCanary.java
+commit=66d19fbf8aeea061422710e7ffd46c006f4e496b:py@squareup.com
+
+:100644 100644 0ecfd8d... dd03f07... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=6369d8183f284b82e041b869b6aa4f071b9d30ca:py@squareup.com
+
+:100644 100644 db71dcc... 0ecfd8d... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=02db21897c1e590a655e171fa047188810685ec1:py@squareup.com
+
+:100644 100644 40ac321... 487d779... M	README.md
+:100644 100644 942be77... 3f8c98c... M	leakcanary-sample/src/main/java/com/example/leakcanary/ExampleApplication.java
+commit=ceedda49a3a37bbf680193c395dbe4fe5b4ea34d:py@squareup.com
+
+:100644 100644 812b6e6... 5642ab7... M	leakcanary-android/src/main/java/com/squareup/leakcanary/DefaultLeakDirectoryProvider.java
+commit=ba828bfefd9f304304a65a718891438b3f01f86f:py.ricau@gmail.com
+
+:100644 100644 6065dbc... 40ac321... M	README.md
+commit=3ea62ec8da2cc755f74ef040285a55bc7ee2b8c7:john.rodriguez@gmail.com
+
+:100644 100644 b8432c9... f655ac0... M	.github/ISSUE_TEMPLATE.md
+commit=d379d6846bfdc460d2558336c73f84232e9ba927:py@squareup.com
+
+:100644 100644 70113c5... e52920f... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=13d3ed9a2b8c47b4e950b875b650543d08a5290e:py@squareup.com
+
+:100644 100644 70113c5... 39d00b6... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=dd5c8c7b5702ab67fbeb27bc5ccb4dfe157860f9:py@squareup.com
+
+:100644 100644 1728953... 70113c5... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=f955193342419432d7f1dc5d2da6b199ef4208aa:py@squareup.com
+
+:100644 100644 3c7dee2... 1728953... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=48c2ed151502618b8fd9a7aaddd07b73de4e14de:john.rodriguez@gmail.com
+
+:100644 100644 5ab926c... d03a1ad... M	build.gradle
+commit=6b04880cce9b6ac7159aedbd79525edb4d455d17:john.rodriguez@gmail.com
+
+:100644 100644 cce105c... bf3a654... M	CHANGELOG.md
+:100644 100644 ce38252... 6065dbc... M	README.md
+:100644 100644 227a636... 5ab926c... M	build.gradle
+commit=1ac3c469f4e23aa986a8fcba6ea1e9e163b5336f:john.rodriguez@gmail.com
+
+:100644 100644 50543b6... c7301ca... M	leakcanary-watcher/build.gradle
+commit=819a36ae4ec21b8f6c0d9c1808f4b7a5e1b28537:john.rodriguez@gmail.com
+
+:100644 100644 bd5ff0c... 227a636... M	build.gradle
+:100644 100644 5838598... 3baa851... M	gradle/wrapper/gradle-wrapper.jar
+:100644 100644 b1c865c... c406ddb... M	gradle/wrapper/gradle-wrapper.properties
+:100755 100755 91a7e26... 27309d9... M	gradlew
+commit=33973bf76697da0e9ee7f7a3de740d53f017edaa:john.rodriguez@gmail.com
+
+:100644 100644 db6100e... e9c49d4... M	leakcanary-analyzer/src/main/java/com/squareup/leakcanary/ShortestPathFinder.java
+:100644 100644 a414687... 926a0d8... M	leakcanary-analyzer/src/test/java/com/squareup/leakcanary/RetainedSizeTest.java
+:100644 000000 a54feeb... 0000000... D	leakcanary-analyzer/src/test/java/com/squareup/leakcanary/ServiceBinderLeakTest.java
+:100644 100644 e3666e5... 5542808... M	leakcanary-analyzer/src/test/java/com/squareup/leakcanary/TestUtil.java
+:100644 000000 af1dab1... 0000000... D	leakcanary-analyzer/src/test/resources/leak_service_binder.hprof
+:100644 000000 cdb867c... 0000000... D	leakcanary-analyzer/src/test/resources/leak_service_binder_ignored.hprof
+:100644 100644 e4a9dfd... 3c7dee2... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+:100644 100644 4766244... ce75157... M	leakcanary-watcher/src/main/java/com/squareup/leakcanary/ExcludedRefs.java
+commit=059afadc3bf5a6813608fd9ccf9d5172bad3526a:john.rodriguez@gmail.com
+
+:100644 100644 870e486... 461f504... M	leakcanary-analyzer/build.gradle
+commit=7ecfdf7445f898e9991dc9faa780e5401929c5b6:john.rodriguez@gmail.com
+
+:100644 100644 ddf1fa3... cce105c... M	CHANGELOG.md
+commit=457175960e341658fc908ee12a9bf803bca63a23:jrod@squareup.com
+
+:100644 100644 1e1af15... 870e486... M	leakcanary-analyzer/build.gradle
+commit=c13b9ef7fc3d3e7ae7db4eaa5fe0525204174cd5:john.rodriguez@gmail.com
+
+:100644 100644 36796a0... bd5ff0c... M	build.gradle
+:100644 100644 63b8048... b1c865c... M	gradle/wrapper/gradle-wrapper.properties
+:100644 100644 0f1e9cd... 54e0d55... M	leakcanary-sample/build.gradle
+commit=3d154a122d2cfe5c98371886caaa141aa645afb3:john.rodriguez@gmail.com
+
+:100644 100644 b0568c4... 36796a0... M	build.gradle
+commit=1940530a9de27c5faad91e0d7ccfc4cfb2933c7e:john.rodriguez@gmail.com
+
+:100644 100644 60e6bc7... 1e1af15... M	leakcanary-analyzer/build.gradle
+:100644 100644 beb0706... 70516ea... M	leakcanary-android/build.gradle
+:100644 100644 d80081b... 0f1e9cd... M	leakcanary-sample/build.gradle
+:100644 100644 ac0cac7... 50543b6... M	leakcanary-watcher/build.gradle
+commit=7490831964c70b6619f8a174e4dd47a7632109a5:robin.kertels@outlook.com
+
+:100644 100644 a176ac0... 6e43e4d... M	leakcanary-android/src/main/res/values-de/leak_canary_strings.xml
+commit=9dcbfd52b63836eb18d7bb47fb9e10f5f436768f:kirill.rakhman@gmail.com
+
+:100644 100644 e4a9dfd... 66f853c... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=0b7cac46064a9f6df556fa92e94968cdbf4c6dbd:py@squareup.com
+
+:100644 100644 2d94130... 3d8a23f... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/RequestStoragePermissionActivity.java
+:100644 100644 081f2d0... a176ac0... M	leakcanary-android/src/main/res/values-de/leak_canary_strings.xml
+:100644 100644 b53e29c... d9aaee1... M	leakcanary-android/src/main/res/values/leak_canary_strings.xml
+commit=5cf8dc2c3c2d94dffe6fde9d8902fdf2323c4038:contact@simon-marquis.fr
+
+:100644 100644 2be0290... 01abf26... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakActivity.java
+:100644 100644 929e6ba... fd23cfb... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakAdapter.java
+:100644 100644 d9d312e... 8e56c3d... M	leakcanary-android/src/main/res/layout/leak_canary_display_leak.xml
+:100644 100644 00e291b... c5c5ac7... M	leakcanary-android/src/main/res/layout/leak_canary_leak_row.xml
+:100644 100644 e5c125e... 947af46... M	leakcanary-android/src/main/res/layout/leak_canary_ref_row.xml
+:100644 100644 4fc704b... c4803b7... M	leakcanary-android/src/main/res/layout/leak_canary_ref_top_row.xml
+commit=131a8ae309b8f422d54685875ee0568da50ef2dc:py@squareup.com
+
+:100644 100644 86a232f... c46435f... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidHeapDumper.java
+:100644 100644 988906e... 812b6e6... M	leakcanary-android/src/main/java/com/squareup/leakcanary/DefaultLeakDirectoryProvider.java
+:100644 100644 6c8cf05... 1e7ebf8... M	leakcanary-android/src/main/java/com/squareup/leakcanary/LeakDirectoryProvider.java
+:100644 100644 2be0290... e746b04... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakActivity.java
+commit=34f561224ac1ad694d2b28c24711a1b11eb673c1:py@squareup.com
+
+:100644 100644 a96df82... ddf1fa3... M	CHANGELOG.md
+:100644 100644 61e7b5b... ce38252... M	README.md
+commit=3df74c4eb81f13053dd961d534ec152f467df6c4:py@squareup.com
+
+:100644 100644 fbbf8ba... fe01cd2... M	leakcanary-analyzer/src/main/java/com/squareup/leakcanary/HahaHelper.java
+commit=5c01639d6d8583a7a09331c3ead9261c967248a5:py@squareup.com
+
+:100644 100644 69f02ba... 1081ae3... M	leakcanary-android/src/main/java/com/squareup/leakcanary/LeakCanary.java
+:100644 100644 5ec5844... 2be0290... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakActivity.java
+commit=34f6bf5587e489a5de941d520899d2d7f569a325:jrod@squareup.com
+
+:100644 100644 d750225... b0568c4... M	build.gradle
+commit=431ed78f886513dc6166b2b5ae33b365a3e692c2:jrod@squareup.com
+
+:100644 100644 064b12c... a96df82... M	CHANGELOG.md
+:100644 100644 bdd4a7f... 61e7b5b... M	README.md
+:100644 100644 b0568c4... d750225... M	build.gradle
+commit=1104c95dbe40617eda9bb3a81233260f1034b5c4:py@squareup.com
+
+:100644 100644 bbcb4d1... e4a9dfd... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+:100644 100644 973b1b8... cdb5a05... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/LeakCanaryInternals.java
+commit=efa41ac38b4fa4d48df06d011730a7ffdc8eb0d0:py@squareup.com
+
+:100644 100644 b334079... 973b1b8... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/LeakCanaryInternals.java
+commit=19d96726148165dd20c30030f357f42d181aa734:yky@users.noreply.github.com
+
+:100644 100644 236c716... bbcb4d1... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=84e702d98c0708dfd5b836af1a0ca73c6dfae4a0:py@squareup.com
+
+:100644 100644 338b931... 338b931... R100	CONTRIBUTING.md	.github/CONTRIBUTING.md
+:000000 100644 0000000... b8432c9... A	.github/ISSUE_TEMPLATE.md
+commit=8a4d36b75f1859d3769253fe0bbe567d53aec50f:py@squareup.com
+
+:100644 100644 db8d8f8... 5ec5844... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakActivity.java
+commit=14b990ca352c7443bffce761b99f438873a6cf75:goddchen@googlemail.com
+
+:000000 100644 0000000... 081f2d0... A	leakcanary-android/src/main/res/values-de/leak_canary_strings.xml
+commit=914942eacbf386b8a48ebef945590c7f525f0bac:john.rodriguez@gmail.com
+
+:100644 100644 84c4633... 60e6bc7... M	leakcanary-analyzer/build.gradle
+:100644 100644 eb2082f... 3b1effb... M	leakcanary-analyzer/src/main/java/com/squareup/leakcanary/HeapAnalyzer.java
+:000000 100644 0000000... 0d5607d... A	leakcanary-analyzer/src/test/java/com/squareup/leakcanary/HeapAnalyzerTest.java
+commit=021f169919e1d8c470d30672f6a8fda446f2456b:rw.liang1@gmail.com
+
+:100644 100644 349b933... db8d8f8... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakActivity.java
+commit=c81f06363743dad4987522e8b59835e32f56fe4e:rw.liang1@gmail.com
+
+:100644 100644 5dfdcf8... f15c758... M	assets/icon_1024.png
+:100644 100644 bb24dba... 0ca6bed... M	assets/icon_512.png
+:100644 100644 f68053b... 8faa278... M	assets/screenshot.png
+:100644 100644 827e555... d04aace... M	assets/source_icon.png
+:100755 100755 f104922... 07bb09f... M	leakcanary-android/src/main/res/drawable-hdpi-v11/leak_canary_notification.png
+:100755 100755 7e375c5... 74348d8... M	leakcanary-android/src/main/res/drawable-hdpi/leak_canary_icon.png
+:100755 100755 09c78cc... 13b3311... M	leakcanary-android/src/main/res/drawable-hdpi/leak_canary_notification.png
+:100755 100755 d29b9f1... 9738ad8... M	leakcanary-android/src/main/res/drawable-mdpi-v11/leak_canary_notification.png
+:100755 100755 f354c3f... 37f5057... M	leakcanary-android/src/main/res/drawable-mdpi/leak_canary_icon.png
+:100755 100755 c825fa4... dc92783... M	leakcanary-android/src/main/res/drawable-mdpi/leak_canary_notification.png
+:100755 100755 d0cdbcd... 538e021... M	leakcanary-android/src/main/res/drawable-xhdpi-v11/leak_canary_notification.png
+:100755 100755 a5e85b4... 56a94f2... M	leakcanary-android/src/main/res/drawable-xhdpi/leak_canary_icon.png
+:100755 100755 b2978d5... 1e1b977... M	leakcanary-android/src/main/res/drawable-xhdpi/leak_canary_notification.png
+:100755 100755 0194b4e... d3ef4b7... M	leakcanary-android/src/main/res/drawable-xxhdpi-v11/leak_canary_notification.png
+:100755 100755 3d4b76a... 34b7d41... M	leakcanary-android/src/main/res/drawable-xxhdpi/leak_canary_icon.png
+:100755 100755 22db202... c652efd... M	leakcanary-android/src/main/res/drawable-xxhdpi/leak_canary_notification.png
+:100755 100755 0514161... 4713f18... M	leakcanary-android/src/main/res/drawable-xxxhdpi-v11/leak_canary_notification.png
+:100755 100755 eb9c072... 855d605... M	leakcanary-android/src/main/res/drawable-xxxhdpi/leak_canary_icon.png
+:100755 100755 34b7614... bb458f2... M	leakcanary-android/src/main/res/drawable-xxxhdpi/leak_canary_notification.png
+:100755 100755 099c77d... 65948fa... M	leakcanary-sample/src/main/res/drawable-hdpi/ic_launcher.png
+:100755 100755 da2453c... 5d826c4... M	leakcanary-sample/src/main/res/drawable-mdpi/ic_launcher.png
+:100755 100755 35a3ec9... c9c7ec5... M	leakcanary-sample/src/main/res/drawable-xhdpi/ic_launcher.png
+:100755 100755 6b3f35a... cb8a98a... M	leakcanary-sample/src/main/res/drawable-xxhdpi/ic_launcher.png
+:100755 100755 2d77dc1... 3ca3a7f... M	leakcanary-sample/src/main/res/drawable-xxxhdpi/ic_launcher.png
+commit=3ac5b36900d7393947ae0d5c6ff43f61400bac1d:roger.hu@gmail.com
+
+:100644 100644 cb88617... a7e46a6... M	README.md
+:100644 100644 741501b... 48ffcc2... M	leakcanary-android/consumer-proguard-rules.pro
+commit=2716458454b9c947e4baf4dc107b34e369f53897:py@squareup.com
+
+:100644 100644 cb88617... 43bd5e9... M	README.md
+commit=50a9a0aec4510f7c1450281d438c86eefffa9330:py@squareup.com
+
+:100644 100644 a972ef2... eb2082f... M	leakcanary-analyzer/src/main/java/com/squareup/leakcanary/HeapAnalyzer.java
+:100644 100644 69ec871... b30df27... M	leakcanary-analyzer/src/main/java/com/squareup/leakcanary/LeakNode.java
+:100644 100644 02f85f6... 89ef31e... M	leakcanary-analyzer/src/main/java/com/squareup/leakcanary/LeakTraceElement.java
+:100644 100644 82028a1... db6100e... M	leakcanary-analyzer/src/main/java/com/squareup/leakcanary/ShortestPathFinder.java
+:100644 100644 df8a9fd... ad43d49... M	leakcanary-analyzer/src/test/java/com/squareup/leakcanary/AsyncTaskLeakTest.java
+:100644 100644 d3f2cd4... a414687... M	leakcanary-analyzer/src/test/java/com/squareup/leakcanary/RetainedSizeTest.java
+:100644 100644 1851ce7... a54feeb... M	leakcanary-analyzer/src/test/java/com/squareup/leakcanary/ServiceBinderLeakTest.java
+:100644 100644 d58d0aa... e3666e5... M	leakcanary-analyzer/src/test/java/com/squareup/leakcanary/TestUtil.java
+:100644 100644 0db6e64... 236c716... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+:100644 100644 39ffd8f... 69f02ba... M	leakcanary-android/src/main/java/com/squareup/leakcanary/LeakCanary.java
+:100644 100644 cb16c7f... 929e6ba... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakAdapter.java
+:100644 100644 458c1f4... b53e29c... M	leakcanary-android/src/main/res/values/leak_canary_strings.xml
+:100644 100644 9660eda... 4766244... M	leakcanary-watcher/src/main/java/com/squareup/leakcanary/ExcludedRefs.java
+:000000 100644 0000000... 4d87d05... A	leakcanary-watcher/src/main/java/com/squareup/leakcanary/Exclusion.java
+:100644 100644 7d2b9fc... 5d12453... M	leakcanary-watcher/src/main/java/com/squareup/leakcanary/RefWatcher.java
+:100644 100644 31e6531... 15b44de... M	leakcanary-watcher/src/test/java/com/squareup/leakcanary/RefWatcherTest.java
+commit=66e2365c98774b4b3bcb145ad9cda44d8cae57b3:shubhamchaudhary92@gmail.com
+
+:100644 100644 edb02d8... 832e455... M	README.md
+commit=07a83aba81974f2e91adc54f970f503015b377cc:john.rodriguez@gmail.com
+
+:100644 100644 edb02d8... 126f850... M	README.md
+commit=1d78a47aa0c94485813ce883f78d223759838e06:john.rodriguez@gmail.com
+
+:100644 100644 5fb722f... 064b12c... M	CHANGELOG.md
+commit=910ec5e7db241e6aaf84d12117c4adbd2e6684f4:john.rodriguez@gmail.com
+
+:100644 100644 1f4880e... 5fb722f... M	CHANGELOG.md
+commit=3da43311069ddb6d264a74f72cbf38584cdcc00e:py@squareup.com
+
+:100644 100644 64c2b44... 1f4880e... M	CHANGELOG.md
+commit=72bbec61f8ddba63be0cf6cd4c161ce752e5929c:py@squareup.com
+
+:100644 100644 5edbae1... 64c2b44... M	CHANGELOG.md
+commit=6ee9ca4abb566fcf621c848e7ae18f9dc410a931:py@squareup.com
+
+:100644 100644 48a5663... 5edbae1... M	CHANGELOG.md
+:100644 100644 306ad1e... edb02d8... M	README.md
+commit=2fdb025facbd316cddb27bf4a95e34a67cd9e505:john.rodriguez@gmail.com
+
+:100644 100644 ce33888... 0db6e64... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=ea0af1d6be08ba4ac7eda913219456286ab0c4f8:py@squareup.com
+
+:100644 100644 dc0ce58... b539317... M	leakcanary-android/src/main/AndroidManifest.xml
+:100644 100644 ad8f2ff... 86a232f... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidHeapDumper.java
+:100644 100644 5e67903... 988906e... M	leakcanary-android/src/main/java/com/squareup/leakcanary/DefaultLeakDirectoryProvider.java
+:100644 100644 cf7d141... afdc4e9... M	leakcanary-android/src/main/java/com/squareup/leakcanary/DisplayLeakService.java
+:100644 100644 f573f1d... 39ffd8f... M	leakcanary-android/src/main/java/com/squareup/leakcanary/LeakCanary.java
+:100644 100644 4bcf8e6... 6c8cf05... M	leakcanary-android/src/main/java/com/squareup/leakcanary/LeakDirectoryProvider.java
+:100644 100644 9ac6ce8... b334079... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/LeakCanaryInternals.java
+:000000 100644 0000000... 2d94130... A	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/RequestStoragePermissionActivity.java
+:100644 100644 ffa221e... 458c1f4... M	leakcanary-android/src/main/res/values/leak_canary_strings.xml
+:100644 100644 69a56ed... eebd033... M	leakcanary-android/src/main/res/values/leak_canary_themes.xml
+commit=7dd1bd3c082ffd2b5be8a66bea7696915d0d29a1:py@squareup.com
+
+:100644 100644 d970f89... ad327f3... M	.travis.yml
+:100644 100644 a585313... b0568c4... M	build.gradle
+:100644 100644 dea490a... cf7d141... M	leakcanary-android/src/main/java/com/squareup/leakcanary/DisplayLeakService.java
+commit=78130af3f369d03b7da2bb2c24a4536abbe11f2b:py@squareup.com
+
+:100644 100644 f383516... 48a5663... M	CHANGELOG.md
+:100644 100644 8376943... 4c8270c... M	leakcanary-analyzer/src/main/java/com/squareup/leakcanary/AnalysisResult.java
+:100644 100644 232975f... a972ef2... M	leakcanary-analyzer/src/main/java/com/squareup/leakcanary/HeapAnalyzer.java
+:100644 100644 3545c1e... df8a9fd... M	leakcanary-analyzer/src/test/java/com/squareup/leakcanary/AsyncTaskLeakTest.java
+:000000 100644 0000000... d3f2cd4... A	leakcanary-analyzer/src/test/java/com/squareup/leakcanary/RetainedSizeTest.java
+:100644 100644 d270647... 1851ce7... M	leakcanary-analyzer/src/test/java/com/squareup/leakcanary/ServiceBinderLeakTest.java
+:100644 100644 da3d5cd... d58d0aa... M	leakcanary-analyzer/src/test/java/com/squareup/leakcanary/TestUtil.java
+:100644 100644 fc14a29... dea490a... M	leakcanary-android/src/main/java/com/squareup/leakcanary/DisplayLeakService.java
+:100644 100644 b2d39a9... f573f1d... M	leakcanary-android/src/main/java/com/squareup/leakcanary/LeakCanary.java
+:100644 100644 5f3fa42... 0f83f97... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakActivity.java
+:100644 100644 f395dd6... ffa221e... M	leakcanary-android/src/main/res/values/leak_canary_strings.xml
+commit=05ef6fdaf4fe16eaff278012f896c89923448537:john.rodriguez@gmail.com
+
+:100644 100644 d912b02... ce33888... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=a35624b6221383d47f3ee20f054e522a46106cc7:john.ferlisi@gmail.com
+
+:100644 100644 678bbf8... 1692a4e... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakActivity.java
+:100644 100644 80131d9... 9ac6ce8... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/LeakCanaryInternals.java
+:000000 100644 0000000... 4eb3a3a... A	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/LeakCanarySingleThreadFactory.java
+commit=bf29548e7d15523d2b8d58bcb857105ae9b14efa:py@squareup.com
+
+:100644 100644 b2e5448... 82028a1... M	leakcanary-analyzer/src/main/java/com/squareup/leakcanary/ShortestPathFinder.java
+:100644 100644 e032277... d270647... M	leakcanary-analyzer/src/test/java/com/squareup/leakcanary/ServiceBinderLeakTest.java
+:100644 100644 155dae8... da3d5cd... M	leakcanary-analyzer/src/test/java/com/squareup/leakcanary/TestUtil.java
+:100644 100644 583a88f... d912b02... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+:100644 100644 c51e7bc... 22d9df7... M	leakcanary-watcher/src/main/java/com/squareup/leakcanary/ExcludedRefs.java
+commit=1b3efb4f0bc1511f539145f60b985ece7205d673:john.rodriguez@gmail.com
+
+:100644 100644 d5c2608... ad8f2ff... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidHeapDumper.java
+:100644 100644 4858592... 8f8eff4... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidWatchExecutor.java
+:100644 100644 500cbcd... b4e288d... M	leakcanary-android/src/main/java/com/squareup/leakcanary/CanaryLog.java
+:100644 100644 678bbf8... 5f3fa42... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakActivity.java
+:100644 100644 fefe52f... 870f59b... M	leakcanary-sample/src/main/java/com/example/leakcanary/MainActivity.java
+:100644 100644 9d2dfec... adbc4e6... M	leakcanary-watcher/src/main/java/com/squareup/leakcanary/ExcludedRefs.java
+:100644 100644 421ceea... 31e6531... M	leakcanary-watcher/src/test/java/com/squareup/leakcanary/RefWatcherTest.java
+commit=12c69bb2f4433a4cb90ee9b31a1c649413418c6e:adamkoski@google.com
+
+:100644 100644 134c5e4... b2e5448... M	leakcanary-analyzer/src/main/java/com/squareup/leakcanary/ShortestPathFinder.java
+:100644 100644 8c5b668... 3545c1e... M	leakcanary-analyzer/src/test/java/com/squareup/leakcanary/AsyncTaskLeakTest.java
+:000000 100644 0000000... e032277... A	leakcanary-analyzer/src/test/java/com/squareup/leakcanary/ServiceBinderLeakTest.java
+:000000 100644 0000000... 155dae8... A	leakcanary-analyzer/src/test/java/com/squareup/leakcanary/TestUtil.java
+:000000 100644 0000000... af1dab1... A	leakcanary-analyzer/src/test/resources/leak_service_binder.hprof
+:000000 100644 0000000... cdb867c... A	leakcanary-analyzer/src/test/resources/leak_service_binder_ignored.hprof
+:100644 100644 c97ec97... 583a88f... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+:100644 100644 9d2dfec... c51e7bc... M	leakcanary-watcher/src/main/java/com/squareup/leakcanary/ExcludedRefs.java
+commit=99038fefc3dbbed7ca45288e22b8455f3a7bfbc3:py@squareup.com
+
+:100644 100644 7f32c56... d5c2608... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidHeapDumper.java
+:000000 100644 0000000... 5e67903... A	leakcanary-android/src/main/java/com/squareup/leakcanary/DefaultLeakDirectoryProvider.java
+:100644 100644 f16ffb8... fc14a29... M	leakcanary-android/src/main/java/com/squareup/leakcanary/DisplayLeakService.java
+:100644 100644 c67d6e9... b2d39a9... M	leakcanary-android/src/main/java/com/squareup/leakcanary/LeakCanary.java
+:000000 100644 0000000... 4bcf8e6... A	leakcanary-android/src/main/java/com/squareup/leakcanary/LeakDirectoryProvider.java
+:100644 100644 d50c475... 678bbf8... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakActivity.java
+:100644 100644 a66e34c... 80131d9... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/LeakCanaryInternals.java
+:100644 100644 e0600ff... f395dd6... M	leakcanary-android/src/main/res/values/leak_canary_strings.xml
+:100644 100644 2423dc9... fe88f38... M	leakcanary-watcher/src/main/java/com/squareup/leakcanary/HeapDump.java
+commit=95b23822c6daa48f25dc00fcf68f925cd3974eee:py@squareup.com
+
+:100644 100644 63392d6... f383516... M	CHANGELOG.md
+commit=b171e26503e5fff950c939e8655ab98a503ac7a3:py@squareup.com
+
+:100644 100644 f0bf990... 306ad1e... M	README.md
+:100644 100644 0376738... 4858592... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidWatchExecutor.java
+:100644 100644 baddc38... b719737... M	leakcanary-android/src/main/res/values/leak_canary_int.xml
+:100644 100644 a69c2d5... b5f11b9... M	leakcanary-android/src/main/res/values/leak_canary_public.xml
+commit=e72b74c78600c3b92528583a7c5c607bd8b75a5b:sergio@gokarumi.com
+
+:100644 100644 e5be50c... f0bf990... M	README.md
+:100644 100644 d5d9429... 0376738... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidWatchExecutor.java
+:100644 100644 6c71381... c67d6e9... M	leakcanary-android/src/main/java/com/squareup/leakcanary/LeakCanary.java
+:100644 100644 3d2c5ac... baddc38... M	leakcanary-android/src/main/res/values/leak_canary_int.xml
+commit=2d91a541c797cbe3a84f5edb4318b1ce62eb535f:digitalbuddha@users.noreply.github.com
+
+:100644 100644 211614e... 21c6b34... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=78fddabb8217926d230be7c79cb99285c698c402:jw@squareup.com
+
+:000000 100755 0000000... d15ea40... A	.buildscript/deploy_snapshot.sh
+:100644 100644 43e2b7d... d970f89... M	.travis.yml
+:100644 100644 7931baa... 32763c8... M	gradle/gradle-mvn-push.gradle
+commit=eaaa2cd953ab76ca7234aefeb1efb5affe342221:jw@squareup.com
+
+:100644 100644 e445245... 43e2b7d... M	.travis.yml
+:100644 100644 245d8bc... a585313... M	build.gradle
+:100644 100644 01938b9... 7931baa... M	gradle/gradle-mvn-push.gradle
+:100644 100644 80081ab... 63b8048... M	gradle/wrapper/gradle-wrapper.properties
+commit=d4253d5650ce8dfc224c671dc84700db8f373e80:dejan@webfactory.mk
+
+:100644 100644 067cdb9... 63392d6... M	CHANGELOG.md
+:100644 100644 211614e... 9285c2e... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=45883e4d5f649b1df86f14637b8c69d642aca8d7:john.rodriguez@gmail.com
+
+:100644 100644 d281056... fbbf8ba... M	leakcanary-analyzer/src/main/java/com/squareup/leakcanary/HahaHelper.java
+:100644 100644 0d42788... 8c5b668... M	leakcanary-analyzer/src/test/java/com/squareup/leakcanary/AsyncTaskLeakTest.java
+:000000 100644 0000000... ba62c2a... A	leakcanary-analyzer/src/test/java/com/squareup/leakcanary/FakeHprofBuffer.java
+:000000 100644 0000000... 03178cb... A	leakcanary-analyzer/src/test/java/com/squareup/leakcanary/HahaHelperTest.java
+:000000 100644 0000000... 6945c82... A	leakcanary-analyzer/src/test/resources/leak_asynctask_m_postpreview2.hprof
+commit=ca183ea1b3f8f427cd233bdc72f46310a89f5685:danlew42@gmail.com
+
+:100644 100644 0a28de9... 741501b... M	leakcanary-android/consumer-proguard-rules.pro
+commit=fe98f27a0fdb75128d56fedc59af43e6ff9e76f8:jordylangen@gmail.com
+
+:100644 100644 605e86d... 0e440ce... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=33a44c451737a32b40d37db86d8d6b8549fe182a:aaron.huttner@hungrymachine.com
+
+:100644 100644 605e86d... 75dfbc1... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=04b0b596dc0119d5056f63186d3f972703e8b507:matthew.michihara@gmail.com
+
+:100644 100644 605e86d... 89a6c3e... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=1b8c8b3cea86712d00a67b27e7648fa17fc8d8dd:shiber@gmail.com
+
+:100644 100644 605e86d... 6074f50... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=fd7c2524246215b4476f57ae1c0e5510658a2d16:erik.hellman@bontouch.com
+
+:100644 100644 b4415bf... da90fb4... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakActivity.java
+commit=1705b7047b87b60f77895cf54a2418f660781a1b:contact@simon-marquis.fr
+
+:100644 100644 6f0281c... 245d8bc... M	build.gradle
+:100644 100644 c12cab7... 84c4633... M	leakcanary-analyzer/build.gradle
+:000000 100644 0000000... a69c2d5... A	leakcanary-android/src/main/res/values/leak_canary_public.xml
+:100644 100644 1e112ce... 9e5bf78... M	leakcanary-sample/src/main/res/values/strings.xml
+commit=7c08e5c75c7c6e397702e3af8c1838a1fb2d27ef:py@squareup.com
+
+:100644 100644 463778e... 3cf18f0... M	CHANGELOG.md
+:100644 100644 9433556... 7f32c56... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidHeapDumper.java
+:000000 100644 0000000... 500cbcd... A	leakcanary-android/src/main/java/com/squareup/leakcanary/CanaryLog.java
+:100644 100644 479b09e... f16ffb8... M	leakcanary-android/src/main/java/com/squareup/leakcanary/DisplayLeakService.java
+:100644 100644 d39a837... 20584cc... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakActivity.java
+:100644 100644 0bcaf9e... d03dad9... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/HeapAnalyzerService.java
+:100644 100644 ac8ecba... a66e34c... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/LeakCanaryInternals.java
+commit=0328f74323719d214c5043ced6ab20dd06e59d39:py@squareup.com
+
+:100644 100644 463778e... 230a858... M	CHANGELOG.md
+:100644 100644 c688bc2... 232975f... M	leakcanary-analyzer/src/main/java/com/squareup/leakcanary/HeapAnalyzer.java
+commit=2ff5aeab930ac426b39d9dd57109d508b2645dc2:py@squareup.com
+
+:100644 100644 502077f... 463778e... M	CHANGELOG.md
+:100644 100644 7ab85f9... 9433556... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidHeapDumper.java
+commit=f0ee15a82df64c75e4b361920cff658333299bf1:erik.hellman@bontouch.com
+
+:100644 100644 243df75... b4415bf... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakActivity.java
+commit=761d728b4ed07aebf73bd7ff7b9bd1611fb6bb83:erik.hellman@bontouch.com
+
+:100644 100644 d39a837... 243df75... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakActivity.java
+commit=37b276e9291aa2a40a5968700bcfec07a66bea7d:agrieve@chromium.org
+
+:100644 100644 7e8721f... e5c125e... M	leakcanary-android/src/main/res/layout/leak_canary_ref_row.xml
+commit=79317f779520f412dbccca21c68c10aefaf52517:sergey@wheely.com
+
+:100644 100644 960268a... 502077f... M	CHANGELOG.md
+:100644 100644 756c383... 605e86d... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=ec123292bce4ae7391ecfeeb27e2fcbff0333b7c:py.ricau@gmail.com
+
+:100644 100644 3425fe7... 960268a... M	CHANGELOG.md
+commit=47b098efdb5d2769a95db720a00616234237e20e:py@squareup.com
+
+:100644 100644 9e127b7... 3425fe7... M	CHANGELOG.md
+:100644 100644 708f814... 6f0281c... M	build.gradle
+:100644 100644 a64cb55... c12cab7... M	leakcanary-analyzer/build.gradle
+:000000 100644 0000000... 227bcb5... A	leakcanary-analyzer/src/main/java/com/squareup/haha/perflib/HahaSpy.java
+:100644 100644 d1cf730... 8376943... M	leakcanary-analyzer/src/main/java/com/squareup/leakcanary/AnalysisResult.java
+:000000 100644 0000000... d281056... A	leakcanary-analyzer/src/main/java/com/squareup/leakcanary/HahaHelper.java
+:100644 100644 b12dcce... c688bc2... M	leakcanary-analyzer/src/main/java/com/squareup/leakcanary/HeapAnalyzer.java
+:000000 100644 0000000... 69ec871... A	leakcanary-analyzer/src/main/java/com/squareup/leakcanary/LeakNode.java
+:100644 100644 7838fca... 02f85f6... M	leakcanary-analyzer/src/main/java/com/squareup/leakcanary/LeakTraceElement.java
+:000000 100644 0000000... 134c5e4... A	leakcanary-analyzer/src/main/java/com/squareup/leakcanary/ShortestPathFinder.java
+:000000 100644 0000000... 0d42788... A	leakcanary-analyzer/src/test/java/com/squareup/leakcanary/AsyncTaskLeakTest.java
+:100644 000000 e1f8841... 0000000... D	leakcanary-analyzer/src/test/java/com/squareup/leakcanary/HeapAnalyzerTest.java
+:000000 100644 0000000... 548f3a2... A	leakcanary-analyzer/src/test/resources/leak_asynctask_mpreview2.hprof
+:100644 100644 0a1a736... 756c383... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+:100644 100644 fa01a52... 0bcaf9e... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/HeapAnalyzerService.java
+:100644 100644 3bc1a45... 9d2dfec... M	leakcanary-watcher/src/main/java/com/squareup/leakcanary/ExcludedRefs.java
+commit=f8bcc4e07af8f537dc427c0be760d42a2ff3017f:py@squareup.com
+
+:100644 100644 64881d0... 9e127b7... M	CHANGELOG.md
+commit=d8fc0e1221c7a8145d69d81795a26e02359dea7f:dejan@webfactory.mk
+
+:100644 100644 0c52753... 64881d0... M	CHANGELOG.md
+:100644 100644 3f4842a... 479b09e... M	leakcanary-android/src/main/java/com/squareup/leakcanary/DisplayLeakService.java
+:100644 100644 839c7f5... d39a837... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakActivity.java
+:100644 100644 01d8296... e0600ff... M	leakcanary-android/src/main/res/values/leak_canary_strings.xml
+commit=7bf2e743c67ab1664084add36d6656cf3ef7d33a:py@squareup.com
+
+:100644 100644 13227b5... 0c52753... M	CHANGELOG.md
+commit=87aec26ffbb304468c2010d682cd02834aabd876:ithomas@idealcorp.com
+
+:100644 100644 394da67... beb0706... M	leakcanary-android/build.gradle
+:100644 100644 6609b3d... dc0ce58... M	leakcanary-android/src/main/AndroidManifest.xml
+:100644 100644 843b2d6... 3f4842a... M	leakcanary-android/src/main/java/com/squareup/leakcanary/DisplayLeakService.java
+:100644 100644 79613ed... 839c7f5... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakActivity.java
+:100644 100644 078b8f8... d6057ed... M	leakcanary-android/src/main/res/layout/leak_canary_heap_dump_toast.xml
+:100644 100644 c59e71e... 409cb66... M	leakcanary-android/src/main/res/values-v14/leak_canary_themes.xml
+:100644 100644 0a8dbbf... 0a43b8f... M	leakcanary-android/src/main/res/values-v21/leak_canary_themes.xml
+:100644 100644 8811d1f... 3d2c5ac... M	leakcanary-android/src/main/res/values/leak_canary_int.xml
+:100644 100644 f92e8fd... 01d8296... M	leakcanary-android/src/main/res/values/leak_canary_strings.xml
+:100644 100644 21df584... 69a56ed... M	leakcanary-android/src/main/res/values/leak_canary_themes.xml
+commit=0261a493f78ef8d6b7114652fac488fd4a5f21fb:py@squareup.com
+
+:100644 100644 47ce11c... e5be50c... M	README.md
+commit=c3875c9d9249580204c92bda964e37e3347e2f06:py@squareup.com
+
+:100644 100644 193b193... 47ce11c... M	README.md
+commit=5514a1df8492c7f230fee4c29d29dd5dec9629c5:py@squareup.com
+
+:100644 100644 82310b6... 193b193... M	README.md
+commit=7b16af4a9e0238a522d07eff02c93501b616248f:toxicbakery@gmail.com
+
+:100644 100644 05d4ad8... 6609b3d... M	leakcanary-android/src/main/AndroidManifest.xml
+:100644 100644 53b0ef5... 7ab85f9... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidHeapDumper.java
+:100644 100644 ce02d8f... 843b2d6... M	leakcanary-android/src/main/java/com/squareup/leakcanary/DisplayLeakService.java
+:100644 100644 4e58471... 79613ed... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakActivity.java
+:100644 100644 fa1c73a... cb16c7f... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakAdapter.java
+:100755 100755 f104922... f104922... R100	leakcanary-android/src/main/res/drawable-hdpi-v11/__leak_canary_notification.png	leakcanary-android/src/main/res/drawable-hdpi-v11/leak_canary_notification.png
+:100755 100755 7e375c5... 7e375c5... R100	leakcanary-android/src/main/res/drawable-hdpi/__leak_canary_icon.png	leakcanary-android/src/main/res/drawable-hdpi/leak_canary_icon.png
+:100755 100755 09c78cc... 09c78cc... R100	leakcanary-android/src/main/res/drawable-hdpi/__leak_canary_notification.png	leakcanary-android/src/main/res/drawable-hdpi/leak_canary_notification.png
+:100755 100755 d29b9f1... d29b9f1... R100	leakcanary-android/src/main/res/drawable-mdpi-v11/__leak_canary_notification.png	leakcanary-android/src/main/res/drawable-mdpi-v11/leak_canary_notification.png
+:100755 100755 f354c3f... f354c3f... R100	leakcanary-android/src/main/res/drawable-mdpi/__leak_canary_icon.png	leakcanary-android/src/main/res/drawable-mdpi/leak_canary_icon.png
+:100755 100755 c825fa4... c825fa4... R100	leakcanary-android/src/main/res/drawable-mdpi/__leak_canary_notification.png	leakcanary-android/src/main/res/drawable-mdpi/leak_canary_notification.png
+:100755 100755 d0cdbcd... d0cdbcd... R100	leakcanary-android/src/main/res/drawable-xhdpi-v11/__leak_canary_notification.png	leakcanary-android/src/main/res/drawable-xhdpi-v11/leak_canary_notification.png
+:100755 100755 a5e85b4... a5e85b4... R100	leakcanary-android/src/main/res/drawable-xhdpi/__leak_canary_icon.png	leakcanary-android/src/main/res/drawable-xhdpi/leak_canary_icon.png
+:100755 100755 b2978d5... b2978d5... R100	leakcanary-android/src/main/res/drawable-xhdpi/__leak_canary_notification.png	leakcanary-android/src/main/res/drawable-xhdpi/leak_canary_notification.png
+:100755 100755 0194b4e... 0194b4e... R100	leakcanary-android/src/main/res/drawable-xxhdpi-v11/__leak_canary_notification.png	leakcanary-android/src/main/res/drawable-xxhdpi-v11/leak_canary_notification.png
+:100755 100755 3d4b76a... 3d4b76a... R100	leakcanary-android/src/main/res/drawable-xxhdpi/__leak_canary_icon.png	leakcanary-android/src/main/res/drawable-xxhdpi/leak_canary_icon.png
+:100755 100755 22db202... 22db202... R100	leakcanary-android/src/main/res/drawable-xxhdpi/__leak_canary_notification.png	leakcanary-android/src/main/res/drawable-xxhdpi/leak_canary_notification.png
+:100755 100755 0514161... 0514161... R100	leakcanary-android/src/main/res/drawable-xxxhdpi-v11/__leak_canary_notification.png	leakcanary-android/src/main/res/drawable-xxxhdpi-v11/leak_canary_notification.png
+:100755 100755 eb9c072... eb9c072... R100	leakcanary-android/src/main/res/drawable-xxxhdpi/__leak_canary_icon.png	leakcanary-android/src/main/res/drawable-xxxhdpi/leak_canary_icon.png
+:100755 100755 34b7614... 34b7614... R100	leakcanary-android/src/main/res/drawable-xxxhdpi/__leak_canary_notification.png	leakcanary-android/src/main/res/drawable-xxxhdpi/leak_canary_notification.png
+:100644 100644 a90b8c2... a90b8c2... R100	leakcanary-android/src/main/res/drawable/__leak_canary_toast_background.xml	leakcanary-android/src/main/res/drawable/leak_canary_toast_background.xml
+:100644 100644 d9d312e... d9d312e... R100	leakcanary-android/src/main/res/layout/__leak_canary_display_leak.xml	leakcanary-android/src/main/res/layout/leak_canary_display_leak.xml
+:100644 100644 7bc707c... 078b8f8... R091	leakcanary-android/src/main/res/layout/__leak_canary_heap_dump_toast.xml	leakcanary-android/src/main/res/layout/leak_canary_heap_dump_toast.xml
+:100644 100644 00e291b... 00e291b... R100	leakcanary-android/src/main/res/layout/__leak_canary_leak_row.xml	leakcanary-android/src/main/res/layout/leak_canary_leak_row.xml
+:100644 100644 7e8721f... 7e8721f... R100	leakcanary-android/src/main/res/layout/__leak_canary_ref_row.xml	leakcanary-android/src/main/res/layout/leak_canary_ref_row.xml
+:100644 100644 4fc704b... 4fc704b... R100	leakcanary-android/src/main/res/layout/__leak_canary_ref_top_row.xml	leakcanary-android/src/main/res/layout/leak_canary_ref_top_row.xml
+:100644 100644 c59e71e... c59e71e... R100	leakcanary-android/src/main/res/values-v14/__leak_canary_themes.xml	leakcanary-android/src/main/res/values-v14/leak_canary_themes.xml
+:100644 100644 0a8dbbf... 0a8dbbf... R100	leakcanary-android/src/main/res/values-v21/__leak_canary_themes.xml	leakcanary-android/src/main/res/values-v21/leak_canary_themes.xml
+:100644 100644 8811d1f... 8811d1f... R100	leakcanary-android/src/main/res/values/__leak_canary_int.xml	leakcanary-android/src/main/res/values/leak_canary_int.xml
+:100644 100644 f92e8fd... f92e8fd... R100	leakcanary-android/src/main/res/values/__leak_canary_strings.xml	leakcanary-android/src/main/res/values/leak_canary_strings.xml
+:100644 100644 21df584... 21df584... R100	leakcanary-android/src/main/res/values/__leak_canary_themes.xml	leakcanary-android/src/main/res/values/leak_canary_themes.xml
+commit=660bc7f0a78bbbdf6d128daec8f504da9946fc84:brianwang@squareup.com
+
+:100644 100644 56aeccd... fa01a52... M	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/HeapAnalyzerService.java
+commit=f40f1163b3874ac30e5cd03fac841c0daf18d2ce:py@squareup.com
+
+:100644 100644 42d8367... 82310b6... M	README.md
+commit=9cd3e6003fe6b5cdd29fd1a3ffbb765bdc310535:py@squareup.com
+
+:100644 100644 2976ccd... 13227b5... M	CHANGELOG.md
+commit=c1d512f9dbff60ff6cb9821a95727ee0cb05f5c9:jerzy@getbase.com
+
+:100644 100644 bcc6e82... 394da67... M	leakcanary-android/build.gradle
+:000000 100644 0000000... 0a28de9... A	leakcanary-android/consumer-proguard-rules.pro
+commit=d5ea212b1b21154993af546fd01abd166a4232fe:sergey@wheely.com
+
+:100644 100644 ee30eb5... 71f3532... M	build.gradle
+:100644 100644 512049b... d80081b... M	leakcanary-sample/build.gradle
+commit=c04e11f5dc66f2944c1bf67beab369a17529b16b:edenman@squareup.com
+
+:100644 100644 ee30eb5... ebfa0db... M	build.gradle
+commit=9fdf9f428b5e3f9cd67ec8f49644a49776186e9f:github@qslw.com
+
+:100644 100644 71db3d0... 72410cc... M	README.md
+commit=e3a0323573a6ecb57dad55e3a572a4cdbb6d89c6:sergey@wheely.com
+
+:100644 100644 1ce951f... bcc6e82... M	leakcanary-android/build.gradle
+:100644 100644 3ca43c7... c941f26... M	leakcanary-android/src/main/java/com/squareup/leakcanary/LeakCanary.java
+commit=54ba3a798a1841b983f55f64f1617fc4fcefee75:py@squareup.com
+
+:100644 100644 71db3d0... 79707ba... M	README.md
+commit=acfc8fbb7e64645967344475cdc757ff836b0a5b:py@squareup.com
+
+:100644 100644 3ca43c7... 15ade60... M	leakcanary-android/src/main/java/com/squareup/leakcanary/LeakCanary.java
+:100644 100644 1481e4e... 3bc1a45... M	leakcanary-watcher/src/main/java/com/squareup/leakcanary/ExcludedRefs.java
+commit=e22ec707bc169377735e5b7212822e5f84178537:py@squareup.com
+
+:100644 100644 0f6987d... 0a1a736... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=2f756fc98b0d9f3abe209163c0f080d5d3e1cf4d:py@squareup.com
+
+:100644 100644 4b11907... 0f6987d... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=a90535bf25df7544eb1229a9314b57c335ce38e2:py@squareup.com
+
+:100644 100644 c0d1c7c... 2976ccd... M	CHANGELOG.md
+:100644 100644 22ae6f3... 71db3d0... M	README.md
+commit=5df8cbb552b2b0ebebdeca251ca8b122c549de51:py@squareup.com
+
+:100644 100644 d4d8a1f... 4b11907... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=dec73a6828a37714fa6290f2de7c92b246cd6a06:sergey@wheely.com
+
+:100644 100644 71db3d0... 22ae6f3... M	README.md
+commit=3f3e29c3473d99b62248a52f09acff388f35f5d0:py@squareup.com
+
+:100644 100644 36c8986... d4d8a1f... M	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=6034ba74e35f4fc4de4655e9a4257171985ce2ea:py@squareup.com
+
+:000000 100644 0000000... e445245... A	.travis.yml
+commit=46a6216f03bb05c5596ebfb8929d332649de01b0:py@squareup.com
+
+:100644 100644 ee30eb5... ee30eb5... R100	library/build.gradle	build.gradle
+:100644 100644 7fb7ad3... 7fb7ad3... R100	library/checkstyle.xml	checkstyle.xml
+:100644 100644 2e7c512... 2e7c512... R100	library/gradle/checkstyle.gradle	gradle/checkstyle.gradle
+:100644 100644 01938b9... 01938b9... R100	library/gradle/gradle-mvn-push.gradle	gradle/gradle-mvn-push.gradle
+:100644 100644 5838598... 5838598... R100	library/gradle/wrapper/gradle-wrapper.jar	gradle/wrapper/gradle-wrapper.jar
+:100644 100644 80081ab... 80081ab... R100	library/gradle/wrapper/gradle-wrapper.properties	gradle/wrapper/gradle-wrapper.properties
+:100755 100755 91a7e26... 91a7e26... R100	library/gradlew	gradlew
+:100644 100644 a64cb55... a64cb55... R100	library/leakcanary-analyzer/build.gradle	leakcanary-analyzer/build.gradle
+:100644 100644 9ef0408... 9ef0408... R100	library/leakcanary-analyzer/gradle.properties	leakcanary-analyzer/gradle.properties
+:100644 100644 3bde165... 3bde165... R100	library/leakcanary-analyzer/src/main/AndroidManifest.xml	leakcanary-analyzer/src/main/AndroidManifest.xml
+:100644 100644 d1cf730... d1cf730... R100	library/leakcanary-analyzer/src/main/java/com/squareup/leakcanary/AnalysisResult.java	leakcanary-analyzer/src/main/java/com/squareup/leakcanary/AnalysisResult.java
+:100644 100644 b12dcce... b12dcce... R100	library/leakcanary-analyzer/src/main/java/com/squareup/leakcanary/HeapAnalyzer.java	leakcanary-analyzer/src/main/java/com/squareup/leakcanary/HeapAnalyzer.java
+:100644 100644 607db22... 607db22... R100	library/leakcanary-analyzer/src/main/java/com/squareup/leakcanary/LeakTrace.java	leakcanary-analyzer/src/main/java/com/squareup/leakcanary/LeakTrace.java
+:100644 100644 7838fca... 7838fca... R100	library/leakcanary-analyzer/src/main/java/com/squareup/leakcanary/LeakTraceElement.java	leakcanary-analyzer/src/main/java/com/squareup/leakcanary/LeakTraceElement.java
+:100644 100644 e1f8841... e1f8841... R100	library/leakcanary-analyzer/src/test/java/com/squareup/leakcanary/HeapAnalyzerTest.java	leakcanary-analyzer/src/test/java/com/squareup/leakcanary/HeapAnalyzerTest.java
+:100644 100644 a1d60ad... a1d60ad... R100	library/leakcanary-analyzer/src/test/resources/leak_asynctask.hprof	leakcanary-analyzer/src/test/resources/leak_asynctask.hprof
+:100644 100644 5f3dc02... 5f3dc02... R100	library/leakcanary-android-no-op/build.gradle	leakcanary-android-no-op/build.gradle
+:100644 100644 60494b8... 60494b8... R100	library/leakcanary-android-no-op/gradle.properties	leakcanary-android-no-op/gradle.properties
+:100644 100644 acd455c... acd455c... R100	library/leakcanary-android-no-op/src/main/AndroidManifest.xml	leakcanary-android-no-op/src/main/AndroidManifest.xml
+:100644 100644 8fc8a58... 8fc8a58... R100	library/leakcanary-android-no-op/src/main/java/com/squareup/leakcanary/LeakCanary.java	leakcanary-android-no-op/src/main/java/com/squareup/leakcanary/LeakCanary.java
+:100644 100644 ca9f660... ca9f660... R100	library/leakcanary-android-no-op/src/main/java/com/squareup/leakcanary/RefWatcher.java	leakcanary-android-no-op/src/main/java/com/squareup/leakcanary/RefWatcher.java
+:100644 100644 1ce951f... 1ce951f... R100	library/leakcanary-android/build.gradle	leakcanary-android/build.gradle
+:100644 100644 beee3e6... beee3e6... R100	library/leakcanary-android/gradle.properties	leakcanary-android/gradle.properties
+:100644 100644 05d4ad8... 05d4ad8... R100	library/leakcanary-android/src/main/AndroidManifest.xml	leakcanary-android/src/main/AndroidManifest.xml
+:100644 100644 9b19383... 9b19383... R100	library/leakcanary-android/src/main/java/com/squareup/leakcanary/AbstractAnalysisResultService.java	leakcanary-android/src/main/java/com/squareup/leakcanary/AbstractAnalysisResultService.java
+:100644 100644 160e840... 160e840... R100	library/leakcanary-android/src/main/java/com/squareup/leakcanary/ActivityRefWatcher.java	leakcanary-android/src/main/java/com/squareup/leakcanary/ActivityRefWatcher.java
+:100644 100644 7c58b99... 7c58b99... R100	library/leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidDebuggerControl.java	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidDebuggerControl.java
+:100644 100644 36c8986... 36c8986... R100	library/leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+:100644 100644 53b0ef5... 53b0ef5... R100	library/leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidHeapDumper.java	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidHeapDumper.java
+:100644 100644 d5d9429... d5d9429... R100	library/leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidWatchExecutor.java	leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidWatchExecutor.java
+:100644 100644 ce02d8f... ce02d8f... R100	library/leakcanary-android/src/main/java/com/squareup/leakcanary/DisplayLeakService.java	leakcanary-android/src/main/java/com/squareup/leakcanary/DisplayLeakService.java
+:100644 100644 3ca43c7... 3ca43c7... R100	library/leakcanary-android/src/main/java/com/squareup/leakcanary/LeakCanary.java	leakcanary-android/src/main/java/com/squareup/leakcanary/LeakCanary.java
+:100644 100644 2ccb142... 2ccb142... R100	library/leakcanary-android/src/main/java/com/squareup/leakcanary/ServiceHeapDumpListener.java	leakcanary-android/src/main/java/com/squareup/leakcanary/ServiceHeapDumpListener.java
+:100644 100644 4e58471... 4e58471... R100	library/leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakActivity.java	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakActivity.java
+:100644 100644 fa1c73a... fa1c73a... R100	library/leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakAdapter.java	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakAdapter.java
+:100644 100644 e854ac2... e854ac2... R100	library/leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakConnectorView.java	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakConnectorView.java
+:100644 100644 8cd6b27... 8cd6b27... R100	library/leakcanary-android/src/main/java/com/squareup/leakcanary/internal/FutureResult.java	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/FutureResult.java
+:100644 100644 56aeccd... 56aeccd... R100	library/leakcanary-android/src/main/java/com/squareup/leakcanary/internal/HeapAnalyzerService.java	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/HeapAnalyzerService.java
+:100644 100644 ac8ecba... ac8ecba... R100	library/leakcanary-android/src/main/java/com/squareup/leakcanary/internal/LeakCanaryInternals.java	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/LeakCanaryInternals.java
+:100644 100644 74fbf98... 74fbf98... R100	library/leakcanary-android/src/main/java/com/squareup/leakcanary/internal/LeakCanaryUi.java	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/LeakCanaryUi.java
+:100644 100644 81bf8a0... 81bf8a0... R100	library/leakcanary-android/src/main/java/com/squareup/leakcanary/internal/MoreDetailsView.java	leakcanary-android/src/main/java/com/squareup/leakcanary/internal/MoreDetailsView.java
+:100755 100755 f104922... f104922... R100	library/leakcanary-android/src/main/res/drawable-hdpi-v11/__leak_canary_notification.png	leakcanary-android/src/main/res/drawable-hdpi-v11/__leak_canary_notification.png
+:100755 100755 7e375c5... 7e375c5... R100	library/leakcanary-android/src/main/res/drawable-hdpi/__leak_canary_icon.png	leakcanary-android/src/main/res/drawable-hdpi/__leak_canary_icon.png
+:100755 100755 09c78cc... 09c78cc... R100	library/leakcanary-android/src/main/res/drawable-hdpi/__leak_canary_notification.png	leakcanary-android/src/main/res/drawable-hdpi/__leak_canary_notification.png
+:100755 100755 d29b9f1... d29b9f1... R100	library/leakcanary-android/src/main/res/drawable-mdpi-v11/__leak_canary_notification.png	leakcanary-android/src/main/res/drawable-mdpi-v11/__leak_canary_notification.png
+:100755 100755 f354c3f... f354c3f... R100	library/leakcanary-android/src/main/res/drawable-mdpi/__leak_canary_icon.png	leakcanary-android/src/main/res/drawable-mdpi/__leak_canary_icon.png
+:100755 100755 c825fa4... c825fa4... R100	library/leakcanary-android/src/main/res/drawable-mdpi/__leak_canary_notification.png	leakcanary-android/src/main/res/drawable-mdpi/__leak_canary_notification.png
+:100755 100755 d0cdbcd... d0cdbcd... R100	library/leakcanary-android/src/main/res/drawable-xhdpi-v11/__leak_canary_notification.png	leakcanary-android/src/main/res/drawable-xhdpi-v11/__leak_canary_notification.png
+:100755 100755 a5e85b4... a5e85b4... R100	library/leakcanary-android/src/main/res/drawable-xhdpi/__leak_canary_icon.png	leakcanary-android/src/main/res/drawable-xhdpi/__leak_canary_icon.png
+:100755 100755 b2978d5... b2978d5... R100	library/leakcanary-android/src/main/res/drawable-xhdpi/__leak_canary_notification.png	leakcanary-android/src/main/res/drawable-xhdpi/__leak_canary_notification.png
+:100755 100755 0194b4e... 0194b4e... R100	library/leakcanary-android/src/main/res/drawable-xxhdpi-v11/__leak_canary_notification.png	leakcanary-android/src/main/res/drawable-xxhdpi-v11/__leak_canary_notification.png
+:100755 100755 3d4b76a... 3d4b76a... R100	library/leakcanary-android/src/main/res/drawable-xxhdpi/__leak_canary_icon.png	leakcanary-android/src/main/res/drawable-xxhdpi/__leak_canary_icon.png
+:100755 100755 22db202... 22db202... R100	library/leakcanary-android/src/main/res/drawable-xxhdpi/__leak_canary_notification.png	leakcanary-android/src/main/res/drawable-xxhdpi/__leak_canary_notification.png
+:100755 100755 0514161... 0514161... R100	library/leakcanary-android/src/main/res/drawable-xxxhdpi-v11/__leak_canary_notification.png	leakcanary-android/src/main/res/drawable-xxxhdpi-v11/__leak_canary_notification.png
+:100755 100755 eb9c072... eb9c072... R100	library/leakcanary-android/src/main/res/drawable-xxxhdpi/__leak_canary_icon.png	leakcanary-android/src/main/res/drawable-xxxhdpi/__leak_canary_icon.png
+:100755 100755 34b7614... 34b7614... R100	library/leakcanary-android/src/main/res/drawable-xxxhdpi/__leak_canary_notification.png	leakcanary-android/src/main/res/drawable-xxxhdpi/__leak_canary_notification.png
+:100644 100644 a90b8c2... a90b8c2... R100	library/leakcanary-android/src/main/res/drawable/__leak_canary_toast_background.xml	leakcanary-android/src/main/res/drawable/__leak_canary_toast_background.xml
+:100644 100644 d9d312e... d9d312e... R100	library/leakcanary-android/src/main/res/layout/__leak_canary_display_leak.xml	leakcanary-android/src/main/res/layout/__leak_canary_display_leak.xml
+:100644 100644 7bc707c... 7bc707c... R100	library/leakcanary-android/src/main/res/layout/__leak_canary_heap_dump_toast.xml	leakcanary-android/src/main/res/layout/__leak_canary_heap_dump_toast.xml
+:100644 100644 00e291b... 00e291b... R100	library/leakcanary-android/src/main/res/layout/__leak_canary_leak_row.xml	leakcanary-android/src/main/res/layout/__leak_canary_leak_row.xml
+:100644 100644 7e8721f... 7e8721f... R100	library/leakcanary-android/src/main/res/layout/__leak_canary_ref_row.xml	leakcanary-android/src/main/res/layout/__leak_canary_ref_row.xml
+:100644 100644 4fc704b... 4fc704b... R100	library/leakcanary-android/src/main/res/layout/__leak_canary_ref_top_row.xml	leakcanary-android/src/main/res/layout/__leak_canary_ref_top_row.xml
+:100644 100644 c59e71e... c59e71e... R100	library/leakcanary-android/src/main/res/values-v14/__leak_canary_themes.xml	leakcanary-android/src/main/res/values-v14/__leak_canary_themes.xml
+:100644 100644 0a8dbbf... 0a8dbbf... R100	library/leakcanary-android/src/main/res/values-v21/__leak_canary_themes.xml	leakcanary-android/src/main/res/values-v21/__leak_canary_themes.xml
+:100644 100644 8811d1f... 8811d1f... R100	library/leakcanary-android/src/main/res/values/__leak_canary_int.xml	leakcanary-android/src/main/res/values/__leak_canary_int.xml
+:100644 100644 f92e8fd... f92e8fd... R100	library/leakcanary-android/src/main/res/values/__leak_canary_strings.xml	leakcanary-android/src/main/res/values/__leak_canary_strings.xml
+:100644 100644 21df584... 21df584... R100	library/leakcanary-android/src/main/res/values/__leak_canary_themes.xml	leakcanary-android/src/main/res/values/__leak_canary_themes.xml
+:100644 100644 512049b... 512049b... R100	library/leakcanary-sample/build.gradle	leakcanary-sample/build.gradle
+:100644 100644 d72ca55... d72ca55... R100	library/leakcanary-sample/src/main/AndroidManifest.xml	leakcanary-sample/src/main/AndroidManifest.xml
+:100644 100644 942be77... 942be77... R100	library/leakcanary-sample/src/main/java/com/example/leakcanary/ExampleApplication.java	leakcanary-sample/src/main/java/com/example/leakcanary/ExampleApplication.java
+:100644 100644 fefe52f... fefe52f... R100	library/leakcanary-sample/src/main/java/com/example/leakcanary/MainActivity.java	leakcanary-sample/src/main/java/com/example/leakcanary/MainActivity.java
+:100755 100755 099c77d... 099c77d... R100	library/leakcanary-sample/src/main/res/drawable-hdpi/ic_launcher.png	leakcanary-sample/src/main/res/drawable-hdpi/ic_launcher.png
+:100755 100755 da2453c... da2453c... R100	library/leakcanary-sample/src/main/res/drawable-mdpi/ic_launcher.png	leakcanary-sample/src/main/res/drawable-mdpi/ic_launcher.png
+:100755 100755 35a3ec9... 35a3ec9... R100	library/leakcanary-sample/src/main/res/drawable-xhdpi/ic_launcher.png	leakcanary-sample/src/main/res/drawable-xhdpi/ic_launcher.png
+:100755 100755 6b3f35a... 6b3f35a... R100	library/leakcanary-sample/src/main/res/drawable-xxhdpi/ic_launcher.png	leakcanary-sample/src/main/res/drawable-xxhdpi/ic_launcher.png
+:100755 100755 2d77dc1... 2d77dc1... R100	library/leakcanary-sample/src/main/res/drawable-xxxhdpi/ic_launcher.png	leakcanary-sample/src/main/res/drawable-xxxhdpi/ic_launcher.png
+:100644 100644 2dc62d6... 2dc62d6... R100	library/leakcanary-sample/src/main/res/layout/main_activity.xml	leakcanary-sample/src/main/res/layout/main_activity.xml
+:100644 100644 1e112ce... 1e112ce... R100	library/leakcanary-sample/src/main/res/values/strings.xml	leakcanary-sample/src/main/res/values/strings.xml
+:100644 100644 ac0cac7... ac0cac7... R100	library/leakcanary-watcher/build.gradle	leakcanary-watcher/build.gradle
+:100644 100644 cbcadee... cbcadee... R100	library/leakcanary-watcher/gradle.properties	leakcanary-watcher/gradle.properties
+:100644 100644 3f8d7ca... 3f8d7ca... R100	library/leakcanary-watcher/src/main/AndroidManifest.xml	leakcanary-watcher/src/main/AndroidManifest.xml
+:100644 100644 fdd03be... fdd03be... R100	library/leakcanary-watcher/src/main/java/com/squareup/leakcanary/DebuggerControl.java	leakcanary-watcher/src/main/java/com/squareup/leakcanary/DebuggerControl.java
+:100644 100644 1481e4e... 1481e4e... R100	library/leakcanary-watcher/src/main/java/com/squareup/leakcanary/ExcludedRefs.java	leakcanary-watcher/src/main/java/com/squareup/leakcanary/ExcludedRefs.java
+:100644 100644 8beade5... 8beade5... R100	library/leakcanary-watcher/src/main/java/com/squareup/leakcanary/GcTrigger.java	leakcanary-watcher/src/main/java/com/squareup/leakcanary/GcTrigger.java
+:100644 100644 2423dc9... 2423dc9... R100	library/leakcanary-watcher/src/main/java/com/squareup/leakcanary/HeapDump.java	leakcanary-watcher/src/main/java/com/squareup/leakcanary/HeapDump.java
+:100644 100644 715d089... 715d089... R100	library/leakcanary-watcher/src/main/java/com/squareup/leakcanary/HeapDumper.java	leakcanary-watcher/src/main/java/com/squareup/leakcanary/HeapDumper.java
+:100644 100644 9932308... 9932308... R100	library/leakcanary-watcher/src/main/java/com/squareup/leakcanary/KeyedWeakReference.java	leakcanary-watcher/src/main/java/com/squareup/leakcanary/KeyedWeakReference.java
+:100644 100644 f7521e9... f7521e9... R100	library/leakcanary-watcher/src/main/java/com/squareup/leakcanary/Preconditions.java	leakcanary-watcher/src/main/java/com/squareup/leakcanary/Preconditions.java
+:100644 100644 7d2b9fc... 7d2b9fc... R100	library/leakcanary-watcher/src/main/java/com/squareup/leakcanary/RefWatcher.java	leakcanary-watcher/src/main/java/com/squareup/leakcanary/RefWatcher.java
+:100644 100644 421ceea... 421ceea... R100	library/leakcanary-watcher/src/test/java/com/squareup/leakcanary/RefWatcherTest.java	leakcanary-watcher/src/test/java/com/squareup/leakcanary/RefWatcherTest.java
+:100644 100644 73da17f... 73da17f... R100	library/settings.gradle	settings.gradle
+commit=11d73f80e04f461e14d4aebf79a22da2c813b009:py@squareup.com
+
+:100644 100644 156ff1b... c0d1c7c... M	CHANGELOG.md
+commit=0d4b94bce92f42c2ff0e0f914fb00d55cacf3e37:py@squareup.com
+
+:100644 100644 83d76ef... ee30eb5... M	library/build.gradle
+commit=12677632f78f2f6c6b45c7bbf6730c401a4f84af:py@squareup.com
+
+:100644 100644 8f3f1f0... 156ff1b... M	CHANGELOG.md
+:100644 100644 4edd121... 71db3d0... M	README.md
+:100644 100644 fd82c9a... 83d76ef... M	library/build.gradle
+commit=5be5ec2cf944dbda606437d612365b49d7709eda:py@squareup.com
+
+:100644 100644 68816ef... 8f3f1f0... M	CHANGELOG.md
+:100644 100644 03ec9ed... ce02d8f... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/DisplayLeakService.java
+:100644 100644 25956d9... 4e58471... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakActivity.java
+:100644 100644 3a40ce2... d9d312e... M	library/leakcanary-android/src/main/res/layout/__leak_canary_display_leak.xml
+:100644 100644 0479e7c... f92e8fd... M	library/leakcanary-android/src/main/res/values/__leak_canary_strings.xml
+commit=3f8dfd7a310f31f2ec0949f2eb20a9d116138689:py@squareup.com
+
+:100644 100644 dbcaae4... 68816ef... M	CHANGELOG.md
+commit=9889e409274ede9adbc4f84e976a2eddf35fcadf:py@squareup.com
+
+:100644 100644 d55b3c8... 36c8986... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=fc2284e893138bb1bb6c7437ea02b1a57873be2c:py@squareup.com
+
+:100644 100644 dab8947... f68053b... M	assets/screenshot.png
+:100755 100755 ca53e71... f104922... M	library/leakcanary-android/src/main/res/drawable-hdpi-v11/__leak_canary_notification.png
+:100755 100755 69911f3... 7e375c5... M	library/leakcanary-android/src/main/res/drawable-hdpi/__leak_canary_icon.png
+:100755 100755 86841e4... 09c78cc... M	library/leakcanary-android/src/main/res/drawable-hdpi/__leak_canary_notification.png
+:100755 100755 dc71e62... d29b9f1... M	library/leakcanary-android/src/main/res/drawable-mdpi-v11/__leak_canary_notification.png
+:100755 100755 e6c8e1f... f354c3f... M	library/leakcanary-android/src/main/res/drawable-mdpi/__leak_canary_icon.png
+:100755 100755 98a55ee... c825fa4... M	library/leakcanary-android/src/main/res/drawable-mdpi/__leak_canary_notification.png
+:100755 100755 e8e7421... d0cdbcd... M	library/leakcanary-android/src/main/res/drawable-xhdpi-v11/__leak_canary_notification.png
+:100755 100755 9d3bb11... a5e85b4... M	library/leakcanary-android/src/main/res/drawable-xhdpi/__leak_canary_icon.png
+:100755 100755 594ed22... b2978d5... M	library/leakcanary-android/src/main/res/drawable-xhdpi/__leak_canary_notification.png
+:100755 100755 1aac2c0... 0194b4e... M	library/leakcanary-android/src/main/res/drawable-xxhdpi-v11/__leak_canary_notification.png
+:100755 100755 7072b8e... 3d4b76a... M	library/leakcanary-android/src/main/res/drawable-xxhdpi/__leak_canary_icon.png
+:100755 100755 b11f154... 22db202... M	library/leakcanary-android/src/main/res/drawable-xxhdpi/__leak_canary_notification.png
+:100755 100755 3aaa2a5... 0514161... M	library/leakcanary-android/src/main/res/drawable-xxxhdpi-v11/__leak_canary_notification.png
+:100755 100755 c72d0d8... eb9c072... M	library/leakcanary-android/src/main/res/drawable-xxxhdpi/__leak_canary_icon.png
+:100755 100755 41eae0d... 34b7614... M	library/leakcanary-android/src/main/res/drawable-xxxhdpi/__leak_canary_notification.png
+commit=bcd0a4c3c8d7a6edaec796f8fafe56d082c994d9:py@squareup.com
+
+:100644 100644 45d396d... d55b3c8... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=370d39c82bfe07f70d4ade61fc6ef8beb2a54117:py@squareup.com
+
+:100644 100644 caed937... 4edd121... M	README.md
+commit=ea762cdadad08d52651f7da0bb95608979d84e23:py@squareup.com
+
+:100644 100644 721ae66... 45d396d... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=9676cf6ebda1097a8a104f89f45201a6f5304412:py@squareup.com
+
+:100644 100644 28303d6... dbcaae4... M	CHANGELOG.md
+:100644 100644 130ad6d... 53b0ef5... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidHeapDumper.java
+:100644 100644 213caf1... 3ca43c7... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/LeakCanary.java
+:000000 100644 0000000... 8cd6b27... A	library/leakcanary-android/src/main/java/com/squareup/leakcanary/internal/FutureResult.java
+:000000 100644 0000000... a90b8c2... A	library/leakcanary-android/src/main/res/drawable/__leak_canary_toast_background.xml
+:000000 100644 0000000... 7bc707c... A	library/leakcanary-android/src/main/res/layout/__leak_canary_heap_dump_toast.xml
+:100644 100644 4113b2b... 0479e7c... M	library/leakcanary-android/src/main/res/values/__leak_canary_strings.xml
+:100644 100644 1bd3c4c... 715d089... M	library/leakcanary-watcher/src/main/java/com/squareup/leakcanary/HeapDumper.java
+:100644 100644 22434dd... 7d2b9fc... M	library/leakcanary-watcher/src/main/java/com/squareup/leakcanary/RefWatcher.java
+commit=4890ec5dd2e0e3c1f68ba74c345200689694c527:py@squareup.com
+
+:100644 100644 9f6a827... 28303d6... M	CHANGELOG.md
+commit=41a7ddeaa7d64c406115ef2241759e2fc07bb4c5:py@squareup.com
+
+:100644 100644 0afc2ad... b12dcce... M	library/leakcanary-analyzer/src/main/java/com/squareup/leakcanary/HeapAnalyzer.java
+commit=34757fc64f5c3720c1f9a913ffe0924c87fffa7c:py@squareup.com
+
+:100644 100644 8b425d9... 9f6a827... M	CHANGELOG.md
+commit=924a5efd2038b2f9b3f2400b42b8833f0a9c94ac:py@squareup.com
+
+:100644 100644 d91a524... caed937... M	README.md
+commit=9209d8f6efa2d16919496dfda3291ba6f55ae4eb:py@squareup.com
+
+:100644 100644 25cad08... 721ae66... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=9b6ce4b84f68a638ea9d64b9117863803353ac46:py@squareup.com
+
+:100644 100644 fe05b0a... 0afc2ad... M	library/leakcanary-analyzer/src/main/java/com/squareup/leakcanary/HeapAnalyzer.java
+:100644 100644 446ec62... 607db22... M	library/leakcanary-analyzer/src/main/java/com/squareup/leakcanary/LeakTrace.java
+:100644 100644 3c17042... 7838fca... M	library/leakcanary-analyzer/src/main/java/com/squareup/leakcanary/LeakTraceElement.java
+:100644 100644 2a8484b... 03ec9ed... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/DisplayLeakService.java
+:100644 100644 bd5f5ab... 213caf1... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/LeakCanary.java
+:100644 100644 240c2ac... 25956d9... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakActivity.java
+commit=2c1b7287912e570ef5ef9aa7bd3912b766dd425f:dm0388@gmail.com
+
+:100644 100644 fbc7d7f... 25cad08... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=c997c35d04a2fcb4deb921e516941811b2e36dac:py@squareup.com
+
+:100644 100644 96c22ba... fbc7d7f... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=85a0eaed7c4ad65704493b010978ae17901a003f:py@squareup.com
+
+:100644 100644 6e97cd2... 8b425d9... M	CHANGELOG.md
+:100644 100644 a516918... d91a524... M	README.md
+commit=06cf15990800b3464ebe08d7cf4bb869a0a99b71:sergey@wheely.com
+
+:100644 100644 c9ce2e0... 6e97cd2... M	CHANGELOG.md
+commit=587099103339306eaffca99ac356c8a75bc2d54d:py@squareup.com
+
+:100644 100644 4d80a36... c9ce2e0... M	CHANGELOG.md
+commit=89700312cae03e7480870b79773a845b562797dc:aagaande@gmail.com
+
+:100644 100644 69123c3... 96c22ba... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=dc1d94d07e11d18f8f4fa1c537121633a78226b5:py@squareup.com
+
+:100644 100644 e976e26... fe05b0a... M	library/leakcanary-analyzer/src/main/java/com/squareup/leakcanary/HeapAnalyzer.java
+commit=e2a60bd61aa13015cb4cfd7ae2fa9b904a1ab644:py@squareup.com
+
+:100644 100644 b14f580... 5f3dc02... M	library/leakcanary-android-no-op/build.gradle
+:000000 100644 0000000... ca9f660... A	library/leakcanary-android-no-op/src/main/java/com/squareup/leakcanary/RefWatcher.java
+commit=1b1c6525be7a14e4d1a37302c9003920e3b31a5b:py@squareup.com
+
+:100644 100644 6109ce6... 69123c3... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+:100644 100644 78e57c4... bd5f5ab... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/LeakCanary.java
+:100644 100644 ffd7fcd... ac8ecba... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/internal/LeakCanaryInternals.java
+commit=6293f881e134f30863f31ea2d3314948d4c1e2d6:romainguy@curious-creature.com
+
+:000000 100644 0000000... 5dfdcf8... A	assets/icon_1024.png
+:100644 100644 5c96f92... bb24dba... M	assets/icon_512.png
+:100644 100644 4bc1de1... 827e555... M	assets/source_icon.png
+:000000 100644 0000000... a30fcf9... A	assets/vector_icon.afdesign
+:000000 100644 0000000... 9a17f0d... A	assets/vector_icon.svg
+commit=c779a42b4822dc7f9dd19e7eb4af26d150e43d73:py@squareup.com
+
+:100644 100644 5330a7c... 942be77... M	library/leakcanary-sample/src/main/java/com/example/leakcanary/ExampleApplication.java
+commit=2fe93c46ae8755bdba450266432ba4fd481e6304:py@squareup.com
+
+:100644 100644 f410065... 130ad6d... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidHeapDumper.java
+:100644 100644 efeaa3a... ffd7fcd... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/internal/LeakCanaryInternals.java
+:100644 100644 220e05e... 5330a7c... M	library/leakcanary-sample/src/main/java/com/example/leakcanary/ExampleApplication.java
+commit=dbc45908928232e807316199c67e207ff3136a44:liaohuqiu@gmail.com
+
+:100644 100644 b8b7ff3... fd82c9a... M	library/build.gradle
+commit=849c269b1f12e6ec0e83538968970150b28a7254:sergey@wheely.com
+
+:100644 100644 e39553a... 78e57c4... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/LeakCanary.java
+commit=47fd55c49232648ac4ea9745524a348d7e0f8ec4:py@squareup.com
+
+:100644 100644 7d6edde... b8b7ff3... M	library/build.gradle
+:100644 100644 84153d7... a64cb55... M	library/leakcanary-analyzer/build.gradle
+commit=307a0becb21bd6993216b569ab9fdf066b78721d:py@squareup.com
+
+:100644 100644 0df56e1... 84153d7... M	library/leakcanary-analyzer/build.gradle
+commit=7005aa9f399c01d2e31bbef18eb226123b58b696:sergey@wheely.com
+
+:100644 100644 bff0b97... 1ce951f... M	library/leakcanary-android/build.gradle
+:100644 100644 eecb18d... e39553a... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/LeakCanary.java
+commit=0ee41df004adf797236be98c40dce60886867964:romainguy@curious-creature.com
+
+:100644 100644 5eacc6a... e854ac2... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakConnectorView.java
+:100644 100644 a7bd89f... 74fbf98... R096	library/leakcanary-android/src/main/java/com/squareup/leakcanary/internal/Ui.java	library/leakcanary-android/src/main/java/com/squareup/leakcanary/internal/LeakCanaryUi.java
+:100644 100644 c79b42a... 81bf8a0... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/internal/MoreDetailsView.java
+commit=569a8a12108a978a065e9b890bc161572035da0c:py@squareup.com
+
+:100644 100644 6e54336... e976e26... M	library/leakcanary-analyzer/src/main/java/com/squareup/leakcanary/HeapAnalyzer.java
+commit=324bc5e40306dbc3f9711fb3b884417ff6dbb68d:jobrienapps@gmail.com
+
+:100644 100644 8c9c893... a516918... M	README.md
+commit=ba0de09e2d1793b53bda3bccca6940bd6a8405e9:py@squareup.com
+
+:100644 100644 1bc8255... 8c9c893... M	README.md
+commit=0aa7693ee8847ac7e2b83915b9f2b71cc7fbddba:romainguy@curious-creature.com
+
+:100644 100644 e9e8001... 5eacc6a... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakConnectorView.java
+:100644 100644 556fe14... c79b42a... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/internal/MoreDetailsView.java
+:000000 100644 0000000... a7bd89f... A	library/leakcanary-android/src/main/java/com/squareup/leakcanary/internal/Ui.java
+commit=a2125814ecdc3449db16ae9b564c9701595ecdd5:romainguy@curious-creature.com
+
+:100755 100644 44caf54... 5c96f92... M	assets/icon_512.png
+:100644 100644 0bfbd9e... 4bc1de1... M	assets/source_icon.png
+commit=903d790cc289acff3ee891455beee70ca3755008:py@squareup.com
+
+:100644 100644 0853d59... 6109ce6... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=5472686ea433ce3901835a29db4635920b07c034:py@squareup.com
+
+:100644 100644 494b839... e1f8841... M	library/leakcanary-analyzer/src/test/java/com/squareup/leakcanary/HeapAnalyzerTest.java
+:100644 100644 f93e8fd... 421ceea... M	library/leakcanary-watcher/src/test/java/com/squareup/leakcanary/RefWatcherTest.java
+commit=3faa17df2df571663e102272ce9d2bf1a6ff0a7a:py@squareup.com
+
+:100644 100644 7dfc03b... 0853d59... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=c2d938fb0d63f5c6c4d67dcae53158dc59ef9130:py@squareup.com
+
+:100644 000000 a5b2527... 0000000... D	library/leakcanary-analyzer/src/main/java/com/squareup/leakcanary/ExcludedRefs.java
+:100644 100644 3e8e775... 6e54336... M	library/leakcanary-analyzer/src/main/java/com/squareup/leakcanary/HeapAnalyzer.java
+:100644 100644 de35929... 7dfc03b... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+:100644 100644 e8affab... 5519135... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/LeakCanary.java
+:100644 100644 0f134ef... 56aeccd... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/internal/HeapAnalyzerService.java
+:000000 100644 0000000... 1481e4e... A	library/leakcanary-watcher/src/main/java/com/squareup/leakcanary/ExcludedRefs.java
+:100644 100644 e2a906d... 2423dc9... M	library/leakcanary-watcher/src/main/java/com/squareup/leakcanary/HeapDump.java
+:100644 100644 6f3ea0d... 22434dd... M	library/leakcanary-watcher/src/main/java/com/squareup/leakcanary/RefWatcher.java
+commit=8b9f85ead2c03b047dd89f6c7a76c2424fee1f95:py@squareup.com
+
+:100644 100644 f0cdef2... 05d4ad8... M	library/leakcanary-android/src/main/AndroidManifest.xml
+:100644 100644 f6e7f7d... f410065... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidHeapDumper.java
+:100644 100644 d6ff611... 2a8484b... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/DisplayLeakService.java
+:100644 100644 e8affab... 83a7e4a... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/LeakCanary.java
+:100644 100644 b297f15... 2ccb142... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/ServiceHeapDumpListener.java
+:100644 100644 8268dff... 240c2ac... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakActivity.java
+:000000 100644 0000000... efeaa3a... A	library/leakcanary-android/src/main/java/com/squareup/leakcanary/internal/LeakCanaryInternals.java
+commit=48be9a1bdaa8b225f9f7e5647454d7bb82b4315e:py@squareup.com
+
+:100644 100644 01be9cf... 4d80a36... M	CHANGELOG.md
+commit=bbec432c123eba31b2cce0b4edd76d8c15fb5590:py@squareup.com
+
+:100644 100644 dc72cd3... de35929... M	library/leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+commit=43b08d168126c1c3aa76f41034b5d64e6b509e07:py@squareup.com
+
+:100644 100644 acb4b21... 1bc8255... M	README.md
+commit=064ac761ec3f3711611dfdcf571250df2016ae45:py@squareup.com
+
+:100644 100644 4dd91d9... acb4b21... M	README.md
+commit=2d530df2478945bd666a2d40e65ea2043c67a523:nabil.hachicha@gmail.com
+
+:100644 100644 6584c58... 4dd91d9... M	README.md
+commit=729368c2044d3e4f23ed1361c98872e5326650c0:py@squareup.com
+
+:100644 100644 8ecebf8... 6584c58... M	README.md
+commit=43356603b9b082acdd15ea59b1b03d6f7a5c33d9:py@squareup.com
+
+:100644 100644 5efdcab... 7d6edde... M	library/build.gradle
+commit=6895737ee354cc3ea82f5113b72b0c446dafffd6:py@squareup.com
+
+:100644 100644 b395500... 01be9cf... M	CHANGELOG.md
+:100644 100644 0068d63... 5efdcab... M	library/build.gradle
+commit=f0cc04dfbf3cca92a669f0d250034d410eb05816:py@squareup.com
+
+:000000 100644 0000000... b395500... A	CHANGELOG.md
+:000000 100644 0000000... 338b931... A	CONTRIBUTING.md
+:000000 100644 0000000... 7a4a3ea... A	LICENSE.txt
+:000000 100644 0000000... 8ecebf8... A	README.md
+:000000 100755 0000000... 44caf54... A	assets/icon_512.png
+:000000 100644 0000000... dab8947... A	assets/screenshot.png
+:000000 100644 0000000... 0bfbd9e... A	assets/source_icon.png
+:000000 100644 0000000... 0068d63... A	library/build.gradle
+:000000 100644 0000000... 7fb7ad3... A	library/checkstyle.xml
+:000000 100644 0000000... 2e7c512... A	library/gradle/checkstyle.gradle
+:000000 100644 0000000... 01938b9... A	library/gradle/gradle-mvn-push.gradle
+:000000 100644 0000000... 5838598... A	library/gradle/wrapper/gradle-wrapper.jar
+:000000 100644 0000000... 80081ab... A	library/gradle/wrapper/gradle-wrapper.properties
+:000000 100755 0000000... 91a7e26... A	library/gradlew
+:000000 100644 0000000... 0df56e1... A	library/leakcanary-analyzer/build.gradle
+:000000 100644 0000000... 9ef0408... A	library/leakcanary-analyzer/gradle.properties
+:000000 100644 0000000... 3bde165... A	library/leakcanary-analyzer/src/main/AndroidManifest.xml
+:000000 100644 0000000... d1cf730... A	library/leakcanary-analyzer/src/main/java/com/squareup/leakcanary/AnalysisResult.java
+:000000 100644 0000000... a5b2527... A	library/leakcanary-analyzer/src/main/java/com/squareup/leakcanary/ExcludedRefs.java
+:000000 100644 0000000... 3e8e775... A	library/leakcanary-analyzer/src/main/java/com/squareup/leakcanary/HeapAnalyzer.java
+:000000 100644 0000000... 446ec62... A	library/leakcanary-analyzer/src/main/java/com/squareup/leakcanary/LeakTrace.java
+:000000 100644 0000000... 3c17042... A	library/leakcanary-analyzer/src/main/java/com/squareup/leakcanary/LeakTraceElement.java
+:000000 100644 0000000... 494b839... A	library/leakcanary-analyzer/src/test/java/com/squareup/leakcanary/HeapAnalyzerTest.java
+:000000 100644 0000000... a1d60ad... A	library/leakcanary-analyzer/src/test/resources/leak_asynctask.hprof
+:000000 100644 0000000... b14f580... A	library/leakcanary-android-no-op/build.gradle
+:000000 100644 0000000... 60494b8... A	library/leakcanary-android-no-op/gradle.properties
+:000000 100644 0000000... acd455c... A	library/leakcanary-android-no-op/src/main/AndroidManifest.xml
+:000000 100644 0000000... 8fc8a58... A	library/leakcanary-android-no-op/src/main/java/com/squareup/leakcanary/LeakCanary.java
+:000000 100644 0000000... bff0b97... A	library/leakcanary-android/build.gradle
+:000000 100644 0000000... beee3e6... A	library/leakcanary-android/gradle.properties
+:000000 100644 0000000... f0cdef2... A	library/leakcanary-android/src/main/AndroidManifest.xml
+:000000 100644 0000000... 9b19383... A	library/leakcanary-android/src/main/java/com/squareup/leakcanary/AbstractAnalysisResultService.java
+:000000 100644 0000000... 160e840... A	library/leakcanary-android/src/main/java/com/squareup/leakcanary/ActivityRefWatcher.java
+:000000 100644 0000000... 7c58b99... A	library/leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidDebuggerControl.java
+:000000 100644 0000000... dc72cd3... A	library/leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidExcludedRefs.java
+:000000 100644 0000000... f6e7f7d... A	library/leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidHeapDumper.java
+:000000 100644 0000000... d5d9429... A	library/leakcanary-android/src/main/java/com/squareup/leakcanary/AndroidWatchExecutor.java
+:000000 100644 0000000... d6ff611... A	library/leakcanary-android/src/main/java/com/squareup/leakcanary/DisplayLeakService.java
+:000000 100644 0000000... e8affab... A	library/leakcanary-android/src/main/java/com/squareup/leakcanary/LeakCanary.java
+:000000 100644 0000000... b297f15... A	library/leakcanary-android/src/main/java/com/squareup/leakcanary/ServiceHeapDumpListener.java
+:000000 100644 0000000... 8268dff... A	library/leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakActivity.java
+:000000 100644 0000000... fa1c73a... A	library/leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakAdapter.java
+:000000 100644 0000000... e9e8001... A	library/leakcanary-android/src/main/java/com/squareup/leakcanary/internal/DisplayLeakConnectorView.java
+:000000 100644 0000000... 0f134ef... A	library/leakcanary-android/src/main/java/com/squareup/leakcanary/internal/HeapAnalyzerService.java
+:000000 100644 0000000... 556fe14... A	library/leakcanary-android/src/main/java/com/squareup/leakcanary/internal/MoreDetailsView.java
+:000000 100755 0000000... ca53e71... A	library/leakcanary-android/src/main/res/drawable-hdpi-v11/__leak_canary_notification.png
+:000000 100755 0000000... 69911f3... A	library/leakcanary-android/src/main/res/drawable-hdpi/__leak_canary_icon.png
+:000000 100755 0000000... 86841e4... A	library/leakcanary-android/src/main/res/drawable-hdpi/__leak_canary_notification.png
+:000000 100755 0000000... dc71e62... A	library/leakcanary-android/src/main/res/drawable-mdpi-v11/__leak_canary_notification.png
+:000000 100755 0000000... e6c8e1f... A	library/leakcanary-android/src/main/res/drawable-mdpi/__leak_canary_icon.png
+:000000 100755 0000000... 98a55ee... A	library/leakcanary-android/src/main/res/drawable-mdpi/__leak_canary_notification.png
+:000000 100755 0000000... e8e7421... A	library/leakcanary-android/src/main/res/drawable-xhdpi-v11/__leak_canary_notification.png
+:000000 100755 0000000... 9d3bb11... A	library/leakcanary-android/src/main/res/drawable-xhdpi/__leak_canary_icon.png
+:000000 100755 0000000... 594ed22... A	library/leakcanary-android/src/main/res/drawable-xhdpi/__leak_canary_notification.png
+:000000 100755 0000000... 1aac2c0... A	library/leakcanary-android/src/main/res/drawable-xxhdpi-v11/__leak_canary_notification.png
+:000000 100755 0000000... 7072b8e... A	library/leakcanary-android/src/main/res/drawable-xxhdpi/__leak_canary_icon.png
+:000000 100755 0000000... b11f154... A	library/leakcanary-android/src/main/res/drawable-xxhdpi/__leak_canary_notification.png
+:000000 100755 0000000... 3aaa2a5... A	library/leakcanary-android/src/main/res/drawable-xxxhdpi-v11/__leak_canary_notification.png
+:000000 100755 0000000... c72d0d8... A	library/leakcanary-android/src/main/res/drawable-xxxhdpi/__leak_canary_icon.png
+:000000 100755 0000000... 41eae0d... A	library/leakcanary-android/src/main/res/drawable-xxxhdpi/__leak_canary_notification.png
+:000000 100644 0000000... 3a40ce2... A	library/leakcanary-android/src/main/res/layout/__leak_canary_display_leak.xml
+:000000 100644 0000000... 00e291b... A	library/leakcanary-android/src/main/res/layout/__leak_canary_leak_row.xml
+:000000 100644 0000000... 7e8721f... A	library/leakcanary-android/src/main/res/layout/__leak_canary_ref_row.xml
+:000000 100644 0000000... 4fc704b... A	library/leakcanary-android/src/main/res/layout/__leak_canary_ref_top_row.xml
+:000000 100644 0000000... c59e71e... A	library/leakcanary-android/src/main/res/values-v14/__leak_canary_themes.xml
+:000000 100644 0000000... 0a8dbbf... A	library/leakcanary-android/src/main/res/values-v21/__leak_canary_themes.xml
+:000000 100644 0000000... 8811d1f... A	library/leakcanary-android/src/main/res/values/__leak_canary_int.xml
+:000000 100644 0000000... 4113b2b... A	library/leakcanary-android/src/main/res/values/__leak_canary_strings.xml
+:000000 100644 0000000... 21df584... A	library/leakcanary-android/src/main/res/values/__leak_canary_themes.xml
+:000000 100644 0000000... 512049b... A	library/leakcanary-sample/build.gradle
+:000000 100644 0000000... d72ca55... A	library/leakcanary-sample/src/main/AndroidManifest.xml
+:000000 100644 0000000... 220e05e... A	library/leakcanary-sample/src/main/java/com/example/leakcanary/ExampleApplication.java
+:000000 100644 0000000... fefe52f... A	library/leakcanary-sample/src/main/java/com/example/leakcanary/MainActivity.java
+:000000 100755 0000000... 099c77d... A	library/leakcanary-sample/src/main/res/drawable-hdpi/ic_launcher.png
+:000000 100755 0000000... da2453c... A	library/leakcanary-sample/src/main/res/drawable-mdpi/ic_launcher.png
+:000000 100755 0000000... 35a3ec9... A	library/leakcanary-sample/src/main/res/drawable-xhdpi/ic_launcher.png
+:000000 100755 0000000... 6b3f35a... A	library/leakcanary-sample/src/main/res/drawable-xxhdpi/ic_launcher.png
+:000000 100755 0000000... 2d77dc1... A	library/leakcanary-sample/src/main/res/drawable-xxxhdpi/ic_launcher.png
+:000000 100644 0000000... 2dc62d6... A	library/leakcanary-sample/src/main/res/layout/main_activity.xml
+:000000 100644 0000000... 1e112ce... A	library/leakcanary-sample/src/main/res/values/strings.xml
+:000000 100644 0000000... ac0cac7... A	library/leakcanary-watcher/build.gradle
+:000000 100644 0000000... cbcadee... A	library/leakcanary-watcher/gradle.properties
+:000000 100644 0000000... 3f8d7ca... A	library/leakcanary-watcher/src/main/AndroidManifest.xml
+:000000 100644 0000000... fdd03be... A	library/leakcanary-watcher/src/main/java/com/squareup/leakcanary/DebuggerControl.java
+:000000 100644 0000000... 8beade5... A	library/leakcanary-watcher/src/main/java/com/squareup/leakcanary/GcTrigger.java
+:000000 100644 0000000... e2a906d... A	library/leakcanary-watcher/src/main/java/com/squareup/leakcanary/HeapDump.java
+:000000 100644 0000000... 1bd3c4c... A	library/leakcanary-watcher/src/main/java/com/squareup/leakcanary/HeapDumper.java
+:000000 100644 0000000... 9932308... A	library/leakcanary-watcher/src/main/java/com/squareup/leakcanary/KeyedWeakReference.java
+:000000 100644 0000000... f7521e9... A	library/leakcanary-watcher/src/main/java/com/squareup/leakcanary/Preconditions.java
+:000000 100644 0000000... 6f3ea0d... A	library/leakcanary-watcher/src/main/java/com/squareup/leakcanary/RefWatcher.java
+:000000 100644 0000000... f93e8fd... A	library/leakcanary-watcher/src/test/java/com/squareup/leakcanary/RefWatcherTest.java
+:000000 100644 0000000... 73da17f... A	library/settings.gradle
+commit=331f5933395f003017c393925d4ac844265418d6:py@squareup.com
+
+:000000 100644 0000000... 3e76ed6... A	.gitignore

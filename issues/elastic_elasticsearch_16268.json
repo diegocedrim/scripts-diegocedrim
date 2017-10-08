@@ -1,0 +1,88 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "This feature already existed but was neither tested nor documented.\n\nCloses #15802\n", 
+    "closed_at": "2016-04-11T16:06:50Z", 
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+        "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/jpountz/followers", 
+        "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/jpountz", 
+        "id": 299848, 
+        "login": "jpountz", 
+        "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+        "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+        "repos_url": "https://api.github.com/users/jpountz/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/jpountz"
+    }, 
+    "comments": 6, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/16268/comments", 
+    "created_at": "2016-01-27T15:05:57Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/16268/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/pull/16268", 
+    "id": 129169932, 
+    "labels": [
+        {
+            "color": "009800", 
+            "default": false, 
+            "id": 221275169, 
+            "name": ":Cache", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/:Cache"
+        }, 
+        {
+            "color": "4a4ea8", 
+            "default": true, 
+            "id": 23174, 
+            "name": "enhancement", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/enhancement"
+        }, 
+        {
+            "color": "dddddd", 
+            "default": false, 
+            "id": 352250322, 
+            "name": "v5.0.0-alpha2", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v5.0.0-alpha2"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/16268/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 16268, 
+    "pull_request": {
+        "diff_url": "https://github.com/elastic/elasticsearch/pull/16268.diff", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/16268", 
+        "patch_url": "https://github.com/elastic/elasticsearch/pull/16268.patch", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/pulls/16268"
+    }, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Allow the query cache to be disabled.", 
+    "updated_at": "2016-04-11T16:06:50Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/16268", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+        "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/jpountz/followers", 
+        "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/jpountz", 
+        "id": 299848, 
+        "login": "jpountz", 
+        "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+        "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+        "repos_url": "https://api.github.com/users/jpountz/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/jpountz"
+    }
+}

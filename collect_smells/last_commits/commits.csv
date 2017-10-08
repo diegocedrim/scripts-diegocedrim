@@ -1,0 +1,8 @@
+url,project_name,commit
+https://github.com/apache/ant,apache/ant,a8b46548990ded7f10fd3461865d84d6b920e3bf
+https://github.com/prestodb/presto,prestodb/presto,c364cd73454e2f787ce4b02536da309e1a2ccba6
+https://github.com/square/okhttp,square/okhttp,ec00713d5c22175249a359c3ffd0fe0d2692b0df
+https://github.com/apache/derby,apache_derby,21e03ad480b9957552c5472d14b5883a17a5e644
+https://github.com/apache/tomcat,apache_tomcat,bd3fb1880fc4b0ce08f135f5465950bd53bc39ee
+
+

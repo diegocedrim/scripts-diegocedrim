@@ -1,0 +1,89 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "", 
+    "closed_at": "2012-12-02T21:01:27Z", 
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }, 
+    "comments": 0, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/2455/comments", 
+    "created_at": "2012-12-02T20:51:28Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/2455/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/2455", 
+    "id": 8928975, 
+    "labels": [
+        {
+            "color": "4a4ea8", 
+            "default": true, 
+            "id": 23174, 
+            "name": "enhancement", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/enhancement"
+        }, 
+        {
+            "color": "DDDDDD", 
+            "default": false, 
+            "id": 18508797, 
+            "name": "v0.19.12", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.19.12"
+        }, 
+        {
+            "color": "DDDDDD", 
+            "default": false, 
+            "id": 17100272, 
+            "name": "v0.20.0", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.20.0"
+        }, 
+        {
+            "color": "DDDDDD", 
+            "default": false, 
+            "id": 17100279, 
+            "name": "v0.90.0.Beta1", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.90.0.Beta1"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/2455/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 2455, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Add types and stats to search slow log", 
+    "updated_at": "2012-12-02T21:01:27Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/2455", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }
+}

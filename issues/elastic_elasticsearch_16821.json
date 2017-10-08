@@ -1,0 +1,88 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "DiscoveryService was a bridge into the discovery universe. This is unneeded and we can just access discovery directly or do things in a different way.\n\nOne of those different way, is not having a dedicated discovery implementation for each our discovery plugins but rather reuse ZenDiscovery.\n\nUnicastHostProviders are now classified by discovery type, removing unneeded checks on plugins.\n", 
+    "closed_at": "2016-02-29T19:54:08Z", 
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1006375?v=3", 
+        "events_url": "https://api.github.com/users/bleskes/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/bleskes/followers", 
+        "following_url": "https://api.github.com/users/bleskes/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/bleskes/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/bleskes", 
+        "id": 1006375, 
+        "login": "bleskes", 
+        "organizations_url": "https://api.github.com/users/bleskes/orgs", 
+        "received_events_url": "https://api.github.com/users/bleskes/received_events", 
+        "repos_url": "https://api.github.com/users/bleskes/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/bleskes/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/bleskes/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/bleskes"
+    }, 
+    "comments": 4, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/16821/comments", 
+    "created_at": "2016-02-26T14:53:10Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/16821/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/pull/16821", 
+    "id": 136718756, 
+    "labels": [
+        {
+            "color": "009800", 
+            "default": false, 
+            "id": 160579278, 
+            "name": ":Discovery", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/:Discovery"
+        }, 
+        {
+            "color": "cfcfcf", 
+            "default": false, 
+            "id": 73544, 
+            "name": "non-issue", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/non-issue"
+        }, 
+        {
+            "color": "dddddd", 
+            "default": false, 
+            "id": 246685314, 
+            "name": "v5.0.0-alpha1", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v5.0.0-alpha1"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/16821/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 16821, 
+    "pull_request": {
+        "diff_url": "https://github.com/elastic/elasticsearch/pull/16821.diff", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/16821", 
+        "patch_url": "https://github.com/elastic/elasticsearch/pull/16821.patch", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/pulls/16821"
+    }, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Remove DiscoveryService and reduce guice to just Discovery", 
+    "updated_at": "2016-02-29T19:57:09Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/16821", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1006375?v=3", 
+        "events_url": "https://api.github.com/users/bleskes/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/bleskes/followers", 
+        "following_url": "https://api.github.com/users/bleskes/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/bleskes/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/bleskes", 
+        "id": 1006375, 
+        "login": "bleskes", 
+        "organizations_url": "https://api.github.com/users/bleskes/orgs", 
+        "received_events_url": "https://api.github.com/users/bleskes/received_events", 
+        "repos_url": "https://api.github.com/users/bleskes/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/bleskes/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/bleskes/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/bleskes"
+    }
+}

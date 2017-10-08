@@ -1,0 +1,611 @@
+[
+    {
+        "body": "I recommend using the individual commits as guidelines on how things were changed, but there were some cross dependencies between them that got fixed later on, so better to look at the full changes.", 
+        "url": "https://api.github.com/repos/prestodb/presto/issues/comments/13538801", 
+        "event": "commented", 
+        "created_at": "2013-02-14T09:12:57Z", 
+        "html_url": "https://github.com/prestodb/presto/pull/370#issuecomment-13538801", 
+        "actor": {
+            "following_url": "https://api.github.com/users/erichwang/following{/other_user}", 
+            "events_url": "https://api.github.com/users/erichwang/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/erichwang/orgs", 
+            "url": "https://api.github.com/users/erichwang", 
+            "gists_url": "https://api.github.com/users/erichwang/gists{/gist_id}", 
+            "html_url": "https://github.com/erichwang", 
+            "subscriptions_url": "https://api.github.com/users/erichwang/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/737851?v=3", 
+            "repos_url": "https://api.github.com/users/erichwang/repos", 
+            "received_events_url": "https://api.github.com/users/erichwang/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/erichwang/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "erichwang", 
+            "type": "User", 
+            "id": 737851, 
+            "followers_url": "https://api.github.com/users/erichwang/followers"
+        }, 
+        "updated_at": "2013-02-14T09:12:57Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/erichwang/following{/other_user}", 
+            "events_url": "https://api.github.com/users/erichwang/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/erichwang/orgs", 
+            "url": "https://api.github.com/users/erichwang", 
+            "gists_url": "https://api.github.com/users/erichwang/gists{/gist_id}", 
+            "html_url": "https://github.com/erichwang", 
+            "subscriptions_url": "https://api.github.com/users/erichwang/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/737851?v=3", 
+            "repos_url": "https://api.github.com/users/erichwang/repos", 
+            "received_events_url": "https://api.github.com/users/erichwang/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/erichwang/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "erichwang", 
+            "type": "User", 
+            "id": 737851, 
+            "followers_url": "https://api.github.com/users/erichwang/followers"
+        }, 
+        "id": 13538801, 
+        "issue_url": "https://api.github.com/repos/prestodb/presto/issues/370"
+    }, 
+    {
+        "body": "On second thought, I probably should have split this into smaller pull requests, but there is quite a bit of entanglement already =(. Sorry guys.", 
+        "url": "https://api.github.com/repos/prestodb/presto/issues/comments/13538997", 
+        "event": "commented", 
+        "created_at": "2013-02-14T09:19:04Z", 
+        "html_url": "https://github.com/prestodb/presto/pull/370#issuecomment-13538997", 
+        "actor": {
+            "following_url": "https://api.github.com/users/erichwang/following{/other_user}", 
+            "events_url": "https://api.github.com/users/erichwang/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/erichwang/orgs", 
+            "url": "https://api.github.com/users/erichwang", 
+            "gists_url": "https://api.github.com/users/erichwang/gists{/gist_id}", 
+            "html_url": "https://github.com/erichwang", 
+            "subscriptions_url": "https://api.github.com/users/erichwang/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/737851?v=3", 
+            "repos_url": "https://api.github.com/users/erichwang/repos", 
+            "received_events_url": "https://api.github.com/users/erichwang/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/erichwang/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "erichwang", 
+            "type": "User", 
+            "id": 737851, 
+            "followers_url": "https://api.github.com/users/erichwang/followers"
+        }, 
+        "updated_at": "2013-02-14T09:19:04Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/erichwang/following{/other_user}", 
+            "events_url": "https://api.github.com/users/erichwang/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/erichwang/orgs", 
+            "url": "https://api.github.com/users/erichwang", 
+            "gists_url": "https://api.github.com/users/erichwang/gists{/gist_id}", 
+            "html_url": "https://github.com/erichwang", 
+            "subscriptions_url": "https://api.github.com/users/erichwang/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/737851?v=3", 
+            "repos_url": "https://api.github.com/users/erichwang/repos", 
+            "received_events_url": "https://api.github.com/users/erichwang/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/erichwang/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "erichwang", 
+            "type": "User", 
+            "id": 737851, 
+            "followers_url": "https://api.github.com/users/erichwang/followers"
+        }, 
+        "id": 13538997, 
+        "issue_url": "https://api.github.com/repos/prestodb/presto/issues/370"
+    }, 
+    {
+        "committer": {
+            "date": "2013-02-15T21:51:59Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "author": {
+            "date": "2013-02-12T00:55:19Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/2fae45a9396b41381ef40807ba47b3f6e64ed03a", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/b7c43770276b618ad50082442aec02b7e770285a", 
+            "sha": "b7c43770276b618ad50082442aec02b7e770285a"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/2fae45a9396b41381ef40807ba47b3f6e64ed03a", 
+        "sha": "2fae45a9396b41381ef40807ba47b3f6e64ed03a", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/e180e63d70eb5a2e2d68c630816a6986144fe688", 
+                "sha": "e180e63d70eb5a2e2d68c630816a6986144fe688", 
+                "html_url": "https://github.com/prestodb/presto/commit/e180e63d70eb5a2e2d68c630816a6986144fe688"
+            }
+        ], 
+        "message": "Extract out a raw HiveClientFactory", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-02-15T21:51:59Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "author": {
+            "date": "2013-02-14T05:21:08Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/e180e63d70eb5a2e2d68c630816a6986144fe688", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/f5deffb5eec68f6fad6216a5511597beb122ce35", 
+            "sha": "f5deffb5eec68f6fad6216a5511597beb122ce35"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/e180e63d70eb5a2e2d68c630816a6986144fe688", 
+        "sha": "e180e63d70eb5a2e2d68c630816a6986144fe688", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/8afa867057848dc0496956d7dde4e0457ebffb98", 
+                "sha": "8afa867057848dc0496956d7dde4e0457ebffb98", 
+                "html_url": "https://github.com/prestodb/presto/commit/8afa867057848dc0496956d7dde4e0457ebffb98"
+            }
+        ], 
+        "message": "Fix same thread execution in SuspendingExecutor", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-02-15T21:54:41Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "author": {
+            "date": "2013-02-12T02:50:15Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/58274c8ee5d3a147fdd26e42e55898fcb01f2b16", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/1f66739ca2f3f96fc9250ac420b523519167a6b7", 
+            "sha": "1f66739ca2f3f96fc9250ac420b523519167a6b7"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/58274c8ee5d3a147fdd26e42e55898fcb01f2b16", 
+        "sha": "58274c8ee5d3a147fdd26e42e55898fcb01f2b16", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/2fae45a9396b41381ef40807ba47b3f6e64ed03a", 
+                "sha": "2fae45a9396b41381ef40807ba47b3f6e64ed03a", 
+                "html_url": "https://github.com/prestodb/presto/commit/2fae45a9396b41381ef40807ba47b3f6e64ed03a"
+            }
+        ], 
+        "message": "Refactor HiveClient to extract chunk encoding and chunk reading", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-02-15T23:08:09Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "author": {
+            "date": "2013-02-13T00:31:54Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/653edcd4d58f0905357edc11dd776cc8e34b2ff5", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/0e227abb76745676cb59139865f74ec6e6cea217", 
+            "sha": "0e227abb76745676cb59139865f74ec6e6cea217"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/653edcd4d58f0905357edc11dd776cc8e34b2ff5", 
+        "sha": "653edcd4d58f0905357edc11dd776cc8e34b2ff5", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/58274c8ee5d3a147fdd26e42e55898fcb01f2b16", 
+                "sha": "58274c8ee5d3a147fdd26e42e55898fcb01f2b16", 
+                "html_url": "https://github.com/prestodb/presto/commit/58274c8ee5d3a147fdd26e42e55898fcb01f2b16"
+            }
+        ], 
+        "message": "Push caching of Hive Metastore into HiveClient", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-02-15T23:08:09Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "author": {
+            "date": "2013-02-13T20:01:32Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/543784b5217c21c2defe7ea850d74f42b8088554", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/b6a8e802bece665b5555dccfa9d91c4c1a475263", 
+            "sha": "b6a8e802bece665b5555dccfa9d91c4c1a475263"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/543784b5217c21c2defe7ea850d74f42b8088554", 
+        "sha": "543784b5217c21c2defe7ea850d74f42b8088554", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/653edcd4d58f0905357edc11dd776cc8e34b2ff5", 
+                "sha": "653edcd4d58f0905357edc11dd776cc8e34b2ff5", 
+                "html_url": "https://github.com/prestodb/presto/commit/653edcd4d58f0905357edc11dd776cc8e34b2ff5"
+            }
+        ], 
+        "message": "Properly control HiveClient executor lifecycle", 
+        "event": "committed"
+    }, 
+    {
+        "commit_id": "1936afed94cfa3e725f2bbd335d113875971b0c7", 
+        "commit_url": "https://api.github.com/repos/erichwang/presto/commits/1936afed94cfa3e725f2bbd335d113875971b0c7", 
+        "url": "https://api.github.com/repos/prestodb/presto/issues/events/38069761", 
+        "created_at": "2013-02-15T23:33:05Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/erichwang/following{/other_user}", 
+            "events_url": "https://api.github.com/users/erichwang/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/erichwang/orgs", 
+            "url": "https://api.github.com/users/erichwang", 
+            "gists_url": "https://api.github.com/users/erichwang/gists{/gist_id}", 
+            "html_url": "https://github.com/erichwang", 
+            "subscriptions_url": "https://api.github.com/users/erichwang/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/737851?v=3", 
+            "repos_url": "https://api.github.com/users/erichwang/repos", 
+            "received_events_url": "https://api.github.com/users/erichwang/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/erichwang/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "erichwang", 
+            "type": "User", 
+            "id": 737851, 
+            "followers_url": "https://api.github.com/users/erichwang/followers"
+        }, 
+        "event": "referenced", 
+        "id": 38069761
+    }, 
+    {
+        "body": "All review comments have been addressed", 
+        "url": "https://api.github.com/repos/prestodb/presto/issues/comments/13633825", 
+        "event": "commented", 
+        "created_at": "2013-02-15T23:33:19Z", 
+        "html_url": "https://github.com/prestodb/presto/pull/370#issuecomment-13633825", 
+        "actor": {
+            "following_url": "https://api.github.com/users/erichwang/following{/other_user}", 
+            "events_url": "https://api.github.com/users/erichwang/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/erichwang/orgs", 
+            "url": "https://api.github.com/users/erichwang", 
+            "gists_url": "https://api.github.com/users/erichwang/gists{/gist_id}", 
+            "html_url": "https://github.com/erichwang", 
+            "subscriptions_url": "https://api.github.com/users/erichwang/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/737851?v=3", 
+            "repos_url": "https://api.github.com/users/erichwang/repos", 
+            "received_events_url": "https://api.github.com/users/erichwang/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/erichwang/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "erichwang", 
+            "type": "User", 
+            "id": 737851, 
+            "followers_url": "https://api.github.com/users/erichwang/followers"
+        }, 
+        "updated_at": "2013-02-15T23:33:19Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/erichwang/following{/other_user}", 
+            "events_url": "https://api.github.com/users/erichwang/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/erichwang/orgs", 
+            "url": "https://api.github.com/users/erichwang", 
+            "gists_url": "https://api.github.com/users/erichwang/gists{/gist_id}", 
+            "html_url": "https://github.com/erichwang", 
+            "subscriptions_url": "https://api.github.com/users/erichwang/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/737851?v=3", 
+            "repos_url": "https://api.github.com/users/erichwang/repos", 
+            "received_events_url": "https://api.github.com/users/erichwang/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/erichwang/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "erichwang", 
+            "type": "User", 
+            "id": 737851, 
+            "followers_url": "https://api.github.com/users/erichwang/followers"
+        }, 
+        "id": 13633825, 
+        "issue_url": "https://api.github.com/repos/prestodb/presto/issues/370"
+    }, 
+    {
+        "body": "looks good", 
+        "url": "https://api.github.com/repos/prestodb/presto/issues/comments/13635160", 
+        "event": "commented", 
+        "created_at": "2013-02-15T23:57:06Z", 
+        "html_url": "https://github.com/prestodb/presto/pull/370#issuecomment-13635160", 
+        "actor": {
+            "following_url": "https://api.github.com/users/dain/following{/other_user}", 
+            "events_url": "https://api.github.com/users/dain/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/dain/orgs", 
+            "url": "https://api.github.com/users/dain", 
+            "gists_url": "https://api.github.com/users/dain/gists{/gist_id}", 
+            "html_url": "https://github.com/dain", 
+            "subscriptions_url": "https://api.github.com/users/dain/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/58298?v=3", 
+            "repos_url": "https://api.github.com/users/dain/repos", 
+            "received_events_url": "https://api.github.com/users/dain/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/dain/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "dain", 
+            "type": "User", 
+            "id": 58298, 
+            "followers_url": "https://api.github.com/users/dain/followers"
+        }, 
+        "updated_at": "2013-02-15T23:57:06Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/dain/following{/other_user}", 
+            "events_url": "https://api.github.com/users/dain/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/dain/orgs", 
+            "url": "https://api.github.com/users/dain", 
+            "gists_url": "https://api.github.com/users/dain/gists{/gist_id}", 
+            "html_url": "https://github.com/dain", 
+            "subscriptions_url": "https://api.github.com/users/dain/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/58298?v=3", 
+            "repos_url": "https://api.github.com/users/dain/repos", 
+            "received_events_url": "https://api.github.com/users/dain/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/dain/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "dain", 
+            "type": "User", 
+            "id": 58298, 
+            "followers_url": "https://api.github.com/users/dain/followers"
+        }, 
+        "id": 13635160, 
+        "issue_url": "https://api.github.com/repos/prestodb/presto/issues/370"
+    }, 
+    {
+        "committer": {
+            "date": "2013-02-16T00:19:34Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "author": {
+            "date": "2013-02-12T01:26:09Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/053ab944871ee2187164275b56deddf91a17b873", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/1ee7c61aeb535bdf0c2bd76709791af4179ac888", 
+            "sha": "1ee7c61aeb535bdf0c2bd76709791af4179ac888"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/053ab944871ee2187164275b56deddf91a17b873", 
+        "sha": "053ab944871ee2187164275b56deddf91a17b873", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/543784b5217c21c2defe7ea850d74f42b8088554", 
+                "sha": "543784b5217c21c2defe7ea850d74f42b8088554", 
+                "html_url": "https://github.com/prestodb/presto/commit/543784b5217c21c2defe7ea850d74f42b8088554"
+            }
+        ], 
+        "message": "Add prism lookup support", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-02-16T00:19:37Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "author": {
+            "date": "2013-02-13T20:14:17Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/b9bf36aa6cb0ea62d3fc5a5f786662a8e08b9270", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/829aa540648b96106eae83290ebf1e2cada76027", 
+            "sha": "829aa540648b96106eae83290ebf1e2cada76027"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/b9bf36aa6cb0ea62d3fc5a5f786662a8e08b9270", 
+        "sha": "b9bf36aa6cb0ea62d3fc5a5f786662a8e08b9270", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/053ab944871ee2187164275b56deddf91a17b873", 
+                "sha": "053ab944871ee2187164275b56deddf91a17b873", 
+                "html_url": "https://github.com/prestodb/presto/commit/053ab944871ee2187164275b56deddf91a17b873"
+            }
+        ], 
+        "message": "Remove original MetadataCache", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-02-16T00:19:37Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "author": {
+            "date": "2013-02-13T23:23:31Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/822a613861a99d1bc38bbd5fe4855c41004c1779", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/10c0cc35cdc8fda9cc62774639affa38ecd8efe6", 
+            "sha": "10c0cc35cdc8fda9cc62774639affa38ecd8efe6"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/822a613861a99d1bc38bbd5fe4855c41004c1779", 
+        "sha": "822a613861a99d1bc38bbd5fe4855c41004c1779", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/b9bf36aa6cb0ea62d3fc5a5f786662a8e08b9270", 
+                "sha": "b9bf36aa6cb0ea62d3fc5a5f786662a8e08b9270", 
+                "html_url": "https://github.com/prestodb/presto/commit/b9bf36aa6cb0ea62d3fc5a5f786662a8e08b9270"
+            }
+        ], 
+        "message": "Upgrade Presto to Swift 0.4.0", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-02-16T00:19:38Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "author": {
+            "date": "2013-02-15T20:20:02Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/7c9a6193ba723096c3268558324c2f1dd50ffa2e", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/30938ae13245640fa33dbfa86b87e88e6970e203", 
+            "sha": "30938ae13245640fa33dbfa86b87e88e6970e203"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/7c9a6193ba723096c3268558324c2f1dd50ffa2e", 
+        "sha": "7c9a6193ba723096c3268558324c2f1dd50ffa2e", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/822a613861a99d1bc38bbd5fe4855c41004c1779", 
+                "sha": "822a613861a99d1bc38bbd5fe4855c41004c1779", 
+                "html_url": "https://github.com/prestodb/presto/commit/822a613861a99d1bc38bbd5fe4855c41004c1779"
+            }
+        ], 
+        "message": "Rename prismhive -> prism", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-02-16T00:19:38Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "author": {
+            "date": "2013-02-15T20:26:53Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/b7db2f4bcefc9bcfec09c3e71d43dd6f1b63c52f", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/56cfadcb69df384007bc072c8714c8138674c88b", 
+            "sha": "56cfadcb69df384007bc072c8714c8138674c88b"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/b7db2f4bcefc9bcfec09c3e71d43dd6f1b63c52f", 
+        "sha": "b7db2f4bcefc9bcfec09c3e71d43dd6f1b63c52f", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/7c9a6193ba723096c3268558324c2f1dd50ffa2e", 
+                "sha": "7c9a6193ba723096c3268558324c2f1dd50ffa2e", 
+                "html_url": "https://github.com/prestodb/presto/commit/7c9a6193ba723096c3268558324c2f1dd50ffa2e"
+            }
+        ], 
+        "message": "Merge HiveTypes and HiveInputFormats => HiveUtil", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-02-16T00:19:38Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "author": {
+            "date": "2013-02-15T21:28:20Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/30ea8dae463f5474d98f957b9b36b7fa258ad920", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/bd662097053a479a18f4715e52482dded2f507c4", 
+            "sha": "bd662097053a479a18f4715e52482dded2f507c4"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/30ea8dae463f5474d98f957b9b36b7fa258ad920", 
+        "sha": "30ea8dae463f5474d98f957b9b36b7fa258ad920", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/b7db2f4bcefc9bcfec09c3e71d43dd6f1b63c52f", 
+                "sha": "b7db2f4bcefc9bcfec09c3e71d43dd6f1b63c52f", 
+                "html_url": "https://github.com/prestodb/presto/commit/b7db2f4bcefc9bcfec09c3e71d43dd6f1b63c52f"
+            }
+        ], 
+        "message": "Fix some review comments for pull #370", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2013-02-16T00:19:38Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "author": {
+            "date": "2013-02-15T23:58:39Z", 
+            "name": "Eric Hwang", 
+            "email": "ehwang@fb.com"
+        }, 
+        "url": "https://api.github.com/repos/prestodb/presto/git/commits/5b00f4733541b061cad9b0de127287fe49dcf06e", 
+        "tree": {
+            "url": "https://api.github.com/repos/prestodb/presto/git/trees/73a7ba2a893e45f61c16b1fd655a054ec5ae9e6a", 
+            "sha": "73a7ba2a893e45f61c16b1fd655a054ec5ae9e6a"
+        }, 
+        "html_url": "https://github.com/prestodb/presto/commit/5b00f4733541b061cad9b0de127287fe49dcf06e", 
+        "sha": "5b00f4733541b061cad9b0de127287fe49dcf06e", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/prestodb/presto/git/commits/30ea8dae463f5474d98f957b9b36b7fa258ad920", 
+                "sha": "30ea8dae463f5474d98f957b9b36b7fa258ad920", 
+                "html_url": "https://github.com/prestodb/presto/commit/30ea8dae463f5474d98f957b9b36b7fa258ad920"
+            }
+        ], 
+        "message": "Remove com.google.code.findbugs:annontations to remove duplicate with jsr305", 
+        "event": "committed"
+    }, 
+    {
+        "commit_id": "5b00f4733541b061cad9b0de127287fe49dcf06e", 
+        "commit_url": "https://api.github.com/repos/prestodb/presto/commits/5b00f4733541b061cad9b0de127287fe49dcf06e", 
+        "url": "https://api.github.com/repos/prestodb/presto/issues/events/38076173", 
+        "created_at": "2013-02-16T00:22:23Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/erichwang/following{/other_user}", 
+            "events_url": "https://api.github.com/users/erichwang/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/erichwang/orgs", 
+            "url": "https://api.github.com/users/erichwang", 
+            "gists_url": "https://api.github.com/users/erichwang/gists{/gist_id}", 
+            "html_url": "https://github.com/erichwang", 
+            "subscriptions_url": "https://api.github.com/users/erichwang/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/737851?v=3", 
+            "repos_url": "https://api.github.com/users/erichwang/repos", 
+            "received_events_url": "https://api.github.com/users/erichwang/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/erichwang/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "erichwang", 
+            "type": "User", 
+            "id": 737851, 
+            "followers_url": "https://api.github.com/users/erichwang/followers"
+        }, 
+        "event": "merged", 
+        "id": 38076173
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/prestodb/presto/issues/events/38076174", 
+        "created_at": "2013-02-16T00:22:23Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/erichwang/following{/other_user}", 
+            "events_url": "https://api.github.com/users/erichwang/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/erichwang/orgs", 
+            "url": "https://api.github.com/users/erichwang", 
+            "gists_url": "https://api.github.com/users/erichwang/gists{/gist_id}", 
+            "html_url": "https://github.com/erichwang", 
+            "subscriptions_url": "https://api.github.com/users/erichwang/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/737851?v=3", 
+            "repos_url": "https://api.github.com/users/erichwang/repos", 
+            "received_events_url": "https://api.github.com/users/erichwang/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/erichwang/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "erichwang", 
+            "type": "User", 
+            "id": 737851, 
+            "followers_url": "https://api.github.com/users/erichwang/followers"
+        }, 
+        "event": "closed", 
+        "id": 38076174
+    }
+]

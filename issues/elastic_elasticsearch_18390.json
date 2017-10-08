@@ -1,0 +1,133 @@
+{
+    "assignee": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/19060?v=3", 
+        "events_url": "https://api.github.com/users/dakrone/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/dakrone/followers", 
+        "following_url": "https://api.github.com/users/dakrone/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/dakrone/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/dakrone", 
+        "id": 19060, 
+        "login": "dakrone", 
+        "organizations_url": "https://api.github.com/users/dakrone/orgs", 
+        "received_events_url": "https://api.github.com/users/dakrone/received_events", 
+        "repos_url": "https://api.github.com/users/dakrone/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/dakrone/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/dakrone/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/dakrone"
+    }, 
+    "assignees": [
+        {
+            "avatar_url": "https://avatars.githubusercontent.com/u/19060?v=3", 
+            "events_url": "https://api.github.com/users/dakrone/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/dakrone/followers", 
+            "following_url": "https://api.github.com/users/dakrone/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/dakrone/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/dakrone", 
+            "id": 19060, 
+            "login": "dakrone", 
+            "organizations_url": "https://api.github.com/users/dakrone/orgs", 
+            "received_events_url": "https://api.github.com/users/dakrone/received_events", 
+            "repos_url": "https://api.github.com/users/dakrone/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/dakrone/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/dakrone/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/dakrone"
+        }
+    ], 
+    "body": "Instead of re-exposing index metadata, blocks and customs in RoutingNodes (which is part of the cluster state), expose it as part of the RoutingAllocation which is known to be only temporarily used during reroute.\n", 
+    "closed_at": "2016-05-17T17:02:28Z", 
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/3718355?v=3", 
+        "events_url": "https://api.github.com/users/ywelsch/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/ywelsch/followers", 
+        "following_url": "https://api.github.com/users/ywelsch/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/ywelsch/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/ywelsch", 
+        "id": 3718355, 
+        "login": "ywelsch", 
+        "organizations_url": "https://api.github.com/users/ywelsch/orgs", 
+        "received_events_url": "https://api.github.com/users/ywelsch/received_events", 
+        "repos_url": "https://api.github.com/users/ywelsch/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/ywelsch/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/ywelsch/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/ywelsch"
+    }, 
+    "comments": 3, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18390/comments", 
+    "created_at": "2016-05-17T08:17:29Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18390/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/pull/18390", 
+    "id": 155201200, 
+    "labels": [
+        {
+            "color": "009800", 
+            "default": false, 
+            "id": 144797753, 
+            "name": ":Allocation", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/:Allocation"
+        }, 
+        {
+            "color": "cfcfcf", 
+            "default": false, 
+            "id": 73544, 
+            "name": "non-issue", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/non-issue"
+        }, 
+        {
+            "color": "0052cc", 
+            "default": false, 
+            "id": 94283388, 
+            "name": "review", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/review"
+        }, 
+        {
+            "color": "dddddd", 
+            "default": false, 
+            "id": 364411189, 
+            "name": "v5.0.0-alpha3", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v5.0.0-alpha3"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18390/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 18390, 
+    "pull_request": {
+        "diff_url": "https://github.com/elastic/elasticsearch/pull/18390.diff", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/18390", 
+        "patch_url": "https://github.com/elastic/elasticsearch/pull/18390.patch", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/pulls/18390"
+    }, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Expose cluster state before reroute in RoutingAllocation instead of RoutingNodes", 
+    "updated_at": "2016-05-17T17:02:28Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/18390", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/3718355?v=3", 
+        "events_url": "https://api.github.com/users/ywelsch/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/ywelsch/followers", 
+        "following_url": "https://api.github.com/users/ywelsch/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/ywelsch/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/ywelsch", 
+        "id": 3718355, 
+        "login": "ywelsch", 
+        "organizations_url": "https://api.github.com/users/ywelsch/orgs", 
+        "received_events_url": "https://api.github.com/users/ywelsch/received_events", 
+        "repos_url": "https://api.github.com/users/ywelsch/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/ywelsch/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/ywelsch/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/ywelsch"
+    }
+}

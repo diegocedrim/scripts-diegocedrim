@@ -1,0 +1,133 @@
+{
+    "assignee": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/4744941?v=3", 
+        "events_url": "https://api.github.com/users/jasontedor/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/jasontedor/followers", 
+        "following_url": "https://api.github.com/users/jasontedor/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/jasontedor/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/jasontedor", 
+        "id": 4744941, 
+        "login": "jasontedor", 
+        "organizations_url": "https://api.github.com/users/jasontedor/orgs", 
+        "received_events_url": "https://api.github.com/users/jasontedor/received_events", 
+        "repos_url": "https://api.github.com/users/jasontedor/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/jasontedor/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/jasontedor/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/jasontedor"
+    }, 
+    "assignees": [
+        {
+            "avatar_url": "https://avatars.githubusercontent.com/u/4744941?v=3", 
+            "events_url": "https://api.github.com/users/jasontedor/events{/privacy}", 
+            "followers_url": "https://api.github.com/users/jasontedor/followers", 
+            "following_url": "https://api.github.com/users/jasontedor/following{/other_user}", 
+            "gists_url": "https://api.github.com/users/jasontedor/gists{/gist_id}", 
+            "gravatar_id": "", 
+            "html_url": "https://github.com/jasontedor", 
+            "id": 4744941, 
+            "login": "jasontedor", 
+            "organizations_url": "https://api.github.com/users/jasontedor/orgs", 
+            "received_events_url": "https://api.github.com/users/jasontedor/received_events", 
+            "repos_url": "https://api.github.com/users/jasontedor/repos", 
+            "site_admin": false, 
+            "starred_url": "https://api.github.com/users/jasontedor/starred{/owner}{/repo}", 
+            "subscriptions_url": "https://api.github.com/users/jasontedor/subscriptions", 
+            "type": "User", 
+            "url": "https://api.github.com/users/jasontedor"
+        }
+    ], 
+    "body": "- Moves recovery logic into IndexShard\n- Lets recoveries be cancelled by shard closing\n- Ensures routingEntry is set on initialization of IndexShard\n", 
+    "closed_at": "2016-05-18T08:51:57Z", 
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/3718355?v=3", 
+        "events_url": "https://api.github.com/users/ywelsch/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/ywelsch/followers", 
+        "following_url": "https://api.github.com/users/ywelsch/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/ywelsch/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/ywelsch", 
+        "id": 3718355, 
+        "login": "ywelsch", 
+        "organizations_url": "https://api.github.com/users/ywelsch/orgs", 
+        "received_events_url": "https://api.github.com/users/ywelsch/received_events", 
+        "repos_url": "https://api.github.com/users/ywelsch/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/ywelsch/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/ywelsch/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/ywelsch"
+    }, 
+    "comments": 4, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18405/comments", 
+    "created_at": "2016-05-17T13:11:03Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18405/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/pull/18405", 
+    "id": 155255737, 
+    "labels": [
+        {
+            "color": "009800", 
+            "default": false, 
+            "id": 152510590, 
+            "name": ":Recovery", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/:Recovery"
+        }, 
+        {
+            "color": "cfcfcf", 
+            "default": false, 
+            "id": 73544, 
+            "name": "non-issue", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/non-issue"
+        }, 
+        {
+            "color": "0052cc", 
+            "default": false, 
+            "id": 94283388, 
+            "name": "review", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/review"
+        }, 
+        {
+            "color": "dddddd", 
+            "default": false, 
+            "id": 364411189, 
+            "name": "v5.0.0-alpha3", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v5.0.0-alpha3"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18405/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 18405, 
+    "pull_request": {
+        "diff_url": "https://github.com/elastic/elasticsearch/pull/18405.diff", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/18405", 
+        "patch_url": "https://github.com/elastic/elasticsearch/pull/18405.patch", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/pulls/18405"
+    }, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Simplify recovery logic in IndicesClusterStateService", 
+    "updated_at": "2016-05-18T08:52:12Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/18405", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/3718355?v=3", 
+        "events_url": "https://api.github.com/users/ywelsch/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/ywelsch/followers", 
+        "following_url": "https://api.github.com/users/ywelsch/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/ywelsch/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/ywelsch", 
+        "id": 3718355, 
+        "login": "ywelsch", 
+        "organizations_url": "https://api.github.com/users/ywelsch/orgs", 
+        "received_events_url": "https://api.github.com/users/ywelsch/received_events", 
+        "repos_url": "https://api.github.com/users/ywelsch/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/ywelsch/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/ywelsch/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/ywelsch"
+    }
+}

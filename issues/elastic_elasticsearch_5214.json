@@ -1,0 +1,89 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "The default DequeueRecycler.close() currently simply clears its internal queue and drops all instances on the floor for GC. During work for issue #5159 I found that this can be improved:\n- closing a recycler should properly dispose of the pooled instances via the factory\n- the factory currently conflates the functionality of per-instance \"clean up & return to pool\" and \"destroy instance\" behind the (according to Adrien badly named) cleanup() callback method.\n\nSo I suggest that we:\n- rename Recycler.C.clear(T) to recycle(T)\n- add a Recycler.C.destroy(T) to indicate that this particular instance needs to die\n- destroy() can then also be used when the recycler wants to kill off excess instances (on return).\n\nWhile we're renaming things I'd also like to vote to rename the Recycler.C and Recycler.V interfaces to something more descriptive. :)\n", 
+    "closed_at": "2014-02-25T07:59:18Z", 
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/499973?v=3", 
+        "events_url": "https://api.github.com/users/hhoffstaette/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/hhoffstaette/followers", 
+        "following_url": "https://api.github.com/users/hhoffstaette/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/hhoffstaette/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/hhoffstaette", 
+        "id": 499973, 
+        "login": "hhoffstaette", 
+        "organizations_url": "https://api.github.com/users/hhoffstaette/orgs", 
+        "received_events_url": "https://api.github.com/users/hhoffstaette/received_events", 
+        "repos_url": "https://api.github.com/users/hhoffstaette/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/hhoffstaette/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/hhoffstaette/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/hhoffstaette"
+    }, 
+    "comments": 2, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/5214/comments", 
+    "created_at": "2014-02-21T07:30:40Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/5214/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/5214", 
+    "id": 28023505, 
+    "labels": [
+        {
+            "color": "009800", 
+            "default": false, 
+            "id": 184103632, 
+            "name": ":Internal", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/:Internal"
+        }, 
+        {
+            "color": "4a4ea8", 
+            "default": true, 
+            "id": 23174, 
+            "name": "enhancement", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/enhancement"
+        }, 
+        {
+            "color": "DDDDDD", 
+            "default": false, 
+            "id": 75962075, 
+            "name": "v1.1.0", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v1.1.0"
+        }, 
+        {
+            "color": "dddddd", 
+            "default": false, 
+            "id": 76184120, 
+            "name": "v2.0.0-beta1", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v2.0.0-beta1"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/5214/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 5214, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Recycler: better lifecycle control for pooled instances", 
+    "updated_at": "2015-06-07T15:20:34Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/5214", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/499973?v=3", 
+        "events_url": "https://api.github.com/users/hhoffstaette/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/hhoffstaette/followers", 
+        "following_url": "https://api.github.com/users/hhoffstaette/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/hhoffstaette/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/hhoffstaette", 
+        "id": 499973, 
+        "login": "hhoffstaette", 
+        "organizations_url": "https://api.github.com/users/hhoffstaette/orgs", 
+        "received_events_url": "https://api.github.com/users/hhoffstaette/received_events", 
+        "repos_url": "https://api.github.com/users/hhoffstaette/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/hhoffstaette/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/hhoffstaette/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/hhoffstaette"
+    }
+}

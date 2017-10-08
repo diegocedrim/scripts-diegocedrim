@@ -1,0 +1,57 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "Allow negative queries such as all the documents that do not match something. This can be expressed by a boolean query with a mustNot clause or in the query string.\n", 
+    "closed_at": "2010-02-26T12:44:22Z", 
+    "closed_by": null, 
+    "comments": 2, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/44/comments", 
+    "created_at": "2010-02-26T12:43:42Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/44/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/44", 
+    "id": 140485, 
+    "labels": [
+        {
+            "color": "4a4ea8", 
+            "default": true, 
+            "id": 23174, 
+            "name": "enhancement", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/enhancement"
+        }, 
+        {
+            "color": "DDDDDD", 
+            "default": false, 
+            "id": 23175, 
+            "name": "v0.05.0", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.05.0"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/44/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 44, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Query: support negative queries", 
+    "updated_at": "2012-03-26T16:03:22Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/44", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }
+}

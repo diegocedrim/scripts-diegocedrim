@@ -1,0 +1,82 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "Simplified paths for node stats include: `/_node/stats` and `/_node/{nodeIds}/stats`. Also, add specific flags to get only specific stats, by default, returning `indices` stats. The flags are: `indices`, `os`, `process`, `jvm`, `network`, `transport`, and `http`. `clear` can be used to clear all flags and then only apply the ones provided. For example: `_nodes/stats?clear=true&os=true&process=true`.\n\nSpecific REST paths are provided for each stats type, for example: `/_node/stats/process`, and `/_node/{nodeId}/stats/process`. \n\nAs usual, nodeId can be a list of node ids, or a list of IPs, hostnames, or attribute matching, all supporting wildcards.\n", 
+    "closed_at": "2012-01-09T16:01:54Z", 
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }, 
+    "comments": 0, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/1597/comments", 
+    "created_at": "2012-01-09T16:01:12Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/1597/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/1597", 
+    "id": 2770543, 
+    "labels": [
+        {
+            "color": "ff0000", 
+            "default": false, 
+            "id": 33660, 
+            "name": "breaking", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/breaking"
+        }, 
+        {
+            "color": "4a4ea8", 
+            "default": true, 
+            "id": 23174, 
+            "name": "enhancement", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/enhancement"
+        }, 
+        {
+            "color": "DDDDDD", 
+            "default": false, 
+            "id": 174398, 
+            "name": "v0.19.0.RC1", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.19.0.RC1"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/1597/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 1597, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Node Stats API: Add specific flags for stats, simplified REST paths", 
+    "updated_at": "2012-01-09T16:01:54Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/1597", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }
+}

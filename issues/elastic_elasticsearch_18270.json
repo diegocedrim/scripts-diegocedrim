@@ -1,0 +1,102 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "This adds a low level primitive operations to shrink an existing\nindex into a new index with a single shard. This primitive expects\nall shards of the source index to allocated on a single node. Once the target index is initializing on the shrink node it takes a snapshot of the source index shards and copies all files into the target indices data folder. An [optimization](https://issues.apache.org/jira/browse/LUCENE-7300) coming in Lucene 6.1 will also allow for optional constant time copy if hard-links are supported by the filesystem. All mappings are merged into the new indexes metadata once the snapshots have been taken on the merge node.\n\nTo shrink an existing index all shards must be moved to a single node (one instance of each shard) and the index must be read-only:\n\n``` BASH\n$ curl -XPUT 'http://localhost:9200/logs/_settings' -d '{\n    \"settings\" : {\n        \"index.routing.allocation.require._name\" : \"shrink_node_name\",\n        \"index.blocks.write\" : true \n    }\n}\n```\n\nonce all shards are started on the shrink node. the new index can be created via:\n\n``` BASH\n$ curl -XPUT 'http://localhost:9200/logs/_shrink/logs_single_shard' -d '{\n    \"settings\" : {\n        \"index.codec\" : \"best_compression\",\n        \"index.number_of_replicas\" : 1\n    }\n}'\n```\n\nThis API will perform all needed check before the new index is created and selects the shrink node based on the allocation of the source index. This call returns immediately, to monitor shrink progress the recovery API should be used since all copy operations are reflected in the recovery API with byte copy progress etc.\n\nThe shrink operation does not modify the source index, if a shrink operation should\nbe canceled or if the shrink failed, the target index can simply be deleted and\nall resources are released.\n", 
+    "closed_at": "2016-05-31T08:41:44Z", 
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+        "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/s1monw/followers", 
+        "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/s1monw", 
+        "id": 973334, 
+        "login": "s1monw", 
+        "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+        "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+        "repos_url": "https://api.github.com/users/s1monw/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/s1monw"
+    }, 
+    "comments": 15, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18270/comments", 
+    "created_at": "2016-05-11T10:00:38Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18270/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/pull/18270", 
+    "id": 154204959, 
+    "labels": [
+        {
+            "color": "009800", 
+            "default": false, 
+            "id": 151364374, 
+            "name": ":Store", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/:Store"
+        }, 
+        {
+            "color": "006b75", 
+            "default": false, 
+            "id": 288534437, 
+            "name": "das awesome", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/das%20awesome"
+        }, 
+        {
+            "color": "328a58", 
+            "default": false, 
+            "id": 23172, 
+            "name": "feature", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/feature"
+        }, 
+        {
+            "color": "fbca04", 
+            "default": false, 
+            "id": 108108556, 
+            "name": "release highlight", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/release%20highlight"
+        }, 
+        {
+            "color": "dddddd", 
+            "default": false, 
+            "id": 381894283, 
+            "name": "v5.0.0-alpha4", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v5.0.0-alpha4"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18270/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 18270, 
+    "pull_request": {
+        "diff_url": "https://github.com/elastic/elasticsearch/pull/18270.diff", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/18270", 
+        "patch_url": "https://github.com/elastic/elasticsearch/pull/18270.patch", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/pulls/18270"
+    }, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Add primitive to shrink an index into a single shard", 
+    "updated_at": "2016-05-31T08:42:26Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/18270", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+        "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/s1monw/followers", 
+        "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/s1monw", 
+        "id": 973334, 
+        "login": "s1monw", 
+        "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+        "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+        "repos_url": "https://api.github.com/users/s1monw/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/s1monw"
+    }
+}

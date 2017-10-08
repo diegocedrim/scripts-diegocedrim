@@ -1,0 +1,13 @@
+Extract Interface   ,185
+Extract Method      ,9570
+Extract Superclass  ,410
+Inline Method       ,3437
+Move Attribute      ,15307
+Move Class          ,2339
+Move Method         ,1909
+Pull Up Attribute   ,757
+Pull Up Method      ,1173
+Push Down Attribute ,96
+Push Down Method    ,149
+Rename Class        ,927
+Rename Method       ,15215

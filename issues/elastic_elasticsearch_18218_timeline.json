@@ -1,0 +1,225 @@
+[
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/654641400", 
+        "created_at": "2016-05-09T16:44:20Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+            "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+            "url": "https://api.github.com/users/jpountz", 
+            "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+            "html_url": "https://github.com/jpountz", 
+            "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+            "repos_url": "https://api.github.com/users/jpountz/repos", 
+            "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "jpountz", 
+            "type": "User", 
+            "id": 299848, 
+            "followers_url": "https://api.github.com/users/jpountz/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "cfcfcf", 
+            "name": "non-issue"
+        }, 
+        "id": 654641400
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/654641401", 
+        "created_at": "2016-05-09T16:44:20Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+            "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+            "url": "https://api.github.com/users/jpountz", 
+            "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+            "html_url": "https://github.com/jpountz", 
+            "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+            "repos_url": "https://api.github.com/users/jpountz/repos", 
+            "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "jpountz", 
+            "type": "User", 
+            "id": 299848, 
+            "followers_url": "https://api.github.com/users/jpountz/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "009800", 
+            "name": ":Mapping"
+        }, 
+        "id": 654641401
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/654641402", 
+        "created_at": "2016-05-09T16:44:20Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+            "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+            "url": "https://api.github.com/users/jpountz", 
+            "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+            "html_url": "https://github.com/jpountz", 
+            "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+            "repos_url": "https://api.github.com/users/jpountz/repos", 
+            "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "jpountz", 
+            "type": "User", 
+            "id": 299848, 
+            "followers_url": "https://api.github.com/users/jpountz/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "dddddd", 
+            "name": "v5.0.0"
+        }, 
+        "id": 654641402
+    }, 
+    {
+        "body": "LGTM", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/comments/217923137", 
+        "event": "commented", 
+        "created_at": "2016-05-09T16:57:23Z", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/18218#issuecomment-217923137", 
+        "actor": {
+            "following_url": "https://api.github.com/users/rjernst/following{/other_user}", 
+            "events_url": "https://api.github.com/users/rjernst/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/rjernst/orgs", 
+            "url": "https://api.github.com/users/rjernst", 
+            "gists_url": "https://api.github.com/users/rjernst/gists{/gist_id}", 
+            "html_url": "https://github.com/rjernst", 
+            "subscriptions_url": "https://api.github.com/users/rjernst/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/289412?v=3", 
+            "repos_url": "https://api.github.com/users/rjernst/repos", 
+            "received_events_url": "https://api.github.com/users/rjernst/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/rjernst/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "rjernst", 
+            "type": "User", 
+            "id": 289412, 
+            "followers_url": "https://api.github.com/users/rjernst/followers"
+        }, 
+        "updated_at": "2016-05-09T16:57:23Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/rjernst/following{/other_user}", 
+            "events_url": "https://api.github.com/users/rjernst/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/rjernst/orgs", 
+            "url": "https://api.github.com/users/rjernst", 
+            "gists_url": "https://api.github.com/users/rjernst/gists{/gist_id}", 
+            "html_url": "https://github.com/rjernst", 
+            "subscriptions_url": "https://api.github.com/users/rjernst/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/289412?v=3", 
+            "repos_url": "https://api.github.com/users/rjernst/repos", 
+            "received_events_url": "https://api.github.com/users/rjernst/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/rjernst/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "rjernst", 
+            "type": "User", 
+            "id": 289412, 
+            "followers_url": "https://api.github.com/users/rjernst/followers"
+        }, 
+        "id": 217923137, 
+        "issue_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18218"
+    }, 
+    {
+        "committer": {
+            "date": "2016-05-10T06:17:59Z", 
+            "name": "Adrien Grand", 
+            "email": "jpountz@gmail.com"
+        }, 
+        "author": {
+            "date": "2016-05-09T16:41:36Z", 
+            "name": "Adrien Grand", 
+            "email": "jpountz@gmail.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/b6556e275a2e6b1e11a911e8d2af27f56f5cc25d", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/f652485c1afea082d8ce3a9e19fca34c35bf56c9", 
+            "sha": "f652485c1afea082d8ce3a9e19fca34c35bf56c9"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/b6556e275a2e6b1e11a911e8d2af27f56f5cc25d", 
+        "sha": "b6556e275a2e6b1e11a911e8d2af27f56f5cc25d", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/f481492af3a5c9fa4bc451a481903dd2a074aedf", 
+                "sha": "f481492af3a5c9fa4bc451a481903dd2a074aedf", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/f481492af3a5c9fa4bc451a481903dd2a074aedf"
+            }
+        ], 
+        "message": "Remove code duplication in FieldsVisitor. #18218\n\nIt currently has twice the same method, once with a MapperService instance and\nonce with a DocumentMapper. This commits only keeps the former.", 
+        "event": "committed"
+    }, 
+    {
+        "commit_id": "b6556e275a2e6b1e11a911e8d2af27f56f5cc25d", 
+        "commit_url": "https://api.github.com/repos/elastic/elasticsearch/commits/b6556e275a2e6b1e11a911e8d2af27f56f5cc25d", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/655318348", 
+        "created_at": "2016-05-10T06:19:06Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+            "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+            "url": "https://api.github.com/users/jpountz", 
+            "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+            "html_url": "https://github.com/jpountz", 
+            "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+            "repos_url": "https://api.github.com/users/jpountz/repos", 
+            "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "jpountz", 
+            "type": "User", 
+            "id": 299848, 
+            "followers_url": "https://api.github.com/users/jpountz/followers"
+        }, 
+        "event": "merged", 
+        "id": 655318348
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/655318349", 
+        "created_at": "2016-05-10T06:19:06Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+            "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+            "url": "https://api.github.com/users/jpountz", 
+            "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+            "html_url": "https://github.com/jpountz", 
+            "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+            "repos_url": "https://api.github.com/users/jpountz/repos", 
+            "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "jpountz", 
+            "type": "User", 
+            "id": 299848, 
+            "followers_url": "https://api.github.com/users/jpountz/followers"
+        }, 
+        "event": "closed", 
+        "id": 655318349
+    }
+]

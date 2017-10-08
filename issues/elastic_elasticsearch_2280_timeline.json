@@ -1,0 +1,56 @@
+[
+    {
+        "commit_id": "cc7eb263be27407a08400a477d73d965a6e53b3a", 
+        "commit_url": "https://api.github.com/repos/elastic/elasticsearch/commits/cc7eb263be27407a08400a477d73d965a6e53b3a", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/25171190", 
+        "created_at": "2012-09-21T21:56:35Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+            "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+            "url": "https://api.github.com/users/kimchy", 
+            "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+            "html_url": "https://github.com/kimchy", 
+            "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+            "repos_url": "https://api.github.com/users/kimchy/repos", 
+            "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "kimchy", 
+            "type": "User", 
+            "id": 41300, 
+            "followers_url": "https://api.github.com/users/kimchy/followers"
+        }, 
+        "event": "closed", 
+        "id": 25171190
+    }, 
+    {
+        "commit_id": "6cc8d01472676376c37190e964b66c7913c70b5f", 
+        "commit_url": "https://api.github.com/repos/aparo/elasticsearch/commits/6cc8d01472676376c37190e964b66c7913c70b5f", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/50979193", 
+        "created_at": "2013-05-31T21:00:18Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/aparo/following{/other_user}", 
+            "events_url": "https://api.github.com/users/aparo/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/aparo/orgs", 
+            "url": "https://api.github.com/users/aparo", 
+            "gists_url": "https://api.github.com/users/aparo/gists{/gist_id}", 
+            "html_url": "https://github.com/aparo", 
+            "subscriptions_url": "https://api.github.com/users/aparo/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/28075?v=3", 
+            "repos_url": "https://api.github.com/users/aparo/repos", 
+            "received_events_url": "https://api.github.com/users/aparo/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/aparo/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "aparo", 
+            "type": "User", 
+            "id": 28075, 
+            "followers_url": "https://api.github.com/users/aparo/followers"
+        }, 
+        "event": "referenced", 
+        "id": 50979193
+    }
+]

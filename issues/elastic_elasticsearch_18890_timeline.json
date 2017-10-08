@@ -1,0 +1,873 @@
+[
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/693073176", 
+        "created_at": "2016-06-15T10:51:35Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+            "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+            "url": "https://api.github.com/users/s1monw", 
+            "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+            "html_url": "https://github.com/s1monw", 
+            "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+            "repos_url": "https://api.github.com/users/s1monw/repos", 
+            "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "s1monw", 
+            "type": "User", 
+            "id": 973334, 
+            "followers_url": "https://api.github.com/users/s1monw/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "ff0000", 
+            "name": "breaking"
+        }, 
+        "id": 693073176
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/693073177", 
+        "created_at": "2016-06-15T10:51:35Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+            "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+            "url": "https://api.github.com/users/s1monw", 
+            "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+            "html_url": "https://github.com/s1monw", 
+            "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+            "repos_url": "https://api.github.com/users/s1monw/repos", 
+            "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "s1monw", 
+            "type": "User", 
+            "id": 973334, 
+            "followers_url": "https://api.github.com/users/s1monw/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "0052cc", 
+            "name": "review"
+        }, 
+        "id": 693073177
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/693073179", 
+        "created_at": "2016-06-15T10:51:35Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+            "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+            "url": "https://api.github.com/users/s1monw", 
+            "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+            "html_url": "https://github.com/s1monw", 
+            "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+            "repos_url": "https://api.github.com/users/s1monw/repos", 
+            "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "s1monw", 
+            "type": "User", 
+            "id": 973334, 
+            "followers_url": "https://api.github.com/users/s1monw/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "009800", 
+            "name": ":Settings"
+        }, 
+        "id": 693073179
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/693073181", 
+        "created_at": "2016-06-15T10:51:35Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+            "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+            "url": "https://api.github.com/users/s1monw", 
+            "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+            "html_url": "https://github.com/s1monw", 
+            "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+            "repos_url": "https://api.github.com/users/s1monw/repos", 
+            "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "s1monw", 
+            "type": "User", 
+            "id": 973334, 
+            "followers_url": "https://api.github.com/users/s1monw/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "009800", 
+            "name": ":Plugins"
+        }, 
+        "id": 693073181
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/693073182", 
+        "created_at": "2016-06-15T10:51:35Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+            "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+            "url": "https://api.github.com/users/s1monw", 
+            "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+            "html_url": "https://github.com/s1monw", 
+            "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+            "repos_url": "https://api.github.com/users/s1monw/repos", 
+            "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "s1monw", 
+            "type": "User", 
+            "id": 973334, 
+            "followers_url": "https://api.github.com/users/s1monw/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "dddddd", 
+            "name": "v5.0.0"
+        }, 
+        "id": 693073182
+    }, 
+    {
+        "body": "@rjernst can you take a look?", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/comments/226153570", 
+        "event": "commented", 
+        "created_at": "2016-06-15T10:51:49Z", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/18890#issuecomment-226153570", 
+        "actor": {
+            "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+            "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+            "url": "https://api.github.com/users/s1monw", 
+            "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+            "html_url": "https://github.com/s1monw", 
+            "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+            "repos_url": "https://api.github.com/users/s1monw/repos", 
+            "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "s1monw", 
+            "type": "User", 
+            "id": 973334, 
+            "followers_url": "https://api.github.com/users/s1monw/followers"
+        }, 
+        "updated_at": "2016-06-15T10:51:49Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+            "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+            "url": "https://api.github.com/users/s1monw", 
+            "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+            "html_url": "https://github.com/s1monw", 
+            "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+            "repos_url": "https://api.github.com/users/s1monw/repos", 
+            "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "s1monw", 
+            "type": "User", 
+            "id": 973334, 
+            "followers_url": "https://api.github.com/users/s1monw/followers"
+        }, 
+        "id": 226153570, 
+        "issue_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18890"
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/693073382", 
+        "created_at": "2016-06-15T10:51:49Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/rjernst/following{/other_user}", 
+            "events_url": "https://api.github.com/users/rjernst/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/rjernst/orgs", 
+            "url": "https://api.github.com/users/rjernst", 
+            "gists_url": "https://api.github.com/users/rjernst/gists{/gist_id}", 
+            "html_url": "https://github.com/rjernst", 
+            "subscriptions_url": "https://api.github.com/users/rjernst/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/289412?v=3", 
+            "repos_url": "https://api.github.com/users/rjernst/repos", 
+            "received_events_url": "https://api.github.com/users/rjernst/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/rjernst/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "rjernst", 
+            "type": "User", 
+            "id": 289412, 
+            "followers_url": "https://api.github.com/users/rjernst/followers"
+        }, 
+        "event": "mentioned", 
+        "id": 693073382
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/693073383", 
+        "created_at": "2016-06-15T10:51:49Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/rjernst/following{/other_user}", 
+            "events_url": "https://api.github.com/users/rjernst/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/rjernst/orgs", 
+            "url": "https://api.github.com/users/rjernst", 
+            "gists_url": "https://api.github.com/users/rjernst/gists{/gist_id}", 
+            "html_url": "https://github.com/rjernst", 
+            "subscriptions_url": "https://api.github.com/users/rjernst/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/289412?v=3", 
+            "repos_url": "https://api.github.com/users/rjernst/repos", 
+            "received_events_url": "https://api.github.com/users/rjernst/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/rjernst/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "rjernst", 
+            "type": "User", 
+            "id": 289412, 
+            "followers_url": "https://api.github.com/users/rjernst/followers"
+        }, 
+        "event": "subscribed", 
+        "id": 693073383
+    }, 
+    {
+        "body": "This LGTM. It is an awesome example in starting to remove guice from plugins.\r\n\r\nOne thought is about the new \"shared\" setting property. I wonder if it would be simpler to enforce that a single plugin, or ES core, does not register the same setting twice, and otherwise just enforce, similar to mappings, that the setting matches an already registered setting (so two plugins cannot try to register the same setting name with different properties).", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/comments/226274625", 
+        "event": "commented", 
+        "created_at": "2016-06-15T18:19:21Z", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/18890#issuecomment-226274625", 
+        "actor": {
+            "following_url": "https://api.github.com/users/rjernst/following{/other_user}", 
+            "events_url": "https://api.github.com/users/rjernst/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/rjernst/orgs", 
+            "url": "https://api.github.com/users/rjernst", 
+            "gists_url": "https://api.github.com/users/rjernst/gists{/gist_id}", 
+            "html_url": "https://github.com/rjernst", 
+            "subscriptions_url": "https://api.github.com/users/rjernst/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/289412?v=3", 
+            "repos_url": "https://api.github.com/users/rjernst/repos", 
+            "received_events_url": "https://api.github.com/users/rjernst/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/rjernst/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "rjernst", 
+            "type": "User", 
+            "id": 289412, 
+            "followers_url": "https://api.github.com/users/rjernst/followers"
+        }, 
+        "updated_at": "2016-06-15T18:19:21Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/rjernst/following{/other_user}", 
+            "events_url": "https://api.github.com/users/rjernst/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/rjernst/orgs", 
+            "url": "https://api.github.com/users/rjernst", 
+            "gists_url": "https://api.github.com/users/rjernst/gists{/gist_id}", 
+            "html_url": "https://github.com/rjernst", 
+            "subscriptions_url": "https://api.github.com/users/rjernst/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/289412?v=3", 
+            "repos_url": "https://api.github.com/users/rjernst/repos", 
+            "received_events_url": "https://api.github.com/users/rjernst/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/rjernst/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "rjernst", 
+            "type": "User", 
+            "id": 289412, 
+            "followers_url": "https://api.github.com/users/rjernst/followers"
+        }, 
+        "id": 226274625, 
+        "issue_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18890"
+    }, 
+    {
+        "body": "> One thought is about the new \"shared\" setting property. I wonder if it would be simpler to enforce that a single plugin, or ES core, does not register the same setting twice, and otherwise just enforce, similar to mappings, that the setting matches an already registered setting (so two plugins cannot try to register the same setting name with different properties).\r\n\r\nI think it's much simpler to explicitly mark the ones that can be duplicates since it has to be done on both ends... (I guess that means my code is wrong :) I should look up the already registered setting and check if its also shared. I think this would protect us from others overriding any settings on us?", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/comments/226275804", 
+        "event": "commented", 
+        "created_at": "2016-06-15T18:23:15Z", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/18890#issuecomment-226275804", 
+        "actor": {
+            "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+            "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+            "url": "https://api.github.com/users/s1monw", 
+            "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+            "html_url": "https://github.com/s1monw", 
+            "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+            "repos_url": "https://api.github.com/users/s1monw/repos", 
+            "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "s1monw", 
+            "type": "User", 
+            "id": 973334, 
+            "followers_url": "https://api.github.com/users/s1monw/followers"
+        }, 
+        "updated_at": "2016-06-15T18:23:15Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+            "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+            "url": "https://api.github.com/users/s1monw", 
+            "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+            "html_url": "https://github.com/s1monw", 
+            "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+            "repos_url": "https://api.github.com/users/s1monw/repos", 
+            "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "s1monw", 
+            "type": "User", 
+            "id": 973334, 
+            "followers_url": "https://api.github.com/users/s1monw/followers"
+        }, 
+        "id": 226275804, 
+        "issue_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18890"
+    }, 
+    {
+        "body": "My concern is a setting that we don't mark as shared, but then an external plugin wants to read that setting. Now they can't do it until we update our code?", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/comments/226278934", 
+        "event": "commented", 
+        "created_at": "2016-06-15T18:33:50Z", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/18890#issuecomment-226278934", 
+        "actor": {
+            "following_url": "https://api.github.com/users/rjernst/following{/other_user}", 
+            "events_url": "https://api.github.com/users/rjernst/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/rjernst/orgs", 
+            "url": "https://api.github.com/users/rjernst", 
+            "gists_url": "https://api.github.com/users/rjernst/gists{/gist_id}", 
+            "html_url": "https://github.com/rjernst", 
+            "subscriptions_url": "https://api.github.com/users/rjernst/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/289412?v=3", 
+            "repos_url": "https://api.github.com/users/rjernst/repos", 
+            "received_events_url": "https://api.github.com/users/rjernst/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/rjernst/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "rjernst", 
+            "type": "User", 
+            "id": 289412, 
+            "followers_url": "https://api.github.com/users/rjernst/followers"
+        }, 
+        "updated_at": "2016-06-15T18:34:03Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/rjernst/following{/other_user}", 
+            "events_url": "https://api.github.com/users/rjernst/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/rjernst/orgs", 
+            "url": "https://api.github.com/users/rjernst", 
+            "gists_url": "https://api.github.com/users/rjernst/gists{/gist_id}", 
+            "html_url": "https://github.com/rjernst", 
+            "subscriptions_url": "https://api.github.com/users/rjernst/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/289412?v=3", 
+            "repos_url": "https://api.github.com/users/rjernst/repos", 
+            "received_events_url": "https://api.github.com/users/rjernst/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/rjernst/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "rjernst", 
+            "type": "User", 
+            "id": 289412, 
+            "followers_url": "https://api.github.com/users/rjernst/followers"
+        }, 
+        "id": 226278934, 
+        "issue_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18890"
+    }, 
+    {
+        "body": "> My concern is a setting that we don't mark as shared, but then an external plugin wants to read that setting. Now they can't do it until we update our code?\r\n\r\n\r\nthey can't register it twice that is true. It think we shouldn't design for this exception it's really only there for the S3 / AWS separation, should we really overdesign this? ", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/comments/226288981", 
+        "event": "commented", 
+        "created_at": "2016-06-15T19:08:40Z", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/18890#issuecomment-226288981", 
+        "actor": {
+            "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+            "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+            "url": "https://api.github.com/users/s1monw", 
+            "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+            "html_url": "https://github.com/s1monw", 
+            "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+            "repos_url": "https://api.github.com/users/s1monw/repos", 
+            "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "s1monw", 
+            "type": "User", 
+            "id": 973334, 
+            "followers_url": "https://api.github.com/users/s1monw/followers"
+        }, 
+        "updated_at": "2016-06-15T19:08:40Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+            "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+            "url": "https://api.github.com/users/s1monw", 
+            "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+            "html_url": "https://github.com/s1monw", 
+            "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+            "repos_url": "https://api.github.com/users/s1monw/repos", 
+            "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "s1monw", 
+            "type": "User", 
+            "id": 973334, 
+            "followers_url": "https://api.github.com/users/s1monw/followers"
+        }, 
+        "id": 226288981, 
+        "issue_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18890"
+    }, 
+    {
+        "committer": {
+            "date": "2016-06-16T07:44:08Z", 
+            "name": "Simon Willnauer", 
+            "email": "simonw@apache.org"
+        }, 
+        "author": {
+            "date": "2016-06-15T10:46:43Z", 
+            "name": "Simon Willnauer", 
+            "email": "simonw@apache.org"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/f490f5c4e67e3ff6a7ab2ec1becdb2439b86d24f", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/e11c88ef484517feaccd5f1e663fa7c930ab15f7", 
+            "sha": "e11c88ef484517feaccd5f1e663fa7c930ab15f7"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/f490f5c4e67e3ff6a7ab2ec1becdb2439b86d24f", 
+        "sha": "f490f5c4e67e3ff6a7ab2ec1becdb2439b86d24f", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/18ff051ad508e5234d00429e0ae22f6e16758bb0", 
+                "sha": "18ff051ad508e5234d00429e0ae22f6e16758bb0", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/18ff051ad508e5234d00429e0ae22f6e16758bb0"
+            }
+        ], 
+        "message": "Cut over settings registration to a pull model\n\nToday we have a push model for regsitering basically anything. All our extension points\nare defined on modules which we pass in to plugins. This is harder to maintain and adds\nunnecessary dependencies on the modules itself. This change moves towards a pull model\nwhere the plugin offerst a getter kind of method to get the extensions. This will also\nhelp in the future if we need to pass dependencies to the exptensionpoints which can\neasily be defined on the method as arguments if a pull model is used.", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-06-16T07:44:08Z", 
+            "name": "Simon Willnauer", 
+            "email": "simonw@apache.org"
+        }, 
+        "author": {
+            "date": "2016-06-15T21:07:43Z", 
+            "name": "Simon Willnauer", 
+            "email": "simonw@apache.org"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/978dd08686c32ff283cf9cf716e00bfa23935d50", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/e9ed409d040fd46985ab0cdf7775db1e39972576", 
+            "sha": "e9ed409d040fd46985ab0cdf7775db1e39972576"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/978dd08686c32ff283cf9cf716e00bfa23935d50", 
+        "sha": "978dd08686c32ff283cf9cf716e00bfa23935d50", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/f490f5c4e67e3ff6a7ab2ec1becdb2439b86d24f", 
+                "sha": "f490f5c4e67e3ff6a7ab2ec1becdb2439b86d24f", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/f490f5c4e67e3ff6a7ab2ec1becdb2439b86d24f"
+            }
+        ], 
+        "message": "review comments", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-06-16T07:49:13Z", 
+            "name": "Simon Willnauer", 
+            "email": "simonw@apache.org"
+        }, 
+        "author": {
+            "date": "2016-06-16T07:49:13Z", 
+            "name": "Simon Willnauer", 
+            "email": "simonw@apache.org"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/f456043f02a31f175ae58d3dd3be74e54ce84979", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/4894b8aa8863a13326cf5e254cf217bff009ba12", 
+            "sha": "4894b8aa8863a13326cf5e254cf217bff009ba12"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/f456043f02a31f175ae58d3dd3be74e54ce84979", 
+        "sha": "f456043f02a31f175ae58d3dd3be74e54ce84979", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/978dd08686c32ff283cf9cf716e00bfa23935d50", 
+                "sha": "978dd08686c32ff283cf9cf716e00bfa23935d50", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/978dd08686c32ff283cf9cf716e00bfa23935d50"
+            }
+        ], 
+        "message": "merge with master", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-06-16T07:53:57Z", 
+            "name": "Simon Willnauer", 
+            "email": "simonw@apache.org"
+        }, 
+        "author": {
+            "date": "2016-06-16T07:53:57Z", 
+            "name": "Simon Willnauer", 
+            "email": "simonw@apache.org"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/8ccf06d77211b202d2226af4be5772594bb12c37", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/ec9d6bee708357ce71512956e3160f63214cf8de", 
+            "sha": "ec9d6bee708357ce71512956e3160f63214cf8de"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/8ccf06d77211b202d2226af4be5772594bb12c37", 
+        "sha": "8ccf06d77211b202d2226af4be5772594bb12c37", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/f456043f02a31f175ae58d3dd3be74e54ce84979", 
+                "sha": "f456043f02a31f175ae58d3dd3be74e54ce84979", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/f456043f02a31f175ae58d3dd3be74e54ce84979"
+            }
+        ], 
+        "message": "add missing classes and javadocs", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-06-16T11:17:20Z", 
+            "name": "Simon Willnauer", 
+            "email": "simonw@apache.org"
+        }, 
+        "author": {
+            "date": "2016-06-16T11:17:20Z", 
+            "name": "Simon Willnauer", 
+            "email": "simonw@apache.org"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/21247cc8e4e0d7dbf3c4eb141a5010b4e4ec4ae6", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/6b690436c16f94d7f96b5076be6c6e399282ebc1", 
+            "sha": "6b690436c16f94d7f96b5076be6c6e399282ebc1"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/21247cc8e4e0d7dbf3c4eb141a5010b4e4ec4ae6", 
+        "sha": "21247cc8e4e0d7dbf3c4eb141a5010b4e4ec4ae6", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/8ccf06d77211b202d2226af4be5772594bb12c37", 
+                "sha": "8ccf06d77211b202d2226af4be5772594bb12c37", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/8ccf06d77211b202d2226af4be5772594bb12c37"
+            }
+        ], 
+        "message": "use inteface rather than impl", 
+        "event": "committed"
+    }, 
+    {
+        "source": {
+            "url": "https://api.github.com/repos/elastic/x-plugins/issues/2538", 
+            "id": 160638638, 
+            "actor": {
+                "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+                "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+                "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+                "url": "https://api.github.com/users/s1monw", 
+                "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+                "html_url": "https://github.com/s1monw", 
+                "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+                "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+                "repos_url": "https://api.github.com/users/s1monw/repos", 
+                "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+                "gravatar_id": "", 
+                "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+                "site_admin": false, 
+                "login": "s1monw", 
+                "type": "User", 
+                "id": 973334, 
+                "followers_url": "https://api.github.com/users/s1monw/followers"
+            }
+        }, 
+        "created_at": "2016-06-16T08:25:05-03:00", 
+        "updated_at": "2016-06-16T08:25:05-03:00", 
+        "event": "cross-referenced"
+    }, 
+    {
+        "committer": {
+            "date": "2016-06-16T12:31:06Z", 
+            "name": "Simon Willnauer", 
+            "email": "simonw@apache.org"
+        }, 
+        "author": {
+            "date": "2016-06-16T12:31:06Z", 
+            "name": "Simon Willnauer", 
+            "email": "simonw@apache.org"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/30c355fb51161c1a2c133530951b7b78708270fb", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/168761f3a0f9058ce3dfef21f252fdcb418c03bf", 
+            "sha": "168761f3a0f9058ce3dfef21f252fdcb418c03bf"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/30c355fb51161c1a2c133530951b7b78708270fb", 
+        "sha": "30c355fb51161c1a2c133530951b7b78708270fb", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/21247cc8e4e0d7dbf3c4eb141a5010b4e4ec4ae6", 
+                "sha": "21247cc8e4e0d7dbf3c4eb141a5010b4e4ec4ae6", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/21247cc8e4e0d7dbf3c4eb141a5010b4e4ec4ae6"
+            }
+        ], 
+        "message": "install plugin setttings and filters also in unittests", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-06-16T13:01:52Z", 
+            "name": "Simon Willnauer", 
+            "email": "simonw@apache.org"
+        }, 
+        "author": {
+            "date": "2016-06-16T13:01:52Z", 
+            "name": "Simon Willnauer", 
+            "email": "simonw@apache.org"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/14b79301b5723970f79d0a2914d1780293239e3f", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/53a1e5733417003bdb26b489802a7cfaf2e1b63e", 
+            "sha": "53a1e5733417003bdb26b489802a7cfaf2e1b63e"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/14b79301b5723970f79d0a2914d1780293239e3f", 
+        "sha": "14b79301b5723970f79d0a2914d1780293239e3f", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/30c355fb51161c1a2c133530951b7b78708270fb", 
+                "sha": "30c355fb51161c1a2c133530951b7b78708270fb", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/30c355fb51161c1a2c133530951b7b78708270fb"
+            }
+        ], 
+        "message": "generalize releasing resources on error", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-06-16T13:06:26Z", 
+            "name": "Simon Willnauer", 
+            "email": "simonw@apache.org"
+        }, 
+        "author": {
+            "date": "2016-06-16T13:06:26Z", 
+            "name": "Simon Willnauer", 
+            "email": "simonw@apache.org"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/4caf69e8ae37f5752b7d0f7f86523f971133bb2c", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/47488fb3bd216670685d9f13a9e358ef9a3b9f6b", 
+            "sha": "47488fb3bd216670685d9f13a9e358ef9a3b9f6b"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/4caf69e8ae37f5752b7d0f7f86523f971133bb2c", 
+        "sha": "4caf69e8ae37f5752b7d0f7f86523f971133bb2c", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/14b79301b5723970f79d0a2914d1780293239e3f", 
+                "sha": "14b79301b5723970f79d0a2914d1780293239e3f", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/14b79301b5723970f79d0a2914d1780293239e3f"
+            }
+        ], 
+        "message": "foo", 
+        "event": "committed"
+    }, 
+    {
+        "commit_id": "b22c526b34c5bba261ec79a083a41e40f6f1483d", 
+        "commit_url": "https://api.github.com/repos/elastic/elasticsearch/commits/b22c526b34c5bba261ec79a083a41e40f6f1483d", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/694657557", 
+        "created_at": "2016-06-16T13:52:58Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+            "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+            "url": "https://api.github.com/users/s1monw", 
+            "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+            "html_url": "https://github.com/s1monw", 
+            "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+            "repos_url": "https://api.github.com/users/s1monw/repos", 
+            "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "s1monw", 
+            "type": "User", 
+            "id": 973334, 
+            "followers_url": "https://api.github.com/users/s1monw/followers"
+        }, 
+        "event": "referenced", 
+        "id": 694657557
+    }, 
+    {
+        "commit_id": "b22c526b34c5bba261ec79a083a41e40f6f1483d", 
+        "commit_url": "https://api.github.com/repos/elastic/elasticsearch/commits/b22c526b34c5bba261ec79a083a41e40f6f1483d", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/694657558", 
+        "created_at": "2016-06-16T13:52:59Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+            "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+            "url": "https://api.github.com/users/s1monw", 
+            "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+            "html_url": "https://github.com/s1monw", 
+            "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+            "repos_url": "https://api.github.com/users/s1monw/repos", 
+            "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "s1monw", 
+            "type": "User", 
+            "id": 973334, 
+            "followers_url": "https://api.github.com/users/s1monw/followers"
+        }, 
+        "event": "merged", 
+        "id": 694657558
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/694657560", 
+        "created_at": "2016-06-16T13:52:59Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+            "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+            "url": "https://api.github.com/users/s1monw", 
+            "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+            "html_url": "https://github.com/s1monw", 
+            "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+            "repos_url": "https://api.github.com/users/s1monw/repos", 
+            "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "s1monw", 
+            "type": "User", 
+            "id": 973334, 
+            "followers_url": "https://api.github.com/users/s1monw/followers"
+        }, 
+        "event": "closed", 
+        "id": 694657560
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/694657790", 
+        "created_at": "2016-06-16T13:53:07Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+            "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+            "url": "https://api.github.com/users/s1monw", 
+            "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+            "html_url": "https://github.com/s1monw", 
+            "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+            "repos_url": "https://api.github.com/users/s1monw/repos", 
+            "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "s1monw", 
+            "type": "User", 
+            "id": 973334, 
+            "followers_url": "https://api.github.com/users/s1monw/followers"
+        }, 
+        "event": "head_ref_deleted", 
+        "id": 694657790
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/739096524", 
+        "created_at": "2016-07-29T11:58:15Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/clintongormley/following{/other_user}", 
+            "events_url": "https://api.github.com/users/clintongormley/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/clintongormley/orgs", 
+            "url": "https://api.github.com/users/clintongormley", 
+            "gists_url": "https://api.github.com/users/clintongormley/gists{/gist_id}", 
+            "html_url": "https://github.com/clintongormley", 
+            "subscriptions_url": "https://api.github.com/users/clintongormley/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/56599?v=3", 
+            "repos_url": "https://api.github.com/users/clintongormley/repos", 
+            "received_events_url": "https://api.github.com/users/clintongormley/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/clintongormley/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "clintongormley", 
+            "type": "User", 
+            "id": 56599, 
+            "followers_url": "https://api.github.com/users/clintongormley/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "ff0000", 
+            "name": "breaking java"
+        }, 
+        "id": 739096524
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/739096808", 
+        "created_at": "2016-07-29T11:58:35Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/clintongormley/following{/other_user}", 
+            "events_url": "https://api.github.com/users/clintongormley/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/clintongormley/orgs", 
+            "url": "https://api.github.com/users/clintongormley", 
+            "gists_url": "https://api.github.com/users/clintongormley/gists{/gist_id}", 
+            "html_url": "https://github.com/clintongormley", 
+            "subscriptions_url": "https://api.github.com/users/clintongormley/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/56599?v=3", 
+            "repos_url": "https://api.github.com/users/clintongormley/repos", 
+            "received_events_url": "https://api.github.com/users/clintongormley/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/clintongormley/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "clintongormley", 
+            "type": "User", 
+            "id": 56599, 
+            "followers_url": "https://api.github.com/users/clintongormley/followers"
+        }, 
+        "event": "unlabeled", 
+        "label": {
+            "color": "ff0000", 
+            "name": "breaking"
+        }, 
+        "id": 739096808
+    }
+]

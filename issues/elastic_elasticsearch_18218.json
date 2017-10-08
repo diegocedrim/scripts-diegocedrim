@@ -1,0 +1,88 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "It currently has twice the same method, once with a MapperService instance and\nonce with a DocumentMapper. This commits only keeps the former.\n", 
+    "closed_at": "2016-05-10T06:19:06Z", 
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+        "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/jpountz/followers", 
+        "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/jpountz", 
+        "id": 299848, 
+        "login": "jpountz", 
+        "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+        "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+        "repos_url": "https://api.github.com/users/jpountz/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/jpountz"
+    }, 
+    "comments": 1, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18218/comments", 
+    "created_at": "2016-05-09T16:44:08Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18218/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/pull/18218", 
+    "id": 153819292, 
+    "labels": [
+        {
+            "color": "009800", 
+            "default": false, 
+            "id": 141145460, 
+            "name": ":Mapping", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/:Mapping"
+        }, 
+        {
+            "color": "cfcfcf", 
+            "default": false, 
+            "id": 73544, 
+            "name": "non-issue", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/non-issue"
+        }, 
+        {
+            "color": "dddddd", 
+            "default": false, 
+            "id": 364411189, 
+            "name": "v5.0.0-alpha3", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v5.0.0-alpha3"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18218/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 18218, 
+    "pull_request": {
+        "diff_url": "https://github.com/elastic/elasticsearch/pull/18218.diff", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/18218", 
+        "patch_url": "https://github.com/elastic/elasticsearch/pull/18218.patch", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/pulls/18218"
+    }, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Remove code duplication in FieldsVisitor.", 
+    "updated_at": "2016-05-10T06:19:06Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/18218", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+        "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/jpountz/followers", 
+        "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/jpountz", 
+        "id": 299848, 
+        "login": "jpountz", 
+        "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+        "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+        "repos_url": "https://api.github.com/users/jpountz/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/jpountz"
+    }
+}

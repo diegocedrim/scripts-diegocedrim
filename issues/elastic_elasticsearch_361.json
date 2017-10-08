@@ -1,0 +1,57 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "Allow to pass array of `lat` and `lon` as the value for a geo point (similar to what the search components support). Something like: `location : [40, 70]`. Also support array of arrays, similar to `location : [ [40, 70], [50, 80] ]`.\n", 
+    "closed_at": "2010-09-07T16:38:12Z", 
+    "closed_by": null, 
+    "comments": 1, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/361/comments", 
+    "created_at": "2010-09-07T14:22:32Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/361/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/361", 
+    "id": 305888, 
+    "labels": [
+        {
+            "color": "4a4ea8", 
+            "default": true, 
+            "id": 23174, 
+            "name": "enhancement", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/enhancement"
+        }, 
+        {
+            "color": "DDDDDD", 
+            "default": false, 
+            "id": 45098, 
+            "name": "v0.11.0", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.11.0"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/361/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 361, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Mapper: `geo_point` to support passing array of [lat, lon]", 
+    "updated_at": "2010-09-07T16:38:12Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/361", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }
+}

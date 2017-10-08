@@ -1,0 +1,102 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "Today we have a push model for registering basically anything. All our extension points\nare defined on modules which we pass in to plugins. This is harder to maintain and adds\nunnecessary dependencies on the modules itself. This change moves towards a pull model\nwhere the plugin offers a getter kind of method to get the extensions. This will also\nhelp in the future if we need to pass dependencies to the extension points which can\neasily be defined on the method as arguments if a pull model is used.\n", 
+    "closed_at": "2016-06-16T13:52:59Z", 
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+        "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/s1monw/followers", 
+        "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/s1monw", 
+        "id": 973334, 
+        "login": "s1monw", 
+        "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+        "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+        "repos_url": "https://api.github.com/users/s1monw/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/s1monw"
+    }, 
+    "comments": 5, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18890/comments", 
+    "created_at": "2016-06-15T10:51:35Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18890/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/pull/18890", 
+    "id": 160393184, 
+    "labels": [
+        {
+            "color": "009800", 
+            "default": false, 
+            "id": 146832994, 
+            "name": ":Plugins", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/:Plugins"
+        }, 
+        {
+            "color": "009800", 
+            "default": false, 
+            "id": 144457604, 
+            "name": ":Settings", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/:Settings"
+        }, 
+        {
+            "color": "ff0000", 
+            "default": false, 
+            "id": 416200220, 
+            "name": "breaking-java", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/breaking-java"
+        }, 
+        {
+            "color": "0052cc", 
+            "default": false, 
+            "id": 94283388, 
+            "name": "review", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/review"
+        }, 
+        {
+            "color": "dddddd", 
+            "default": false, 
+            "id": 381894283, 
+            "name": "v5.0.0-alpha4", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v5.0.0-alpha4"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/18890/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 18890, 
+    "pull_request": {
+        "diff_url": "https://github.com/elastic/elasticsearch/pull/18890.diff", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/18890", 
+        "patch_url": "https://github.com/elastic/elasticsearch/pull/18890.patch", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/pulls/18890"
+    }, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Cut over settings registration to a pull model", 
+    "updated_at": "2016-07-29T11:58:35Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/18890", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+        "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/s1monw/followers", 
+        "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/s1monw", 
+        "id": 973334, 
+        "login": "s1monw", 
+        "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+        "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+        "repos_url": "https://api.github.com/users/s1monw/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/s1monw"
+    }
+}

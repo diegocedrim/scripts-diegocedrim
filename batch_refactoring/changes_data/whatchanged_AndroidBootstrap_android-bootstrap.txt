@@ -1,0 +1,2015 @@
+commit=2905ac2a2f4bae2e9684b798e2ade14c5afd9d34:donn@donnfelker.com
+
+:100644 100644 6b8563e... 8af8914... M	.travis.yml
+commit=1be21c0d1874474087679582a46ab2e9e2ef4c79:donn@donnfelker.com
+
+:100644 100644 856a6ac... d53a43d... M	app/build.gradle
+:100644 100644 0912810... dea2267... M	app/src/test/java/com/donnfelker/android/bootstrap/core/core/BootstrapApiClientUtilTest.java
+:100644 000000 502c1a4... 0000000... D	app/src/test/java/com/donnfelker/android/bootstrap/core/core/BootstrapServiceTest.java
+commit=a6b2f8733eee3d047ac2cf195bb32b082f410a98:donn@donnfelker.com
+
+:100644 100644 fe8635f... 856a6ac... M	app/build.gradle
+commit=c9991eeb3a890a2bf7862d39dde1f09647da118d:donn@donnfelker.com
+
+:100644 100644 34e409e... 6b8563e... M	.travis.yml
+commit=72c975c34b9311408e66898fe521084339f62330:donn@donnfelker.com
+
+:100644 100644 72ba520... 34e409e... M	.travis.yml
+commit=c05169a168c799cc4eb42fd309e2dd61ef4c29e3:donn@donnfelker.com
+
+:100644 100644 224b249... fe8635f... M	app/build.gradle
+commit=695cbab377c784e465626a7f3de59cb7451fc2f4:donn@donnfelker.com
+
+:100644 100644 3f732e8... 224b249... M	app/build.gradle
+commit=9471760377091da4982dedd6e060d15c2fb4a686:donn@donnfelker.com
+
+:100644 100644 215dd0c... 72ba520... M	.travis.yml
+commit=203ac34448821b751f62d4a2955d689d28a91491:donn@donnfelker.com
+
+:100644 100644 2e7f273... 47d07e9... M	README.md
+:100644 100644 47d51b3... 3f732e8... M	app/build.gradle
+:000000 100644 0000000... bdbe0b0... A	app/src/androidTest/java/AndroidManifest.xml
+:000000 100644 0000000... 7010c7a... A	app/src/androidTest/java/com/donnfelker/android/bootstrap/ApplicationTest.java
+:000000 100644 0000000... c13503b... A	app/src/androidTest/java/com/donnfelker/android/bootstrap/MainActivityTest.java
+:100644 100644 163572b... 6f14556... M	app/src/main/AndroidManifest.xml
+:100644 100644 54d1b06... 802ca9e... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapActivity.java
+commit=0e27f75c92ead06da4594f46fe6a9ba26363c453:donn@donnfelker.com
+
+:100644 100644 be0f8e0... 2e7f273... M	README.md
+commit=16dfa4eda5d87afe64f279f793a38731dd61fe46:donn@donnfelker.com
+
+:100644 100644 773879d... fec3bae... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapApplication.java
+:000000 100644 0000000... 4d6e9e9... A	app/src/release/java/com/donnfelker/android/bootstrap/BootstrapComponent.java
+commit=cc51a3f54b53e6361a01b9340b0c38a06dc76d5c:donn@donnfelker.com
+
+:100644 100644 8794918... 47d51b3... M	app/build.gradle
+:100644 100644 8fa1f89... 64c7f78... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/BootstrapAuthenticatorActivity.java
+:100644 100644 2b7d5ad... 54d1b06... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapActivity.java
+:100644 100644 8699796... 2030d02... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapFragmentActivity.java
+:100644 100644 4e6012a... 4a49d38... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapTimerActivity.java
+:100644 100644 53a86a0... fec1d36... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CarouselFragment.java
+:100644 100644 d16c74e... 96a9355... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/MainActivity.java
+:100644 100644 30ccec4... 4ef8728... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NewsActivity.java
+:100644 100644 ee18e4d... 25105d0... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserActivity.java
+commit=48b62d52b59b1f7c3c8ada93ba47dcb636d65b5c:donn@donnfelker.com
+
+:100644 100644 22d2bdb... 7b2f186... M	app/src/main/java/com/donnfelker/android/bootstrap/core/TimerService.java
+:100644 100644 2878154... 4e6012a... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapTimerActivity.java
+:000000 100644 0000000... 8027f74... A	app/src/main/java/com/donnfelker/android/bootstrap/util/TimeUtil.java
+:100644 100644 0ad73be... 1c4814d... M	app/src/main/res/values/strings.xml
+commit=68f5c9bb45960e31bece1fdb7fbf3260c98873ce:donn@donnfelker.com
+
+:100644 100644 5cffe7c... 8794918... M	app/build.gradle
+:000000 100644 0000000... 4d6e9e9... A	app/src/debug/java/com/donnfelker/android/bootstrap/BootstrapComponent.java
+:100644 100644 c5ccab8... 81517fb... M	app/src/main/java/com/donnfelker/android/bootstrap/AndroidModule.java
+:100644 100644 1642e2e... 773879d... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapApplication.java
+:100644 100644 e53d339... 0dd160e... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapModule.java
+:100644 000000 ecc2628... 0000000... D	app/src/main/java/com/donnfelker/android/bootstrap/Injector.java
+:100644 100644 b7e6887... cd76116... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/ActionBarAccountAuthenticatorActivity.java
+:100644 100644 fa3fc94... 8fa1f89... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/BootstrapAuthenticatorActivity.java
+:100644 100644 3a63614... 22d2bdb... M	app/src/main/java/com/donnfelker/android/bootstrap/core/TimerService.java
+:100644 100644 563e91a... 3c41924... M	app/src/main/java/com/donnfelker/android/bootstrap/core/UserAgentProvider.java
+:100644 100644 aab0835... ed6aa36... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/AlternatingColorListAdapter.java
+:100644 100644 f04891b... 2b7d5ad... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapActivity.java
+:100644 100644 cacbe4f... 8699796... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapFragmentActivity.java
+:100644 100644 1520f86... 2878154... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapTimerActivity.java
+:100644 100644 fff4be4... f845fe6... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CheckInsListFragment.java
+:100644 100644 cdac4cd... 7cb9763... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/ItemListFragment.java
+:100644 100644 32df1f6... d16c74e... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/MainActivity.java
+:100644 100644 d5ee04d... bb47f01... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NavigationDrawerFragment.java
+:100644 100644 3d03f7e... 3071a5e... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NewsListFragment.java
+:100644 100644 b546d3e... c8d9ce1... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserListAdapter.java
+:100644 100644 09272ea... df4bb77... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserListFragment.java
+:000000 100644 0000000... 3c02c3b... A	app/src/main/java/com/donnfelker/android/bootstrap/util/SingleTypeAdapter.java
+:000000 100644 0000000... 17e12e7... A	app/src/main/java/com/donnfelker/android/bootstrap/util/Toaster.java
+:000000 100644 0000000... 8c2ea12... A	app/src/main/java/com/donnfelker/android/bootstrap/util/TypeAdapter.java
+:000000 100644 0000000... dcaac0d... A	app/src/main/java/com/donnfelker/android/bootstrap/util/ViewUpdater.java
+:000000 100644 0000000... 1c5bace... A	app/src/main/java/com/donnfelker/android/bootstrap/util/ViewUtils.java
+:100644 100644 c7a9cb5... bfa0b3e... M	app/src/main/res/values/theme.xml
+:100644 100644 495c503... f8bcd57... M	build.gradle
+commit=dc7aa17fd6edbc4eeeeff7f1638dfaaa106702fb:donn@donnfelker.com
+
+:100644 100644 41df713... 5cffe7c... M	app/build.gradle
+:100644 100644 af1e15e... 163572b... M	app/src/main/AndroidManifest.xml
+commit=387ebd6cd4a6f2de0e2db12c21b41e38509ab28e:donn@donnfelker.com
+
+:100644 100644 49a5711... 41df713... M	app/build.gradle
+:100644 100644 6d28c7b... 7298626... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/AsyncLoader.java
+:100644 100644 51aa1ef... f04891b... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapActivity.java
+:100644 100644 fc46376... cacbe4f... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapFragmentActivity.java
+:100644 100644 88efe62... 6ecac41... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapPagerAdapter.java
+:100644 100644 201d392... 1520f86... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapTimerActivity.java
+:100644 100644 ea3ca3f... 53a86a0... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CarouselFragment.java
+:100644 100644 23062ad... fff4be4... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CheckInsListFragment.java
+:100644 100644 4ad5149... cdac4cd... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/ItemListFragment.java
+:100644 100644 4a2b2ee... 32df1f6... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/MainActivity.java
+:100644 100644 6873806... d5ee04d... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NavigationDrawerFragment.java
+:100644 100644 c05deca... 30ccec4... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NewsActivity.java
+:100644 100644 f4e16d2... 3d03f7e... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NewsListFragment.java
+:100644 100644 762fb57... ee18e4d... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserActivity.java
+:100644 100644 40070cd... 09272ea... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserListFragment.java
+:100644 100644 42f6351... c7a9cb5... M	app/src/main/res/values/theme.xml
+commit=05236c1e7ef304f4b93ac6384d9302e18fc1adfd:donn@donnfelker.com
+
+:100644 100644 a48bd5d... 49a5711... M	app/build.gradle
+commit=2401dce1f0d3a1affc9e6c68f4b4f539642b987f:donn@donnfelker.com
+
+:100644 100644 3d2473b... a48bd5d... M	app/build.gradle
+commit=1be5ac603f51f3001d715e804b5783bb3bb6e521:donn@donnfelker.com
+
+:100644 100644 eafc111... 3d2473b... M	app/build.gradle
+commit=c4fe822a3840a5eed986a3144df2aa8c441216ae:donn@donnfelker.com
+
+:100644 100644 445d070... 89a15e3... M	.gitignore
+commit=2e80d870e96bed763e039628468a1e8171de929f:donn@donnfelker.com
+
+:100644 100644 15fac1c... e66019d... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/BootstrapAccountAuthenticator.java
+commit=2b5d5fdab2b4a4855e53cf7249fb96f862c429ff:donn@donnfelker.com
+
+:100644 100644 576cbed... ecc2628... M	app/src/main/java/com/donnfelker/android/bootstrap/Injector.java
+:100644 100644 81e9d18... 15fac1c... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/BootstrapAccountAuthenticator.java
+:100644 100644 986d00a... fa3fc94... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/BootstrapAuthenticatorActivity.java
+:100644 100644 8caa023... f45fed1... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/LogoutServiceImpl.java
+:100644 100644 e56cc6c... d4ebca7... M	app/src/main/java/com/donnfelker/android/bootstrap/core/ImageUtils.java
+:100644 100644 e83a76e... 33a6983... M	app/src/main/java/com/donnfelker/android/bootstrap/core/PostFromAnyThreadBus.java
+:100644 100644 7df94a2... 3a63614... M	app/src/main/java/com/donnfelker/android/bootstrap/core/TimerService.java
+:100644 100644 5fefb13... 563e91a... M	app/src/main/java/com/donnfelker/android/bootstrap/core/UserAgentProvider.java
+:100644 100644 19a92a5... 4a2b2ee... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/MainActivity.java
+:100644 100644 a224e9f... 90befa1... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/ThrowableLoader.java
+:100644 000000 2f52135... 0000000... D	app/src/main/java/com/donnfelker/android/bootstrap/util/Ln.java
+:100644 100644 1ec0ff6... 9cc546b... M	app/src/main/java/com/donnfelker/android/bootstrap/util/SafeAsyncTask.java
+commit=50c1fc681e2021da9f54d2bfc5b93c500304c050:donn@donnfelker.com
+
+:100644 100644 30bc17a... eafc111... M	app/build.gradle
+:000000 100644 0000000... c7c42fc... A	app/src/debug/java/com/donnfelker/android/bootstrap/BootstrapApplicationImpl.java
+:100644 100644 d1fc261... d1fc261... R100	app/src/main/java/com/donnfelker/android/bootstrap/Modules.java	app/src/debug/java/com/donnfelker/android/bootstrap/Modules.java
+:100644 100644 084cf5b... af1e15e... M	app/src/main/AndroidManifest.xml
+:100644 100644 ff4d9ce... 1642e2e... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapApplication.java
+:100644 100644 c886894... e53d339... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapModule.java
+:000000 100644 0000000... c21e0da... A	app/src/release/java/com/donnfelker/android/bootstrap/BootstrapApplicationImpl.java
+:000000 100644 0000000... d1fc261... A	app/src/release/java/com/donnfelker/android/bootstrap/Modules.java
+:000000 100644 0000000... 1b74032... A	app/src/release/java/com/donnfelker/android/bootstrap/logging/CrashlyticsTree.java
+commit=35389983bf0f592678958c7bb1531b4b0c642ed9:donn@donnfelker.com
+
+:100644 100644 65c88cf... fc46376... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapFragmentActivity.java
+commit=a4f34a16a8ae9e772475428279cc4c7a1da11d4d:donn@donnfelker.com
+
+:100644 100644 b081685... c372743... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapServiceProvider.java
+commit=d8c121e857bfb52c5946b2c4009ab60c9c72f56f:donn@donnfelker.com
+
+:100644 100644 ac6c755... b081685... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapServiceProvider.java
+commit=14fb736d6bd24d6952bc924ee317eccc4d507594:donn@donnfelker.com
+
+:100644 100644 7a1893b... 06044d6... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapServiceProviderImpl.java
+commit=491d05f74400a8f313b3fb6cefb1aabeca799603:donn@donnfelker.com
+
+:100644 100644 9aeeef1... ff4d9ce... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapApplication.java
+:100644 100644 766cbc4... c886894... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapModule.java
+:100644 100644 b2700af... ac6c755... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapServiceProvider.java
+:000000 100644 0000000... 7a1893b... A	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapServiceProviderImpl.java
+commit=c1cf693ba5ea56d30f8ed177572c5ce65621d334:donn@donnfelker.com
+
+:100644 100644 a69e733... 766cbc4... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapModule.java
+:100644 100644 603dd97... e42ab93... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/LogoutService.java
+:000000 100644 0000000... 8caa023... A	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/LogoutServiceImpl.java
+commit=717c596305d143642bfd4e9c7a1bd1408cd8971f:donn@donnfelker.com
+
+:100644 100644 3e7f5c3... c5ccab8... M	app/src/main/java/com/donnfelker/android/bootstrap/AndroidModule.java
+commit=cb74682ffa65c4a09efcb2bebbc7834b7c3af3a0:donn@donnfelker.com
+
+:100644 100644 c050957... 30bc17a... M	app/build.gradle
+:100644 100644 7e3d6b0... 9aeeef1... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapApplication.java
+:100644 100644 0051d48... 576cbed... M	app/src/main/java/com/donnfelker/android/bootstrap/Injector.java
+:000000 100644 0000000... d1fc261... A	app/src/main/java/com/donnfelker/android/bootstrap/Modules.java
+:100644 000000 e8e1e5d... 0000000... D	app/src/main/java/com/donnfelker/android/bootstrap/RootModule.java
+commit=81251bfbac22ff95d142fa648ca75b1d7cf379f2:donn@donnfelker.com
+
+:100644 100644 cf04f20... c050957... M	app/build.gradle
+commit=2c1deb5aa56bf78fc528840a5f83f6106ab0c94a:donn@donnfelker.com
+
+:100644 100644 934c72c... cf04f20... M	app/build.gradle
+commit=aeebd79c3f0f4a9c95f6403f4b7604e44d25886e:donn@donnfelker.com
+
+:100644 100644 cefaae6... 934c72c... M	app/build.gradle
+commit=bda0abdc2d5b786381ecf0b879385cd201132ddc:donn@donnfelker.com
+
+:100644 100644 8a588ea... cefaae6... M	app/build.gradle
+:100644 100644 884c10e... b0d2169... M	gradle/wrapper/gradle-wrapper.properties
+commit=c9ba66f3f194d6747fe10f4073494ef05c6eec6e:donn@donnfelker.com
+
+:100644 100644 fbb8407... 6ac28a4... M	.travis.yml
+commit=41cf3fec1aecfdd6d6e6c3ef7ef9ac94a48aecfd:donn@donnfelker.com
+
+:100644 100644 6ac28a4... fbb8407... M	.travis.yml
+commit=a57b5ac2c7a0ac1f38175513a9a236660ebaafc9:fsutomo@gmail.com
+
+:100644 100644 6ac28a4... 215dd0c... M	.travis.yml
+:100644 100644 45dc39c... 8a588ea... M	app/build.gradle
+commit=f122f67ee323e5587255b8c507c7b99ea35df2b7:donn@donnfelker.com
+
+:100644 100644 735674a... 45dc39c... M	app/build.gradle
+commit=08884e53f0fc18795a8ecdea9525507113664356:donn@donnfelker.com
+
+:100644 100644 8bd5865... 735674a... M	app/build.gradle
+:100644 100644 a006dad... 884c10e... M	gradle/wrapper/gradle-wrapper.properties
+commit=bc8fac4b7212a338fdfbee6646d4b099cf9a57ee:donn@donnfelker.com
+
+:100644 100644 fc97f48... 8bd5865... M	app/build.gradle
+:100644 100644 29e54dc... 986d00a... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/BootstrapAuthenticatorActivity.java
+:100644 100644 e17eda2... 51aa1ef... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapActivity.java
+:100644 100644 7c5d5c5... 65c88cf... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapFragmentActivity.java
+:100644 100644 c315708... ea3ca3f... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CarouselFragment.java
+:100644 100644 4604b24... 19a92a5... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/MainActivity.java
+commit=7aad5a383b347917c36f5866b993cb939a3b7de0:donn@donnfelker.com
+
+:100644 100644 c46ed1b... fc97f48... M	app/build.gradle
+commit=617a9d8cca11e32fefb73795071f705ab4d0e283:donn@donnfelker.com
+
+:100644 100644 077bc74... c46ed1b... M	app/build.gradle
+commit=e05e09839b2cb972fa61a658b15cc6aa2eada113:donn@donnfelker.com
+
+:100644 100644 c70b120... be0f8e0... M	README.md
+commit=6bb3dd1218e3958d2c61c5e82868e5dd9f2b4092:donn@donnfelker.com
+
+:100644 100644 c4633e2... 077bc74... M	app/build.gradle
+:100644 100644 d554a38... b7e6887... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/ActionBarAccountAuthenticatorActivity.java
+:100644 100644 46db305... 6d28c7b... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/AsyncLoader.java
+:100644 100644 9d5665f... e17eda2... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapActivity.java
+:100644 100644 d1e096a... 7c5d5c5... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapFragmentActivity.java
+:100644 100644 cf81fa1... 88efe62... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapPagerAdapter.java
+:100644 100644 1520f86... 201d392... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapTimerActivity.java
+:100644 100644 f093e07... c315708... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CarouselFragment.java
+:100644 100644 1ac95f1... 23062ad... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CheckInsListFragment.java
+:100644 100644 e950599... 4ad5149... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/ItemListFragment.java
+:100644 100644 ef0d818... 4604b24... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/MainActivity.java
+:100644 100644 0a2fffc... 6873806... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NavigationDrawerFragment.java
+:100644 100644 30ccec4... c05deca... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NewsActivity.java
+:100644 100644 18e11a9... f4e16d2... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NewsListFragment.java
+:100644 100644 ee18e4d... 762fb57... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserActivity.java
+:100644 100644 09272ea... 40070cd... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserListFragment.java
+:000000 100644 0000000... 5e301e3... A	app/src/main/res/layout/drawer_list_item.xml
+:100644 100644 cea9803... 7f136c5... M	app/src/main/res/layout/main_activity_tablet.xml
+:100644 100644 8edc541... 21ad3df... M	app/src/main/res/menu/bootstrap.xml
+:100644 100644 74807f8... 42f6351... M	app/src/main/res/values/theme.xml
+commit=3cbb50fa4c11c2a231b91581d506fe47aac36e9b:donn@donnfelker.com
+
+:100644 100644 200012d... c70b120... M	README.md
+:100644 100644 681cc8b... c4633e2... M	app/build.gradle
+:100644 100644 fcb776b... 084cf5b... M	app/src/main/AndroidManifest.xml
+commit=55a6ef8c3f3bda5ed29d44f27930c91e0aa39e46:nguyenvanduocit@users.noreply.github.com
+
+:100644 100644 e7b331d... 514bcf5... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/HeaderFooterListAdapter.java
+commit=c6c136e08dbefc477fb92e0f9b35282d65d9d81d:donn@donnfelker.com
+
+:100644 100644 03f30cc... 681cc8b... M	app/build.gradle
+commit=8a9c725b7d58a83b91b0f006319b6736f0a64f36:donn@donnfelker.com
+
+:100644 100644 eea64ea... 6ac28a4... M	.travis.yml
+commit=b08901ef2a64e4ff41a169a346494c866c36227d:donn@donnfelker.com
+
+:100644 100644 4fba846... 03f30cc... M	app/build.gradle
+commit=754a3c6a21a87aed08a9dcb8d830fe08a32bb7e8:donn@donnfelker.com
+
+:100644 100644 0478eae... 0478eae... R100	app/src/main/java/com/donnfelker/android/bootstrap/core/CheckinWrapper.java	app/src/main/java/com/donnfelker/android/bootstrap/core/CheckInWrapper.java
+commit=9c0f53cdffa9b0814fdf8efa9bb27f6e2685c3df:donn@donnfelker.com
+
+:100644 100644 5783e45... eea64ea... M	.travis.yml
+commit=2c68b43cfe8fe0a4b2bb6b8dfa22a8a9a799a704:donn@donnfelker.com
+
+:100644 100644 7193b37... 200012d... M	README.md
+commit=b319e28aae3c0c5f9b5964318750449fb4be9e65:donn@donnfelker.com
+
+:100644 100644 b9a5cd1... 4fba846... M	app/build.gradle
+:100644 100644 5de946b... a006dad... M	gradle/wrapper/gradle-wrapper.properties
+commit=d1b44ccd327eb336a2af3180c8c5a5f4bdffa44c:donn@donnfelker.com
+
+:100644 100644 c3c5803... b9a5cd1... M	app/build.gradle
+:100644 100644 52c1315... 7e3d6b0... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapApplication.java
+:100644 100644 a435e77... a69e733... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapModule.java
+:100644 100644 459cb4c... b2700af... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapServiceProvider.java
+:100644 100644 cd97ab7... ae4acf3... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/ApiKeyProvider.java
+:100644 100644 930b146... 4d39073... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/BootstrapAuthenticatorActivity.java
+:000000 100644 0000000... 317447a... A	app/src/main/java/com/donnfelker/android/bootstrap/core/ApiError.java
+:100644 100644 fc49e12... e592312... M	app/src/main/java/com/donnfelker/android/bootstrap/core/BootstrapService.java
+:000000 100644 0000000... a455c2c... A	app/src/main/java/com/donnfelker/android/bootstrap/core/CheckInService.java
+:000000 100644 0000000... 0478eae... A	app/src/main/java/com/donnfelker/android/bootstrap/core/CheckinWrapper.java
+:100644 100644 9b5770a... 67a8a57... M	app/src/main/java/com/donnfelker/android/bootstrap/core/Constants.java
+:000000 100644 0000000... cee18c4... A	app/src/main/java/com/donnfelker/android/bootstrap/core/NewsService.java
+:000000 100644 0000000... 4d85792... A	app/src/main/java/com/donnfelker/android/bootstrap/core/NewsWrapper.java
+:000000 100644 0000000... e83a76e... A	app/src/main/java/com/donnfelker/android/bootstrap/core/PostFromAnyThreadBus.java
+:000000 100644 0000000... 3097088... A	app/src/main/java/com/donnfelker/android/bootstrap/core/RestAdapterRequestInterceptor.java
+:000000 100644 0000000... 6cc812e... A	app/src/main/java/com/donnfelker/android/bootstrap/core/RestErrorHandler.java
+:000000 100644 0000000... a0a040d... A	app/src/main/java/com/donnfelker/android/bootstrap/core/UserService.java
+:000000 100644 0000000... 7b898a5... A	app/src/main/java/com/donnfelker/android/bootstrap/core/UsersWrapper.java
+:000000 100644 0000000... 40fff4d... A	app/src/main/java/com/donnfelker/android/bootstrap/events/NetworkErrorEvent.java
+:000000 100644 0000000... 795cdb2... A	app/src/main/java/com/donnfelker/android/bootstrap/events/RestAdapterErrorEvent.java
+:000000 100644 0000000... 9444b76... A	app/src/main/java/com/donnfelker/android/bootstrap/events/UnAuthorizedErrorEvent.java
+:100644 100644 401e6e5... 1ec0ff6... M	app/src/main/java/com/donnfelker/android/bootstrap/util/SafeAsyncTask.java
+:100644 100644 e3254fc... 7f5c343... M	proguard.cfg
+commit=676a5d36a3be3c16633b11b53d75a8e4b02fbaf3:richardwiden@gmail.com
+
+:100644 100644 178fdaf... 0a2fffc... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NavigationDrawerFragment.java
+commit=01d5708c274fdc1159257aa34d4aeed7d659a75d:l.thales.x@gmail.com
+
+:100644 100644 930b146... 6428061... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/BootstrapAuthenticatorActivity.java
+commit=e43e3ac4a5984edf9a6ccc87bac04be177a3615a:donn@donnfelker.com
+
+:100644 100644 afe45c8... 7193b37... M	README.md
+commit=143f2453ffd7633d042696ac2ad1178109dba2dd:donn@donnfelker.com
+
+:100644 100644 877e601... fcb776b... M	app/src/main/AndroidManifest.xml
+commit=d659b1d3bb95535f1a14f8d5ed6ddc7c0f31282a:donn@donnfelker.com
+
+:100644 100644 567b08d... 5783e45... M	.travis.yml
+commit=a947e54efdef0a7c3e2c2ef9ec67612717536414:donn@donnfelker.com
+
+:100644 100644 054a006... 567b08d... M	.travis.yml
+commit=5844feb1cf6180b23d4405e1f551e2a690ff314d:donn@donnfelker.com
+
+:100644 100644 bf27ac6... 054a006... M	.travis.yml
+:100644 100644 a9c5f42... afe45c8... M	README.md
+commit=d0da761497931b0fabc263833a74629689bc8f1e:donn@donnfelker.com
+
+:100644 000000 1a9fd26... 0000000... D	integration-tests/pom.xml
+:100644 000000 f77e508... 0000000... D	pom.xml
+commit=78c8d029247d2632cf1ec4a879ef5b158f439e4e:donn@donnfelker.com
+
+:000000 100644 0000000... bf27ac6... A	.travis.yml
+commit=6a3fde6d92d1b4f39167c9c8aeec806350024ef6:daniel@kutik.eu
+
+:100644 100644 2a20607... c3c5803... M	app/build.gradle
+:100644 100644 9b8ffdd... 5de946b... M	gradle/wrapper/gradle-wrapper.properties
+commit=3b6b4b974cd56b1e5180d347691c820cdc6687d0:daniel@kutik.eu
+
+:100644 100644 7020936... 2a20607... M	app/build.gradle
+commit=8b8e14a32e3459517778f7f8b029ebdc20f83fa3:daniel@kutik.eu
+
+:100644 100644 b418e71... 7020936... M	app/build.gradle
+:100644 100644 0d39cfc... 9b8ffdd... M	gradle/wrapper/gradle-wrapper.properties
+commit=22fabc86d77b84d6c63267eaf3f634776959aa5a:s.arpe@replyukltd.co.uk
+
+:100644 100644 4bafe97... ee3868c... M	app/pom.xml
+:100644 100644 b8791c6... f77e508... M	pom.xml
+commit=b521d18a307bee952a2cdb15c2860b1a578f8e27:s.arpe@replyukltd.co.uk
+
+:100644 100644 883e6ae... 1efd419... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/view/CapitalizedTextView.java
+commit=cf73e1354ec52c7c73a36c2c69cf848dad9a97b6:walter.lowe@blackboard.com
+
+:100644 100644 79b7aa8... a9c5f42... M	README.md
+commit=c59f0404a239e693afac963f0feb1645c60a751f:donn@donnfelker.com
+
+:100644 100644 d6ff1a3... 5fefb13... M	app/src/main/java/com/donnfelker/android/bootstrap/core/UserAgentProvider.java
+commit=0b10cb9b50dc929b45fa7ac6997beb5412a4b13c:donn@donnfelker.com
+
+:100644 100644 871374d... 178fdaf... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NavigationDrawerFragment.java
+commit=45b56b8d12a26f0426df5457824d36b0b68f27ab:donn@donnfelker.com
+
+:100644 100644 4196dbe... 1520f86... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapTimerActivity.java
+:100644 100644 474d13d... ef0d818... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/MainActivity.java
+:000000 100644 0000000... f80afe2... A	app/src/main/java/com/donnfelker/android/bootstrap/util/UIUtils.java
+:000000 100644 0000000... cea9803... A	app/src/main/res/layout/main_activity_tablet.xml
+commit=6eec50263a0a9570c6cd73b31579d6a47322d1d5:donn@donnfelker.com
+
+:100644 100644 1e65c78... 877e601... M	app/src/main/AndroidManifest.xml
+:100644 100644 d31e43b... a435e77... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapModule.java
+:100644 100644 2e8ed31... cd97ab7... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/ApiKeyProvider.java
+:000000 100644 0000000... d0462c4... A	app/src/main/java/com/donnfelker/android/bootstrap/events/NavItemSelectedEvent.java
+:100644 100644 e6041f2... 9d5665f... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapActivity.java
+:100644 100644 3194234... d1e096a... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapFragmentActivity.java
+:100644 100644 ad6682f... 4196dbe... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapTimerActivity.java
+:100644 100644 194e3e1... 474d13d... R081	app/src/main/java/com/donnfelker/android/bootstrap/ui/HomeActivity.java	app/src/main/java/com/donnfelker/android/bootstrap/ui/MainActivity.java
+:000000 100644 0000000... 871374d... A	app/src/main/java/com/donnfelker/android/bootstrap/ui/NavigationDrawerFragment.java
+:000000 100644 0000000... e934bed... A	app/src/main/res/layout/fragment_navigation_drawer.xml
+:100644 000000 d135470... 0000000... D	app/src/main/res/layout/home_activity.xml
+:000000 100644 0000000... d4d25a2... A	app/src/main/res/layout/main_activity.xml
+:100644 000000 052db6a... 0000000... D	app/src/main/res/layout/navigation_drawer.xml
+:100644 100644 054e3ae... 8edc541... M	app/src/main/res/menu/bootstrap.xml
+:000000 100644 0000000... 7c97a20... A	app/src/main/res/menu/global.xml
+:100644 100644 1cfe5bf... d315190... M	app/src/main/res/values/colors.xml
+:000000 100644 0000000... fa96a04... A	app/src/main/res/values/dimens.xml
+:100644 100644 7ffbe9c... 0ad73be... M	app/src/main/res/values/strings.xml
+commit=258b6356f493f5ab4d670b61a049e54be3932fc4:donn@donnfelker.com
+
+:100644 100644 abc3a2a... 79b7aa8... M	README.md
+:100644 100644 112017d... d554a38... R073	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/SherlockAccountAuthenticatorActivity.java	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/ActionBarAccountAuthenticatorActivity.java
+:100644 100644 407296c... 930b146... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/BootstrapAuthenticatorActivity.java
+:100644 100644 b1da0dd... e3254fc... M	proguard.cfg
+commit=067d83cf316e3d0abda21f94750d56495e4e7bf4:donn@donnfelker.com
+
+:100644 100644 e87fb43... 1e65c78... M	app/src/main/AndroidManifest.xml
+:100644 100644 28b4bbf... d31e43b... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapModule.java
+:100644 100644 7cfc929... 2e8ed31... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/ApiKeyProvider.java
+:100644 100644 b83cb98... e6041f2... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapActivity.java
+:000000 100644 0000000... f093e07... A	app/src/main/java/com/donnfelker/android/bootstrap/ui/CarouselFragment.java
+:100644 100644 8ccaf5d... 194e3e1... R088	app/src/main/java/com/donnfelker/android/bootstrap/ui/CarouselActivity.java	app/src/main/java/com/donnfelker/android/bootstrap/ui/HomeActivity.java
+:100644 000000 b5df0bd... 0000000... D	app/src/main/res/layout/carousel_view.xml
+:000000 100644 0000000... eb418d9... A	app/src/main/res/layout/fragment_carousel.xml
+:000000 100644 0000000... d135470... A	app/src/main/res/layout/home_activity.xml
+commit=e24ee73effdc65a59aec137514b15cde626b0852:daniel@kutik.eu
+
+:100644 100644 50fb2a8... 0051d48... M	app/src/main/java/com/donnfelker/android/bootstrap/Injector.java
+:100644 100644 9e0ccfe... 603dd97... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/LogoutService.java
+:100644 100644 a5d1cff... fda0cd9... M	app/src/main/java/com/donnfelker/android/bootstrap/core/CheckIn.java
+:100644 100644 e7a2429... f7504b2... M	app/src/main/java/com/donnfelker/android/bootstrap/core/IntentFactory.java
+commit=e353a9ffb2829028815eb2d7d2368e3a535050bf:daniel@kutik.eu
+
+:100644 100644 4b88a61... 52c1315... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapApplication.java
+:100644 100644 569e451... 8ccaf5d... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CarouselActivity.java
+commit=aaee6510521bc8622e638c50b977e2776570c828:daniel@kutik.eu
+
+:100644 100644 359a58b... e87fb43... M	app/src/main/AndroidManifest.xml
+:100644 100644 39489ae... 743cd92... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapTimerActivity.java
+commit=58df706b219736e914bfb0f7e0c956ccd80f5150:daniel@kutik.eu
+
+:100644 100644 39ef53b... ba52d3a... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapTimerActivity.java
+commit=40b324e76461debbf5ca53fbe31f344d8a8f9173:daniel@kutik.eu
+
+:100644 100644 be38d43... 39ef53b... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapTimerActivity.java
+commit=64bcf1199af2c269f6f999d87e68d527710022f1:daniel@kutik.eu
+
+:100644 100644 5931fe9... 459cb4c... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapServiceProvider.java
+:100644 100644 83efb60... 1dcd71d... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/AccountAuthenticatorService.java
+:100644 100644 89a8739... 7cfc929... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/ApiKeyProvider.java
+:100644 100644 7662b6e... 81e9d18... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/BootstrapAccountAuthenticator.java
+:100644 100644 ec76822... 407296c... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/BootstrapAuthenticatorActivity.java
+:100644 100644 731bbcb... 9e0ccfe... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/LogoutService.java
+:100644 100644 adbe0e0... 112017d... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/SherlockAccountAuthenticatorActivity.java
+:100644 100644 7e6d445... fc49e12... M	app/src/main/java/com/donnfelker/android/bootstrap/core/BootstrapService.java
+:100644 100644 c6a36ca... a5d1cff... M	app/src/main/java/com/donnfelker/android/bootstrap/core/CheckIn.java
+:100644 100644 b302f72... 9b5770a... M	app/src/main/java/com/donnfelker/android/bootstrap/core/Constants.java
+:100644 100644 1319121... e7a2429... M	app/src/main/java/com/donnfelker/android/bootstrap/core/IntentFactory.java
+:100644 100644 e228f7b... 7036bc4... M	app/src/main/java/com/donnfelker/android/bootstrap/core/News.java
+:100644 100644 2e06ab2... 7df94a2... M	app/src/main/java/com/donnfelker/android/bootstrap/core/TimerService.java
+:100644 100644 ad6069e... 6b03e37... M	app/src/main/java/com/donnfelker/android/bootstrap/core/TimerTickEvent.java
+:100644 100644 502a280... 44dd480... M	app/src/main/java/com/donnfelker/android/bootstrap/core/User.java
+:100644 100644 7a0b089... aab0835... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/AlternatingColorListAdapter.java
+:100644 100644 616d000... 46db305... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/AsyncLoader.java
+:100644 100644 5016167... 01a9401... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BarGraphDrawable.java
+:100644 100644 f85dc80... be38d43... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapTimerActivity.java
+:100644 100644 06526ae... 569e451... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CarouselActivity.java
+:100644 100644 d798c9f... 1ac95f1... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CheckInsListFragment.java
+:100644 100644 bbf3577... e7b331d... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/HeaderFooterListAdapter.java
+:100644 100644 6c3ce73... e950599... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/ItemListFragment.java
+:100644 100644 fd11d8e... 30ccec4... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NewsActivity.java
+:100644 100644 ac31352... 18e11a9... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NewsListFragment.java
+:100644 100644 4ccf50e... a224e9f... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/ThrowableLoader.java
+:100644 100644 9d03b8f... ee18e4d... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserActivity.java
+:100644 100644 cb7960b... 09272ea... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserListFragment.java
+commit=f7c80824e77db8a1305a6ddc477053bd0da1744d:daniel@kutik.eu
+
+:100644 100644 fc12445... c6a36ca... M	app/src/main/java/com/donnfelker/android/bootstrap/core/CheckIn.java
+commit=ca986ec4e099da4363cb0c3a2e5a94a795247b32:daniel@kutik.eu
+
+:100644 100644 6fed048... 28b4bbf... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapModule.java
+:100644 100644 e3ab0df... e8e1e5d... M	app/src/main/java/com/donnfelker/android/bootstrap/RootModule.java
+:100644 100644 eaaa132... 731bbcb... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/LogoutService.java
+:100644 100644 1a46672... adbe0e0... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/SherlockAccountAuthenticatorActivity.java
+:100644 100644 0245eb2... 7e6d445... M	app/src/main/java/com/donnfelker/android/bootstrap/core/BootstrapService.java
+:100644 100644 1d6341a... 2e06ab2... M	app/src/main/java/com/donnfelker/android/bootstrap/core/TimerService.java
+:100644 100644 b940de4... ad6069e... M	app/src/main/java/com/donnfelker/android/bootstrap/core/TimerTickEvent.java
+:100644 100644 44dd480... 502a280... M	app/src/main/java/com/donnfelker/android/bootstrap/core/User.java
+:100644 100644 fbffea1... d6ff1a3... M	app/src/main/java/com/donnfelker/android/bootstrap/core/UserAgentProvider.java
+:100644 100644 34e6f4b... 7a0b089... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/AlternatingColorListAdapter.java
+:100644 100644 f935c56... f85dc80... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapTimerActivity.java
+:100644 100644 5ad3a8b... 06526ae... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CarouselActivity.java
+:100644 100644 b88bbcf... 2c5d9b6... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CheckInsListAdapter.java
+:100644 100644 e52bb08... d798c9f... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CheckInsListFragment.java
+:100644 100644 efbda6d... bbf3577... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/HeaderFooterListAdapter.java
+:100644 100644 cc086e3... 6c3ce73... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/ItemListFragment.java
+:100644 100644 23ac740... ac31352... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NewsListFragment.java
+:100644 100644 ff0ec97... 4ccf50e... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/ThrowableLoader.java
+:100644 100644 e3a76d3... cb7960b... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserListFragment.java
+:100644 100644 af73d9e... 1c6be18... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/view/CapitalizedTextView.java
+:100644 100644 fcd2be7... 2f52135... M	app/src/main/java/com/donnfelker/android/bootstrap/util/Ln.java
+:100644 100644 d7b2be0... 401e6e5... M	app/src/main/java/com/donnfelker/android/bootstrap/util/SafeAsyncTask.java
+:100644 100644 847430d... 6c9ba97... M	app/src/main/java/com/donnfelker/android/bootstrap/util/Strings.java
+commit=ec0e1718cc4319a4fc38f1d28790479645ca17a3:daniel@kutik.eu
+
+:100644 000000 5c91302... 0000000... D	app/.settings/org.eclipse.jdt.core.prefs
+:100644 000000 a6bfc93... 0000000... D	app/.settings/org.eclipse.jdt.ui.prefs
+commit=5eb288571ad4866fb7c327bb86619bfc72de04b0:daniel@kutik.eu
+
+:100644 100644 d652e0f... 032c9eb... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/ApiKeyProvider.java
+:100644 100644 7b20aaf... 903181e... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/BootstrapAccountAuthenticator.java
+:100644 100644 ca7e5a1... 49f4662... M	app/src/main/java/com/donnfelker/android/bootstrap/core/BootstrapService.java
+:100644 100644 9a29c1f... a64d576... M	app/src/main/java/com/donnfelker/android/bootstrap/core/User.java
+commit=37b93d4e47318117f1275484834ecbb193b44a3f:daniel@kutik.eu
+
+:100644 100644 b810396... 92e97e3... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/AccountAuthenticatorService.java
+commit=e20ae0644b05d1c5a0a6255ffdefd0c2f1825c95:daniel@kutik.eu
+
+:100644 100644 5a735c4... 1d8f189... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapApplication.java
+:100644 100644 8dd73e1... cd1db3e... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapModule.java
+:100644 100644 75797ff... 03abbf7... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapServiceProvider.java
+:100644 100644 937d8bd... de9d0c7... M	app/src/main/java/com/donnfelker/android/bootstrap/Injector.java
+:100644 100644 e9eb16c... b810396... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/AccountAuthenticatorService.java
+:100644 100644 d196578... d652e0f... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/ApiKeyProvider.java
+:100644 100644 3fd3a73... 7b20aaf... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/BootstrapAccountAuthenticator.java
+:100644 100644 34e3bee... 3919b58... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/BootstrapAuthenticatorActivity.java
+:100644 100644 9df81d5... 6cb8510... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/LogoutService.java
+:100644 100644 8ef2917... ca7e5a1... M	app/src/main/java/com/donnfelker/android/bootstrap/core/BootstrapService.java
+:100644 100644 83104c1... a419c17... M	app/src/main/java/com/donnfelker/android/bootstrap/core/TimerPausedEvent.java
+:100644 100644 3cef3a6... c7e8956... M	app/src/main/java/com/donnfelker/android/bootstrap/core/TimerService.java
+:100644 100644 056c343... b940de4... M	app/src/main/java/com/donnfelker/android/bootstrap/core/TimerTickEvent.java
+:100644 100644 bf82e88... f79da92... M	app/src/main/java/com/donnfelker/android/bootstrap/core/UserAgentProvider.java
+:100644 100644 7446d65... 224133f... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/AlternatingColorListAdapter.java
+:100644 100644 9371d00... c62c282... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/AsyncLoader.java
+:100644 100644 8ff4502... 5016167... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BarGraphDrawable.java
+:100644 100644 47889ea... a1ce354... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapActivity.java
+:100644 100644 896dde0... 3194234... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapFragmentActivity.java
+:100644 100644 f896477... 12b5882... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapPagerAdapter.java
+:100644 100644 567c7b5... bc60a0d... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapTimerActivity.java
+:100644 100644 0beb442... e7e4a7a... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CarouselActivity.java
+:100644 100644 2eacfac... d7208ad... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CheckInsListAdapter.java
+:100644 100644 32241ef... 0f6b427... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CheckInsListFragment.java
+:100644 100644 d2be941... 13a8079... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/HeaderFooterListAdapter.java
+:100644 100644 7918311... b7dd435... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/ItemListFragment.java
+:100644 100644 5580fe1... b6c21b2... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NewsActivity.java
+:100644 100644 39e3d21... 20b7133... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NewsListAdapter.java
+:100644 100644 206ea2b... ce58947... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NewsListFragment.java
+:100644 100644 695624e... 7e4a283... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/TextWatcherAdapter.java
+:100644 100644 ecdde3b... ff0ec97... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/ThrowableLoader.java
+:100644 100644 e7437be... cdf8c2c... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserActivity.java
+:100644 100644 e3f8340... 5e2954c... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserListAdapter.java
+:100644 100644 523450a... 8c093a6... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserListFragment.java
+:100644 100644 883e6ae... 3c1d48d... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/view/CapitalizedTextView.java
+:100644 100644 b5772d2... db93ce4... M	app/src/main/java/com/donnfelker/android/bootstrap/util/SafeAsyncTask.java
+commit=aa25561d7744cdee1e27b33ee18f6fe6fa6407a3:daniel@kutik.eu
+
+:100644 100644 638c043... 0beb442... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CarouselActivity.java
+commit=f6ec12216c42dc7128952950e89bbd398eb5b45d:daniel@kutik.eu
+
+:100644 100644 ef32770... fefae4e... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapServiceProvider.java
+:100644 100644 469d1a8... a6036a4... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/ApiKeyProvider.java
+:100644 100644 9ebd7d5... 8910b54... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/BootstrapAuthenticatorActivity.java
+:100644 100644 538f7d2... aabc938... M	app/src/main/java/com/donnfelker/android/bootstrap/core/TimerService.java
+:100644 100644 056c343... b940de4... M	app/src/main/java/com/donnfelker/android/bootstrap/core/TimerTickEvent.java
+:100644 100644 d5148d3... 1e40de2... M	app/src/main/java/com/donnfelker/android/bootstrap/core/UserAgentProvider.java
+:100644 100644 bc5474d... 924527a... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapActivity.java
+:100644 100644 391e008... 39489ae... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapTimerActivity.java
+:100644 100644 e467d1c... 7fa1d4d... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CarouselActivity.java
+:100644 100644 10c8311... c08f0ea... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CheckInsListFragment.java
+:100644 100644 7ce5f41... 5909cb0... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NewsActivity.java
+:100644 100644 1016af8... 58062d8... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserActivity.java
+:100644 100644 d1bbd44... 9e7dedd... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserListFragment.java
+:100644 100644 5ecb6ab... af73d9e... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/view/CapitalizedTextView.java
+commit=c5af0707afa4881046befa9799b978d3cc0f58df:donn@donnfelker.com
+
+:100644 100644 19e790b... 638c043... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CarouselActivity.java
+commit=5df0d1bf2ac6118bd3578f4d6c0b41848a92e51a:daniel@kutik.eu
+
+:100644 100644 06d0af4... 445d070... M	.gitignore
+commit=3dd5565fc287fb6bd3d58ea27a4f32dfc56f468b:daniel@kutik.eu
+
+:100644 100644 715bc00... 5ecb6ab... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/view/CapitalizedTextView.java
+commit=5c9baaa5eb01d34e1d93ad4b5edd3317b8deaa40:daniel@kutik.eu
+
+:100644 100644 a106b75... 359a58b... M	app/src/main/AndroidManifest.xml
+commit=b75316c748ae835979c554eeea7a3de8cfe28dbe:donn@donnfelker.com
+
+:100644 000000 cf12d28... 0000000... D	app/libs/android-support-v4.jar
+:100644 000000 b5f5292... 0000000... D	app/libs/android-support-v7-appcompat.jar
+commit=7eecdacd5b517ff39bdf0933b1a73c72d775a106:donn@donnfelker.com
+
+:100644 100644 830de7e... 0f38393... M	app/build.gradle
+:100644 100644 9bec576... 1a2b4b0... M	app/default.properties
+:100644 000000 b95ce0c... 0000000... D	app/pom.xml
+:100644 100644 adf6d7e... adf6d7e... R100	app/AndroidManifest.xml	app/src/main/AndroidManifest.xml
+:100755 100755 7d9a6c4... 7d9a6c4... R100	app/assets/fonts/Roboto-Regular.ttf	app/src/main/assets/fonts/Roboto-Regular.ttf
+:100644 100644 2fcef81... 2fcef81... R100	app/res/color/nav_text_selector.xml	app/src/main/res/color/nav_text_selector.xml
+:100644 100644 ae45c33... ae45c33... R100	app/res/color/table_text_light_selector.xml	app/src/main/res/color/table_text_light_selector.xml
+:100644 100644 647c8f5... 647c8f5... R100	app/res/color/table_text_selector.xml	app/src/main/res/color/table_text_selector.xml
+:100644 100644 2b9bdcd... 2b9bdcd... R100	app/res/color/text_light_selector.xml	app/src/main/res/color/text_light_selector.xml
+:100644 100644 5d7281a... 5d7281a... R100	app/res/color/text_selector.xml	app/src/main/res/color/text_selector.xml
+:100644 100644 3a00eaa... 3a00eaa... R100	app/res/color/text_title_selector.xml	app/src/main/res/color/text_title_selector.xml
+:100755 100755 3b28155... 3b28155... R100	app/res/drawable-hdpi-v11/ic_stat_ab_notification.png	app/src/main/res/drawable-hdpi-v11/ic_stat_ab_notification.png
+:100755 100755 72d24f6... 72d24f6... R100	app/res/drawable-hdpi-v9/ic_stat_ab_notification.png	app/src/main/res/drawable-hdpi-v9/ic_stat_ab_notification.png
+:100644 100644 6c880b0... 6c880b0... R100	app/res/drawable-hdpi/ic_action_refresh.png	app/src/main/res/drawable-hdpi/ic_action_refresh.png
+:100755 100755 dda32bd... dda32bd... R100	app/res/drawable-hdpi/ic_action_timer.png	app/src/main/res/drawable-hdpi/ic_action_timer.png
+:100644 100644 ec8c51f... ec8c51f... R100	app/res/drawable-hdpi/ic_drawer.png	app/src/main/res/drawable-hdpi/ic_drawer.png
+:100755 100755 eb11224... eb11224... R100	app/res/drawable-hdpi/ic_home.png	app/src/main/res/drawable-hdpi/ic_home.png
+:100755 100755 d3d4d39... d3d4d39... R100	app/res/drawable-hdpi/ic_stat_ab_notification.png	app/src/main/res/drawable-hdpi/ic_stat_ab_notification.png
+:100755 100755 0febe1d... 0febe1d... R100	app/res/drawable-hdpi/ic_timer.png	app/src/main/res/drawable-hdpi/ic_timer.png
+:100755 100755 bd9706f... bd9706f... R100	app/res/drawable-hdpi/icon.png	app/src/main/res/drawable-hdpi/icon.png
+:100755 100755 b8685af... b8685af... R100	app/res/drawable-ldpi-v11/ic_stat_ab_notification.png	app/src/main/res/drawable-ldpi-v11/ic_stat_ab_notification.png
+:100755 100755 944778f... 944778f... R100	app/res/drawable-ldpi-v9/ic_stat_ab_notification.png	app/src/main/res/drawable-ldpi-v9/ic_stat_ab_notification.png
+:100644 100644 a83dd4f... a83dd4f... R100	app/res/drawable-ldpi/ic_action_refresh.png	app/src/main/res/drawable-ldpi/ic_action_refresh.png
+:100755 100755 913cc25... 913cc25... R100	app/res/drawable-ldpi/icon.png	app/src/main/res/drawable-ldpi/icon.png
+:100755 100755 d4087e5... d4087e5... R100	app/res/drawable-mdpi-v11/ic_stat_ab_notification.png	app/src/main/res/drawable-mdpi-v11/ic_stat_ab_notification.png
+:100755 100755 6011074... 6011074... R100	app/res/drawable-mdpi-v9/ic_stat_ab_notification.png	app/src/main/res/drawable-mdpi-v9/ic_stat_ab_notification.png
+:100644 100644 7a86c4f... 7a86c4f... R100	app/res/drawable-mdpi/ic_action_refresh.png	app/src/main/res/drawable-mdpi/ic_action_refresh.png
+:100755 100755 475b0c6... 475b0c6... R100	app/res/drawable-mdpi/ic_action_timer.png	app/src/main/res/drawable-mdpi/ic_action_timer.png
+:100644 100644 7420a68... 7420a68... R100	app/res/drawable-mdpi/ic_drawer.png	app/src/main/res/drawable-mdpi/ic_drawer.png
+:100755 100755 ad925f8... ad925f8... R100	app/res/drawable-mdpi/ic_home.png	app/src/main/res/drawable-mdpi/ic_home.png
+:100755 100755 d763f38... d763f38... R100	app/res/drawable-mdpi/ic_stat_ab_notification.png	app/src/main/res/drawable-mdpi/ic_stat_ab_notification.png
+:100755 100755 74037a2... 74037a2... R100	app/res/drawable-mdpi/ic_timer.png	app/src/main/res/drawable-mdpi/ic_timer.png
+:100755 100755 20ffe00... 20ffe00... R100	app/res/drawable-mdpi/icon.png	app/src/main/res/drawable-mdpi/icon.png
+:100644 100644 e1fcf85... e1fcf85... R100	app/res/drawable-nodpi/gravatar_icon.png	app/src/main/res/drawable-nodpi/gravatar_icon.png
+:100644 100644 1eaae24... 1eaae24... R100	app/res/drawable-nodpi/spinner_inner.png	app/src/main/res/drawable-nodpi/spinner_inner.png
+:100644 100644 7c5ce76... 7c5ce76... R100	app/res/drawable-nodpi/spinner_outer.png	app/src/main/res/drawable-nodpi/spinner_outer.png
+:100755 100755 b321d3a... b321d3a... R100	app/res/drawable-xhdpi-v11/ic_stat_ab_notification.png	app/src/main/res/drawable-xhdpi-v11/ic_stat_ab_notification.png
+:100755 100755 1f33587... 1f33587... R100	app/res/drawable-xhdpi-v9/ic_stat_ab_notification.png	app/src/main/res/drawable-xhdpi-v9/ic_stat_ab_notification.png
+:100644 100644 4696a5c... 4696a5c... R100	app/res/drawable-xhdpi/ic_action_refresh.png	app/src/main/res/drawable-xhdpi/ic_action_refresh.png
+:100755 100755 1c2ca4f... 1c2ca4f... R100	app/res/drawable-xhdpi/ic_action_timer.png	app/src/main/res/drawable-xhdpi/ic_action_timer.png
+:100644 100644 7ffbe5c... 7ffbe5c... R100	app/res/drawable-xhdpi/ic_drawer.png	app/src/main/res/drawable-xhdpi/ic_drawer.png
+:100755 100755 a7031e4... a7031e4... R100	app/res/drawable-xhdpi/ic_home.png	app/src/main/res/drawable-xhdpi/ic_home.png
+:100755 100755 8d8c0e9... 8d8c0e9... R100	app/res/drawable-xhdpi/ic_stat_ab_notification.png	app/src/main/res/drawable-xhdpi/ic_stat_ab_notification.png
+:100755 100755 0e15946... 0e15946... R100	app/res/drawable-xhdpi/ic_timer.png	app/src/main/res/drawable-xhdpi/ic_timer.png
+:100755 100755 2754f3c... 2754f3c... R100	app/res/drawable-xhdpi/icon.png	app/src/main/res/drawable-xhdpi/icon.png
+:100755 100755 547a4e1... 547a4e1... R100	app/res/drawable-xxhdpi/ic_home.png	app/src/main/res/drawable-xxhdpi/ic_home.png
+:100755 100755 43ce820... 43ce820... R100	app/res/drawable-xxhdpi/ic_timer.png	app/src/main/res/drawable-xxhdpi/ic_timer.png
+:100644 100644 ca8b434... ca8b434... R100	app/res/drawable/actionbar_background.xml	app/src/main/res/drawable/actionbar_background.xml
+:100644 100644 aae94b5... aae94b5... R100	app/res/drawable/bootstrap_divider.xml	app/src/main/res/drawable/bootstrap_divider.xml
+:100644 100644 ce65aec... ce65aec... R100	app/res/drawable/button_background_disabled.xml	app/src/main/res/drawable/button_background_disabled.xml
+:100644 100644 d029209... d029209... R100	app/res/drawable/button_background_enabled.xml	app/src/main/res/drawable/button_background_enabled.xml
+:100644 100644 6dcb77f... 6dcb77f... R100	app/res/drawable/button_background_pressed.xml	app/src/main/res/drawable/button_background_pressed.xml
+:100644 100644 eafea6f... eafea6f... R100	app/res/drawable/button_background_states.xml	app/src/main/res/drawable/button_background_states.xml
+:100644 100644 64ebe5b... 64ebe5b... R100	app/res/drawable/edit_text_background.xml	app/src/main/res/drawable/edit_text_background.xml
+:100644 100644 be55d82... be55d82... R100	app/res/drawable/edit_text_cursor.xml	app/src/main/res/drawable/edit_text_cursor.xml
+:100644 100644 2f3e741... 2f3e741... R100	app/res/drawable/list_item_background.xml	app/src/main/res/drawable/list_item_background.xml
+:100644 100644 ba2f7bb... ba2f7bb... R100	app/res/drawable/main_background.xml	app/src/main/res/drawable/main_background.xml
+:100644 100644 ff48355... ff48355... R100	app/res/drawable/map_header_background.xml	app/src/main/res/drawable/map_header_background.xml
+:100755 100755 1045bb3... 1045bb3... R100	app/res/drawable/nav_menu_button_background_disabled.xml	app/src/main/res/drawable/nav_menu_button_background_disabled.xml
+:100755 100755 97384c3... 97384c3... R100	app/res/drawable/nav_menu_button_background_enabled.xml	app/src/main/res/drawable/nav_menu_button_background_enabled.xml
+:100755 100755 b6813e6... b6813e6... R100	app/res/drawable/nav_menu_button_background_pressed.xml	app/src/main/res/drawable/nav_menu_button_background_pressed.xml
+:100755 100755 f5a007b... f5a007b... R100	app/res/drawable/nav_menu_button_background_selector.xml	app/src/main/res/drawable/nav_menu_button_background_selector.xml
+:100644 100644 b26dae4... b26dae4... R100	app/res/drawable/spinner.xml	app/src/main/res/drawable/spinner.xml
+:100644 100644 d5ae88e... d5ae88e... R100	app/res/drawable/stripe.png	app/src/main/res/drawable/stripe.png
+:100644 100644 06f843c... 06f843c... R100	app/res/drawable/stripe_repeat.xml	app/src/main/res/drawable/stripe_repeat.xml
+:100644 100644 41ad590... 41ad590... R100	app/res/drawable/table_background_alternate_selector.xml	app/src/main/res/drawable/table_background_alternate_selector.xml
+:100644 100644 fed7225... fed7225... R100	app/res/drawable/table_background_selector.xml	app/src/main/res/drawable/table_background_selector.xml
+:100644 100644 5367a92... 5367a92... R100	app/res/layout/bootstrap_timer.xml	app/src/main/res/layout/bootstrap_timer.xml
+:100644 100644 b5df0bd... b5df0bd... R100	app/res/layout/carousel_view.xml	app/src/main/res/layout/carousel_view.xml
+:100644 100644 f974f73... f974f73... R100	app/res/layout/checkin_list_item.xml	app/src/main/res/layout/checkin_list_item.xml
+:100644 100644 c7fa6dd... c7fa6dd... R100	app/res/layout/checkins_list_item_labels.xml	app/src/main/res/layout/checkins_list_item_labels.xml
+:100644 100644 1500670... 1500670... R100	app/res/layout/item_list.xml	app/src/main/res/layout/item_list.xml
+:100644 100644 97aad6a... 97aad6a... R100	app/res/layout/login_activity.xml	app/src/main/res/layout/login_activity.xml
+:100644 100644 052db6a... 052db6a... R100	app/res/layout/navigation_drawer.xml	app/src/main/res/layout/navigation_drawer.xml
+:100644 100644 f977e39... f977e39... R100	app/res/layout/news.xml	app/src/main/res/layout/news.xml
+:100644 100644 fed1865... fed1865... R100	app/res/layout/news_list_item.xml	app/src/main/res/layout/news_list_item.xml
+:100644 100644 f7379a9... f7379a9... R100	app/res/layout/news_list_item_labels.xml	app/src/main/res/layout/news_list_item_labels.xml
+:100644 100644 0e1964c... 0e1964c... R100	app/res/layout/user_list_item.xml	app/src/main/res/layout/user_list_item.xml
+:100644 100644 47a50e5... 47a50e5... R100	app/res/layout/user_list_item_labels.xml	app/src/main/res/layout/user_list_item_labels.xml
+:100644 100644 8bf86ea... 8bf86ea... R100	app/res/layout/user_view.xml	app/src/main/res/layout/user_view.xml
+:100644 100644 054e3ae... 054e3ae... R100	app/res/menu/bootstrap.xml	app/src/main/res/menu/bootstrap.xml
+:100644 100644 1cfe5bf... 1cfe5bf... R100	app/res/values/colors.xml	app/src/main/res/values/colors.xml
+:100644 100644 7ffbe9c... 7ffbe9c... R100	app/res/values/strings.xml	app/src/main/res/values/strings.xml
+:100644 100644 e8cc640... e8cc640... R100	app/res/values/styles.xml	app/src/main/res/values/styles.xml
+:100644 100644 74807f8... 74807f8... R100	app/res/values/theme.xml	app/src/main/res/values/theme.xml
+:100644 100644 d4163f6... d4163f6... R100	app/res/xml/authenticator.xml	app/src/main/res/xml/authenticator.xml
+:100644 100644 ad4ae37... dab0ef6... M	integration-tests/default.properties
+:100644 100644 4471d30... 4471d30... R100	integration-tests/AndroidManifest.xml	integration-tests/src/main/AndroidManifest.xml
+:100644 100644 8074c4c... 8074c4c... R100	integration-tests/res/drawable-hdpi/ic_launcher.png	integration-tests/src/main/res/drawable-hdpi/ic_launcher.png
+:100644 100644 1095584... 1095584... R100	integration-tests/res/drawable-ldpi/ic_launcher.png	integration-tests/src/main/res/drawable-ldpi/ic_launcher.png
+:100644 100644 a07c69f... a07c69f... R100	integration-tests/res/drawable-mdpi/ic_launcher.png	integration-tests/src/main/res/drawable-mdpi/ic_launcher.png
+:100644 100644 effc7db... effc7db... R100	integration-tests/res/layout/main.xml	integration-tests/src/main/res/layout/main.xml
+:100644 100644 11c1b44... 11c1b44... R100	integration-tests/res/values/strings.xml	integration-tests/src/main/res/values/strings.xml
+:100644 100644 8fd1d38... 8fd1d38... R100	integration-tests/res/values/test_account_credentials.xml	integration-tests/src/main/res/values/test_account_credentials.xml
+commit=71ce8b0f956d6035405fe7a25a4915f7e111d0c5:donn@donnfelker.com
+
+:100644 100644 5218e27... c847d7c... M	.gitignore
+:100644 000000 ae533e1... 0000000... D	app/.classpath
+:100644 000000 b075024... 0000000... D	app/.project
+:100644 100644 a106b75... adf6d7e... M	app/AndroidManifest.xml
+:100644 100644 7f6bced... 830de7e... M	app/build.gradle
+:100644 100644 5c22dec... 861eddc... M	gradle/wrapper/gradle-wrapper.properties
+:100755 100755 91a7e26... 8a0b282... M	gradlew
+:100644 100644 8a0b282... d4552f3... M	gradlew.bat
+commit=fed90b12b830a2723bf03b77b18629276fee8ffb:daniel@kutik.eu
+
+:100644 100644 8b621b9... b5df0bd... M	app/res/layout/carousel_view.xml
+:100644 100644 a2c49be... 052db6a... M	app/res/layout/navigation_drawer.xml
+commit=05d32795b96949cdd25f2bcbfc98b846ce0dc860:daniel@kutik.eu
+
+:100644 100644 8b621b9... b5df0bd... M	app/src/main/res/layout/carousel_view.xml
+:100644 100644 a2c49be... 052db6a... M	app/src/main/res/layout/navigation_drawer.xml
+commit=61d7d399247c897b3505c41a26dea8ba70dcf109:daniel@kutik.eu
+
+:100644 100644 dae11f5... 1023156... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/view/CapitalizedTextView.java
+commit=813ad9f7f5235a520a006cfb6c1311194349e2a3:daniel@kutik.eu
+
+:100644 100644 9929597... 3e7f5c3... M	app/src/main/java/com/donnfelker/android/bootstrap/AndroidModule.java
+:100644 100644 5a735c4... 98dc7ca... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapApplication.java
+:100644 100644 8dd73e1... 6fed048... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapModule.java
+:100644 100644 75797ff... ef32770... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapServiceProvider.java
+:100644 100644 937d8bd... 77b4fdb... M	app/src/main/java/com/donnfelker/android/bootstrap/Injector.java
+:100644 100644 dbc06b6... e3ab0df... M	app/src/main/java/com/donnfelker/android/bootstrap/RootModule.java
+:100644 100644 e9eb16c... e6d3ffa... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/AccountAuthenticatorService.java
+:100644 100644 d196578... 469d1a8... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/ApiKeyProvider.java
+:100644 100644 3fd3a73... d868b4d... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/BootstrapAccountAuthenticator.java
+:100644 100644 34e3bee... 9ebd7d5... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/BootstrapAuthenticatorActivity.java
+:100644 100644 9df81d5... 44f6ee1... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/LogoutService.java
+:100644 100644 9edf8ae... 1a46672... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/SherlockAccountAuthenticatorActivity.java
+:100644 100644 8ef2917... d19bf85... M	app/src/main/java/com/donnfelker/android/bootstrap/core/BootstrapService.java
+:100644 100644 4bee35e... 037cebf... M	app/src/main/java/com/donnfelker/android/bootstrap/core/CheckIn.java
+:100644 100644 cd5a386... b302f72... M	app/src/main/java/com/donnfelker/android/bootstrap/core/Constants.java
+:100644 100644 5ebb517... d292583... M	app/src/main/java/com/donnfelker/android/bootstrap/core/GravatarUtils.java
+:100644 100644 f1d11fb... 4f07970... M	app/src/main/java/com/donnfelker/android/bootstrap/core/ImageUtils.java
+:100644 100644 3f511af... fe9f6e3... M	app/src/main/java/com/donnfelker/android/bootstrap/core/Location.java
+:100644 100644 391b517... 7036bc4... M	app/src/main/java/com/donnfelker/android/bootstrap/core/News.java
+:100644 100644 3cef3a6... 538f7d2... M	app/src/main/java/com/donnfelker/android/bootstrap/core/TimerService.java
+:100644 100644 9a29c1f... e6cef0a... M	app/src/main/java/com/donnfelker/android/bootstrap/core/User.java
+:100644 100644 bf82e88... d5148d3... M	app/src/main/java/com/donnfelker/android/bootstrap/core/UserAgentProvider.java
+:100644 100644 7446d65... dbe9db6... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/AlternatingColorListAdapter.java
+:100644 100644 9371d00... 3430b60... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/AsyncLoader.java
+:100644 100644 47889ea... bc5474d... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapActivity.java
+:100644 100644 f896477... d7765ed... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapPagerAdapter.java
+:100644 100644 567c7b5... 391e008... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapTimerActivity.java
+:100644 100644 19e790b... e467d1c... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CarouselActivity.java
+:100644 100644 2eacfac... d1069cf... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CheckInsListAdapter.java
+:100644 100644 32241ef... 10c8311... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CheckInsListFragment.java
+:100644 100644 d2be941... bb5fb8b... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/HeaderFooterListAdapter.java
+:100644 100644 7918311... 5dfc05f... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/ItemListFragment.java
+:100644 100644 5580fe1... 7ce5f41... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NewsActivity.java
+:100644 100644 39e3d21... 80ef940... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NewsListAdapter.java
+:100644 100644 206ea2b... 5230864... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NewsListFragment.java
+:100644 100644 ecdde3b... 5f0f1c9... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/ThrowableLoader.java
+:100644 100644 e7437be... 1016af8... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserActivity.java
+:100644 100644 e3f8340... bd59623... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserListAdapter.java
+:100644 100644 523450a... d1bbd44... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserListFragment.java
+:100644 100644 dae11f5... 1df6698... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/view/CapitalizedTextView.java
+:100644 100644 f32c825... fcd2be7... M	app/src/main/java/com/donnfelker/android/bootstrap/util/Ln.java
+:100644 100644 b5772d2... 631625d... M	app/src/main/java/com/donnfelker/android/bootstrap/util/SafeAsyncTask.java
+:100644 100644 72a242b... 847430d... M	app/src/main/java/com/donnfelker/android/bootstrap/util/Strings.java
+commit=d2eca057b2ac648ca8a2580d909e3c41b3561d66:daniel@kutik.eu
+
+:100644 100644 b7063ab... 32e4b48... M	.gitignore
+commit=05a1aab9b32b7a7c34c2c3b4d08db159bf8dc556:daniel@kutik.eu
+
+:100644 100644 eaabcd5... dae11f5... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/view/CapitalizedTextView.java
+commit=d03211c14b4e47f32c7b64db31b51a39c1b5fe17:daniel@kutik.eu
+
+:100644 100644 db560fb... b7063ab... M	.gitignore
+:100644 000000 ae533e1... 0000000... D	app/.classpath
+:100644 000000 b075024... 0000000... D	app/.project
+:100644 100644 a83ab52... 7e192c8... M	app/build.gradle
+:100644 000000 cf12d28... 0000000... D	app/libs/android-support-v4.jar
+:100644 000000 b5f5292... 0000000... D	app/libs/android-support-v7-appcompat.jar
+:100644 100644 a106b75... a106b75... R100	app/AndroidManifest.xml	app/src/main/AndroidManifest.xml
+:100644 100644 2fcef81... 2fcef81... R100	app/res/color/nav_text_selector.xml	app/src/main/res/color/nav_text_selector.xml
+:100644 100644 ae45c33... ae45c33... R100	app/res/color/table_text_light_selector.xml	app/src/main/res/color/table_text_light_selector.xml
+:100644 100644 647c8f5... 647c8f5... R100	app/res/color/table_text_selector.xml	app/src/main/res/color/table_text_selector.xml
+:100644 100644 2b9bdcd... 2b9bdcd... R100	app/res/color/text_light_selector.xml	app/src/main/res/color/text_light_selector.xml
+:100644 100644 5d7281a... 5d7281a... R100	app/res/color/text_selector.xml	app/src/main/res/color/text_selector.xml
+:100644 100644 3a00eaa... 3a00eaa... R100	app/res/color/text_title_selector.xml	app/src/main/res/color/text_title_selector.xml
+:100755 100755 3b28155... 3b28155... R100	app/res/drawable-hdpi-v11/ic_stat_ab_notification.png	app/src/main/res/drawable-hdpi-v11/ic_stat_ab_notification.png
+:100755 100755 72d24f6... 72d24f6... R100	app/res/drawable-hdpi-v9/ic_stat_ab_notification.png	app/src/main/res/drawable-hdpi-v9/ic_stat_ab_notification.png
+:100644 100644 6c880b0... 6c880b0... R100	app/res/drawable-hdpi/ic_action_refresh.png	app/src/main/res/drawable-hdpi/ic_action_refresh.png
+:100755 100755 dda32bd... dda32bd... R100	app/res/drawable-hdpi/ic_action_timer.png	app/src/main/res/drawable-hdpi/ic_action_timer.png
+:100644 100644 ec8c51f... ec8c51f... R100	app/res/drawable-hdpi/ic_drawer.png	app/src/main/res/drawable-hdpi/ic_drawer.png
+:100755 100755 eb11224... eb11224... R100	app/res/drawable-hdpi/ic_home.png	app/src/main/res/drawable-hdpi/ic_home.png
+:100755 100755 d3d4d39... d3d4d39... R100	app/res/drawable-hdpi/ic_stat_ab_notification.png	app/src/main/res/drawable-hdpi/ic_stat_ab_notification.png
+:100755 100755 0febe1d... 0febe1d... R100	app/res/drawable-hdpi/ic_timer.png	app/src/main/res/drawable-hdpi/ic_timer.png
+:100755 100755 bd9706f... bd9706f... R100	app/res/drawable-hdpi/icon.png	app/src/main/res/drawable-hdpi/icon.png
+:100755 100755 b8685af... b8685af... R100	app/res/drawable-ldpi-v11/ic_stat_ab_notification.png	app/src/main/res/drawable-ldpi-v11/ic_stat_ab_notification.png
+:100755 100755 944778f... 944778f... R100	app/res/drawable-ldpi-v9/ic_stat_ab_notification.png	app/src/main/res/drawable-ldpi-v9/ic_stat_ab_notification.png
+:100644 100644 a83dd4f... a83dd4f... R100	app/res/drawable-ldpi/ic_action_refresh.png	app/src/main/res/drawable-ldpi/ic_action_refresh.png
+:100755 100755 913cc25... 913cc25... R100	app/res/drawable-ldpi/icon.png	app/src/main/res/drawable-ldpi/icon.png
+:100755 100755 d4087e5... d4087e5... R100	app/res/drawable-mdpi-v11/ic_stat_ab_notification.png	app/src/main/res/drawable-mdpi-v11/ic_stat_ab_notification.png
+:100755 100755 6011074... 6011074... R100	app/res/drawable-mdpi-v9/ic_stat_ab_notification.png	app/src/main/res/drawable-mdpi-v9/ic_stat_ab_notification.png
+:100644 100644 7a86c4f... 7a86c4f... R100	app/res/drawable-mdpi/ic_action_refresh.png	app/src/main/res/drawable-mdpi/ic_action_refresh.png
+:100755 100755 475b0c6... 475b0c6... R100	app/res/drawable-mdpi/ic_action_timer.png	app/src/main/res/drawable-mdpi/ic_action_timer.png
+:100644 100644 7420a68... 7420a68... R100	app/res/drawable-mdpi/ic_drawer.png	app/src/main/res/drawable-mdpi/ic_drawer.png
+:100755 100755 ad925f8... ad925f8... R100	app/res/drawable-mdpi/ic_home.png	app/src/main/res/drawable-mdpi/ic_home.png
+:100755 100755 d763f38... d763f38... R100	app/res/drawable-mdpi/ic_stat_ab_notification.png	app/src/main/res/drawable-mdpi/ic_stat_ab_notification.png
+:100755 100755 74037a2... 74037a2... R100	app/res/drawable-mdpi/ic_timer.png	app/src/main/res/drawable-mdpi/ic_timer.png
+:100755 100755 20ffe00... 20ffe00... R100	app/res/drawable-mdpi/icon.png	app/src/main/res/drawable-mdpi/icon.png
+:100644 100644 e1fcf85... e1fcf85... R100	app/res/drawable-nodpi/gravatar_icon.png	app/src/main/res/drawable-nodpi/gravatar_icon.png
+:100644 100644 1eaae24... 1eaae24... R100	app/res/drawable-nodpi/spinner_inner.png	app/src/main/res/drawable-nodpi/spinner_inner.png
+:100644 100644 7c5ce76... 7c5ce76... R100	app/res/drawable-nodpi/spinner_outer.png	app/src/main/res/drawable-nodpi/spinner_outer.png
+:100755 100755 b321d3a... b321d3a... R100	app/res/drawable-xhdpi-v11/ic_stat_ab_notification.png	app/src/main/res/drawable-xhdpi-v11/ic_stat_ab_notification.png
+:100755 100755 1f33587... 1f33587... R100	app/res/drawable-xhdpi-v9/ic_stat_ab_notification.png	app/src/main/res/drawable-xhdpi-v9/ic_stat_ab_notification.png
+:100644 100644 4696a5c... 4696a5c... R100	app/res/drawable-xhdpi/ic_action_refresh.png	app/src/main/res/drawable-xhdpi/ic_action_refresh.png
+:100755 100755 1c2ca4f... 1c2ca4f... R100	app/res/drawable-xhdpi/ic_action_timer.png	app/src/main/res/drawable-xhdpi/ic_action_timer.png
+:100644 100644 7ffbe5c... 7ffbe5c... R100	app/res/drawable-xhdpi/ic_drawer.png	app/src/main/res/drawable-xhdpi/ic_drawer.png
+:100755 100755 a7031e4... a7031e4... R100	app/res/drawable-xhdpi/ic_home.png	app/src/main/res/drawable-xhdpi/ic_home.png
+:100755 100755 8d8c0e9... 8d8c0e9... R100	app/res/drawable-xhdpi/ic_stat_ab_notification.png	app/src/main/res/drawable-xhdpi/ic_stat_ab_notification.png
+:100755 100755 0e15946... 0e15946... R100	app/res/drawable-xhdpi/ic_timer.png	app/src/main/res/drawable-xhdpi/ic_timer.png
+:100755 100755 2754f3c... 2754f3c... R100	app/res/drawable-xhdpi/icon.png	app/src/main/res/drawable-xhdpi/icon.png
+:100755 100755 547a4e1... 547a4e1... R100	app/res/drawable-xxhdpi/ic_home.png	app/src/main/res/drawable-xxhdpi/ic_home.png
+:100755 100755 43ce820... 43ce820... R100	app/res/drawable-xxhdpi/ic_timer.png	app/src/main/res/drawable-xxhdpi/ic_timer.png
+:100644 100644 ca8b434... ca8b434... R100	app/res/drawable/actionbar_background.xml	app/src/main/res/drawable/actionbar_background.xml
+:100644 100644 aae94b5... aae94b5... R100	app/res/drawable/bootstrap_divider.xml	app/src/main/res/drawable/bootstrap_divider.xml
+:100644 100644 ce65aec... ce65aec... R100	app/res/drawable/button_background_disabled.xml	app/src/main/res/drawable/button_background_disabled.xml
+:100644 100644 d029209... d029209... R100	app/res/drawable/button_background_enabled.xml	app/src/main/res/drawable/button_background_enabled.xml
+:100644 100644 6dcb77f... 6dcb77f... R100	app/res/drawable/button_background_pressed.xml	app/src/main/res/drawable/button_background_pressed.xml
+:100644 100644 eafea6f... eafea6f... R100	app/res/drawable/button_background_states.xml	app/src/main/res/drawable/button_background_states.xml
+:100644 100644 64ebe5b... 64ebe5b... R100	app/res/drawable/edit_text_background.xml	app/src/main/res/drawable/edit_text_background.xml
+:100644 100644 be55d82... be55d82... R100	app/res/drawable/edit_text_cursor.xml	app/src/main/res/drawable/edit_text_cursor.xml
+:100644 100644 2f3e741... 2f3e741... R100	app/res/drawable/list_item_background.xml	app/src/main/res/drawable/list_item_background.xml
+:100644 100644 ba2f7bb... ba2f7bb... R100	app/res/drawable/main_background.xml	app/src/main/res/drawable/main_background.xml
+:100644 100644 ff48355... ff48355... R100	app/res/drawable/map_header_background.xml	app/src/main/res/drawable/map_header_background.xml
+:100755 100755 1045bb3... 1045bb3... R100	app/res/drawable/nav_menu_button_background_disabled.xml	app/src/main/res/drawable/nav_menu_button_background_disabled.xml
+:100755 100755 97384c3... 97384c3... R100	app/res/drawable/nav_menu_button_background_enabled.xml	app/src/main/res/drawable/nav_menu_button_background_enabled.xml
+:100755 100755 b6813e6... b6813e6... R100	app/res/drawable/nav_menu_button_background_pressed.xml	app/src/main/res/drawable/nav_menu_button_background_pressed.xml
+:100755 100755 f5a007b... f5a007b... R100	app/res/drawable/nav_menu_button_background_selector.xml	app/src/main/res/drawable/nav_menu_button_background_selector.xml
+:100644 100644 b26dae4... b26dae4... R100	app/res/drawable/spinner.xml	app/src/main/res/drawable/spinner.xml
+:100644 100644 d5ae88e... d5ae88e... R100	app/res/drawable/stripe.png	app/src/main/res/drawable/stripe.png
+:100644 100644 06f843c... 06f843c... R100	app/res/drawable/stripe_repeat.xml	app/src/main/res/drawable/stripe_repeat.xml
+:100644 100644 41ad590... 41ad590... R100	app/res/drawable/table_background_alternate_selector.xml	app/src/main/res/drawable/table_background_alternate_selector.xml
+:100644 100644 fed7225... fed7225... R100	app/res/drawable/table_background_selector.xml	app/src/main/res/drawable/table_background_selector.xml
+:100644 100644 5367a92... 5367a92... R100	app/res/layout/bootstrap_timer.xml	app/src/main/res/layout/bootstrap_timer.xml
+:100644 100644 8b621b9... 8b621b9... R100	app/res/layout/carousel_view.xml	app/src/main/res/layout/carousel_view.xml
+:100644 100644 f974f73... f974f73... R100	app/res/layout/checkin_list_item.xml	app/src/main/res/layout/checkin_list_item.xml
+:100644 100644 c7fa6dd... c7fa6dd... R100	app/res/layout/checkins_list_item_labels.xml	app/src/main/res/layout/checkins_list_item_labels.xml
+:100644 100644 1500670... 1500670... R100	app/res/layout/item_list.xml	app/src/main/res/layout/item_list.xml
+:100644 100644 97aad6a... 97aad6a... R100	app/res/layout/login_activity.xml	app/src/main/res/layout/login_activity.xml
+:100644 100644 a2c49be... a2c49be... R100	app/res/layout/navigation_drawer.xml	app/src/main/res/layout/navigation_drawer.xml
+:100644 100644 f977e39... f977e39... R100	app/res/layout/news.xml	app/src/main/res/layout/news.xml
+:100644 100644 fed1865... fed1865... R100	app/res/layout/news_list_item.xml	app/src/main/res/layout/news_list_item.xml
+:100644 100644 f7379a9... f7379a9... R100	app/res/layout/news_list_item_labels.xml	app/src/main/res/layout/news_list_item_labels.xml
+:100644 100644 0e1964c... 0e1964c... R100	app/res/layout/user_list_item.xml	app/src/main/res/layout/user_list_item.xml
+:100644 100644 47a50e5... 47a50e5... R100	app/res/layout/user_list_item_labels.xml	app/src/main/res/layout/user_list_item_labels.xml
+:100644 100644 8bf86ea... 8bf86ea... R100	app/res/layout/user_view.xml	app/src/main/res/layout/user_view.xml
+:100644 100644 054e3ae... 054e3ae... R100	app/res/menu/bootstrap.xml	app/src/main/res/menu/bootstrap.xml
+:100644 100644 1cfe5bf... 1cfe5bf... R100	app/res/values/colors.xml	app/src/main/res/values/colors.xml
+:100644 100644 7ffbe9c... 7ffbe9c... R100	app/res/values/strings.xml	app/src/main/res/values/strings.xml
+:100644 100644 e8cc640... e8cc640... R100	app/res/values/styles.xml	app/src/main/res/values/styles.xml
+:100644 100644 74807f8... 74807f8... R100	app/res/values/theme.xml	app/src/main/res/values/theme.xml
+:100644 100644 d4163f6... d4163f6... R100	app/res/xml/authenticator.xml	app/src/main/res/xml/authenticator.xml
+:100644 100644 5c22dec... 3b39521... M	gradle/wrapper/gradle-wrapper.properties
+:100644 100644 8a0b282... aec9973... M	gradlew.bat
+:100644 000000 a7628f0... 0000000... D	integration-tests/.classpath
+:100644 000000 6dbf54a... 0000000... D	integration-tests/.project
+:100644 000000 5c91302... 0000000... D	integration-tests/.settings/org.eclipse.jdt.core.prefs
+:100644 000000 a6bfc93... 0000000... D	integration-tests/.settings/org.eclipse.jdt.ui.prefs
+:000000 100644 0000000... e69de29... A	integration-tests/build.gradle
+:100644 100644 ad4ae37... 3411c80... M	integration-tests/default.properties
+:100644 100644 4471d30... 3f9cdfc... R097	integration-tests/AndroidManifest.xml	integration-tests/src/main/AndroidManifest.xml
+:100644 100644 8074c4c... 8074c4c... R100	integration-tests/res/drawable-hdpi/ic_launcher.png	integration-tests/src/main/res/drawable-hdpi/ic_launcher.png
+:100644 100644 1095584... 1095584... R100	integration-tests/res/drawable-ldpi/ic_launcher.png	integration-tests/src/main/res/drawable-ldpi/ic_launcher.png
+:100644 100644 a07c69f... a07c69f... R100	integration-tests/res/drawable-mdpi/ic_launcher.png	integration-tests/src/main/res/drawable-mdpi/ic_launcher.png
+:100644 100644 effc7db... effc7db... R100	integration-tests/res/layout/main.xml	integration-tests/src/main/res/layout/main.xml
+:100644 100644 11c1b44... 11c1b44... R100	integration-tests/res/values/strings.xml	integration-tests/src/main/res/values/strings.xml
+:100644 100644 8fd1d38... 8fd1d38... R100	integration-tests/res/values/test_account_credentials.xml	integration-tests/src/main/res/values/test_account_credentials.xml
+commit=c0f55c6cdf81ccfee70813479cf2dc85e920d8c3:kenkyee@excite.com
+
+:100644 100644 db560fb... 5218e27... M	.gitignore
+:100644 100644 015ca95... abc3a2a... M	README.md
+:100644 100644 a83ab52... 7f6bced... M	app/build.gradle
+commit=da3954a8f48120bc48e5b3e83ab644657b9877ce:donn@donnfelker.com
+
+:100644 100644 b4c0b4c... 8b621b9... M	app/res/layout/carousel_view.xml
+:100644 100644 d83586f... 19e790b... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CarouselActivity.java
+commit=f5b75d6de3d27c9834fcb10eec11b8ed9ba04279:donn@donnfelker.com
+
+:100644 100644 ae6cf3c... 054e3ae... M	app/res/menu/bootstrap.xml
+commit=9e278dfd92883f11e2dea66d42e632bc0fa9d999:donn@donnfelker.com
+
+:100644 100644 0399eb9... db560fb... M	.gitignore
+:100644 000000 8e2db0c... 0000000... D	.gradle/1.6/taskArtifacts/cache.properties
+:100644 000000 40fdece... 0000000... D	.gradle/1.6/taskArtifacts/cache.properties.lock
+:100644 000000 be40b2d... 0000000... D	.gradle/1.6/taskArtifacts/fileHashes.bin
+:100644 000000 7ad05e5... 0000000... D	.gradle/1.6/taskArtifacts/fileSnapshots.bin
+:100644 000000 a62fc27... 0000000... D	.gradle/1.6/taskArtifacts/outputFileStates.bin
+:100644 000000 da05e65... 0000000... D	.gradle/1.6/taskArtifacts/taskArtifacts.bin
+:100644 000000 5a85bb1... 0000000... D	.gradle/1.7/taskArtifacts/cache.properties
+:100644 000000 40fdece... 0000000... D	.gradle/1.7/taskArtifacts/cache.properties.lock
+:100644 000000 f113978... 0000000... D	.gradle/1.7/taskArtifacts/fileSnapshots.bin
+:100644 000000 5ec20ed... 0000000... D	.gradle/1.7/taskArtifacts/taskArtifacts.bin
+:100644 100644 0d43512... a83ab52... M	app/build.gradle
+commit=cd1e91a31ed7fcfbc78307eabc2ef22e29a19c31:donn@donnfelker.com
+
+:100644 100644 e8ad350... be40b2d... M	.gradle/1.6/taskArtifacts/fileHashes.bin
+:100644 100644 6d35903... 7ad05e5... M	.gradle/1.6/taskArtifacts/fileSnapshots.bin
+:100644 100644 e6eca38... a62fc27... M	.gradle/1.6/taskArtifacts/outputFileStates.bin
+:100644 100644 9d31cf8... da05e65... M	.gradle/1.6/taskArtifacts/taskArtifacts.bin
+:100644 000000 a4763d1... 0000000... D	appcompat/.classpath
+:100644 000000 957d33d... 0000000... D	appcompat/.project
+:100644 000000 a77e640... 0000000... D	appcompat/AndroidManifest.xml
+:100644 000000 8e8de05... 0000000... D	appcompat/README.txt
+:100644 000000 cf12d28... 0000000... D	appcompat/libs/android-support-v4.jar
+:100644 000000 b5f5292... 0000000... D	appcompat/libs/android-support-v7-appcompat.jar
+:100644 000000 da7ee29... 0000000... D	appcompat/res/anim/abc_fade_in.xml
+:100644 000000 c81b39a... 0000000... D	appcompat/res/anim/abc_fade_out.xml
+:100644 000000 1afa8fe... 0000000... D	appcompat/res/anim/abc_slide_in_bottom.xml
+:100644 000000 ab824f2... 0000000... D	appcompat/res/anim/abc_slide_in_top.xml
+:100644 000000 b309fe8... 0000000... D	appcompat/res/anim/abc_slide_out_bottom.xml
+:100644 000000 e84d1c7... 0000000... D	appcompat/res/anim/abc_slide_out_top.xml
+:100644 000000 c4579fa... 0000000... D	appcompat/res/color/abc_search_url_text_holo.xml
+:100644 000000 769463b... 0000000... D	appcompat/res/drawable-hdpi/abc_ab_bottom_solid_dark_holo.9.png
+:100644 000000 7305047... 0000000... D	appcompat/res/drawable-hdpi/abc_ab_bottom_solid_light_holo.9.png
+:100644 000000 712a551... 0000000... D	appcompat/res/drawable-hdpi/abc_ab_bottom_transparent_dark_holo.9.png
+:100644 000000 bf3b943... 0000000... D	appcompat/res/drawable-hdpi/abc_ab_bottom_transparent_light_holo.9.png
+:100644 000000 6c14157... 0000000... D	appcompat/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png
+:100644 000000 f4ff16b... 0000000... D	appcompat/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png
+:100644 000000 cbbaec5... 0000000... D	appcompat/res/drawable-hdpi/abc_ab_solid_dark_holo.9.png
+:100644 000000 af917e5... 0000000... D	appcompat/res/drawable-hdpi/abc_ab_solid_light_holo.9.png
+:100644 000000 0520e5a... 0000000... D	appcompat/res/drawable-hdpi/abc_ab_stacked_solid_dark_holo.9.png
+:100644 000000 e3e3f93... 0000000... D	appcompat/res/drawable-hdpi/abc_ab_stacked_solid_light_holo.9.png
+:100644 000000 1e39572... 0000000... D	appcompat/res/drawable-hdpi/abc_ab_stacked_transparent_dark_holo.9.png
+:100644 000000 a16db85... 0000000... D	appcompat/res/drawable-hdpi/abc_ab_stacked_transparent_light_holo.9.png
+:100644 000000 0eff695... 0000000... D	appcompat/res/drawable-hdpi/abc_ab_transparent_dark_holo.9.png
+:100644 000000 219b170... 0000000... D	appcompat/res/drawable-hdpi/abc_ab_transparent_light_holo.9.png
+:100644 000000 1d836f6... 0000000... D	appcompat/res/drawable-hdpi/abc_cab_background_bottom_holo_dark.9.png
+:100644 000000 5818666... 0000000... D	appcompat/res/drawable-hdpi/abc_cab_background_bottom_holo_light.9.png
+:100644 000000 564fb34... 0000000... D	appcompat/res/drawable-hdpi/abc_cab_background_top_holo_dark.9.png
+:100644 000000 ae21b76... 0000000... D	appcompat/res/drawable-hdpi/abc_cab_background_top_holo_light.9.png
+:100644 000000 897a1c1... 0000000... D	appcompat/res/drawable-hdpi/abc_ic_ab_back_holo_dark.png
+:100644 000000 0c89f71... 0000000... D	appcompat/res/drawable-hdpi/abc_ic_ab_back_holo_light.png
+:100644 000000 d8662e3... 0000000... D	appcompat/res/drawable-hdpi/abc_ic_cab_done_holo_dark.png
+:100644 000000 ed03f62... 0000000... D	appcompat/res/drawable-hdpi/abc_ic_cab_done_holo_light.png
+:100644 000000 d97c342... 0000000... D	appcompat/res/drawable-hdpi/abc_ic_clear_disabled.png
+:100644 000000 33ad8d4... 0000000... D	appcompat/res/drawable-hdpi/abc_ic_clear_normal.png
+:100644 000000 3edbd74... 0000000... D	appcompat/res/drawable-hdpi/abc_ic_clear_search_api_disabled_holo_light.png
+:100644 000000 90db01b... 0000000... D	appcompat/res/drawable-hdpi/abc_ic_clear_search_api_holo_light.png
+:100644 000000 83f36a9... 0000000... D	appcompat/res/drawable-hdpi/abc_ic_commit_search_api_holo_dark.png
+:100644 000000 a3cc21e... 0000000... D	appcompat/res/drawable-hdpi/abc_ic_commit_search_api_holo_light.png
+:100644 000000 97b825e... 0000000... D	appcompat/res/drawable-hdpi/abc_ic_go.png
+:100644 000000 7e1ba2a... 0000000... D	appcompat/res/drawable-hdpi/abc_ic_go_search_api_holo_light.png
+:100644 000000 2abc458... 0000000... D	appcompat/res/drawable-hdpi/abc_ic_menu_moreoverflow_normal_holo_dark.png
+:100644 000000 bb6aef1... 0000000... D	appcompat/res/drawable-hdpi/abc_ic_menu_moreoverflow_normal_holo_light.png
+:100644 000000 6f747c8... 0000000... D	appcompat/res/drawable-hdpi/abc_ic_menu_share_holo_dark.png
+:100644 000000 682b2fd... 0000000... D	appcompat/res/drawable-hdpi/abc_ic_menu_share_holo_light.png
+:100644 000000 bf8bd66... 0000000... D	appcompat/res/drawable-hdpi/abc_ic_search.png
+:100644 000000 72e207b... 0000000... D	appcompat/res/drawable-hdpi/abc_ic_search_api_holo_light.png
+:100644 000000 66d14ae... 0000000... D	appcompat/res/drawable-hdpi/abc_ic_voice_search.png
+:100644 000000 3481c98... 0000000... D	appcompat/res/drawable-hdpi/abc_ic_voice_search_api_holo_light.png
+:100644 000000 986ab0b... 0000000... D	appcompat/res/drawable-hdpi/abc_list_divider_holo_dark.9.png
+:100644 000000 0279e17... 0000000... D	appcompat/res/drawable-hdpi/abc_list_divider_holo_light.9.png
+:100644 000000 5552708... 0000000... D	appcompat/res/drawable-hdpi/abc_list_focused_holo.9.png
+:100644 000000 4ea7afa... 0000000... D	appcompat/res/drawable-hdpi/abc_list_longpressed_holo.9.png
+:100644 000000 5654cd6... 0000000... D	appcompat/res/drawable-hdpi/abc_list_pressed_holo_dark.9.png
+:100644 000000 5654cd6... 0000000... D	appcompat/res/drawable-hdpi/abc_list_pressed_holo_light.9.png
+:100644 000000 f6fd30d... 0000000... D	appcompat/res/drawable-hdpi/abc_list_selector_disabled_holo_dark.9.png
+:100644 000000 ca8e9a2... 0000000... D	appcompat/res/drawable-hdpi/abc_list_selector_disabled_holo_light.9.png
+:100644 000000 72ee35f... 0000000... D	appcompat/res/drawable-hdpi/abc_menu_dropdown_panel_holo_dark.9.png
+:100644 000000 0d1f9bf... 0000000... D	appcompat/res/drawable-hdpi/abc_menu_dropdown_panel_holo_light.9.png
+:100644 000000 465ee6d... 0000000... D	appcompat/res/drawable-hdpi/abc_menu_hardkey_panel_holo_dark.9.png
+:100644 000000 76a5c53... 0000000... D	appcompat/res/drawable-hdpi/abc_menu_hardkey_panel_holo_light.9.png
+:100644 000000 88f8765... 0000000... D	appcompat/res/drawable-hdpi/abc_spinner_ab_default_holo_dark.9.png
+:100644 000000 fa68a13... 0000000... D	appcompat/res/drawable-hdpi/abc_spinner_ab_default_holo_light.9.png
+:100644 000000 78c63cb... 0000000... D	appcompat/res/drawable-hdpi/abc_spinner_ab_disabled_holo_dark.9.png
+:100644 000000 e13a9f8... 0000000... D	appcompat/res/drawable-hdpi/abc_spinner_ab_disabled_holo_light.9.png
+:100644 000000 26d2e16... 0000000... D	appcompat/res/drawable-hdpi/abc_spinner_ab_focused_holo_dark.9.png
+:100644 000000 00ae92a... 0000000... D	appcompat/res/drawable-hdpi/abc_spinner_ab_focused_holo_light.9.png
+:100644 000000 dc20a8d... 0000000... D	appcompat/res/drawable-hdpi/abc_spinner_ab_pressed_holo_dark.9.png
+:100644 000000 272a2a1... 0000000... D	appcompat/res/drawable-hdpi/abc_spinner_ab_pressed_holo_light.9.png
+:100644 000000 673e3bf... 0000000... D	appcompat/res/drawable-hdpi/abc_tab_selected_focused_holo.9.png
+:100644 000000 d57df98... 0000000... D	appcompat/res/drawable-hdpi/abc_tab_selected_holo.9.png
+:100644 000000 6278eef... 0000000... D	appcompat/res/drawable-hdpi/abc_tab_selected_pressed_holo.9.png
+:100644 000000 aadc6f8... 0000000... D	appcompat/res/drawable-hdpi/abc_tab_unselected_pressed_holo.9.png
+:100644 000000 70c0e73... 0000000... D	appcompat/res/drawable-hdpi/abc_textfield_search_default_holo_dark.9.png
+:100644 000000 36e71d8... 0000000... D	appcompat/res/drawable-hdpi/abc_textfield_search_default_holo_light.9.png
+:100644 000000 4be4af5... 0000000... D	appcompat/res/drawable-hdpi/abc_textfield_search_right_default_holo_dark.9.png
+:100644 000000 e72193f... 0000000... D	appcompat/res/drawable-hdpi/abc_textfield_search_right_default_holo_light.9.png
+:100644 000000 8f20b9d... 0000000... D	appcompat/res/drawable-hdpi/abc_textfield_search_right_selected_holo_dark.9.png
+:100644 000000 04f657e... 0000000... D	appcompat/res/drawable-hdpi/abc_textfield_search_right_selected_holo_light.9.png
+:100644 000000 99309ef... 0000000... D	appcompat/res/drawable-hdpi/abc_textfield_search_selected_holo_dark.9.png
+:100644 000000 9bde7fb... 0000000... D	appcompat/res/drawable-hdpi/abc_textfield_search_selected_holo_light.9.png
+:100644 000000 b229367... 0000000... D	appcompat/res/drawable-mdpi/abc_ab_bottom_solid_dark_holo.9.png
+:100644 000000 0706c8a... 0000000... D	appcompat/res/drawable-mdpi/abc_ab_bottom_solid_light_holo.9.png
+:100644 000000 d814d02... 0000000... D	appcompat/res/drawable-mdpi/abc_ab_bottom_transparent_dark_holo.9.png
+:100644 000000 b139c8e... 0000000... D	appcompat/res/drawable-mdpi/abc_ab_bottom_transparent_light_holo.9.png
+:100644 000000 ed4ba34... 0000000... D	appcompat/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png
+:100644 000000 8f10bd5... 0000000... D	appcompat/res/drawable-mdpi/abc_ab_share_pack_holo_light.9.png
+:100644 000000 743d00b... 0000000... D	appcompat/res/drawable-mdpi/abc_ab_solid_dark_holo.9.png
+:100644 000000 17c1fb9... 0000000... D	appcompat/res/drawable-mdpi/abc_ab_solid_light_holo.9.png
+:100644 000000 007a4b2... 0000000... D	appcompat/res/drawable-mdpi/abc_ab_stacked_solid_dark_holo.9.png
+:100644 000000 ad6e1a4... 0000000... D	appcompat/res/drawable-mdpi/abc_ab_stacked_solid_light_holo.9.png
+:100644 000000 0ad6c88... 0000000... D	appcompat/res/drawable-mdpi/abc_ab_stacked_transparent_dark_holo.9.png
+:100644 000000 19b50ab... 0000000... D	appcompat/res/drawable-mdpi/abc_ab_stacked_transparent_light_holo.9.png
+:100644 000000 ad980b1... 0000000... D	appcompat/res/drawable-mdpi/abc_ab_transparent_dark_holo.9.png
+:100644 000000 60e6c52... 0000000... D	appcompat/res/drawable-mdpi/abc_ab_transparent_light_holo.9.png
+:100644 000000 d8f1c8b... 0000000... D	appcompat/res/drawable-mdpi/abc_cab_background_bottom_holo_dark.9.png
+:100644 000000 31e4989... 0000000... D	appcompat/res/drawable-mdpi/abc_cab_background_bottom_holo_light.9.png
+:100644 000000 7c2cbe5... 0000000... D	appcompat/res/drawable-mdpi/abc_cab_background_top_holo_dark.9.png
+:100644 000000 30cbdc1... 0000000... D	appcompat/res/drawable-mdpi/abc_cab_background_top_holo_light.9.png
+:100644 000000 df2d3d1... 0000000... D	appcompat/res/drawable-mdpi/abc_ic_ab_back_holo_dark.png
+:100644 000000 b2aa9c2... 0000000... D	appcompat/res/drawable-mdpi/abc_ic_ab_back_holo_light.png
+:100644 000000 a17b6a7... 0000000... D	appcompat/res/drawable-mdpi/abc_ic_cab_done_holo_dark.png
+:100644 000000 b28b3b5... 0000000... D	appcompat/res/drawable-mdpi/abc_ic_cab_done_holo_light.png
+:100644 000000 79228ba... 0000000... D	appcompat/res/drawable-mdpi/abc_ic_clear_disabled.png
+:100644 000000 86944a8... 0000000... D	appcompat/res/drawable-mdpi/abc_ic_clear_normal.png
+:100644 000000 c0bdf06... 0000000... D	appcompat/res/drawable-mdpi/abc_ic_clear_search_api_disabled_holo_light.png
+:100644 000000 15b86cb... 0000000... D	appcompat/res/drawable-mdpi/abc_ic_clear_search_api_holo_light.png
+:100644 000000 844c99c... 0000000... D	appcompat/res/drawable-mdpi/abc_ic_commit_search_api_holo_dark.png
+:100644 000000 86c170e... 0000000... D	appcompat/res/drawable-mdpi/abc_ic_commit_search_api_holo_light.png
+:100644 000000 bf19833... 0000000... D	appcompat/res/drawable-mdpi/abc_ic_go.png
+:100644 000000 8518498... 0000000... D	appcompat/res/drawable-mdpi/abc_ic_go_search_api_holo_light.png
+:100644 000000 ba704b6... 0000000... D	appcompat/res/drawable-mdpi/abc_ic_menu_moreoverflow_normal_holo_dark.png
+:100644 000000 01d6816... 0000000... D	appcompat/res/drawable-mdpi/abc_ic_menu_moreoverflow_normal_holo_light.png
+:100644 000000 6bf21e3... 0000000... D	appcompat/res/drawable-mdpi/abc_ic_menu_share_holo_dark.png
+:100644 000000 70fe31a... 0000000... D	appcompat/res/drawable-mdpi/abc_ic_menu_share_holo_light.png
+:100644 000000 4be72f1... 0000000... D	appcompat/res/drawable-mdpi/abc_ic_search.png
+:100644 000000 f2e26f8... 0000000... D	appcompat/res/drawable-mdpi/abc_ic_search_api_holo_light.png
+:100644 000000 73c6be6... 0000000... D	appcompat/res/drawable-mdpi/abc_ic_voice_search.png
+:100644 000000 71d838e... 0000000... D	appcompat/res/drawable-mdpi/abc_ic_voice_search_api_holo_light.png
+:100644 000000 986ab0b... 0000000... D	appcompat/res/drawable-mdpi/abc_list_divider_holo_dark.9.png
+:100644 000000 0279e17... 0000000... D	appcompat/res/drawable-mdpi/abc_list_divider_holo_light.9.png
+:100644 000000 00f05d8... 0000000... D	appcompat/res/drawable-mdpi/abc_list_focused_holo.9.png
+:100644 000000 3bf8e03... 0000000... D	appcompat/res/drawable-mdpi/abc_list_longpressed_holo.9.png
+:100644 000000 6e77525... 0000000... D	appcompat/res/drawable-mdpi/abc_list_pressed_holo_dark.9.png
+:100644 000000 6e77525... 0000000... D	appcompat/res/drawable-mdpi/abc_list_pressed_holo_light.9.png
+:100644 000000 92da2f0... 0000000... D	appcompat/res/drawable-mdpi/abc_list_selector_disabled_holo_dark.9.png
+:100644 000000 42cb646... 0000000... D	appcompat/res/drawable-mdpi/abc_list_selector_disabled_holo_light.9.png
+:100644 000000 31dc342... 0000000... D	appcompat/res/drawable-mdpi/abc_menu_dropdown_panel_holo_dark.9.png
+:100644 000000 755c145... 0000000... D	appcompat/res/drawable-mdpi/abc_menu_dropdown_panel_holo_light.9.png
+:100644 000000 3677994... 0000000... D	appcompat/res/drawable-mdpi/abc_menu_hardkey_panel_holo_dark.9.png
+:100644 000000 02b25f0... 0000000... D	appcompat/res/drawable-mdpi/abc_menu_hardkey_panel_holo_light.9.png
+:100644 000000 8d75946... 0000000... D	appcompat/res/drawable-mdpi/abc_spinner_ab_default_holo_dark.9.png
+:100644 000000 716560b... 0000000... D	appcompat/res/drawable-mdpi/abc_spinner_ab_default_holo_light.9.png
+:100644 000000 c3ba89c... 0000000... D	appcompat/res/drawable-mdpi/abc_spinner_ab_disabled_holo_dark.9.png
+:100644 000000 67c5358... 0000000... D	appcompat/res/drawable-mdpi/abc_spinner_ab_disabled_holo_light.9.png
+:100644 000000 c015f43... 0000000... D	appcompat/res/drawable-mdpi/abc_spinner_ab_focused_holo_dark.9.png
+:100644 000000 487edc2... 0000000... D	appcompat/res/drawable-mdpi/abc_spinner_ab_focused_holo_light.9.png
+:100644 000000 2fa15e7... 0000000... D	appcompat/res/drawable-mdpi/abc_spinner_ab_pressed_holo_dark.9.png
+:100644 000000 a964b22... 0000000... D	appcompat/res/drawable-mdpi/abc_spinner_ab_pressed_holo_light.9.png
+:100644 000000 c9972e7... 0000000... D	appcompat/res/drawable-mdpi/abc_tab_selected_focused_holo.9.png
+:100644 000000 587337c... 0000000... D	appcompat/res/drawable-mdpi/abc_tab_selected_holo.9.png
+:100644 000000 155c4fc... 0000000... D	appcompat/res/drawable-mdpi/abc_tab_selected_pressed_holo.9.png
+:100644 000000 b1223fe... 0000000... D	appcompat/res/drawable-mdpi/abc_tab_unselected_pressed_holo.9.png
+:100644 000000 081657e... 0000000... D	appcompat/res/drawable-mdpi/abc_textfield_search_default_holo_dark.9.png
+:100644 000000 3f312b4... 0000000... D	appcompat/res/drawable-mdpi/abc_textfield_search_default_holo_light.9.png
+:100644 000000 b086fae... 0000000... D	appcompat/res/drawable-mdpi/abc_textfield_search_right_default_holo_dark.9.png
+:100644 000000 73c336a... 0000000... D	appcompat/res/drawable-mdpi/abc_textfield_search_right_default_holo_light.9.png
+:100644 000000 726e0ff... 0000000... D	appcompat/res/drawable-mdpi/abc_textfield_search_right_selected_holo_dark.9.png
+:100644 000000 726e0ff... 0000000... D	appcompat/res/drawable-mdpi/abc_textfield_search_right_selected_holo_light.9.png
+:100644 000000 1767c16... 0000000... D	appcompat/res/drawable-mdpi/abc_textfield_search_selected_holo_dark.9.png
+:100644 000000 1767c16... 0000000... D	appcompat/res/drawable-mdpi/abc_textfield_search_selected_holo_light.9.png
+:100644 000000 5753346... 0000000... D	appcompat/res/drawable-xhdpi/abc_ab_bottom_solid_dark_holo.9.png
+:100644 000000 8155fe8... 0000000... D	appcompat/res/drawable-xhdpi/abc_ab_bottom_solid_light_holo.9.png
+:100644 000000 6cee9a1... 0000000... D	appcompat/res/drawable-xhdpi/abc_ab_bottom_transparent_dark_holo.9.png
+:100644 000000 fa4d76a... 0000000... D	appcompat/res/drawable-xhdpi/abc_ab_bottom_transparent_light_holo.9.png
+:100644 000000 55099d4... 0000000... D	appcompat/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png
+:100644 000000 3c4701f... 0000000... D	appcompat/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png
+:100644 000000 6622cba... 0000000... D	appcompat/res/drawable-xhdpi/abc_ab_solid_dark_holo.9.png
+:100644 000000 c427297... 0000000... D	appcompat/res/drawable-xhdpi/abc_ab_solid_light_holo.9.png
+:100644 000000 a0d9c1b... 0000000... D	appcompat/res/drawable-xhdpi/abc_ab_stacked_solid_dark_holo.9.png
+:100644 000000 d36f99f... 0000000... D	appcompat/res/drawable-xhdpi/abc_ab_stacked_solid_light_holo.9.png
+:100644 000000 5ad475d... 0000000... D	appcompat/res/drawable-xhdpi/abc_ab_stacked_transparent_dark_holo.9.png
+:100644 000000 6ade5ee... 0000000... D	appcompat/res/drawable-xhdpi/abc_ab_stacked_transparent_light_holo.9.png
+:100644 000000 719b923... 0000000... D	appcompat/res/drawable-xhdpi/abc_ab_transparent_dark_holo.9.png
+:100644 000000 6da264d... 0000000... D	appcompat/res/drawable-xhdpi/abc_ab_transparent_light_holo.9.png
+:100644 000000 0bd0980... 0000000... D	appcompat/res/drawable-xhdpi/abc_cab_background_bottom_holo_dark.9.png
+:100644 000000 43ed26d... 0000000... D	appcompat/res/drawable-xhdpi/abc_cab_background_bottom_holo_light.9.png
+:100644 000000 6b31579... 0000000... D	appcompat/res/drawable-xhdpi/abc_cab_background_top_holo_dark.9.png
+:100644 000000 df0121b... 0000000... D	appcompat/res/drawable-xhdpi/abc_cab_background_top_holo_light.9.png
+:100644 000000 8ded62f... 0000000... D	appcompat/res/drawable-xhdpi/abc_ic_ab_back_holo_dark.png
+:100644 000000 517e9f7... 0000000... D	appcompat/res/drawable-xhdpi/abc_ic_ab_back_holo_light.png
+:100644 000000 2e06dd0... 0000000... D	appcompat/res/drawable-xhdpi/abc_ic_cab_done_holo_dark.png
+:100644 000000 bb19810... 0000000... D	appcompat/res/drawable-xhdpi/abc_ic_cab_done_holo_light.png
+:100644 000000 e35c5f0... 0000000... D	appcompat/res/drawable-xhdpi/abc_ic_clear_disabled.png
+:100644 000000 7fd7aeb... 0000000... D	appcompat/res/drawable-xhdpi/abc_ic_clear_search_api_disabled_holo_light.png
+:100644 000000 53cfbd3... 0000000... D	appcompat/res/drawable-xhdpi/abc_ic_clear_search_api_holo_light.png
+:100644 000000 d8faf90... 0000000... D	appcompat/res/drawable-xhdpi/abc_ic_commit_search_api_holo_dark.png
+:100644 000000 e7c7280... 0000000... D	appcompat/res/drawable-xhdpi/abc_ic_commit_search_api_holo_light.png
+:100644 000000 1e2dcfa... 0000000... D	appcompat/res/drawable-xhdpi/abc_ic_go.png
+:100644 000000 f12eafc... 0000000... D	appcompat/res/drawable-xhdpi/abc_ic_go_search_api_holo_light.png
+:100644 000000 a92fb1d... 0000000... D	appcompat/res/drawable-xhdpi/abc_ic_menu_moreoverflow_normal_holo_dark.png
+:100644 000000 930ca8d... 0000000... D	appcompat/res/drawable-xhdpi/abc_ic_menu_moreoverflow_normal_holo_light.png
+:100644 000000 45a0f1d... 0000000... D	appcompat/res/drawable-xhdpi/abc_ic_menu_share_holo_dark.png
+:100644 000000 528e554... 0000000... D	appcompat/res/drawable-xhdpi/abc_ic_menu_share_holo_light.png
+:100644 000000 998f91b... 0000000... D	appcompat/res/drawable-xhdpi/abc_ic_search.png
+:100644 000000 a4cdf1c... 0000000... D	appcompat/res/drawable-xhdpi/abc_ic_search_api_holo_light.png
+:100644 000000 c625a36... 0000000... D	appcompat/res/drawable-xhdpi/abc_ic_voice_search.png
+:100644 000000 c332ba0... 0000000... D	appcompat/res/drawable-xhdpi/abc_ic_voice_search_api_holo_light.png
+:100644 000000 e62f011... 0000000... D	appcompat/res/drawable-xhdpi/abc_list_divider_holo_dark.9.png
+:100644 000000 65061c0... 0000000... D	appcompat/res/drawable-xhdpi/abc_list_divider_holo_light.9.png
+:100644 000000 b545f8e... 0000000... D	appcompat/res/drawable-xhdpi/abc_list_focused_holo.9.png
+:100644 000000 eda10e6... 0000000... D	appcompat/res/drawable-xhdpi/abc_list_longpressed_holo.9.png
+:100644 000000 e4b3393... 0000000... D	appcompat/res/drawable-xhdpi/abc_list_pressed_holo_dark.9.png
+:100644 000000 e4b3393... 0000000... D	appcompat/res/drawable-xhdpi/abc_list_pressed_holo_light.9.png
+:100644 000000 88726b6... 0000000... D	appcompat/res/drawable-xhdpi/abc_list_selector_disabled_holo_dark.9.png
+:100644 000000 c6a7d4d... 0000000... D	appcompat/res/drawable-xhdpi/abc_list_selector_disabled_holo_light.9.png
+:100644 000000 abc48f8... 0000000... D	appcompat/res/drawable-xhdpi/abc_menu_dropdown_panel_holo_dark.9.png
+:100644 000000 48905ed... 0000000... D	appcompat/res/drawable-xhdpi/abc_menu_dropdown_panel_holo_light.9.png
+:100644 000000 c1ad023... 0000000... D	appcompat/res/drawable-xhdpi/abc_menu_hardkey_panel_holo_dark.9.png
+:100644 000000 a1e33d6... 0000000... D	appcompat/res/drawable-xhdpi/abc_menu_hardkey_panel_holo_light.9.png
+:100644 000000 c43293d... 0000000... D	appcompat/res/drawable-xhdpi/abc_spinner_ab_default_holo_dark.9.png
+:100644 000000 3dc481e... 0000000... D	appcompat/res/drawable-xhdpi/abc_spinner_ab_default_holo_light.9.png
+:100644 000000 9a7b173... 0000000... D	appcompat/res/drawable-xhdpi/abc_spinner_ab_disabled_holo_dark.9.png
+:100644 000000 6888fdc... 0000000... D	appcompat/res/drawable-xhdpi/abc_spinner_ab_disabled_holo_light.9.png
+:100644 000000 9408b47... 0000000... D	appcompat/res/drawable-xhdpi/abc_spinner_ab_focused_holo_dark.9.png
+:100644 000000 1cb95d1... 0000000... D	appcompat/res/drawable-xhdpi/abc_spinner_ab_focused_holo_light.9.png
+:100644 000000 a3c7711... 0000000... D	appcompat/res/drawable-xhdpi/abc_spinner_ab_pressed_holo_dark.9.png
+:100644 000000 2a21210... 0000000... D	appcompat/res/drawable-xhdpi/abc_spinner_ab_pressed_holo_light.9.png
+:100644 000000 03cfb09... 0000000... D	appcompat/res/drawable-xhdpi/abc_tab_selected_focused_holo.9.png
+:100644 000000 e4229f2... 0000000... D	appcompat/res/drawable-xhdpi/abc_tab_selected_holo.9.png
+:100644 000000 e862cb1... 0000000... D	appcompat/res/drawable-xhdpi/abc_tab_selected_pressed_holo.9.png
+:100644 000000 f1eb673... 0000000... D	appcompat/res/drawable-xhdpi/abc_tab_unselected_pressed_holo.9.png
+:100644 000000 8fdbbf3... 0000000... D	appcompat/res/drawable-xhdpi/abc_textfield_search_default_holo_dark.9.png
+:100644 000000 4e9ae43... 0000000... D	appcompat/res/drawable-xhdpi/abc_textfield_search_default_holo_light.9.png
+:100644 000000 98f4871... 0000000... D	appcompat/res/drawable-xhdpi/abc_textfield_search_right_default_holo_dark.9.png
+:100644 000000 733373e... 0000000... D	appcompat/res/drawable-xhdpi/abc_textfield_search_right_default_holo_light.9.png
+:100644 000000 0c6bb03... 0000000... D	appcompat/res/drawable-xhdpi/abc_textfield_search_right_selected_holo_dark.9.png
+:100644 000000 0c6bb03... 0000000... D	appcompat/res/drawable-xhdpi/abc_textfield_search_right_selected_holo_light.9.png
+:100644 000000 e5bfd8a... 0000000... D	appcompat/res/drawable-xhdpi/abc_textfield_search_selected_holo_dark.9.png
+:100644 000000 1743da6... 0000000... D	appcompat/res/drawable-xhdpi/abc_textfield_search_selected_holo_light.9.png
+:100644 000000 802af6f... 0000000... D	appcompat/res/drawable/abc_ic_clear.xml
+:100644 000000 4b84efc... 0000000... D	appcompat/res/drawable/abc_ic_clear_holo_light.xml
+:100644 000000 72162c2... 0000000... D	appcompat/res/drawable/abc_item_background_holo_dark.xml
+:100644 000000 1c180b2... 0000000... D	appcompat/res/drawable/abc_item_background_holo_light.xml
+:100644 000000 0add58c... 0000000... D	appcompat/res/drawable/abc_list_selector_background_transition_holo_dark.xml
+:100644 000000 0c1d3e6... 0000000... D	appcompat/res/drawable/abc_list_selector_background_transition_holo_light.xml
+:100644 000000 1fb5fc4... 0000000... D	appcompat/res/drawable/abc_list_selector_holo_dark.xml
+:100644 000000 8d24047... 0000000... D	appcompat/res/drawable/abc_list_selector_holo_light.xml
+:100644 000000 75e8917... 0000000... D	appcompat/res/drawable/abc_search_dropdown_dark.xml
+:100644 000000 80d4928... 0000000... D	appcompat/res/drawable/abc_search_dropdown_light.xml
+:100644 000000 934b374... 0000000... D	appcompat/res/drawable/abc_spinner_ab_holo_dark.xml
+:100644 000000 dd0245e... 0000000... D	appcompat/res/drawable/abc_spinner_ab_holo_light.xml
+:100644 000000 3c828d8... 0000000... D	appcompat/res/drawable/abc_tab_indicator_ab_holo.xml
+:100644 000000 6e9bc4c... 0000000... D	appcompat/res/drawable/abc_textfield_searchview_holo_dark.xml
+:100644 000000 a02e4b0... 0000000... D	appcompat/res/drawable/abc_textfield_searchview_holo_light.xml
+:100644 000000 b55a995... 0000000... D	appcompat/res/drawable/abc_textfield_searchview_right_holo_dark.xml
+:100644 000000 7710232... 0000000... D	appcompat/res/drawable/abc_textfield_searchview_right_holo_light.xml
+:100644 000000 a212d56... 0000000... D	appcompat/res/layout-v11/abc_action_bar_decor.xml
+:100644 000000 4ce359b... 0000000... D	appcompat/res/layout-v14/abc_activity_chooser_view.xml
+:100644 000000 327e26f... 0000000... D	appcompat/res/layout/abc_action_bar_decor.xml
+:100644 000000 3f2356b... 0000000... D	appcompat/res/layout/abc_action_bar_decor_include.xml
+:100644 000000 5ea8fc1... 0000000... D	appcompat/res/layout/abc_action_bar_decor_overlay.xml
+:100644 000000 7063c36... 0000000... D	appcompat/res/layout/abc_action_bar_home.xml
+:100644 000000 85eda96... 0000000... D	appcompat/res/layout/abc_action_bar_tab.xml
+:100644 000000 08f9c89... 0000000... D	appcompat/res/layout/abc_action_bar_tabbar.xml
+:100644 000000 0cb1237... 0000000... D	appcompat/res/layout/abc_action_bar_title_item.xml
+:100644 000000 5c105ab... 0000000... D	appcompat/res/layout/abc_action_bar_view_list_nav_layout.xml
+:100644 000000 150ea50... 0000000... D	appcompat/res/layout/abc_action_menu_item_layout.xml
+:100644 000000 37a02e6... 0000000... D	appcompat/res/layout/abc_action_menu_layout.xml
+:100644 000000 b81cd85... 0000000... D	appcompat/res/layout/abc_action_mode_bar.xml
+:100644 000000 2c76b8b... 0000000... D	appcompat/res/layout/abc_action_mode_close_item.xml
+:100644 000000 eb42598... 0000000... D	appcompat/res/layout/abc_activity_chooser_view.xml
+:100644 000000 975b13e... 0000000... D	appcompat/res/layout/abc_activity_chooser_view_include.xml
+:100644 000000 887427d... 0000000... D	appcompat/res/layout/abc_activity_chooser_view_list_item.xml
+:100644 000000 f4af882... 0000000... D	appcompat/res/layout/abc_expanded_menu_layout.xml
+:100644 000000 d9c3f06... 0000000... D	appcompat/res/layout/abc_list_menu_item_checkbox.xml
+:100644 000000 acd005a... 0000000... D	appcompat/res/layout/abc_list_menu_item_icon.xml
+:100644 000000 d3be782... 0000000... D	appcompat/res/layout/abc_list_menu_item_layout.xml
+:100644 000000 0ca8d7a... 0000000... D	appcompat/res/layout/abc_list_menu_item_radio.xml
+:100644 000000 1e4e27d... 0000000... D	appcompat/res/layout/abc_popup_menu_item_layout.xml
+:100644 000000 bcb6132... 0000000... D	appcompat/res/layout/abc_screen.xml
+:100644 000000 ffc3aed... 0000000... D	appcompat/res/layout/abc_search_dropdown_item_icons_2line.xml
+:100644 000000 da8adb8... 0000000... D	appcompat/res/layout/abc_search_view.xml
+:100644 000000 d2f177a... 0000000... D	appcompat/res/layout/support_simple_spinner_dropdown_item.xml
+:100644 000000 cdadd69... 0000000... D	appcompat/res/values-land/bools.xml
+:100644 000000 d0d990d... 0000000... D	appcompat/res/values-land/config.xml
+:100644 000000 bde13e2... 0000000... D	appcompat/res/values-land/dimens.xml
+:100644 000000 cdadd69... 0000000... D	appcompat/res/values-large/bools.xml
+:100644 000000 c4f04a3... 0000000... D	appcompat/res/values-large/config.xml
+:100644 000000 dd9ecd9... 0000000... D	appcompat/res/values-large/dimens.xml
+:100644 000000 fba21e1... 0000000... D	appcompat/res/values-sw600dp/config.xml
+:100644 000000 94fe525... 0000000... D	appcompat/res/values-sw600dp/dimens.xml
+:100644 000000 2cee503... 0000000... D	appcompat/res/values-v11/styles_base.xml
+:100644 000000 ca7acbd... 0000000... D	appcompat/res/values-v11/themes_base.xml
+:100644 000000 07d32b8... 0000000... D	appcompat/res/values-v14/styles_base.xml
+:100644 000000 26ad271... 0000000... D	appcompat/res/values-v14/themes_base.xml
+:100644 000000 e5b2456... 0000000... D	appcompat/res/values-w360dp/dimens.xml
+:100644 000000 6e6a3df... 0000000... D	appcompat/res/values-w480dp/bools.xml
+:100644 000000 e95b6ff... 0000000... D	appcompat/res/values-w480dp/config.xml
+:100644 000000 dd6458b... 0000000... D	appcompat/res/values-w500dp/dimens.xml
+:100644 000000 5bbc34d... 0000000... D	appcompat/res/values-w600dp/dimens.xml
+:100644 000000 05c5aab... 0000000... D	appcompat/res/values-w720dp/bools.xml
+:100644 000000 05c5aab... 0000000... D	appcompat/res/values-xlarge/bools.xml
+:100644 000000 6217586... 0000000... D	appcompat/res/values-xlarge/dimens.xml
+:100644 000000 89749c0... 0000000... D	appcompat/res/values/attrs.xml
+:100644 000000 004d947... 0000000... D	appcompat/res/values/bools.xml
+:100644 000000 884387a... 0000000... D	appcompat/res/values/colors.xml
+:100644 000000 8c027d1... 0000000... D	appcompat/res/values/config.xml
+:100644 000000 f58d6fa... 0000000... D	appcompat/res/values/dimens.xml
+:100644 000000 a2e3e74... 0000000... D	appcompat/res/values/ids.xml
+:100644 000000 eceee56... 0000000... D	appcompat/res/values/strings.xml
+:100644 000000 d0471c3... 0000000... D	appcompat/res/values/styles.xml
+:100644 000000 28d2086... 0000000... D	appcompat/res/values/styles_base.xml
+:100644 000000 e3e948d... 0000000... D	appcompat/res/values/themes.xml
+:100644 000000 3b514a8... 0000000... D	appcompat/res/values/themes_base.xml
+:100644 000000 4bcebad... 0000000... D	appcompat/src/.readme
+commit=07605daa81787c8785a02754034cda86d322d2ac:donn@donnfelker.com
+
+:100644 100644 bd1d989... 0399eb9... M	.gitignore
+:000000 100644 0000000... 8e2db0c... A	.gradle/1.6/taskArtifacts/cache.properties
+:000000 100644 0000000... 40fdece... A	.gradle/1.6/taskArtifacts/cache.properties.lock
+:000000 100644 0000000... e8ad350... A	.gradle/1.6/taskArtifacts/fileHashes.bin
+:000000 100644 0000000... 6d35903... A	.gradle/1.6/taskArtifacts/fileSnapshots.bin
+:000000 100644 0000000... e6eca38... A	.gradle/1.6/taskArtifacts/outputFileStates.bin
+:000000 100644 0000000... 9d31cf8... A	.gradle/1.6/taskArtifacts/taskArtifacts.bin
+:000000 100644 0000000... 5a85bb1... A	.gradle/1.7/taskArtifacts/cache.properties
+:000000 100644 0000000... 40fdece... A	.gradle/1.7/taskArtifacts/cache.properties.lock
+:000000 100644 0000000... f113978... A	.gradle/1.7/taskArtifacts/fileSnapshots.bin
+:000000 100644 0000000... 5ec20ed... A	.gradle/1.7/taskArtifacts/taskArtifacts.bin
+:000000 100644 0000000... 0d43512... A	app/build.gradle
+:100644 100644 96af652... b4c0b4c... M	app/res/layout/carousel_view.xml
+:000000 100644 0000000... 495c503... A	build.gradle
+:000000 100644 0000000... 8c0fb64... A	gradle/wrapper/gradle-wrapper.jar
+:000000 100644 0000000... 5c22dec... A	gradle/wrapper/gradle-wrapper.properties
+:000000 100755 0000000... 91a7e26... A	gradlew
+:000000 100644 0000000... 8a0b282... A	gradlew.bat
+:000000 100644 0000000... b3f4d22... A	settings.gradle
+commit=58e68bd0580f539010842b17261bdf40986084d2:donn@donnfelker.com
+
+:100644 100644 aab973c... b95ce0c... M	app/pom.xml
+:100644 100644 54d0bac... 96af652... M	app/res/layout/carousel_view.xml
+:100644 100644 254797b... 7ffbe9c... M	app/res/values/strings.xml
+:100644 100644 2da29b8... d83586f... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CarouselActivity.java
+commit=eaf220cc88e206847523cceb06e86bf2339f525e:donn@donnfelker.com
+
+:100644 100644 7736f4c... 74807f8... M	app/res/values/theme.xml
+commit=08809c1dfff28f1c46612a0b48615f872556c2e5:donn@donnfelker.com
+
+:000000 100644 0000000... cf12d28... A	app/libs/android-support-v4.jar
+:000000 100644 0000000... b5f5292... A	app/libs/android-support-v7-appcompat.jar
+:100644 100644 4bafe97... aab973c... M	app/pom.xml
+:100644 100644 5dc50de... 7736f4c... M	app/res/values/theme.xml
+:100644 100644 9e31db0... 9edf8ae... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/SherlockAccountAuthenticatorActivity.java
+:100644 100644 03c4e2c... 47889ea... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapActivity.java
+:100644 100644 ef554b4... 896dde0... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapFragmentActivity.java
+:100644 100644 4403750... 2da29b8... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CarouselActivity.java
+:100644 100644 74c359b... 7918311... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/ItemListFragment.java
+:000000 100644 0000000... a4763d1... A	appcompat/.classpath
+:000000 100644 0000000... 957d33d... A	appcompat/.project
+:000000 100644 0000000... a77e640... A	appcompat/AndroidManifest.xml
+:000000 100644 0000000... 8e8de05... A	appcompat/README.txt
+:000000 100644 0000000... cf12d28... A	appcompat/libs/android-support-v4.jar
+:000000 100644 0000000... b5f5292... A	appcompat/libs/android-support-v7-appcompat.jar
+:000000 100644 0000000... da7ee29... A	appcompat/res/anim/abc_fade_in.xml
+:000000 100644 0000000... c81b39a... A	appcompat/res/anim/abc_fade_out.xml
+:000000 100644 0000000... 1afa8fe... A	appcompat/res/anim/abc_slide_in_bottom.xml
+:000000 100644 0000000... ab824f2... A	appcompat/res/anim/abc_slide_in_top.xml
+:000000 100644 0000000... b309fe8... A	appcompat/res/anim/abc_slide_out_bottom.xml
+:000000 100644 0000000... e84d1c7... A	appcompat/res/anim/abc_slide_out_top.xml
+:000000 100644 0000000... c4579fa... A	appcompat/res/color/abc_search_url_text_holo.xml
+:000000 100644 0000000... 769463b... A	appcompat/res/drawable-hdpi/abc_ab_bottom_solid_dark_holo.9.png
+:000000 100644 0000000... 7305047... A	appcompat/res/drawable-hdpi/abc_ab_bottom_solid_light_holo.9.png
+:000000 100644 0000000... 712a551... A	appcompat/res/drawable-hdpi/abc_ab_bottom_transparent_dark_holo.9.png
+:000000 100644 0000000... bf3b943... A	appcompat/res/drawable-hdpi/abc_ab_bottom_transparent_light_holo.9.png
+:000000 100644 0000000... 6c14157... A	appcompat/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png
+:000000 100644 0000000... f4ff16b... A	appcompat/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png
+:000000 100644 0000000... cbbaec5... A	appcompat/res/drawable-hdpi/abc_ab_solid_dark_holo.9.png
+:000000 100644 0000000... af917e5... A	appcompat/res/drawable-hdpi/abc_ab_solid_light_holo.9.png
+:000000 100644 0000000... 0520e5a... A	appcompat/res/drawable-hdpi/abc_ab_stacked_solid_dark_holo.9.png
+:000000 100644 0000000... e3e3f93... A	appcompat/res/drawable-hdpi/abc_ab_stacked_solid_light_holo.9.png
+:000000 100644 0000000... 1e39572... A	appcompat/res/drawable-hdpi/abc_ab_stacked_transparent_dark_holo.9.png
+:000000 100644 0000000... a16db85... A	appcompat/res/drawable-hdpi/abc_ab_stacked_transparent_light_holo.9.png
+:000000 100644 0000000... 0eff695... A	appcompat/res/drawable-hdpi/abc_ab_transparent_dark_holo.9.png
+:000000 100644 0000000... 219b170... A	appcompat/res/drawable-hdpi/abc_ab_transparent_light_holo.9.png
+:000000 100644 0000000... 1d836f6... A	appcompat/res/drawable-hdpi/abc_cab_background_bottom_holo_dark.9.png
+:000000 100644 0000000... 5818666... A	appcompat/res/drawable-hdpi/abc_cab_background_bottom_holo_light.9.png
+:000000 100644 0000000... 564fb34... A	appcompat/res/drawable-hdpi/abc_cab_background_top_holo_dark.9.png
+:000000 100644 0000000... ae21b76... A	appcompat/res/drawable-hdpi/abc_cab_background_top_holo_light.9.png
+:000000 100644 0000000... 897a1c1... A	appcompat/res/drawable-hdpi/abc_ic_ab_back_holo_dark.png
+:000000 100644 0000000... 0c89f71... A	appcompat/res/drawable-hdpi/abc_ic_ab_back_holo_light.png
+:000000 100644 0000000... d8662e3... A	appcompat/res/drawable-hdpi/abc_ic_cab_done_holo_dark.png
+:000000 100644 0000000... ed03f62... A	appcompat/res/drawable-hdpi/abc_ic_cab_done_holo_light.png
+:000000 100644 0000000... d97c342... A	appcompat/res/drawable-hdpi/abc_ic_clear_disabled.png
+:000000 100644 0000000... 33ad8d4... A	appcompat/res/drawable-hdpi/abc_ic_clear_normal.png
+:000000 100644 0000000... 3edbd74... A	appcompat/res/drawable-hdpi/abc_ic_clear_search_api_disabled_holo_light.png
+:000000 100644 0000000... 90db01b... A	appcompat/res/drawable-hdpi/abc_ic_clear_search_api_holo_light.png
+:000000 100644 0000000... 83f36a9... A	appcompat/res/drawable-hdpi/abc_ic_commit_search_api_holo_dark.png
+:000000 100644 0000000... a3cc21e... A	appcompat/res/drawable-hdpi/abc_ic_commit_search_api_holo_light.png
+:000000 100644 0000000... 97b825e... A	appcompat/res/drawable-hdpi/abc_ic_go.png
+:000000 100644 0000000... 7e1ba2a... A	appcompat/res/drawable-hdpi/abc_ic_go_search_api_holo_light.png
+:000000 100644 0000000... 2abc458... A	appcompat/res/drawable-hdpi/abc_ic_menu_moreoverflow_normal_holo_dark.png
+:000000 100644 0000000... bb6aef1... A	appcompat/res/drawable-hdpi/abc_ic_menu_moreoverflow_normal_holo_light.png
+:000000 100644 0000000... 6f747c8... A	appcompat/res/drawable-hdpi/abc_ic_menu_share_holo_dark.png
+:000000 100644 0000000... 682b2fd... A	appcompat/res/drawable-hdpi/abc_ic_menu_share_holo_light.png
+:000000 100644 0000000... bf8bd66... A	appcompat/res/drawable-hdpi/abc_ic_search.png
+:000000 100644 0000000... 72e207b... A	appcompat/res/drawable-hdpi/abc_ic_search_api_holo_light.png
+:000000 100644 0000000... 66d14ae... A	appcompat/res/drawable-hdpi/abc_ic_voice_search.png
+:000000 100644 0000000... 3481c98... A	appcompat/res/drawable-hdpi/abc_ic_voice_search_api_holo_light.png
+:000000 100644 0000000... 986ab0b... A	appcompat/res/drawable-hdpi/abc_list_divider_holo_dark.9.png
+:000000 100644 0000000... 0279e17... A	appcompat/res/drawable-hdpi/abc_list_divider_holo_light.9.png
+:000000 100644 0000000... 5552708... A	appcompat/res/drawable-hdpi/abc_list_focused_holo.9.png
+:000000 100644 0000000... 4ea7afa... A	appcompat/res/drawable-hdpi/abc_list_longpressed_holo.9.png
+:000000 100644 0000000... 5654cd6... A	appcompat/res/drawable-hdpi/abc_list_pressed_holo_dark.9.png
+:000000 100644 0000000... 5654cd6... A	appcompat/res/drawable-hdpi/abc_list_pressed_holo_light.9.png
+:000000 100644 0000000... f6fd30d... A	appcompat/res/drawable-hdpi/abc_list_selector_disabled_holo_dark.9.png
+:000000 100644 0000000... ca8e9a2... A	appcompat/res/drawable-hdpi/abc_list_selector_disabled_holo_light.9.png
+:000000 100644 0000000... 72ee35f... A	appcompat/res/drawable-hdpi/abc_menu_dropdown_panel_holo_dark.9.png
+:000000 100644 0000000... 0d1f9bf... A	appcompat/res/drawable-hdpi/abc_menu_dropdown_panel_holo_light.9.png
+:000000 100644 0000000... 465ee6d... A	appcompat/res/drawable-hdpi/abc_menu_hardkey_panel_holo_dark.9.png
+:000000 100644 0000000... 76a5c53... A	appcompat/res/drawable-hdpi/abc_menu_hardkey_panel_holo_light.9.png
+:000000 100644 0000000... 88f8765... A	appcompat/res/drawable-hdpi/abc_spinner_ab_default_holo_dark.9.png
+:000000 100644 0000000... fa68a13... A	appcompat/res/drawable-hdpi/abc_spinner_ab_default_holo_light.9.png
+:000000 100644 0000000... 78c63cb... A	appcompat/res/drawable-hdpi/abc_spinner_ab_disabled_holo_dark.9.png
+:000000 100644 0000000... e13a9f8... A	appcompat/res/drawable-hdpi/abc_spinner_ab_disabled_holo_light.9.png
+:000000 100644 0000000... 26d2e16... A	appcompat/res/drawable-hdpi/abc_spinner_ab_focused_holo_dark.9.png
+:000000 100644 0000000... 00ae92a... A	appcompat/res/drawable-hdpi/abc_spinner_ab_focused_holo_light.9.png
+:000000 100644 0000000... dc20a8d... A	appcompat/res/drawable-hdpi/abc_spinner_ab_pressed_holo_dark.9.png
+:000000 100644 0000000... 272a2a1... A	appcompat/res/drawable-hdpi/abc_spinner_ab_pressed_holo_light.9.png
+:000000 100644 0000000... 673e3bf... A	appcompat/res/drawable-hdpi/abc_tab_selected_focused_holo.9.png
+:000000 100644 0000000... d57df98... A	appcompat/res/drawable-hdpi/abc_tab_selected_holo.9.png
+:000000 100644 0000000... 6278eef... A	appcompat/res/drawable-hdpi/abc_tab_selected_pressed_holo.9.png
+:000000 100644 0000000... aadc6f8... A	appcompat/res/drawable-hdpi/abc_tab_unselected_pressed_holo.9.png
+:000000 100644 0000000... 70c0e73... A	appcompat/res/drawable-hdpi/abc_textfield_search_default_holo_dark.9.png
+:000000 100644 0000000... 36e71d8... A	appcompat/res/drawable-hdpi/abc_textfield_search_default_holo_light.9.png
+:000000 100644 0000000... 4be4af5... A	appcompat/res/drawable-hdpi/abc_textfield_search_right_default_holo_dark.9.png
+:000000 100644 0000000... e72193f... A	appcompat/res/drawable-hdpi/abc_textfield_search_right_default_holo_light.9.png
+:000000 100644 0000000... 8f20b9d... A	appcompat/res/drawable-hdpi/abc_textfield_search_right_selected_holo_dark.9.png
+:000000 100644 0000000... 04f657e... A	appcompat/res/drawable-hdpi/abc_textfield_search_right_selected_holo_light.9.png
+:000000 100644 0000000... 99309ef... A	appcompat/res/drawable-hdpi/abc_textfield_search_selected_holo_dark.9.png
+:000000 100644 0000000... 9bde7fb... A	appcompat/res/drawable-hdpi/abc_textfield_search_selected_holo_light.9.png
+:000000 100644 0000000... b229367... A	appcompat/res/drawable-mdpi/abc_ab_bottom_solid_dark_holo.9.png
+:000000 100644 0000000... 0706c8a... A	appcompat/res/drawable-mdpi/abc_ab_bottom_solid_light_holo.9.png
+:000000 100644 0000000... d814d02... A	appcompat/res/drawable-mdpi/abc_ab_bottom_transparent_dark_holo.9.png
+:000000 100644 0000000... b139c8e... A	appcompat/res/drawable-mdpi/abc_ab_bottom_transparent_light_holo.9.png
+:000000 100644 0000000... ed4ba34... A	appcompat/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png
+:000000 100644 0000000... 8f10bd5... A	appcompat/res/drawable-mdpi/abc_ab_share_pack_holo_light.9.png
+:000000 100644 0000000... 743d00b... A	appcompat/res/drawable-mdpi/abc_ab_solid_dark_holo.9.png
+:000000 100644 0000000... 17c1fb9... A	appcompat/res/drawable-mdpi/abc_ab_solid_light_holo.9.png
+:000000 100644 0000000... 007a4b2... A	appcompat/res/drawable-mdpi/abc_ab_stacked_solid_dark_holo.9.png
+:000000 100644 0000000... ad6e1a4... A	appcompat/res/drawable-mdpi/abc_ab_stacked_solid_light_holo.9.png
+:000000 100644 0000000... 0ad6c88... A	appcompat/res/drawable-mdpi/abc_ab_stacked_transparent_dark_holo.9.png
+:000000 100644 0000000... 19b50ab... A	appcompat/res/drawable-mdpi/abc_ab_stacked_transparent_light_holo.9.png
+:000000 100644 0000000... ad980b1... A	appcompat/res/drawable-mdpi/abc_ab_transparent_dark_holo.9.png
+:000000 100644 0000000... 60e6c52... A	appcompat/res/drawable-mdpi/abc_ab_transparent_light_holo.9.png
+:000000 100644 0000000... d8f1c8b... A	appcompat/res/drawable-mdpi/abc_cab_background_bottom_holo_dark.9.png
+:000000 100644 0000000... 31e4989... A	appcompat/res/drawable-mdpi/abc_cab_background_bottom_holo_light.9.png
+:000000 100644 0000000... 7c2cbe5... A	appcompat/res/drawable-mdpi/abc_cab_background_top_holo_dark.9.png
+:000000 100644 0000000... 30cbdc1... A	appcompat/res/drawable-mdpi/abc_cab_background_top_holo_light.9.png
+:000000 100644 0000000... df2d3d1... A	appcompat/res/drawable-mdpi/abc_ic_ab_back_holo_dark.png
+:000000 100644 0000000... b2aa9c2... A	appcompat/res/drawable-mdpi/abc_ic_ab_back_holo_light.png
+:000000 100644 0000000... a17b6a7... A	appcompat/res/drawable-mdpi/abc_ic_cab_done_holo_dark.png
+:000000 100644 0000000... b28b3b5... A	appcompat/res/drawable-mdpi/abc_ic_cab_done_holo_light.png
+:000000 100644 0000000... 79228ba... A	appcompat/res/drawable-mdpi/abc_ic_clear_disabled.png
+:000000 100644 0000000... 86944a8... A	appcompat/res/drawable-mdpi/abc_ic_clear_normal.png
+:000000 100644 0000000... c0bdf06... A	appcompat/res/drawable-mdpi/abc_ic_clear_search_api_disabled_holo_light.png
+:000000 100644 0000000... 15b86cb... A	appcompat/res/drawable-mdpi/abc_ic_clear_search_api_holo_light.png
+:000000 100644 0000000... 844c99c... A	appcompat/res/drawable-mdpi/abc_ic_commit_search_api_holo_dark.png
+:000000 100644 0000000... 86c170e... A	appcompat/res/drawable-mdpi/abc_ic_commit_search_api_holo_light.png
+:000000 100644 0000000... bf19833... A	appcompat/res/drawable-mdpi/abc_ic_go.png
+:000000 100644 0000000... 8518498... A	appcompat/res/drawable-mdpi/abc_ic_go_search_api_holo_light.png
+:000000 100644 0000000... ba704b6... A	appcompat/res/drawable-mdpi/abc_ic_menu_moreoverflow_normal_holo_dark.png
+:000000 100644 0000000... 01d6816... A	appcompat/res/drawable-mdpi/abc_ic_menu_moreoverflow_normal_holo_light.png
+:000000 100644 0000000... 6bf21e3... A	appcompat/res/drawable-mdpi/abc_ic_menu_share_holo_dark.png
+:000000 100644 0000000... 70fe31a... A	appcompat/res/drawable-mdpi/abc_ic_menu_share_holo_light.png
+:000000 100644 0000000... 4be72f1... A	appcompat/res/drawable-mdpi/abc_ic_search.png
+:000000 100644 0000000... f2e26f8... A	appcompat/res/drawable-mdpi/abc_ic_search_api_holo_light.png
+:000000 100644 0000000... 73c6be6... A	appcompat/res/drawable-mdpi/abc_ic_voice_search.png
+:000000 100644 0000000... 71d838e... A	appcompat/res/drawable-mdpi/abc_ic_voice_search_api_holo_light.png
+:000000 100644 0000000... 986ab0b... A	appcompat/res/drawable-mdpi/abc_list_divider_holo_dark.9.png
+:000000 100644 0000000... 0279e17... A	appcompat/res/drawable-mdpi/abc_list_divider_holo_light.9.png
+:000000 100644 0000000... 00f05d8... A	appcompat/res/drawable-mdpi/abc_list_focused_holo.9.png
+:000000 100644 0000000... 3bf8e03... A	appcompat/res/drawable-mdpi/abc_list_longpressed_holo.9.png
+:000000 100644 0000000... 6e77525... A	appcompat/res/drawable-mdpi/abc_list_pressed_holo_dark.9.png
+:000000 100644 0000000... 6e77525... A	appcompat/res/drawable-mdpi/abc_list_pressed_holo_light.9.png
+:000000 100644 0000000... 92da2f0... A	appcompat/res/drawable-mdpi/abc_list_selector_disabled_holo_dark.9.png
+:000000 100644 0000000... 42cb646... A	appcompat/res/drawable-mdpi/abc_list_selector_disabled_holo_light.9.png
+:000000 100644 0000000... 31dc342... A	appcompat/res/drawable-mdpi/abc_menu_dropdown_panel_holo_dark.9.png
+:000000 100644 0000000... 755c145... A	appcompat/res/drawable-mdpi/abc_menu_dropdown_panel_holo_light.9.png
+:000000 100644 0000000... 3677994... A	appcompat/res/drawable-mdpi/abc_menu_hardkey_panel_holo_dark.9.png
+:000000 100644 0000000... 02b25f0... A	appcompat/res/drawable-mdpi/abc_menu_hardkey_panel_holo_light.9.png
+:000000 100644 0000000... 8d75946... A	appcompat/res/drawable-mdpi/abc_spinner_ab_default_holo_dark.9.png
+:000000 100644 0000000... 716560b... A	appcompat/res/drawable-mdpi/abc_spinner_ab_default_holo_light.9.png
+:000000 100644 0000000... c3ba89c... A	appcompat/res/drawable-mdpi/abc_spinner_ab_disabled_holo_dark.9.png
+:000000 100644 0000000... 67c5358... A	appcompat/res/drawable-mdpi/abc_spinner_ab_disabled_holo_light.9.png
+:000000 100644 0000000... c015f43... A	appcompat/res/drawable-mdpi/abc_spinner_ab_focused_holo_dark.9.png
+:000000 100644 0000000... 487edc2... A	appcompat/res/drawable-mdpi/abc_spinner_ab_focused_holo_light.9.png
+:000000 100644 0000000... 2fa15e7... A	appcompat/res/drawable-mdpi/abc_spinner_ab_pressed_holo_dark.9.png
+:000000 100644 0000000... a964b22... A	appcompat/res/drawable-mdpi/abc_spinner_ab_pressed_holo_light.9.png
+:000000 100644 0000000... c9972e7... A	appcompat/res/drawable-mdpi/abc_tab_selected_focused_holo.9.png
+:000000 100644 0000000... 587337c... A	appcompat/res/drawable-mdpi/abc_tab_selected_holo.9.png
+:000000 100644 0000000... 155c4fc... A	appcompat/res/drawable-mdpi/abc_tab_selected_pressed_holo.9.png
+:000000 100644 0000000... b1223fe... A	appcompat/res/drawable-mdpi/abc_tab_unselected_pressed_holo.9.png
+:000000 100644 0000000... 081657e... A	appcompat/res/drawable-mdpi/abc_textfield_search_default_holo_dark.9.png
+:000000 100644 0000000... 3f312b4... A	appcompat/res/drawable-mdpi/abc_textfield_search_default_holo_light.9.png
+:000000 100644 0000000... b086fae... A	appcompat/res/drawable-mdpi/abc_textfield_search_right_default_holo_dark.9.png
+:000000 100644 0000000... 73c336a... A	appcompat/res/drawable-mdpi/abc_textfield_search_right_default_holo_light.9.png
+:000000 100644 0000000... 726e0ff... A	appcompat/res/drawable-mdpi/abc_textfield_search_right_selected_holo_dark.9.png
+:000000 100644 0000000... 726e0ff... A	appcompat/res/drawable-mdpi/abc_textfield_search_right_selected_holo_light.9.png
+:000000 100644 0000000... 1767c16... A	appcompat/res/drawable-mdpi/abc_textfield_search_selected_holo_dark.9.png
+:000000 100644 0000000... 1767c16... A	appcompat/res/drawable-mdpi/abc_textfield_search_selected_holo_light.9.png
+:000000 100644 0000000... 5753346... A	appcompat/res/drawable-xhdpi/abc_ab_bottom_solid_dark_holo.9.png
+:000000 100644 0000000... 8155fe8... A	appcompat/res/drawable-xhdpi/abc_ab_bottom_solid_light_holo.9.png
+:000000 100644 0000000... 6cee9a1... A	appcompat/res/drawable-xhdpi/abc_ab_bottom_transparent_dark_holo.9.png
+:000000 100644 0000000... fa4d76a... A	appcompat/res/drawable-xhdpi/abc_ab_bottom_transparent_light_holo.9.png
+:000000 100644 0000000... 55099d4... A	appcompat/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png
+:000000 100644 0000000... 3c4701f... A	appcompat/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png
+:000000 100644 0000000... 6622cba... A	appcompat/res/drawable-xhdpi/abc_ab_solid_dark_holo.9.png
+:000000 100644 0000000... c427297... A	appcompat/res/drawable-xhdpi/abc_ab_solid_light_holo.9.png
+:000000 100644 0000000... a0d9c1b... A	appcompat/res/drawable-xhdpi/abc_ab_stacked_solid_dark_holo.9.png
+:000000 100644 0000000... d36f99f... A	appcompat/res/drawable-xhdpi/abc_ab_stacked_solid_light_holo.9.png
+:000000 100644 0000000... 5ad475d... A	appcompat/res/drawable-xhdpi/abc_ab_stacked_transparent_dark_holo.9.png
+:000000 100644 0000000... 6ade5ee... A	appcompat/res/drawable-xhdpi/abc_ab_stacked_transparent_light_holo.9.png
+:000000 100644 0000000... 719b923... A	appcompat/res/drawable-xhdpi/abc_ab_transparent_dark_holo.9.png
+:000000 100644 0000000... 6da264d... A	appcompat/res/drawable-xhdpi/abc_ab_transparent_light_holo.9.png
+:000000 100644 0000000... 0bd0980... A	appcompat/res/drawable-xhdpi/abc_cab_background_bottom_holo_dark.9.png
+:000000 100644 0000000... 43ed26d... A	appcompat/res/drawable-xhdpi/abc_cab_background_bottom_holo_light.9.png
+:000000 100644 0000000... 6b31579... A	appcompat/res/drawable-xhdpi/abc_cab_background_top_holo_dark.9.png
+:000000 100644 0000000... df0121b... A	appcompat/res/drawable-xhdpi/abc_cab_background_top_holo_light.9.png
+:000000 100644 0000000... 8ded62f... A	appcompat/res/drawable-xhdpi/abc_ic_ab_back_holo_dark.png
+:000000 100644 0000000... 517e9f7... A	appcompat/res/drawable-xhdpi/abc_ic_ab_back_holo_light.png
+:000000 100644 0000000... 2e06dd0... A	appcompat/res/drawable-xhdpi/abc_ic_cab_done_holo_dark.png
+:000000 100644 0000000... bb19810... A	appcompat/res/drawable-xhdpi/abc_ic_cab_done_holo_light.png
+:000000 100644 0000000... e35c5f0... A	appcompat/res/drawable-xhdpi/abc_ic_clear_disabled.png
+:000000 100644 0000000... 7fd7aeb... A	appcompat/res/drawable-xhdpi/abc_ic_clear_search_api_disabled_holo_light.png
+:000000 100644 0000000... 53cfbd3... A	appcompat/res/drawable-xhdpi/abc_ic_clear_search_api_holo_light.png
+:000000 100644 0000000... d8faf90... A	appcompat/res/drawable-xhdpi/abc_ic_commit_search_api_holo_dark.png
+:000000 100644 0000000... e7c7280... A	appcompat/res/drawable-xhdpi/abc_ic_commit_search_api_holo_light.png
+:000000 100644 0000000... 1e2dcfa... A	appcompat/res/drawable-xhdpi/abc_ic_go.png
+:000000 100644 0000000... f12eafc... A	appcompat/res/drawable-xhdpi/abc_ic_go_search_api_holo_light.png
+:000000 100644 0000000... a92fb1d... A	appcompat/res/drawable-xhdpi/abc_ic_menu_moreoverflow_normal_holo_dark.png
+:000000 100644 0000000... 930ca8d... A	appcompat/res/drawable-xhdpi/abc_ic_menu_moreoverflow_normal_holo_light.png
+:000000 100644 0000000... 45a0f1d... A	appcompat/res/drawable-xhdpi/abc_ic_menu_share_holo_dark.png
+:000000 100644 0000000... 528e554... A	appcompat/res/drawable-xhdpi/abc_ic_menu_share_holo_light.png
+:000000 100644 0000000... 998f91b... A	appcompat/res/drawable-xhdpi/abc_ic_search.png
+:000000 100644 0000000... a4cdf1c... A	appcompat/res/drawable-xhdpi/abc_ic_search_api_holo_light.png
+:000000 100644 0000000... c625a36... A	appcompat/res/drawable-xhdpi/abc_ic_voice_search.png
+:000000 100644 0000000... c332ba0... A	appcompat/res/drawable-xhdpi/abc_ic_voice_search_api_holo_light.png
+:000000 100644 0000000... e62f011... A	appcompat/res/drawable-xhdpi/abc_list_divider_holo_dark.9.png
+:000000 100644 0000000... 65061c0... A	appcompat/res/drawable-xhdpi/abc_list_divider_holo_light.9.png
+:000000 100644 0000000... b545f8e... A	appcompat/res/drawable-xhdpi/abc_list_focused_holo.9.png
+:000000 100644 0000000... eda10e6... A	appcompat/res/drawable-xhdpi/abc_list_longpressed_holo.9.png
+:000000 100644 0000000... e4b3393... A	appcompat/res/drawable-xhdpi/abc_list_pressed_holo_dark.9.png
+:000000 100644 0000000... e4b3393... A	appcompat/res/drawable-xhdpi/abc_list_pressed_holo_light.9.png
+:000000 100644 0000000... 88726b6... A	appcompat/res/drawable-xhdpi/abc_list_selector_disabled_holo_dark.9.png
+:000000 100644 0000000... c6a7d4d... A	appcompat/res/drawable-xhdpi/abc_list_selector_disabled_holo_light.9.png
+:000000 100644 0000000... abc48f8... A	appcompat/res/drawable-xhdpi/abc_menu_dropdown_panel_holo_dark.9.png
+:000000 100644 0000000... 48905ed... A	appcompat/res/drawable-xhdpi/abc_menu_dropdown_panel_holo_light.9.png
+:000000 100644 0000000... c1ad023... A	appcompat/res/drawable-xhdpi/abc_menu_hardkey_panel_holo_dark.9.png
+:000000 100644 0000000... a1e33d6... A	appcompat/res/drawable-xhdpi/abc_menu_hardkey_panel_holo_light.9.png
+:000000 100644 0000000... c43293d... A	appcompat/res/drawable-xhdpi/abc_spinner_ab_default_holo_dark.9.png
+:000000 100644 0000000... 3dc481e... A	appcompat/res/drawable-xhdpi/abc_spinner_ab_default_holo_light.9.png
+:000000 100644 0000000... 9a7b173... A	appcompat/res/drawable-xhdpi/abc_spinner_ab_disabled_holo_dark.9.png
+:000000 100644 0000000... 6888fdc... A	appcompat/res/drawable-xhdpi/abc_spinner_ab_disabled_holo_light.9.png
+:000000 100644 0000000... 9408b47... A	appcompat/res/drawable-xhdpi/abc_spinner_ab_focused_holo_dark.9.png
+:000000 100644 0000000... 1cb95d1... A	appcompat/res/drawable-xhdpi/abc_spinner_ab_focused_holo_light.9.png
+:000000 100644 0000000... a3c7711... A	appcompat/res/drawable-xhdpi/abc_spinner_ab_pressed_holo_dark.9.png
+:000000 100644 0000000... 2a21210... A	appcompat/res/drawable-xhdpi/abc_spinner_ab_pressed_holo_light.9.png
+:000000 100644 0000000... 03cfb09... A	appcompat/res/drawable-xhdpi/abc_tab_selected_focused_holo.9.png
+:000000 100644 0000000... e4229f2... A	appcompat/res/drawable-xhdpi/abc_tab_selected_holo.9.png
+:000000 100644 0000000... e862cb1... A	appcompat/res/drawable-xhdpi/abc_tab_selected_pressed_holo.9.png
+:000000 100644 0000000... f1eb673... A	appcompat/res/drawable-xhdpi/abc_tab_unselected_pressed_holo.9.png
+:000000 100644 0000000... 8fdbbf3... A	appcompat/res/drawable-xhdpi/abc_textfield_search_default_holo_dark.9.png
+:000000 100644 0000000... 4e9ae43... A	appcompat/res/drawable-xhdpi/abc_textfield_search_default_holo_light.9.png
+:000000 100644 0000000... 98f4871... A	appcompat/res/drawable-xhdpi/abc_textfield_search_right_default_holo_dark.9.png
+:000000 100644 0000000... 733373e... A	appcompat/res/drawable-xhdpi/abc_textfield_search_right_default_holo_light.9.png
+:000000 100644 0000000... 0c6bb03... A	appcompat/res/drawable-xhdpi/abc_textfield_search_right_selected_holo_dark.9.png
+:000000 100644 0000000... 0c6bb03... A	appcompat/res/drawable-xhdpi/abc_textfield_search_right_selected_holo_light.9.png
+:000000 100644 0000000... e5bfd8a... A	appcompat/res/drawable-xhdpi/abc_textfield_search_selected_holo_dark.9.png
+:000000 100644 0000000... 1743da6... A	appcompat/res/drawable-xhdpi/abc_textfield_search_selected_holo_light.9.png
+:000000 100644 0000000... 802af6f... A	appcompat/res/drawable/abc_ic_clear.xml
+:000000 100644 0000000... 4b84efc... A	appcompat/res/drawable/abc_ic_clear_holo_light.xml
+:000000 100644 0000000... 72162c2... A	appcompat/res/drawable/abc_item_background_holo_dark.xml
+:000000 100644 0000000... 1c180b2... A	appcompat/res/drawable/abc_item_background_holo_light.xml
+:000000 100644 0000000... 0add58c... A	appcompat/res/drawable/abc_list_selector_background_transition_holo_dark.xml
+:000000 100644 0000000... 0c1d3e6... A	appcompat/res/drawable/abc_list_selector_background_transition_holo_light.xml
+:000000 100644 0000000... 1fb5fc4... A	appcompat/res/drawable/abc_list_selector_holo_dark.xml
+:000000 100644 0000000... 8d24047... A	appcompat/res/drawable/abc_list_selector_holo_light.xml
+:000000 100644 0000000... 75e8917... A	appcompat/res/drawable/abc_search_dropdown_dark.xml
+:000000 100644 0000000... 80d4928... A	appcompat/res/drawable/abc_search_dropdown_light.xml
+:000000 100644 0000000... 934b374... A	appcompat/res/drawable/abc_spinner_ab_holo_dark.xml
+:000000 100644 0000000... dd0245e... A	appcompat/res/drawable/abc_spinner_ab_holo_light.xml
+:000000 100644 0000000... 3c828d8... A	appcompat/res/drawable/abc_tab_indicator_ab_holo.xml
+:000000 100644 0000000... 6e9bc4c... A	appcompat/res/drawable/abc_textfield_searchview_holo_dark.xml
+:000000 100644 0000000... a02e4b0... A	appcompat/res/drawable/abc_textfield_searchview_holo_light.xml
+:000000 100644 0000000... b55a995... A	appcompat/res/drawable/abc_textfield_searchview_right_holo_dark.xml
+:000000 100644 0000000... 7710232... A	appcompat/res/drawable/abc_textfield_searchview_right_holo_light.xml
+:000000 100644 0000000... a212d56... A	appcompat/res/layout-v11/abc_action_bar_decor.xml
+:000000 100644 0000000... 4ce359b... A	appcompat/res/layout-v14/abc_activity_chooser_view.xml
+:000000 100644 0000000... 327e26f... A	appcompat/res/layout/abc_action_bar_decor.xml
+:000000 100644 0000000... 3f2356b... A	appcompat/res/layout/abc_action_bar_decor_include.xml
+:000000 100644 0000000... 5ea8fc1... A	appcompat/res/layout/abc_action_bar_decor_overlay.xml
+:000000 100644 0000000... 7063c36... A	appcompat/res/layout/abc_action_bar_home.xml
+:000000 100644 0000000... 85eda96... A	appcompat/res/layout/abc_action_bar_tab.xml
+:000000 100644 0000000... 08f9c89... A	appcompat/res/layout/abc_action_bar_tabbar.xml
+:000000 100644 0000000... 0cb1237... A	appcompat/res/layout/abc_action_bar_title_item.xml
+:000000 100644 0000000... 5c105ab... A	appcompat/res/layout/abc_action_bar_view_list_nav_layout.xml
+:000000 100644 0000000... 150ea50... A	appcompat/res/layout/abc_action_menu_item_layout.xml
+:000000 100644 0000000... 37a02e6... A	appcompat/res/layout/abc_action_menu_layout.xml
+:000000 100644 0000000... b81cd85... A	appcompat/res/layout/abc_action_mode_bar.xml
+:000000 100644 0000000... 2c76b8b... A	appcompat/res/layout/abc_action_mode_close_item.xml
+:000000 100644 0000000... eb42598... A	appcompat/res/layout/abc_activity_chooser_view.xml
+:000000 100644 0000000... 975b13e... A	appcompat/res/layout/abc_activity_chooser_view_include.xml
+:000000 100644 0000000... 887427d... A	appcompat/res/layout/abc_activity_chooser_view_list_item.xml
+:000000 100644 0000000... f4af882... A	appcompat/res/layout/abc_expanded_menu_layout.xml
+:000000 100644 0000000... d9c3f06... A	appcompat/res/layout/abc_list_menu_item_checkbox.xml
+:000000 100644 0000000... acd005a... A	appcompat/res/layout/abc_list_menu_item_icon.xml
+:000000 100644 0000000... d3be782... A	appcompat/res/layout/abc_list_menu_item_layout.xml
+:000000 100644 0000000... 0ca8d7a... A	appcompat/res/layout/abc_list_menu_item_radio.xml
+:000000 100644 0000000... 1e4e27d... A	appcompat/res/layout/abc_popup_menu_item_layout.xml
+:000000 100644 0000000... bcb6132... A	appcompat/res/layout/abc_screen.xml
+:000000 100644 0000000... ffc3aed... A	appcompat/res/layout/abc_search_dropdown_item_icons_2line.xml
+:000000 100644 0000000... da8adb8... A	appcompat/res/layout/abc_search_view.xml
+:000000 100644 0000000... d2f177a... A	appcompat/res/layout/support_simple_spinner_dropdown_item.xml
+:000000 100644 0000000... cdadd69... A	appcompat/res/values-land/bools.xml
+:000000 100644 0000000... d0d990d... A	appcompat/res/values-land/config.xml
+:000000 100644 0000000... bde13e2... A	appcompat/res/values-land/dimens.xml
+:000000 100644 0000000... cdadd69... A	appcompat/res/values-large/bools.xml
+:000000 100644 0000000... c4f04a3... A	appcompat/res/values-large/config.xml
+:000000 100644 0000000... dd9ecd9... A	appcompat/res/values-large/dimens.xml
+:000000 100644 0000000... fba21e1... A	appcompat/res/values-sw600dp/config.xml
+:000000 100644 0000000... 94fe525... A	appcompat/res/values-sw600dp/dimens.xml
+:000000 100644 0000000... 2cee503... A	appcompat/res/values-v11/styles_base.xml
+:000000 100644 0000000... ca7acbd... A	appcompat/res/values-v11/themes_base.xml
+:000000 100644 0000000... 07d32b8... A	appcompat/res/values-v14/styles_base.xml
+:000000 100644 0000000... 26ad271... A	appcompat/res/values-v14/themes_base.xml
+:000000 100644 0000000... e5b2456... A	appcompat/res/values-w360dp/dimens.xml
+:000000 100644 0000000... 6e6a3df... A	appcompat/res/values-w480dp/bools.xml
+:000000 100644 0000000... e95b6ff... A	appcompat/res/values-w480dp/config.xml
+:000000 100644 0000000... dd6458b... A	appcompat/res/values-w500dp/dimens.xml
+:000000 100644 0000000... 5bbc34d... A	appcompat/res/values-w600dp/dimens.xml
+:000000 100644 0000000... 05c5aab... A	appcompat/res/values-w720dp/bools.xml
+:000000 100644 0000000... 05c5aab... A	appcompat/res/values-xlarge/bools.xml
+:000000 100644 0000000... 6217586... A	appcompat/res/values-xlarge/dimens.xml
+:000000 100644 0000000... 89749c0... A	appcompat/res/values/attrs.xml
+:000000 100644 0000000... 004d947... A	appcompat/res/values/bools.xml
+:000000 100644 0000000... 884387a... A	appcompat/res/values/colors.xml
+:000000 100644 0000000... 8c027d1... A	appcompat/res/values/config.xml
+:000000 100644 0000000... f58d6fa... A	appcompat/res/values/dimens.xml
+:000000 100644 0000000... a2e3e74... A	appcompat/res/values/ids.xml
+:000000 100644 0000000... eceee56... A	appcompat/res/values/strings.xml
+:000000 100644 0000000... d0471c3... A	appcompat/res/values/styles.xml
+:000000 100644 0000000... 28d2086... A	appcompat/res/values/styles_base.xml
+:000000 100644 0000000... e3e948d... A	appcompat/res/values/themes.xml
+:000000 100644 0000000... 3b514a8... A	appcompat/res/values/themes_base.xml
+:000000 100644 0000000... 4bcebad... A	appcompat/src/.readme
+commit=437e13b5ab5006ccb37479297f683ff5a77c5e43:Alexander.Iljushkin@billing.ru
+
+:100644 100644 883e6ae... eaabcd5... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/view/CapitalizedTextView.java
+commit=adcc7bba2217dc8eade077171488281989c954a1:donn@donnfelker.com
+
+:100644 100644 ed4cc6c... b8791c6... M	pom.xml
+commit=741964faaaff786a89d7b1877e3700d8ee1ebbed:donn@donnfelker.com
+
+:000000 100644 0000000... 1319121... A	app/src/main/java/com/donnfelker/android/bootstrap/core/IntentFactory.java
+:100644 100644 22a5b55... 7446d65... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/AlternatingColorListAdapter.java
+:100644 100644 4d7733b... 4471d30... M	integration-tests/AndroidManifest.xml
+:100644 100644 b8791c6... ed4cc6c... M	pom.xml
+commit=5e02afa65ab20c941b626595dde49b8586920486:donn@donnfelker.com
+
+:100644 100644 9c7a353... 4bafe97... M	app/pom.xml
+:100644 000000 d57e2ff... 0000000... D	app/src/main/java/com/donnfelker/android/bootstrap/core/AvatarLoader.java
+:100644 100644 4dfcb44... 9a29c1f... M	app/src/main/java/com/donnfelker/android/bootstrap/core/User.java
+:100644 100644 6a3f964... e7437be... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserActivity.java
+:100644 100644 398a186... e3f8340... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserListAdapter.java
+:100644 100644 ebb2b00... 523450a... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserListFragment.java
+commit=4ecd3b79d0b22901f6819f42c7ac17099b2bdc61:donn@donnfelker.com
+
+:100644 100644 e33a85f... 5a735c4... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapApplication.java
+:000000 100644 0000000... 937d8bd... A	app/src/main/java/com/donnfelker/android/bootstrap/Injector.java
+:100644 100644 c210a12... 3cef3a6... M	app/src/main/java/com/donnfelker/android/bootstrap/core/TimerService.java
+:100644 100644 6f287af... 03c4e2c... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapActivity.java
+:100644 100644 9abce2c... ef554b4... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapFragmentActivity.java
+:100644 100644 25f98f1... 32241ef... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CheckInsListFragment.java
+:100644 100644 246e94a... 206ea2b... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NewsListFragment.java
+:100644 100644 74ec7cc... ebb2b00... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserListFragment.java
+commit=e2cde33785216040668c0c8677e1d5bdeec6d7d2:donn@donnfelker.com
+
+:100644 100644 f26e711... a106b75... M	app/AndroidManifest.xml
+:100644 100644 b5861a2... 9c7a353... M	app/pom.xml
+:100644 100644 b9e3c8f... 4403750... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CarouselActivity.java
+commit=197e497288c13b27a8db22cd280e9b9108845634:donn@donnfelker.com
+
+:100644 100644 6f6727f... 015ca95... M	README.md
+commit=364db2cbeee910a8e7b47e3f565db789aa8496a4:donn@donnfelker.com
+
+:100644 100644 ff7611c... 6f6727f... M	README.md
+commit=307a4fa0d64fd54fe625767e27a34da9a34ee16c:donn@donnfelker.com
+
+:100644 100644 ab0437d... ff7611c... M	README.md
+commit=d41ad8697fedd4a8d8aebd670402d331b589c633:donn@donnfelker.com
+
+:100644 100644 066d62c... 1cfe5bf... M	app/res/values/colors.xml
+commit=25f75b53b8dea618fe44e26c6671be0bac880763:donn@donnfelker.com
+
+:000000 100755 0000000... 7d9a6c4... A	app/assets/fonts/Roboto-Regular.ttf
+:100644 100644 7d5ea7a... b5861a2... M	app/pom.xml
+:000000 100644 0000000... 2fcef81... A	app/res/color/nav_text_selector.xml
+:000000 100644 0000000... ec8c51f... A	app/res/drawable-hdpi/ic_drawer.png
+:000000 100755 0000000... eb11224... A	app/res/drawable-hdpi/ic_home.png
+:000000 100755 0000000... 0febe1d... A	app/res/drawable-hdpi/ic_timer.png
+:000000 100644 0000000... 7420a68... A	app/res/drawable-mdpi/ic_drawer.png
+:000000 100755 0000000... ad925f8... A	app/res/drawable-mdpi/ic_home.png
+:000000 100755 0000000... 74037a2... A	app/res/drawable-mdpi/ic_timer.png
+:000000 100644 0000000... 7ffbe5c... A	app/res/drawable-xhdpi/ic_drawer.png
+:000000 100755 0000000... a7031e4... A	app/res/drawable-xhdpi/ic_home.png
+:000000 100755 0000000... 0e15946... A	app/res/drawable-xhdpi/ic_timer.png
+:000000 100755 0000000... 547a4e1... A	app/res/drawable-xxhdpi/ic_home.png
+:000000 100755 0000000... 43ce820... A	app/res/drawable-xxhdpi/ic_timer.png
+:000000 100755 0000000... 1045bb3... A	app/res/drawable/nav_menu_button_background_disabled.xml
+:000000 100755 0000000... 97384c3... A	app/res/drawable/nav_menu_button_background_enabled.xml
+:000000 100755 0000000... b6813e6... A	app/res/drawable/nav_menu_button_background_pressed.xml
+:000000 100755 0000000... f5a007b... A	app/res/drawable/nav_menu_button_background_selector.xml
+:000000 100644 0000000... a2c49be... A	app/res/layout/navigation_drawer.xml
+:100644 100644 5403e4d... 066d62c... M	app/res/values/colors.xml
+:100644 100644 e7a6b51... 254797b... M	app/res/values/strings.xml
+:100644 100644 a6b885e... e8cc640... M	app/res/values/styles.xml
+:100644 100644 6cf6021... b9e3c8f... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CarouselActivity.java
+:000000 100644 0000000... 883e6ae... A	app/src/main/java/com/donnfelker/android/bootstrap/ui/view/CapitalizedTextView.java
+commit=c2a007462033235ec96c96060c5a963435c6bd24:donn@donnfelker.com
+
+:100644 100644 999c1bf... 7d5ea7a... M	app/pom.xml
+commit=087d1f0ebb1c44b8ace4ba518d67703e875fb884:donn@donnfelker.com
+
+:100644 100644 2b05bd2... 999c1bf... M	app/pom.xml
+commit=35334c105397d4f99383cf96d309c67a9e734f3d:donn@donnfelker.com
+
+:100644 100644 6c5f261... 2b05bd2... M	app/pom.xml
+commit=260d4b3e7390b2da8bb67543e4dcbcd803ee8141:donn@donnfelker.com
+
+:100644 100644 a182446... 6c5f261... M	app/pom.xml
+commit=4c2b9a61308544bfe2f3283f21d92f5417676c47:donn@donnfelker.com
+
+:100644 100644 bdb8866... a182446... M	app/pom.xml
+commit=325a708be10c99467d9b89d8b41208685590c653:donn@donnfelker.com
+
+:100644 100644 f204d56... b8791c6... M	pom.xml
+commit=4d67b0b51d3d580206e98719bf0f7263482e3061:dleony@gmail.com
+
+:100644 100644 06c61f0... b1da0dd... M	proguard.cfg
+commit=2340791f6766f402fb787aa1a1e1a2c1998428e6:joeykrim@gmail.com
+
+:100644 100644 eb5cf27... ab0437d... M	README.md
+commit=7d7b0606f56433416109d18c7f3866a5f10f70aa:donn@donnfelker.com
+
+:100644 100644 8bc31f9... 3fd3a73... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/BootstrapAccountAuthenticator.java
+commit=e82a0fb590b318288d2e9d43366e40eb57730b09:donn@donnfelker.com
+
+:100644 100644 183072f... 1a9fd26... M	integration-tests/pom.xml
+:100644 100644 0c48910... f204d56... M	pom.xml
+commit=727762a5302b82c6eba480a8699b25c873395fe3:donn@donnfelker.com
+
+:100644 100644 5bb2c59... bdb8866... M	app/pom.xml
+commit=504b45c4c527e0e11d3a1b66acb33fccd181e3fd:donn@donnfelker.com
+
+:100644 100644 bb4abac... 5bb2c59... M	app/pom.xml
+commit=473d79e8099ca2de1343069d35de6e78ef66abee:donn@donnfelker.com
+
+:100644 100644 1ea10f9... bb4abac... M	app/pom.xml
+commit=255a0289145e6d79ec8c53f857b34168ee59a294:donn@donnfelker.com
+
+:100644 100644 47f99be... 1ea10f9... M	app/pom.xml
+commit=7ccc11a78755bd2f76ef2e9e1bd69de529161650:donn@donnfelker.com
+
+:100644 100644 54fb770... 47f99be... M	app/pom.xml
+:100644 100644 903e8cd... 9929597... M	app/src/main/java/com/donnfelker/android/bootstrap/AndroidModule.java
+:100644 100644 8e91be0... 8dd73e1... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapModule.java
+commit=5dede7e7e4ab9bb05243023f050928612b057def:donn@donnfelker.com
+
+:100644 100644 bc08cb7... 54fb770... M	app/pom.xml
+:100644 100644 7a1651c... 6f287af... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapActivity.java
+:100644 100644 dc23136... 9abce2c... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapFragmentActivity.java
+commit=b66478d3c2f881e3c352aac7127acbec91557f4e:jwillis@citrrus.com
+
+:100644 100644 1913d2b... 8bc31f9... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/BootstrapAccountAuthenticator.java
+:100644 100644 b88f934... 34e3bee... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/BootstrapAuthenticatorActivity.java
+:100644 100644 4a2d74c... 9df81d5... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/LogoutService.java
+:100644 100644 508e0d4... d57e2ff... M	app/src/main/java/com/donnfelker/android/bootstrap/core/AvatarLoader.java
+:100644 100644 08f9543... f1d11fb... M	app/src/main/java/com/donnfelker/android/bootstrap/core/ImageUtils.java
+:100644 100644 e96f9f1... b5772d2... M	app/src/main/java/com/donnfelker/android/bootstrap/util/SafeAsyncTask.java
+commit=fe207e20aefc068dff9673bc5b445467c08611f1:donn@donnfelker.com
+
+:100644 100644 c62b8b1... bc08cb7... M	app/pom.xml
+:100644 100644 f3c6c12... 9c034b4... M	integration-tests/src/main/java/com/donnfelker/android/bootstrap/test/TestUserAccountUtil.java
+:100644 100644 d59730c... 06c61f0... M	proguard.cfg
+commit=1229d01365dfe1c62bc57d632a9303d16ca8eb71:donn@donnfelker.com
+
+:100644 100644 b37175e... eb5cf27... M	README.md
+commit=1c6c032f00b918eb47e549d4eb228a9829a41100:donn@donnfelker.com
+
+:100644 100644 1771e14... 7a1651c... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapActivity.java
+:100644 100644 f875eec... dc23136... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapFragmentActivity.java
+:100644 100644 16c4340... 567c7b5... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapTimerActivity.java
+:100644 100644 6707f7a... 6cf6021... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CarouselActivity.java
+:100644 100644 a150c9b... 6a3f964... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserActivity.java
+commit=293e8812d490515494707b618a2bf7aebe52a1ea:donn@donnfelker.com
+
+:100644 100644 0b06cb5... 903e8cd... M	app/src/main/java/com/donnfelker/android/bootstrap/AndroidModule.java
+:100644 100644 9051f70... 8e91be0... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapModule.java
+:100644 100644 6ee34f4... f875eec... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapFragmentActivity.java
+:100644 100644 26c666e... 16c4340... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapTimerActivity.java
+:100644 100644 fc9d786... 25f98f1... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CheckInsListFragment.java
+:100644 100644 455aeea... 246e94a... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NewsListFragment.java
+:100644 100644 44caaa1... a150c9b... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserActivity.java
+:100644 100644 d804e6e... 74ec7cc... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserListFragment.java
+commit=b37181c5a1a4ae18793dbf98383a620a1c84f2e8:donn@donnfelker.com
+
+:100644 100644 6f55bd9... b88f934... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/BootstrapAuthenticatorActivity.java
+:100644 100644 4151a9d... 6707f7a... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CarouselActivity.java
+commit=883a333b221d33c2cf429b2a1250f100db87a180:donn@donnfelker.com
+
+:100644 100644 7430931... e33a85f... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapApplication.java
+:100644 100644 cf0e707... 9051f70... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapModule.java
+:100644 100644 1f08480... c210a12... M	app/src/main/java/com/donnfelker/android/bootstrap/core/TimerService.java
+:100644 100644 8082ae1... 6ee34f4... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapFragmentActivity.java
+:100644 100644 7eaeadf... 26c666e... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapTimerActivity.java
+:100644 100644 5e6277d... 4151a9d... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CarouselActivity.java
+:100644 100644 b896af9... fc9d786... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CheckInsListFragment.java
+:100644 100644 3920b23... 455aeea... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NewsListFragment.java
+:100644 100644 331ceec... d804e6e... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserListFragment.java
+commit=38714c5c98f90d5b43874c074df8708c3535b89a:donn@donnfelker.com
+
+:100644 100644 6d03c8e... 75797ff... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapServiceProvider.java
+commit=1ee9448fb0eeff7f8ca5e76dcb0026f24272f7cf:jw@squareup.com
+
+:100644 100644 5696d20... c62b8b1... M	app/pom.xml
+:100644 100644 5ca840c... 6d03c8e... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapServiceProvider.java
+:100644 100644 f4e1f76... d196578... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/ApiKeyProvider.java
+:100644 100644 93eb4a4... 6f55bd9... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/BootstrapAuthenticatorActivity.java
+:100644 100644 2bb633a... 1f08480... M	app/src/main/java/com/donnfelker/android/bootstrap/core/TimerService.java
+:100644 100644 c89f0d0... 5e6277d... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CarouselActivity.java
+:100644 100644 3b42235... 331ceec... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserListFragment.java
+:100644 100644 ce4b276... 0c48910... M	pom.xml
+commit=bbb86e0c5be047e9499ca6b625700351e19f4558:donn@donnfelker.com
+
+:100644 100644 b22767a... 0b06cb5... M	app/src/main/java/com/donnfelker/android/bootstrap/AndroidModule.java
+:100644 100644 11f3295... 7430931... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapApplication.java
+:100644 100644 a8841c5... cf0e707... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapModule.java
+:100644 100644 779d945... 5ca840c... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapServiceProvider.java
+:000000 100644 0000000... dbc06b6... A	app/src/main/java/com/donnfelker/android/bootstrap/RootModule.java
+:100644 100644 1b9f1a0... f4e1f76... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/ApiKeyProvider.java
+:100644 100644 1e0003b... 4a2d74c... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/LogoutService.java
+:100644 100644 3dabda0... bf82e88... M	app/src/main/java/com/donnfelker/android/bootstrap/core/UserAgentProvider.java
+:100644 100644 0d676bf... b896af9... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CheckInsListFragment.java
+:100644 100644 d7fc22c... 74c359b... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/ItemListFragment.java
+:100644 100644 34cf93a... 3920b23... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NewsListFragment.java
+:100644 100644 c527efe... 3b42235... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserListFragment.java
+commit=f4fd41e17eefb23791bb59822ca41512f3b3b720:donn@donnfelker.com
+
+:000000 100644 0000000... b22767a... A	app/src/main/java/com/donnfelker/android/bootstrap/AndroidModule.java
+:100644 100644 c36b28e... a8841c5... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapModule.java
+commit=42940bda89e61b7801cdb15a0ecefb03b4348e1d:donn@donnfelker.com
+
+:100644 100644 1dd168b... 9e31db0... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/SherlockAccountAuthenticatorActivity.java
+commit=5f86baceeebe5cf12d12014f5ba90039dbaaa923:donn@donnfelker.com
+
+:100644 100644 6ab4fd4... 5696d20... M	app/pom.xml
+:100644 100644 85a04ea... 11f3295... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapApplication.java
+:100644 100644 6be04fd... 779d945... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapServiceProvider.java
+:100644 100644 500a6f0... 1b9f1a0... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/ApiKeyProvider.java
+:100644 100644 84d5627... 93eb4a4... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/BootstrapAuthenticatorActivity.java
+:100644 100644 f7139a9... 1e0003b... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/LogoutService.java
+:000000 100644 0000000... 1dd168b... A	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/SherlockAccountAuthenticatorActivity.java
+:100644 100644 2d1a3b2... 508e0d4... M	app/src/main/java/com/donnfelker/android/bootstrap/core/AvatarLoader.java
+:100644 100644 a62e5fb... 2bb633a... M	app/src/main/java/com/donnfelker/android/bootstrap/core/TimerService.java
+:100644 100644 f6b1fb2... 3dabda0... M	app/src/main/java/com/donnfelker/android/bootstrap/core/UserAgentProvider.java
+:100644 100644 52be6dc... 1771e14... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapActivity.java
+:000000 100644 0000000... 8082ae1... A	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapFragmentActivity.java
+:100644 100644 e5d261a... 7eaeadf... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapTimerActivity.java
+:100644 100644 f750349... c89f0d0... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CarouselActivity.java
+:100644 100644 c46e98e... 2eacfac... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CheckInsListAdapter.java
+:100644 100644 0769ff8... 0d676bf... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CheckInsListFragment.java
+:100644 100644 06370b6... d7fc22c... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/ItemListFragment.java
+:100644 100644 db30d3f... 5580fe1... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NewsActivity.java
+:100644 100644 430fb73... 34cf93a... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NewsListFragment.java
+:100644 100644 f4a6d61... ecdde3b... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/ThrowableLoader.java
+:100644 100644 86e7f37... 44caaa1... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserActivity.java
+:100644 100644 ab53827... c527efe... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserListFragment.java
+:000000 100644 0000000... f32c825... A	app/src/main/java/com/donnfelker/android/bootstrap/util/Ln.java
+:000000 100644 0000000... e96f9f1... A	app/src/main/java/com/donnfelker/android/bootstrap/util/SafeAsyncTask.java
+:000000 100644 0000000... 72a242b... A	app/src/main/java/com/donnfelker/android/bootstrap/util/Strings.java
+commit=253a01edb130c385303fd0ffa4603405aa4413be:donn@donnfelker.com
+
+:100644 100644 fea8539... 6ab4fd4... M	app/pom.xml
+commit=d625c604ac4e16cb168853efbcd8df58e1b01003:donn@donnfelker.com
+
+:100644 100644 30e28d0... f26e711... M	app/AndroidManifest.xml
+:100644 100644 a400f04... fea8539... M	app/pom.xml
+:000000 100755 0000000... 3b28155... A	app/res/drawable-hdpi-v11/ic_stat_ab_notification.png
+:000000 100755 0000000... 72d24f6... A	app/res/drawable-hdpi-v9/ic_stat_ab_notification.png
+:000000 100755 0000000... dda32bd... A	app/res/drawable-hdpi/ic_action_timer.png
+:000000 100755 0000000... d3d4d39... A	app/res/drawable-hdpi/ic_stat_ab_notification.png
+:000000 100755 0000000... b8685af... A	app/res/drawable-ldpi-v11/ic_stat_ab_notification.png
+:000000 100755 0000000... 944778f... A	app/res/drawable-ldpi-v9/ic_stat_ab_notification.png
+:000000 100755 0000000... d4087e5... A	app/res/drawable-mdpi-v11/ic_stat_ab_notification.png
+:000000 100755 0000000... 6011074... A	app/res/drawable-mdpi-v9/ic_stat_ab_notification.png
+:000000 100755 0000000... 475b0c6... A	app/res/drawable-mdpi/ic_action_timer.png
+:000000 100755 0000000... d763f38... A	app/res/drawable-mdpi/ic_stat_ab_notification.png
+:000000 100755 0000000... b321d3a... A	app/res/drawable-xhdpi-v11/ic_stat_ab_notification.png
+:000000 100755 0000000... 1f33587... A	app/res/drawable-xhdpi-v9/ic_stat_ab_notification.png
+:000000 100755 0000000... 1c2ca4f... A	app/res/drawable-xhdpi/ic_action_timer.png
+:000000 100755 0000000... 8d8c0e9... A	app/res/drawable-xhdpi/ic_stat_ab_notification.png
+:000000 100644 0000000... 6dcb77f... A	app/res/drawable/button_background_pressed.xml
+:100644 100644 6aebde7... eafea6f... M	app/res/drawable/button_background_states.xml
+:000000 100644 0000000... 5367a92... A	app/res/layout/bootstrap_timer.xml
+:100644 100644 17f5d88... ae6cf3c... M	app/res/menu/bootstrap.xml
+:100644 100644 ea34552... 5403e4d... M	app/res/values/colors.xml
+:100644 100644 b7de1bf... e7a6b51... M	app/res/values/strings.xml
+:100644 100644 157d00f... a6b885e... M	app/res/values/styles.xml
+:100644 100644 e8c9fd0... 85a04ea... M	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapApplication.java
+:000000 100644 0000000... c36b28e... A	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapModule.java
+:100644 100644 81954ce... cd5a386... M	app/src/main/java/com/donnfelker/android/bootstrap/core/Constants.java
+:000000 100644 0000000... bd98769... A	app/src/main/java/com/donnfelker/android/bootstrap/core/PauseTimerEvent.java
+:000000 100644 0000000... c767c71... A	app/src/main/java/com/donnfelker/android/bootstrap/core/ResumeTimerEvent.java
+:000000 100644 0000000... 672e2c4... A	app/src/main/java/com/donnfelker/android/bootstrap/core/StopTimerEvent.java
+:000000 100644 0000000... 83104c1... A	app/src/main/java/com/donnfelker/android/bootstrap/core/TimerPausedEvent.java
+:000000 100644 0000000... a62e5fb... A	app/src/main/java/com/donnfelker/android/bootstrap/core/TimerService.java
+:000000 100644 0000000... 056c343... A	app/src/main/java/com/donnfelker/android/bootstrap/core/TimerTickEvent.java
+:000000 100644 0000000... e5d261a... A	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapTimerActivity.java
+:100644 100644 a5b6745... f750349... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CarouselActivity.java
+:100644 100644 a1ee567... d59730c... M	proguard.cfg
+commit=5c187ce6904f9ea12a413714345906b613883740:donn@donnfelker.com
+
+:100644 100644 8e4d8b6... b37175e... M	README.md
+commit=0495686b22bfb755b6d28b441cbb8e064125440c:donn@donnfelker.com
+
+:100644 100644 cab6c56... 8e4d8b6... M	README.md
+commit=5c832595272bece8b16a9fa1d0261b1d2f052c6a:lukas.marek@gmail.com
+
+:100644 100644 4a1a8db... a8d1a77... M	app/pom.xml
+:100644 100644 3a94b5a... 22a5b55... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/AlternatingColorListAdapter.java
+commit=da037a73962a3b5a1a9b1455aa4e5862cf337f6e:jordan.taekema@gmail.com
+
+:100644 100644 6ed23d2... b7693c2... M	app/pom.xml
+commit=8f2addbca9a3b05abb8c3e1495524b88545b92f3:jordan.taekema@gmail.com
+
+:100644 100644 0689dbd... 5dc50de... M	app/res/values/theme.xml
+commit=10d1c0b1c7fecde5a9d46aa1b58821eb066b014e:jordan.taekema@gmail.com
+
+:100644 100644 871a018... f7139a9... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/LogoutService.java
+commit=28fee75c037ef60e405c91c848a1b941dfdafc90:jordan.taekema@gmail.com
+
+:100644 100644 7af81c1... 6ed23d2... M	app/pom.xml
+:100644 100644 3a94b5a... 22a5b55... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/AlternatingColorListAdapter.java
+commit=b31f27f06aa2f4d7e29d293abfecd1649dc37dbb:jordan.taekema@gmail.com
+
+:100644 100644 5dac550... bd1d989... M	.gitignore
+commit=670b1629a2d69f41493f689b4a66927cbcce7b1c:xuxianming@umeng.com
+
+:100644 100644 6761c54... c46e98e... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CheckInsListAdapter.java
+:100644 100644 20f9567... 39e3d21... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NewsListAdapter.java
+:100644 100644 5830f3b... 398a186... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserListAdapter.java
+commit=3192458465b2abdace34522ff0b37f525353d6f0:lukas.marek@gmail.com
+
+:100644 100644 7af81c1... 4a1a8db... M	app/pom.xml
+:100644 100644 6761c54... ac99134... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/CheckInsListAdapter.java
+:100644 100644 20f9567... 39e3d21... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NewsListAdapter.java
+:100644 100644 5830f3b... 398a186... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserListAdapter.java
+commit=228a43ab32d864cfdbb0cd032b99e8f92f58752a:me@lawrencesamantha.com
+
+:100644 100644 863d818... 7af81c1... M	app/pom.xml
+commit=c862fefbe88b9c8f52b12b1c3e6d198121bfe00e:oneilse14@gmail.com
+
+:100644 100644 cd5c825... a1ee567... M	proguard.cfg
+commit=c4bcb7efcf70f4ae9d01a356429a044b890d81da:michal.harakal@googlemail.com
+
+:100644 100644 bdb209d... ce4b276... M	pom.xml
+commit=504e3c1b3cfe24a65f455eaea584e39f48de558c:lukas.marek@gmail.com
+
+:100644 100644 e330dd9... 0689dbd... M	app/res/values/theme.xml
+commit=80d6d9a480c9df0f8dfc27be865e20e00c5093bd:lukas.marek@gmail.com
+
+:100644 100644 e330dd9... 0689dbd... M	app/res/values/theme.xml
+commit=9069e4085bdbd3de82584c1668e9ac322a7e1164:lukas.marek@gmail.com
+
+:100644 100644 3fb1450... 863d818... M	app/pom.xml
+commit=e6bb99df3d8595eaae22811d43a9185082169044:donn@donnfelker.com
+
+:100644 100644 a923a3f... 37b6a1a... M	default.properties
+:100644 100644 31ff39a... ad4ae37... M	integration-tests/default.properties
+commit=a812c4656e4d431f23e88d27e31315883a6e8d24:donn@donnfelker.com
+
+:100644 100644 bac4b8c... db30d3f... M	app/src/main/java/com/donnfelker/android/bootstrap/ui/NewsActivity.java
+commit=931b3f5078d3d0f802ba714926d2d8b516fb7d06:donn@donnfelker.com
+
+:100644 100644 de4730a... cab6c56... M	README.md
+commit=855a1e3e1e112911e8e4236aa40b78f8eb31c6d0:donn@donnfelker.com
+
+:100644 100644 2da6541... de4730a... M	README.md
+commit=0d74378a239455d0fcabd56db9f6228afb1d4297:donn@donnfelker.com
+
+:100644 100644 dcc47e2... 2da6541... M	README.md
+commit=7587282029f7e71b0b56fe505950c822b4057aba:donn@donnfelker.com
+
+:100644 100644 17cff32... dcc47e2... M	README.md
+commit=081f944e2447e838a86f762b231a3fad2b0682e4:donn@donnfelker.com
+
+:100644 100644 393dac5... 17cff32... M	README.md
+:100644 100644 ec08cc4... 3fb1450... M	app/pom.xml
+:100644 100644 518cb4e... 183072f... M	integration-tests/pom.xml
+:100644 100644 6bdaf11... bdb209d... M	pom.xml
+commit=9a2d59929e445f6592022c3524e7bc08ef8d50c0:donn@donnfelker.com
+
+:100644 100644 b01296e... ec08cc4... M	app/pom.xml
+commit=e13e8bad20ff1388b715352ec31be1d35ed6a394:donn@donnfelker.com
+
+:100644 100644 ffc088b... 393dac5... M	README.md
+commit=70e44f2c6608a71afeeeaca494ca0c5d6303e285:donn@donnfelker.com
+
+:100644 100644 145f80f... 84d5627... M	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/BootstrapAuthenticatorActivity.java
+commit=9efbd5ccf57aeb8542e677f502c01aa38252153a:jw@squareup.com
+
+:100644 100644 adb26a8... 6bdaf11... M	pom.xml
+commit=b31259351dc52e2e513bab62b4809505fddf7983:donn@donnfelker.com
+
+:100644 100644 4a096d5... 9bec576... M	app/default.properties
+:100644 100644 b4a9782... 4d7733b... M	integration-tests/AndroidManifest.xml
+:100644 100644 fe9dd6f... adb26a8... M	pom.xml
+commit=449144e37a28a5231465f010a94494614dc6fee6:donn@donnfelker.com
+
+:100644 100644 6db967d... ffc088b... M	README.md
+commit=460310e677f1faa7f6fe5b044be2095eeb3a0cb3:donn@donnfelker.com
+
+:100644 100644 b35e921... 6db967d... M	README.md
+commit=00509c79ac726942b41dc0ccae97c0ca48a7d5e0:donn@donnfelker.com
+
+:100644 100644 ede50e7... b35e921... M	README.md
+commit=64f09e13321590f5decfaa00915901acd2fdf0da:donn@donnfelker.com
+
+:100644 100644 a4cc65b... ede50e7... M	README.md
+commit=53aa565bb12e20dd2626fb9fee77ab5c36d8f374:donn@donnfelker.com
+
+:000000 100644 0000000... 5dac550... A	.gitignore
+:000000 100644 0000000... a4cc65b... A	README.md
+:000000 100644 0000000... ae533e1... A	app/.classpath
+:000000 100644 0000000... b075024... A	app/.project
+:000000 100644 0000000... 5c91302... A	app/.settings/org.eclipse.jdt.core.prefs
+:000000 100644 0000000... a6bfc93... A	app/.settings/org.eclipse.jdt.ui.prefs
+:000000 100644 0000000... 30e28d0... A	app/AndroidManifest.xml
+:000000 100644 0000000... 4a096d5... A	app/default.properties
+:000000 100644 0000000... b01296e... A	app/pom.xml
+:000000 100644 0000000... ae45c33... A	app/res/color/table_text_light_selector.xml
+:000000 100644 0000000... 647c8f5... A	app/res/color/table_text_selector.xml
+:000000 100644 0000000... 2b9bdcd... A	app/res/color/text_light_selector.xml
+:000000 100644 0000000... 5d7281a... A	app/res/color/text_selector.xml
+:000000 100644 0000000... 3a00eaa... A	app/res/color/text_title_selector.xml
+:000000 100644 0000000... 6c880b0... A	app/res/drawable-hdpi/ic_action_refresh.png
+:000000 100755 0000000... bd9706f... A	app/res/drawable-hdpi/icon.png
+:000000 100644 0000000... a83dd4f... A	app/res/drawable-ldpi/ic_action_refresh.png
+:000000 100755 0000000... 913cc25... A	app/res/drawable-ldpi/icon.png
+:000000 100644 0000000... 7a86c4f... A	app/res/drawable-mdpi/ic_action_refresh.png
+:000000 100755 0000000... 20ffe00... A	app/res/drawable-mdpi/icon.png
+:000000 100644 0000000... e1fcf85... A	app/res/drawable-nodpi/gravatar_icon.png
+:000000 100644 0000000... 1eaae24... A	app/res/drawable-nodpi/spinner_inner.png
+:000000 100644 0000000... 7c5ce76... A	app/res/drawable-nodpi/spinner_outer.png
+:000000 100644 0000000... 4696a5c... A	app/res/drawable-xhdpi/ic_action_refresh.png
+:000000 100755 0000000... 2754f3c... A	app/res/drawable-xhdpi/icon.png
+:000000 100644 0000000... ca8b434... A	app/res/drawable/actionbar_background.xml
+:000000 100644 0000000... aae94b5... A	app/res/drawable/bootstrap_divider.xml
+:000000 100644 0000000... ce65aec... A	app/res/drawable/button_background_disabled.xml
+:000000 100644 0000000... d029209... A	app/res/drawable/button_background_enabled.xml
+:000000 100644 0000000... 6aebde7... A	app/res/drawable/button_background_states.xml
+:000000 100644 0000000... 64ebe5b... A	app/res/drawable/edit_text_background.xml
+:000000 100644 0000000... be55d82... A	app/res/drawable/edit_text_cursor.xml
+:000000 100644 0000000... 2f3e741... A	app/res/drawable/list_item_background.xml
+:000000 100644 0000000... ba2f7bb... A	app/res/drawable/main_background.xml
+:000000 100644 0000000... ff48355... A	app/res/drawable/map_header_background.xml
+:000000 100644 0000000... b26dae4... A	app/res/drawable/spinner.xml
+:000000 100644 0000000... d5ae88e... A	app/res/drawable/stripe.png
+:000000 100644 0000000... 06f843c... A	app/res/drawable/stripe_repeat.xml
+:000000 100644 0000000... 41ad590... A	app/res/drawable/table_background_alternate_selector.xml
+:000000 100644 0000000... fed7225... A	app/res/drawable/table_background_selector.xml
+:000000 100644 0000000... 54d0bac... A	app/res/layout/carousel_view.xml
+:000000 100644 0000000... f974f73... A	app/res/layout/checkin_list_item.xml
+:000000 100644 0000000... c7fa6dd... A	app/res/layout/checkins_list_item_labels.xml
+:000000 100644 0000000... 1500670... A	app/res/layout/item_list.xml
+:000000 100644 0000000... 97aad6a... A	app/res/layout/login_activity.xml
+:000000 100644 0000000... f977e39... A	app/res/layout/news.xml
+:000000 100644 0000000... fed1865... A	app/res/layout/news_list_item.xml
+:000000 100644 0000000... f7379a9... A	app/res/layout/news_list_item_labels.xml
+:000000 100644 0000000... 0e1964c... A	app/res/layout/user_list_item.xml
+:000000 100644 0000000... 47a50e5... A	app/res/layout/user_list_item_labels.xml
+:000000 100644 0000000... 8bf86ea... A	app/res/layout/user_view.xml
+:000000 100644 0000000... 17f5d88... A	app/res/menu/bootstrap.xml
+:000000 100644 0000000... ea34552... A	app/res/values/colors.xml
+:000000 100644 0000000... b7de1bf... A	app/res/values/strings.xml
+:000000 100644 0000000... 157d00f... A	app/res/values/styles.xml
+:000000 100644 0000000... e330dd9... A	app/res/values/theme.xml
+:000000 100644 0000000... d4163f6... A	app/res/xml/authenticator.xml
+:000000 100644 0000000... e8c9fd0... A	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapApplication.java
+:000000 100644 0000000... 6be04fd... A	app/src/main/java/com/donnfelker/android/bootstrap/BootstrapServiceProvider.java
+:000000 100644 0000000... e9eb16c... A	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/AccountAuthenticatorService.java
+:000000 100644 0000000... 500a6f0... A	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/ApiKeyProvider.java
+:000000 100644 0000000... 1913d2b... A	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/BootstrapAccountAuthenticator.java
+:000000 100644 0000000... 145f80f... A	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/BootstrapAuthenticatorActivity.java
+:000000 100644 0000000... 871a018... A	app/src/main/java/com/donnfelker/android/bootstrap/authenticator/LogoutService.java
+:000000 100644 0000000... 2d1a3b2... A	app/src/main/java/com/donnfelker/android/bootstrap/core/AvatarLoader.java
+:000000 100644 0000000... 8ef2917... A	app/src/main/java/com/donnfelker/android/bootstrap/core/BootstrapService.java
+:000000 100644 0000000... 4bee35e... A	app/src/main/java/com/donnfelker/android/bootstrap/core/CheckIn.java
+:000000 100644 0000000... 81954ce... A	app/src/main/java/com/donnfelker/android/bootstrap/core/Constants.java
+:000000 100644 0000000... 5ebb517... A	app/src/main/java/com/donnfelker/android/bootstrap/core/GravatarUtils.java
+:000000 100644 0000000... 08f9543... A	app/src/main/java/com/donnfelker/android/bootstrap/core/ImageUtils.java
+:000000 100644 0000000... 3f511af... A	app/src/main/java/com/donnfelker/android/bootstrap/core/Location.java
+:000000 100644 0000000... 391b517... A	app/src/main/java/com/donnfelker/android/bootstrap/core/News.java
+:000000 100644 0000000... 4dfcb44... A	app/src/main/java/com/donnfelker/android/bootstrap/core/User.java
+:000000 100644 0000000... f6b1fb2... A	app/src/main/java/com/donnfelker/android/bootstrap/core/UserAgentProvider.java
+:000000 100644 0000000... 0554924... A	app/src/main/java/com/donnfelker/android/bootstrap/core/ViewSummary.java
+:000000 100644 0000000... 3a94b5a... A	app/src/main/java/com/donnfelker/android/bootstrap/ui/AlternatingColorListAdapter.java
+:000000 100644 0000000... 9371d00... A	app/src/main/java/com/donnfelker/android/bootstrap/ui/AsyncLoader.java
+:000000 100644 0000000... 8ff4502... A	app/src/main/java/com/donnfelker/android/bootstrap/ui/BarGraphDrawable.java
+:000000 100644 0000000... 52be6dc... A	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapActivity.java
+:000000 100644 0000000... f896477... A	app/src/main/java/com/donnfelker/android/bootstrap/ui/BootstrapPagerAdapter.java
+:000000 100644 0000000... a5b6745... A	app/src/main/java/com/donnfelker/android/bootstrap/ui/CarouselActivity.java
+:000000 100644 0000000... 6761c54... A	app/src/main/java/com/donnfelker/android/bootstrap/ui/CheckInsListAdapter.java
+:000000 100644 0000000... 0769ff8... A	app/src/main/java/com/donnfelker/android/bootstrap/ui/CheckInsListFragment.java
+:000000 100644 0000000... d2be941... A	app/src/main/java/com/donnfelker/android/bootstrap/ui/HeaderFooterListAdapter.java
+:000000 100644 0000000... 06370b6... A	app/src/main/java/com/donnfelker/android/bootstrap/ui/ItemListFragment.java
+:000000 100644 0000000... bac4b8c... A	app/src/main/java/com/donnfelker/android/bootstrap/ui/NewsActivity.java
+:000000 100644 0000000... 20f9567... A	app/src/main/java/com/donnfelker/android/bootstrap/ui/NewsListAdapter.java
+:000000 100644 0000000... 430fb73... A	app/src/main/java/com/donnfelker/android/bootstrap/ui/NewsListFragment.java
+:000000 100644 0000000... 695624e... A	app/src/main/java/com/donnfelker/android/bootstrap/ui/TextWatcherAdapter.java
+:000000 100644 0000000... f4a6d61... A	app/src/main/java/com/donnfelker/android/bootstrap/ui/ThrowableLoader.java
+:000000 100644 0000000... 86e7f37... A	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserActivity.java
+:000000 100644 0000000... 5830f3b... A	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserListAdapter.java
+:000000 100644 0000000... ab53827... A	app/src/main/java/com/donnfelker/android/bootstrap/ui/UserListFragment.java
+:000000 100644 0000000... 0912810... A	app/src/test/java/com/donnfelker/android/bootstrap/core/core/BootstrapApiClientUtilTest.java
+:000000 100644 0000000... 502c1a4... A	app/src/test/java/com/donnfelker/android/bootstrap/core/core/BootstrapServiceTest.java
+:000000 100644 0000000... a923a3f... A	default.properties
+:000000 100644 0000000... a7628f0... A	integration-tests/.classpath
+:000000 100644 0000000... 6dbf54a... A	integration-tests/.project
+:000000 100644 0000000... 5c91302... A	integration-tests/.settings/org.eclipse.jdt.core.prefs
+:000000 100644 0000000... a6bfc93... A	integration-tests/.settings/org.eclipse.jdt.ui.prefs
+:000000 100644 0000000... b4a9782... A	integration-tests/AndroidManifest.xml
+:000000 100644 0000000... 31ff39a... A	integration-tests/default.properties
+:000000 100644 0000000... 56116bb... A	integration-tests/monkeyrunnerTestSuite.py
+:000000 100644 0000000... 518cb4e... A	integration-tests/pom.xml
+:000000 100644 0000000... 8074c4c... A	integration-tests/res/drawable-hdpi/ic_launcher.png
+:000000 100644 0000000... 1095584... A	integration-tests/res/drawable-ldpi/ic_launcher.png
+:000000 100644 0000000... a07c69f... A	integration-tests/res/drawable-mdpi/ic_launcher.png
+:000000 100644 0000000... effc7db... A	integration-tests/res/layout/main.xml
+:000000 100644 0000000... 11c1b44... A	integration-tests/res/values/strings.xml
+:000000 100644 0000000... 8fd1d38... A	integration-tests/res/values/test_account_credentials.xml
+:000000 100644 0000000... 684bd9e... A	integration-tests/src/main/java/com/donnfelker/android/bootstrap/test/BootstrapAuthenticatorTest.java
+:000000 100644 0000000... fe25d79... A	integration-tests/src/main/java/com/donnfelker/android/bootstrap/test/CarouselTest.java
+:000000 100644 0000000... d0ee496... A	integration-tests/src/main/java/com/donnfelker/android/bootstrap/test/NewsViewTest.java
+:000000 100644 0000000... f3c6c12... A	integration-tests/src/main/java/com/donnfelker/android/bootstrap/test/TestUserAccountUtil.java
+:000000 100644 0000000... fe9dd6f... A	pom.xml
+:000000 100644 0000000... cd5c825... A	proguard.cfg

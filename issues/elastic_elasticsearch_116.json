@@ -1,0 +1,57 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "Seems like most nosql and json based rest interfaces use '_' instead of CamelCase. Changes include:\n1. All HTTP parameters move from CamelCase to '_' casing.\n2. All JSON requests and responses move from CamelCase to '_' casing.\n3. All settings now support both CamelCase as well as '_'.\n", 
+    "closed_at": "2010-04-04T14:18:34Z", 
+    "closed_by": null, 
+    "comments": 1, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/116/comments", 
+    "created_at": "2010-04-04T14:17:33Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/116/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/116", 
+    "id": 164749, 
+    "labels": [
+        {
+            "color": "4a4ea8", 
+            "default": true, 
+            "id": 23174, 
+            "name": "enhancement", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/enhancement"
+        }, 
+        {
+            "color": "DDDDDD", 
+            "default": false, 
+            "id": 25452, 
+            "name": "v0.06.0", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.06.0"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/116/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 116, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Move from CamelCase to '_' casing", 
+    "updated_at": "2014-07-07T13:47:59Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/116", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }
+}

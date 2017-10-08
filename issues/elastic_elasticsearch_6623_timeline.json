@@ -1,0 +1,909 @@
+[
+    {
+        "committer": {
+            "date": "2014-06-20T14:41:02Z", 
+            "name": "Robert Muir", 
+            "email": "rmuir@apache.org"
+        }, 
+        "author": {
+            "date": "2014-06-20T14:41:02Z", 
+            "name": "Robert Muir", 
+            "email": "rmuir@apache.org"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/2bd1d5b36b2ba9174ec62c3d9235880ea0cadaf3", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/2fbc413170cd0c41441121f264cf95fcbcb56621", 
+            "sha": "2fbc413170cd0c41441121f264cf95fcbcb56621"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/2bd1d5b36b2ba9174ec62c3d9235880ea0cadaf3", 
+        "sha": "2bd1d5b36b2ba9174ec62c3d9235880ea0cadaf3", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/2708e453acb8e30b689ab7869eae58d5e1d54dd1", 
+                "sha": "2708e453acb8e30b689ab7869eae58d5e1d54dd1", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/2708e453acb8e30b689ab7869eae58d5e1d54dd1"
+            }
+        ], 
+        "message": "update to lucene 4.9 RC", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2014-06-25T15:53:39Z", 
+            "name": "Robert Muir", 
+            "email": "rmuir@apache.org"
+        }, 
+        "author": {
+            "date": "2014-06-25T15:53:39Z", 
+            "name": "Robert Muir", 
+            "email": "rmuir@apache.org"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/26d0cbbdd3b470031fd1f804caf88debe2268ecf", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/c642d27c87bb062fa166829130ecbee3310f1ade", 
+            "sha": "c642d27c87bb062fa166829130ecbee3310f1ade"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/26d0cbbdd3b470031fd1f804caf88debe2268ecf", 
+        "sha": "26d0cbbdd3b470031fd1f804caf88debe2268ecf", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/2bd1d5b36b2ba9174ec62c3d9235880ea0cadaf3", 
+                "sha": "2bd1d5b36b2ba9174ec62c3d9235880ea0cadaf3", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/2bd1d5b36b2ba9174ec62c3d9235880ea0cadaf3"
+            }, 
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/534b07a3fba214e1f1b3cb24db04cde95a6d8f3f", 
+                "sha": "534b07a3fba214e1f1b3cb24db04cde95a6d8f3f", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/534b07a3fba214e1f1b3cb24db04cde95a6d8f3f"
+            }
+        ], 
+        "message": "merge", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2014-06-25T16:00:04Z", 
+            "name": "Robert Muir", 
+            "email": "rmuir@apache.org"
+        }, 
+        "author": {
+            "date": "2014-06-25T16:00:04Z", 
+            "name": "Robert Muir", 
+            "email": "rmuir@apache.org"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/262140d6c56210cbd968f5daeb374c1cc32107ae", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/c934de977df54e5814cc36a59da50c80b54d97b5", 
+            "sha": "c934de977df54e5814cc36a59da50c80b54d97b5"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/262140d6c56210cbd968f5daeb374c1cc32107ae", 
+        "sha": "262140d6c56210cbd968f5daeb374c1cc32107ae", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/26d0cbbdd3b470031fd1f804caf88debe2268ecf", 
+                "sha": "26d0cbbdd3b470031fd1f804caf88debe2268ecf", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/26d0cbbdd3b470031fd1f804caf88debe2268ecf"
+            }
+        ], 
+        "message": "switch to official release", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2014-06-26T08:59:49Z", 
+            "name": "Robert Muir", 
+            "email": "rmuir@apache.org"
+        }, 
+        "author": {
+            "date": "2014-06-26T08:59:49Z", 
+            "name": "Robert Muir", 
+            "email": "rmuir@apache.org"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/f30e0de29dde1d47199800aaa1cc6679aaddc9f8", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/2e99f79b7ae77564798bf1b6b0d09406ec765b14", 
+            "sha": "2e99f79b7ae77564798bf1b6b0d09406ec765b14"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/f30e0de29dde1d47199800aaa1cc6679aaddc9f8", 
+        "sha": "f30e0de29dde1d47199800aaa1cc6679aaddc9f8", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/262140d6c56210cbd968f5daeb374c1cc32107ae", 
+                "sha": "262140d6c56210cbd968f5daeb374c1cc32107ae", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/262140d6c56210cbd968f5daeb374c1cc32107ae"
+            }
+        ], 
+        "message": "add XOrdinalMap for LUCENE-5780/LUCENE-5782", 
+        "event": "committed"
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/135376597", 
+        "created_at": "2014-06-26T09:01:59Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/rmuir/following{/other_user}", 
+            "events_url": "https://api.github.com/users/rmuir/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/rmuir/orgs", 
+            "url": "https://api.github.com/users/rmuir", 
+            "gists_url": "https://api.github.com/users/rmuir/gists{/gist_id}", 
+            "html_url": "https://github.com/rmuir", 
+            "subscriptions_url": "https://api.github.com/users/rmuir/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/504194?v=3", 
+            "repos_url": "https://api.github.com/users/rmuir/repos", 
+            "received_events_url": "https://api.github.com/users/rmuir/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/rmuir/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "rmuir", 
+            "type": "User", 
+            "id": 504194, 
+            "followers_url": "https://api.github.com/users/rmuir/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "DDDDDD", 
+            "name": "v1.3.0"
+        }, 
+        "id": 135376597
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/135376622", 
+        "created_at": "2014-06-26T09:02:01Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/rmuir/following{/other_user}", 
+            "events_url": "https://api.github.com/users/rmuir/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/rmuir/orgs", 
+            "url": "https://api.github.com/users/rmuir", 
+            "gists_url": "https://api.github.com/users/rmuir/gists{/gist_id}", 
+            "html_url": "https://github.com/rmuir", 
+            "subscriptions_url": "https://api.github.com/users/rmuir/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/504194?v=3", 
+            "repos_url": "https://api.github.com/users/rmuir/repos", 
+            "received_events_url": "https://api.github.com/users/rmuir/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/rmuir/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "rmuir", 
+            "type": "User", 
+            "id": 504194, 
+            "followers_url": "https://api.github.com/users/rmuir/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "dddddd", 
+            "name": "v2.0.0"
+        }, 
+        "id": 135376622
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/135376653", 
+        "created_at": "2014-06-26T09:02:09Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/rmuir/following{/other_user}", 
+            "events_url": "https://api.github.com/users/rmuir/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/rmuir/orgs", 
+            "url": "https://api.github.com/users/rmuir", 
+            "gists_url": "https://api.github.com/users/rmuir/gists{/gist_id}", 
+            "html_url": "https://github.com/rmuir", 
+            "subscriptions_url": "https://api.github.com/users/rmuir/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/504194?v=3", 
+            "repos_url": "https://api.github.com/users/rmuir/repos", 
+            "received_events_url": "https://api.github.com/users/rmuir/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/rmuir/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "rmuir", 
+            "type": "User", 
+            "id": 504194, 
+            "followers_url": "https://api.github.com/users/rmuir/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "4a4ea8", 
+            "name": "enhancement"
+        }, 
+        "id": 135376653
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/135376683", 
+        "created_at": "2014-06-26T09:02:15Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/rmuir/following{/other_user}", 
+            "events_url": "https://api.github.com/users/rmuir/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/rmuir/orgs", 
+            "url": "https://api.github.com/users/rmuir", 
+            "gists_url": "https://api.github.com/users/rmuir/gists{/gist_id}", 
+            "html_url": "https://github.com/rmuir", 
+            "subscriptions_url": "https://api.github.com/users/rmuir/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/504194?v=3", 
+            "repos_url": "https://api.github.com/users/rmuir/repos", 
+            "received_events_url": "https://api.github.com/users/rmuir/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/rmuir/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "rmuir", 
+            "type": "User", 
+            "id": 504194, 
+            "followers_url": "https://api.github.com/users/rmuir/followers"
+        }, 
+        "event": "assigned", 
+        "assignee": {
+            "following_url": "https://api.github.com/users/rmuir/following{/other_user}", 
+            "events_url": "https://api.github.com/users/rmuir/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/rmuir/orgs", 
+            "url": "https://api.github.com/users/rmuir", 
+            "gists_url": "https://api.github.com/users/rmuir/gists{/gist_id}", 
+            "html_url": "https://github.com/rmuir", 
+            "subscriptions_url": "https://api.github.com/users/rmuir/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/504194?v=3", 
+            "repos_url": "https://api.github.com/users/rmuir/repos", 
+            "received_events_url": "https://api.github.com/users/rmuir/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/rmuir/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "rmuir", 
+            "type": "User", 
+            "id": 504194, 
+            "followers_url": "https://api.github.com/users/rmuir/followers"
+        }, 
+        "id": 135376683
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/135377490", 
+        "created_at": "2014-06-26T09:05:18Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/rmuir/following{/other_user}", 
+            "events_url": "https://api.github.com/users/rmuir/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/rmuir/orgs", 
+            "url": "https://api.github.com/users/rmuir", 
+            "gists_url": "https://api.github.com/users/rmuir/gists{/gist_id}", 
+            "html_url": "https://github.com/rmuir", 
+            "subscriptions_url": "https://api.github.com/users/rmuir/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/504194?v=3", 
+            "repos_url": "https://api.github.com/users/rmuir/repos", 
+            "received_events_url": "https://api.github.com/users/rmuir/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/rmuir/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "rmuir", 
+            "type": "User", 
+            "id": 504194, 
+            "followers_url": "https://api.github.com/users/rmuir/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "0052cc", 
+            "name": "review"
+        }, 
+        "id": 135377490
+    }, 
+    {
+        "body": "I left one comment, I think it looks good otherwise", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/comments/47211666", 
+        "event": "commented", 
+        "created_at": "2014-06-26T10:46:18Z", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/6623#issuecomment-47211666", 
+        "actor": {
+            "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+            "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+            "url": "https://api.github.com/users/s1monw", 
+            "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+            "html_url": "https://github.com/s1monw", 
+            "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+            "repos_url": "https://api.github.com/users/s1monw/repos", 
+            "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "s1monw", 
+            "type": "User", 
+            "id": 973334, 
+            "followers_url": "https://api.github.com/users/s1monw/followers"
+        }, 
+        "updated_at": "2014-06-26T10:46:18Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+            "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+            "url": "https://api.github.com/users/s1monw", 
+            "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+            "html_url": "https://github.com/s1monw", 
+            "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+            "repos_url": "https://api.github.com/users/s1monw/repos", 
+            "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "s1monw", 
+            "type": "User", 
+            "id": 973334, 
+            "followers_url": "https://api.github.com/users/s1monw/followers"
+        }, 
+        "id": 47211666, 
+        "issue_url": "https://api.github.com/repos/elastic/elasticsearch/issues/6623"
+    }, 
+    {
+        "committer": {
+            "date": "2014-06-26T10:59:09Z", 
+            "name": "Robert Muir", 
+            "email": "rmuir@apache.org"
+        }, 
+        "author": {
+            "date": "2014-06-26T10:59:09Z", 
+            "name": "Robert Muir", 
+            "email": "rmuir@apache.org"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/111cdb1f6f2de6d00a4c9d3fc9c1d8fffd1ff9f2", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/5abb8c134f0b819e1e1d682138d6e519377535f1", 
+            "sha": "5abb8c134f0b819e1e1d682138d6e519377535f1"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/111cdb1f6f2de6d00a4c9d3fc9c1d8fffd1ff9f2", 
+        "sha": "111cdb1f6f2de6d00a4c9d3fc9c1d8fffd1ff9f2", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/f30e0de29dde1d47199800aaa1cc6679aaddc9f8", 
+                "sha": "f30e0de29dde1d47199800aaa1cc6679aaddc9f8", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/f30e0de29dde1d47199800aaa1cc6679aaddc9f8"
+            }
+        ], 
+        "message": "remove unnecessary clone methods", 
+        "event": "committed"
+    }, 
+    {
+        "source": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/issues/6578", 
+            "id": 36168791, 
+            "actor": {
+                "following_url": "https://api.github.com/users/martijnvg/following{/other_user}", 
+                "events_url": "https://api.github.com/users/martijnvg/events{/privacy}", 
+                "organizations_url": "https://api.github.com/users/martijnvg/orgs", 
+                "url": "https://api.github.com/users/martijnvg", 
+                "gists_url": "https://api.github.com/users/martijnvg/gists{/gist_id}", 
+                "html_url": "https://github.com/martijnvg", 
+                "subscriptions_url": "https://api.github.com/users/martijnvg/subscriptions", 
+                "avatar_url": "https://avatars.githubusercontent.com/u/580421?v=3", 
+                "repos_url": "https://api.github.com/users/martijnvg/repos", 
+                "received_events_url": "https://api.github.com/users/martijnvg/received_events", 
+                "gravatar_id": "", 
+                "starred_url": "https://api.github.com/users/martijnvg/starred{/owner}{/repo}", 
+                "site_admin": false, 
+                "login": "martijnvg", 
+                "type": "User", 
+                "id": 580421, 
+                "followers_url": "https://api.github.com/users/martijnvg/followers"
+            }
+        }, 
+        "created_at": "2014-06-26T09:02:17-03:00", 
+        "updated_at": "2014-06-26T09:02:17-03:00", 
+        "event": "cross-referenced"
+    }, 
+    {
+        "body": "LGTM", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/comments/47218217", 
+        "event": "commented", 
+        "created_at": "2014-06-26T12:15:42Z", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/6623#issuecomment-47218217", 
+        "actor": {
+            "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+            "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+            "url": "https://api.github.com/users/jpountz", 
+            "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+            "html_url": "https://github.com/jpountz", 
+            "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+            "repos_url": "https://api.github.com/users/jpountz/repos", 
+            "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "jpountz", 
+            "type": "User", 
+            "id": 299848, 
+            "followers_url": "https://api.github.com/users/jpountz/followers"
+        }, 
+        "updated_at": "2014-06-26T12:15:42Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+            "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+            "url": "https://api.github.com/users/jpountz", 
+            "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+            "html_url": "https://github.com/jpountz", 
+            "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+            "repos_url": "https://api.github.com/users/jpountz/repos", 
+            "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "jpountz", 
+            "type": "User", 
+            "id": 299848, 
+            "followers_url": "https://api.github.com/users/jpountz/followers"
+        }, 
+        "id": 47218217, 
+        "issue_url": "https://api.github.com/repos/elastic/elasticsearch/issues/6623"
+    }, 
+    {
+        "body": "LGTM", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/comments/47218250", 
+        "event": "commented", 
+        "created_at": "2014-06-26T12:16:14Z", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/6623#issuecomment-47218250", 
+        "actor": {
+            "following_url": "https://api.github.com/users/martijnvg/following{/other_user}", 
+            "events_url": "https://api.github.com/users/martijnvg/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/martijnvg/orgs", 
+            "url": "https://api.github.com/users/martijnvg", 
+            "gists_url": "https://api.github.com/users/martijnvg/gists{/gist_id}", 
+            "html_url": "https://github.com/martijnvg", 
+            "subscriptions_url": "https://api.github.com/users/martijnvg/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/580421?v=3", 
+            "repos_url": "https://api.github.com/users/martijnvg/repos", 
+            "received_events_url": "https://api.github.com/users/martijnvg/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/martijnvg/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "martijnvg", 
+            "type": "User", 
+            "id": 580421, 
+            "followers_url": "https://api.github.com/users/martijnvg/followers"
+        }, 
+        "updated_at": "2014-06-26T12:16:14Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/martijnvg/following{/other_user}", 
+            "events_url": "https://api.github.com/users/martijnvg/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/martijnvg/orgs", 
+            "url": "https://api.github.com/users/martijnvg", 
+            "gists_url": "https://api.github.com/users/martijnvg/gists{/gist_id}", 
+            "html_url": "https://github.com/martijnvg", 
+            "subscriptions_url": "https://api.github.com/users/martijnvg/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/580421?v=3", 
+            "repos_url": "https://api.github.com/users/martijnvg/repos", 
+            "received_events_url": "https://api.github.com/users/martijnvg/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/martijnvg/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "martijnvg", 
+            "type": "User", 
+            "id": 580421, 
+            "followers_url": "https://api.github.com/users/martijnvg/followers"
+        }, 
+        "id": 47218250, 
+        "issue_url": "https://api.github.com/repos/elastic/elasticsearch/issues/6623"
+    }, 
+    {
+        "committer": {
+            "date": "2014-06-26T12:17:18Z", 
+            "name": "Robert Muir", 
+            "email": "rmuir@apache.org"
+        }, 
+        "author": {
+            "date": "2014-06-26T12:17:18Z", 
+            "name": "Robert Muir", 
+            "email": "rmuir@apache.org"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/cf3a4a93cd8b131c4e1b15b176918817c2f45bb9", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/825395126789e6be0c23196c689b0f0b46be91b9", 
+            "sha": "825395126789e6be0c23196c689b0f0b46be91b9"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/cf3a4a93cd8b131c4e1b15b176918817c2f45bb9", 
+        "sha": "cf3a4a93cd8b131c4e1b15b176918817c2f45bb9", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/111cdb1f6f2de6d00a4c9d3fc9c1d8fffd1ff9f2", 
+                "sha": "111cdb1f6f2de6d00a4c9d3fc9c1d8fffd1ff9f2", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/111cdb1f6f2de6d00a4c9d3fc9c1d8fffd1ff9f2"
+            }, 
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/b43b56a6a85f7dd131086fd83dc9267aecbbf0a3", 
+                "sha": "b43b56a6a85f7dd131086fd83dc9267aecbbf0a3", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/b43b56a6a85f7dd131086fd83dc9267aecbbf0a3"
+            }
+        ], 
+        "message": "Merge branch 'master' into enhancement/lucene_4_9_upgrade", 
+        "event": "committed"
+    }, 
+    {
+        "commit_id": "b55ad98d73b0d89763295e508710f28d240279a2", 
+        "commit_url": "https://api.github.com/repos/elastic/elasticsearch/commits/b55ad98d73b0d89763295e508710f28d240279a2", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/135438241", 
+        "created_at": "2014-06-26T12:25:46Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/rmuir/following{/other_user}", 
+            "events_url": "https://api.github.com/users/rmuir/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/rmuir/orgs", 
+            "url": "https://api.github.com/users/rmuir", 
+            "gists_url": "https://api.github.com/users/rmuir/gists{/gist_id}", 
+            "html_url": "https://github.com/rmuir", 
+            "subscriptions_url": "https://api.github.com/users/rmuir/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/504194?v=3", 
+            "repos_url": "https://api.github.com/users/rmuir/repos", 
+            "received_events_url": "https://api.github.com/users/rmuir/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/rmuir/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "rmuir", 
+            "type": "User", 
+            "id": 504194, 
+            "followers_url": "https://api.github.com/users/rmuir/followers"
+        }, 
+        "event": "closed", 
+        "id": 135438241
+    }, 
+    {
+        "commit_id": "5da89bd42251949f4e7a511ca13a2f2903fec84c", 
+        "commit_url": "https://api.github.com/repos/elastic/elasticsearch/commits/5da89bd42251949f4e7a511ca13a2f2903fec84c", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/135442207", 
+        "created_at": "2014-06-26T12:38:30Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/rmuir/following{/other_user}", 
+            "events_url": "https://api.github.com/users/rmuir/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/rmuir/orgs", 
+            "url": "https://api.github.com/users/rmuir", 
+            "gists_url": "https://api.github.com/users/rmuir/gists{/gist_id}", 
+            "html_url": "https://github.com/rmuir", 
+            "subscriptions_url": "https://api.github.com/users/rmuir/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/504194?v=3", 
+            "repos_url": "https://api.github.com/users/rmuir/repos", 
+            "received_events_url": "https://api.github.com/users/rmuir/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/rmuir/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "rmuir", 
+            "type": "User", 
+            "id": 504194, 
+            "followers_url": "https://api.github.com/users/rmuir/followers"
+        }, 
+        "event": "referenced", 
+        "id": 135442207
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/139703249", 
+        "created_at": "2014-07-09T13:46:43Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/s1monw/following{/other_user}", 
+            "events_url": "https://api.github.com/users/s1monw/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/s1monw/orgs", 
+            "url": "https://api.github.com/users/s1monw", 
+            "gists_url": "https://api.github.com/users/s1monw/gists{/gist_id}", 
+            "html_url": "https://github.com/s1monw", 
+            "subscriptions_url": "https://api.github.com/users/s1monw/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/973334?v=3", 
+            "repos_url": "https://api.github.com/users/s1monw/repos", 
+            "received_events_url": "https://api.github.com/users/s1monw/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/s1monw/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "s1monw", 
+            "type": "User", 
+            "id": 973334, 
+            "followers_url": "https://api.github.com/users/s1monw/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "fbca04", 
+            "name": "release highlight"
+        }, 
+        "id": 139703249
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/142074597", 
+        "created_at": "2014-07-16T09:17:03Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+            "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+            "url": "https://api.github.com/users/jpountz", 
+            "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+            "html_url": "https://github.com/jpountz", 
+            "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+            "repos_url": "https://api.github.com/users/jpountz/repos", 
+            "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "jpountz", 
+            "type": "User", 
+            "id": 299848, 
+            "followers_url": "https://api.github.com/users/jpountz/followers"
+        }, 
+        "event": "unlabeled", 
+        "label": {
+            "color": "0052cc", 
+            "name": "review"
+        }, 
+        "id": 142074597
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/142106794", 
+        "created_at": "2014-07-16T10:47:31Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/clintongormley/following{/other_user}", 
+            "events_url": "https://api.github.com/users/clintongormley/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/clintongormley/orgs", 
+            "url": "https://api.github.com/users/clintongormley", 
+            "gists_url": "https://api.github.com/users/clintongormley/gists{/gist_id}", 
+            "html_url": "https://github.com/clintongormley", 
+            "subscriptions_url": "https://api.github.com/users/clintongormley/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/56599?v=3", 
+            "repos_url": "https://api.github.com/users/clintongormley/repos", 
+            "received_events_url": "https://api.github.com/users/clintongormley/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/clintongormley/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "clintongormley", 
+            "type": "User", 
+            "id": 56599, 
+            "followers_url": "https://api.github.com/users/clintongormley/followers"
+        }, 
+        "event": "unlabeled", 
+        "label": {
+            "color": "fbca04", 
+            "name": "release highlight"
+        }, 
+        "id": 142106794
+    }, 
+    {
+        "commit_id": null, 
+        "rename": {
+            "to": "Internal: Upgrade to Lucene 4.9", 
+            "from": "Upgrade to Lucene 4.9"
+        }, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/142155444", 
+        "created_at": "2014-07-16T13:14:46Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/clintongormley/following{/other_user}", 
+            "events_url": "https://api.github.com/users/clintongormley/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/clintongormley/orgs", 
+            "url": "https://api.github.com/users/clintongormley", 
+            "gists_url": "https://api.github.com/users/clintongormley/gists{/gist_id}", 
+            "html_url": "https://github.com/clintongormley", 
+            "subscriptions_url": "https://api.github.com/users/clintongormley/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/56599?v=3", 
+            "repos_url": "https://api.github.com/users/clintongormley/repos", 
+            "received_events_url": "https://api.github.com/users/clintongormley/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/clintongormley/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "clintongormley", 
+            "type": "User", 
+            "id": 56599, 
+            "followers_url": "https://api.github.com/users/clintongormley/followers"
+        }, 
+        "event": "renamed", 
+        "id": 142155444
+    }, 
+    {
+        "commit_id": "ed3288f29fd0733296a4b5ef1740720c1f3060de", 
+        "commit_url": "https://api.github.com/repos/episerver/elasticsearch/commits/ed3288f29fd0733296a4b5ef1740720c1f3060de", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/155476196", 
+        "created_at": "2014-08-21T10:18:53Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/lindstromhenrik/following{/other_user}", 
+            "events_url": "https://api.github.com/users/lindstromhenrik/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/lindstromhenrik/orgs", 
+            "url": "https://api.github.com/users/lindstromhenrik", 
+            "gists_url": "https://api.github.com/users/lindstromhenrik/gists{/gist_id}", 
+            "html_url": "https://github.com/lindstromhenrik", 
+            "subscriptions_url": "https://api.github.com/users/lindstromhenrik/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/866643?v=3", 
+            "repos_url": "https://api.github.com/users/lindstromhenrik/repos", 
+            "received_events_url": "https://api.github.com/users/lindstromhenrik/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/lindstromhenrik/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "lindstromhenrik", 
+            "type": "User", 
+            "id": 866643, 
+            "followers_url": "https://api.github.com/users/lindstromhenrik/followers"
+        }, 
+        "event": "referenced", 
+        "id": 155476196
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/324661624", 
+        "created_at": "2015-06-07T13:10:18Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/clintongormley/following{/other_user}", 
+            "events_url": "https://api.github.com/users/clintongormley/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/clintongormley/orgs", 
+            "url": "https://api.github.com/users/clintongormley", 
+            "gists_url": "https://api.github.com/users/clintongormley/gists{/gist_id}", 
+            "html_url": "https://github.com/clintongormley", 
+            "subscriptions_url": "https://api.github.com/users/clintongormley/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/56599?v=3", 
+            "repos_url": "https://api.github.com/users/clintongormley/repos", 
+            "received_events_url": "https://api.github.com/users/clintongormley/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/clintongormley/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "clintongormley", 
+            "type": "User", 
+            "id": 56599, 
+            "followers_url": "https://api.github.com/users/clintongormley/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "009800", 
+            "name": ":Upgrade"
+        }, 
+        "id": 324661624
+    }, 
+    {
+        "commit_id": null, 
+        "rename": {
+            "to": "Upgrade to Lucene 4.9", 
+            "from": "Internal: Upgrade to Lucene 4.9"
+        }, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/324661662", 
+        "created_at": "2015-06-07T13:10:22Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/clintongormley/following{/other_user}", 
+            "events_url": "https://api.github.com/users/clintongormley/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/clintongormley/orgs", 
+            "url": "https://api.github.com/users/clintongormley", 
+            "gists_url": "https://api.github.com/users/clintongormley/gists{/gist_id}", 
+            "html_url": "https://github.com/clintongormley", 
+            "subscriptions_url": "https://api.github.com/users/clintongormley/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/56599?v=3", 
+            "repos_url": "https://api.github.com/users/clintongormley/repos", 
+            "received_events_url": "https://api.github.com/users/clintongormley/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/clintongormley/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "clintongormley", 
+            "type": "User", 
+            "id": 56599, 
+            "followers_url": "https://api.github.com/users/clintongormley/followers"
+        }, 
+        "event": "renamed", 
+        "id": 324661662
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/391646507", 
+        "created_at": "2015-08-25T13:19:05Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/clintongormley/following{/other_user}", 
+            "events_url": "https://api.github.com/users/clintongormley/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/clintongormley/orgs", 
+            "url": "https://api.github.com/users/clintongormley", 
+            "gists_url": "https://api.github.com/users/clintongormley/gists{/gist_id}", 
+            "html_url": "https://github.com/clintongormley", 
+            "subscriptions_url": "https://api.github.com/users/clintongormley/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/56599?v=3", 
+            "repos_url": "https://api.github.com/users/clintongormley/repos", 
+            "received_events_url": "https://api.github.com/users/clintongormley/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/clintongormley/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "clintongormley", 
+            "type": "User", 
+            "id": 56599, 
+            "followers_url": "https://api.github.com/users/clintongormley/followers"
+        }, 
+        "event": "unlabeled", 
+        "label": {
+            "color": "009800", 
+            "name": ":Core"
+        }, 
+        "id": 391646507
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/391649347", 
+        "created_at": "2015-08-25T13:21:23Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/clintongormley/following{/other_user}", 
+            "events_url": "https://api.github.com/users/clintongormley/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/clintongormley/orgs", 
+            "url": "https://api.github.com/users/clintongormley", 
+            "gists_url": "https://api.github.com/users/clintongormley/gists{/gist_id}", 
+            "html_url": "https://github.com/clintongormley", 
+            "subscriptions_url": "https://api.github.com/users/clintongormley/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/56599?v=3", 
+            "repos_url": "https://api.github.com/users/clintongormley/repos", 
+            "received_events_url": "https://api.github.com/users/clintongormley/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/clintongormley/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "clintongormley", 
+            "type": "User", 
+            "id": 56599, 
+            "followers_url": "https://api.github.com/users/clintongormley/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "009800", 
+            "name": ":Core"
+        }, 
+        "id": 391649347
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/391653978", 
+        "created_at": "2015-08-25T13:25:43Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/clintongormley/following{/other_user}", 
+            "events_url": "https://api.github.com/users/clintongormley/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/clintongormley/orgs", 
+            "url": "https://api.github.com/users/clintongormley", 
+            "gists_url": "https://api.github.com/users/clintongormley/gists{/gist_id}", 
+            "html_url": "https://github.com/clintongormley", 
+            "subscriptions_url": "https://api.github.com/users/clintongormley/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/56599?v=3", 
+            "repos_url": "https://api.github.com/users/clintongormley/repos", 
+            "received_events_url": "https://api.github.com/users/clintongormley/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/clintongormley/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "clintongormley", 
+            "type": "User", 
+            "id": 56599, 
+            "followers_url": "https://api.github.com/users/clintongormley/followers"
+        }, 
+        "event": "unlabeled", 
+        "label": {
+            "color": "4a4ea8", 
+            "name": "enhancement"
+        }, 
+        "id": 391653978
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/427747472", 
+        "created_at": "2015-10-06T09:40:00Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+            "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+            "url": "https://api.github.com/users/jpountz", 
+            "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+            "html_url": "https://github.com/jpountz", 
+            "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+            "repos_url": "https://api.github.com/users/jpountz/repos", 
+            "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "jpountz", 
+            "type": "User", 
+            "id": 299848, 
+            "followers_url": "https://api.github.com/users/jpountz/followers"
+        }, 
+        "event": "head_ref_deleted", 
+        "id": 427747472
+    }
+]

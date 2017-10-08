@@ -1,0 +1,78 @@
+[
+    {
+        "body": "REST API: Failure to index docs that have their ids URL encoded and contain `/`, closed by 57108c8575b39e7b6c0e7c2ca4bf20f03e6d0912.", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/comments/757691", 
+        "event": "commented", 
+        "created_at": "2011-02-10T01:18:14Z", 
+        "html_url": "https://github.com/elastic/elasticsearch/issues/681#issuecomment-757691", 
+        "actor": {
+            "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+            "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+            "url": "https://api.github.com/users/kimchy", 
+            "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+            "html_url": "https://github.com/kimchy", 
+            "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+            "repos_url": "https://api.github.com/users/kimchy/repos", 
+            "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "kimchy", 
+            "type": "User", 
+            "id": 41300, 
+            "followers_url": "https://api.github.com/users/kimchy/followers"
+        }, 
+        "updated_at": "2011-02-10T01:18:14Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+            "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+            "url": "https://api.github.com/users/kimchy", 
+            "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+            "html_url": "https://github.com/kimchy", 
+            "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+            "repos_url": "https://api.github.com/users/kimchy/repos", 
+            "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "kimchy", 
+            "type": "User", 
+            "id": 41300, 
+            "followers_url": "https://api.github.com/users/kimchy/followers"
+        }, 
+        "id": 757691, 
+        "issue_url": "https://api.github.com/repos/elastic/elasticsearch/issues/681"
+    }, 
+    {
+        "source": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/issues/2903", 
+            "id": 13254101, 
+            "actor": {
+                "following_url": "https://api.github.com/users/paulmillr/following{/other_user}", 
+                "events_url": "https://api.github.com/users/paulmillr/events{/privacy}", 
+                "organizations_url": "https://api.github.com/users/paulmillr/orgs", 
+                "url": "https://api.github.com/users/paulmillr", 
+                "gists_url": "https://api.github.com/users/paulmillr/gists{/gist_id}", 
+                "html_url": "https://github.com/paulmillr", 
+                "subscriptions_url": "https://api.github.com/users/paulmillr/subscriptions", 
+                "avatar_url": "https://avatars.githubusercontent.com/u/574696?v=3", 
+                "repos_url": "https://api.github.com/users/paulmillr/repos", 
+                "received_events_url": "https://api.github.com/users/paulmillr/received_events", 
+                "gravatar_id": "", 
+                "starred_url": "https://api.github.com/users/paulmillr/starred{/owner}{/repo}", 
+                "site_admin": false, 
+                "login": "paulmillr", 
+                "type": "User", 
+                "id": 574696, 
+                "followers_url": "https://api.github.com/users/paulmillr/followers"
+            }
+        }, 
+        "created_at": "2013-04-16T13:01:25-03:00", 
+        "updated_at": "2013-04-16T13:01:25-03:00", 
+        "event": "cross-referenced"
+    }
+]

@@ -1,0 +1,12 @@
+name	count	re_refactored	in_agglomeration	in_agglomeration_and_re_refactored
+"Extract interface"	133	42	54	18
+"Extract method"	7517	7482	6193	6167
+"Extract superclass"	342	115	111	54
+"Inline method"	1528	1524	1110	1107
+"Move field"	4356	3814	1743	1449
+"Move method"	1404	888	1000	680
+"Pull up field"	465	259	323	179
+"Pull up method"	629	301	514	275
+"Push down field"	78	35	49	25
+"Push down method"	114	70	88	59
+"Rename method"	12752	0	3456	0

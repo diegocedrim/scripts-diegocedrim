@@ -1,0 +1,64 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "All geo components: `geo_point` type, all the geo related filters and facets, and sort that accept an array in `[lat, lon]`, changed to `[lon, lat]` to conform to GeoJSON.\n", 
+    "closed_at": "2011-01-31T23:39:22Z", 
+    "closed_by": null, 
+    "comments": 1, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/661/comments", 
+    "created_at": "2011-01-31T23:31:43Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/661/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/661", 
+    "id": 565727, 
+    "labels": [
+        {
+            "color": "ff0000", 
+            "default": false, 
+            "id": 33660, 
+            "name": "breaking", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/breaking"
+        }, 
+        {
+            "color": "4a4ea8", 
+            "default": true, 
+            "id": 23174, 
+            "name": "enhancement", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/enhancement"
+        }, 
+        {
+            "color": "ededed", 
+            "default": false, 
+            "id": 65354, 
+            "name": "v0.15.0", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.15.0"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/661/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 661, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Geo: All geo components that accept an array of [lat, lon] to change to do [lon, lat] to conform with GeoJSON", 
+    "updated_at": "2011-01-31T23:39:22Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/661", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }
+}

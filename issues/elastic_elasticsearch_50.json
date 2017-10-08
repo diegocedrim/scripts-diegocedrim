@@ -1,0 +1,57 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "Sometimes, within the same search request, some facets should be global and not bounded by the search query. Here is how this should be done:\n\n```\nfacets : {\n    facet1: {\n        query : { ... },\n        global : true\n    }\n}\n```\n", 
+    "closed_at": "2010-03-05T14:05:16Z", 
+    "closed_by": null, 
+    "comments": 4, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/50/comments", 
+    "created_at": "2010-03-05T14:01:37Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/50/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/50", 
+    "id": 145294, 
+    "labels": [
+        {
+            "color": "4a4ea8", 
+            "default": true, 
+            "id": 23174, 
+            "name": "enhancement", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/enhancement"
+        }, 
+        {
+            "color": "DDDDDD", 
+            "default": false, 
+            "id": 23175, 
+            "name": "v0.05.0", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.05.0"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/50/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 50, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Search API: Query Facet - Add global flag to control if the facet is bounded to the search query or not", 
+    "updated_at": "2011-12-14T22:40:51Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/50", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }
+}

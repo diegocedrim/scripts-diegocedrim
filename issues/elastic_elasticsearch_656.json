@@ -1,0 +1,57 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "Allow to define several parameters that will control if a flush will happen. They include:\n- `flush_threshold_ops.flush_threshold_ops`: After how many operations to flush. Defaults to `20000`.\n- `flush_threshold_ops.flush_threshold_size`: Once the translog hits this size, a flush will happen. Defaults to `500mb`.\n- `flush_threshold_ops.flush_threshold_period`: The period with no flush happening to force a flush. Defaults to `60m`.\n\nNote, in terms of backward compatibility, the parameter `index.translog.flush_threshold` is now replaced with `index.translog.flush_threshold_ops`. Though, it is still taken into account if set.\n\nThe default flush after ops size has changed from `5000` to `20000`.\n", 
+    "closed_at": "2011-01-30T15:41:34Z", 
+    "closed_by": null, 
+    "comments": 1, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/656/comments", 
+    "created_at": "2011-01-30T15:30:33Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/656/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/656", 
+    "id": 562490, 
+    "labels": [
+        {
+            "color": "4a4ea8", 
+            "default": true, 
+            "id": 23174, 
+            "name": "enhancement", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/enhancement"
+        }, 
+        {
+            "color": "ededed", 
+            "default": false, 
+            "id": 65354, 
+            "name": "v0.15.0", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.15.0"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/656/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 656, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Translog Flushing: Improve logic, flush not just by operations in the translog", 
+    "updated_at": "2011-01-30T15:41:34Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/656", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }
+}

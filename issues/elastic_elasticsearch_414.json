@@ -1,0 +1,71 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "The current geo support does not work well when a document as multiple locations. For this reason, the structure of how geo information is indexed requires changing.\n\nNote, sadly, this requires both reindexing of the data if geo features are used, and requires to predefine the `geo_point` type for geo location objects (where before, just an object with `lat` and `lon` fields were enough).\n\nThe `geo_point` has been changed. Now, a string representation (lat,lon) is always stored under the object name, for example:\n\n```\n{\n    \"pin\" : {\n        \"location\" : {\n            \"lat\" : 40.12,\n            \"lon\" : -71.34\n        }\n    }\n}\n```\n\nWill cause a field called `location` with the \"40.12,-71.34\" value to be stored. lat/lon are not stored by default now, since they are not needed, geohash can still be enabled as well.\n\nThe new options for `geo_point` are:\n- `lat_lon`: Set to `true` to also index a `lat` and `lon` fields.\n- `geohash`: Set to `true` to also index a `geohash` (under `pin.location.geohash` in our example).\n- `geo_precision`: The geohash precision. Defaults to `12`.\n\nWhen loading a geo point in a script using the `doc[...]` notion, a value (for example: `doc['location'].value`) returns a `GeoPoint`, which allows to access `lat`, `lon`, and `geohash` within the script (much simpler to be used in scripts compared to previously).\n", 
+    "closed_at": "2010-10-09T03:31:28Z", 
+    "closed_by": null, 
+    "comments": 1, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/414/comments", 
+    "created_at": "2010-10-08T20:30:50Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/414/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/414", 
+    "id": 353841, 
+    "labels": [
+        {
+            "color": "ff0000", 
+            "default": false, 
+            "id": 33660, 
+            "name": "breaking", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/breaking"
+        }, 
+        {
+            "color": "9e2c2c", 
+            "default": true, 
+            "id": 23173, 
+            "name": "bug", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/bug"
+        }, 
+        {
+            "color": "4a4ea8", 
+            "default": true, 
+            "id": 23174, 
+            "name": "enhancement", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/enhancement"
+        }, 
+        {
+            "color": "DDDDDD", 
+            "default": false, 
+            "id": 49729, 
+            "name": "v0.12.0", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.12.0"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/414/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 414, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Geo Overhaul (work with multiple locations)", 
+    "updated_at": "2010-10-13T01:34:53Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/414", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }
+}

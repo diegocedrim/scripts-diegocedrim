@@ -1,0 +1,57 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "When executing a search, a scroll parameter can be passed with a timeout value. When passed, a scrollId will be returned as part of the response. The scrollId can then be used to continue to scroll the results of the query. Each scroll request accepts (the same) scroll parameter with a timeout value to allow to continue scrolling.\n\nFor example:\n\n```\ncurl -XGET localhost:9200/_search?q=content:something&scroll=5m\n```\n\nWill execute a search with a scroll timeout of 5 minutes. The result `_scrollId` can be used to execute a scroll request:\n\n```\ncurl -XGET localhost:9200/_search/scroll?scroll=5m&scrollId=cXV...\n```\n\nThe scroll operation is a point in time \"snapshot\" search. Any changes applied to the index, even after a refresh, will not be taken into account when scrolling.\n\nNote, scrolling takes resources from each node they run on, since a state needs to be stored to continue scrolling.\n", 
+    "closed_at": "2010-03-20T23:15:04Z", 
+    "closed_by": null, 
+    "comments": 1, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/77/comments", 
+    "created_at": "2010-03-20T23:14:10Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/77/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/77", 
+    "id": 155129, 
+    "labels": [
+        {
+            "color": "328a58", 
+            "default": false, 
+            "id": 23172, 
+            "name": "feature", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/feature"
+        }, 
+        {
+            "color": "DDDDDD", 
+            "default": false, 
+            "id": 25452, 
+            "name": "v0.06.0", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.06.0"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/77/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 77, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Search API: Scroll", 
+    "updated_at": "2010-04-03T23:03:32Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/77", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }
+}

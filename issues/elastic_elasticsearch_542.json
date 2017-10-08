@@ -1,0 +1,57 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "Allow to define `_default_` mapping on an index (or an index template) when creating the index or the template. The `_default_` mapping, similar in concept to the one that can be defined on the config/mapping, gets merged into any new type mapping introduced for that specific index.\n", 
+    "closed_at": "2010-11-27T21:30:37Z", 
+    "closed_by": null, 
+    "comments": 1, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/542/comments", 
+    "created_at": "2010-11-27T21:27:51Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/542/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/542", 
+    "id": 442009, 
+    "labels": [
+        {
+            "color": "328a58", 
+            "default": false, 
+            "id": 23172, 
+            "name": "feature", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/feature"
+        }, 
+        {
+            "color": "DDDDDD", 
+            "default": false, 
+            "id": 58413, 
+            "name": "v0.14.0", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.14.0"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/542/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 542, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Index / Index Template: Allow to define `_default_` mapping", 
+    "updated_at": "2010-11-27T21:30:37Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/542", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }
+}

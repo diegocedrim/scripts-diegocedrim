@@ -1,0 +1,82 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "This test is marked as successfull but did _not_ run:\n\n```\n @RunWith( Theories.class )\n public class TheoriesTest {\n  @Theory\n  public void aTheory( String arg ) {\n    System.out.println( \"TheoriesTest.aTheory(\" + arg + \")\" );\n    assertNotNull( arg );\n  }\n\n  @DataPoint\n  public String getParam() {\n    return \"daParam\";\n  }\n }\n```\n\nI think the problem lies in Theories:126.\nstatement.evaluate() catches exceptions silently\n(org.junit.experimental.theories.Theories.TheoryAnchor#methodCompletesWithParameters:158).\n\nTherefore \"handleDataPointSuccess\" is called even when an exception has\nbeen thrown....\n\nSo I think there are at least two things missing:\n- Proper exception handling...\n- Checking the DataPoint(s) methods for the static keyword\n", 
+    "closed_at": "2013-01-29T06:45:33Z", 
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/214207?v=3", 
+        "events_url": "https://api.github.com/users/marcphilipp/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/marcphilipp/followers", 
+        "following_url": "https://api.github.com/users/marcphilipp/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/marcphilipp/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/marcphilipp", 
+        "id": 214207, 
+        "login": "marcphilipp", 
+        "organizations_url": "https://api.github.com/users/marcphilipp/orgs", 
+        "received_events_url": "https://api.github.com/users/marcphilipp/received_events", 
+        "repos_url": "https://api.github.com/users/marcphilipp/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/marcphilipp/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/marcphilipp/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/marcphilipp"
+    }, 
+    "comments": 5, 
+    "comments_url": "https://api.github.com/repos/junit-team/junit4/issues/125/comments", 
+    "created_at": "2010-07-28T14:16:16Z", 
+    "events_url": "https://api.github.com/repos/junit-team/junit4/issues/125/events", 
+    "html_url": "https://github.com/junit-team/junit4/issues/125", 
+    "id": 261986, 
+    "labels": [
+        {
+            "color": "ff0000", 
+            "default": true, 
+            "id": 14312, 
+            "name": "bug", 
+            "url": "https://api.github.com/repos/junit-team/junit4/labels/bug"
+        }, 
+        {
+            "color": "ededed", 
+            "default": false, 
+            "id": 77441, 
+            "name": "nonregression", 
+            "url": "https://api.github.com/repos/junit-team/junit4/labels/nonregression"
+        }, 
+        {
+            "color": "0b02e1", 
+            "default": false, 
+            "id": 3631648, 
+            "name": "theories", 
+            "url": "https://api.github.com/repos/junit-team/junit4/labels/theories"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/junit-team/junit4/issues/125/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 125, 
+    "repository_url": "https://api.github.com/repos/junit-team/junit4", 
+    "state": "closed", 
+    "title": "No error/warning on non static method annotated with @DataPoint", 
+    "updated_at": "2013-01-29T06:45:33Z", 
+    "url": "https://api.github.com/repos/junit-team/junit4/issues/125", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/45393?v=3", 
+        "events_url": "https://api.github.com/users/jschneider/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/jschneider/followers", 
+        "following_url": "https://api.github.com/users/jschneider/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/jschneider/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/jschneider", 
+        "id": 45393, 
+        "login": "jschneider", 
+        "organizations_url": "https://api.github.com/users/jschneider/orgs", 
+        "received_events_url": "https://api.github.com/users/jschneider/received_events", 
+        "repos_url": "https://api.github.com/users/jschneider/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/jschneider/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/jschneider/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/jschneider"
+    }
+}

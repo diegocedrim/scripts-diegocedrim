@@ -1,0 +1,102 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "Out of #6808, we improved the handling of a primary failing to make sure replicas that are initializing are properly failed as well. After double checking it, it has 2 problems, the first, if the same shard routing is failed again, there is no protection that we don't apply the failure (which we do in failed shard cases), and the other was that we already tried to handle it (wrongly) in the elect primary method.\nThis change fixes the handling to work correctly in the elect primary method, and adds unit tests to verify the behavior\nThe change also expose a problem in our handling of replica shards that stay initializing during primary failure and electing another replica shard as primary, where we need to cancel its ongoing recovery to make sure it re-starts from the new elected primary\n", 
+    "closed_at": "2014-07-11T08:52:22Z", 
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }, 
+    "comments": 2, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/6825/comments", 
+    "created_at": "2014-07-11T07:12:24Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/6825/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/pull/6825", 
+    "id": 37633051, 
+    "labels": [
+        {
+            "color": "009800", 
+            "default": false, 
+            "id": 152506210, 
+            "name": ":Cluster", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/:Cluster"
+        }, 
+        {
+            "color": "4a4ea8", 
+            "default": true, 
+            "id": 23174, 
+            "name": "enhancement", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/enhancement"
+        }, 
+        {
+            "color": "009800", 
+            "default": false, 
+            "id": 111053151, 
+            "name": "resiliency", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/resiliency"
+        }, 
+        {
+            "color": "DDDDDD", 
+            "default": false, 
+            "id": 95090930, 
+            "name": "v1.3.0", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v1.3.0"
+        }, 
+        {
+            "color": "dddddd", 
+            "default": false, 
+            "id": 76184120, 
+            "name": "v2.0.0-beta1", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v2.0.0-beta1"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/6825/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 6825, 
+    "pull_request": {
+        "diff_url": "https://github.com/elastic/elasticsearch/pull/6825.diff", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/6825", 
+        "patch_url": "https://github.com/elastic/elasticsearch/pull/6825.patch", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/pulls/6825"
+    }, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Improve handling of failed primary replica handling", 
+    "updated_at": "2015-06-07T12:54:25Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/6825", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }
+}

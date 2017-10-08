@@ -1,0 +1,121 @@
+label,refactoring,count
+adoptme,Rename method,1
+aggregations,Extract method,2
+aggregations,Move field,6
+aggregations,Pull up field,4
+aggregations,Rename method,2
+allocation,Extract method,3
+allocation,Move field,3
+allocation,Move method,1
+allocation,Rename method,2
+breaking,Extract method,7
+breaking,Inline method,28
+breaking,Move field,15
+breaking,Pull up field,1
+breaking,Push down field,1
+breaking,Rename method,567
+breaking-java,Extract method,2
+breaking-java,Move field,12
+bug,Extract method,28
+bug,Inline method,3
+bug,Move field,7
+bug,Move method,3
+bug,Pull up field,1
+bug,Push down field,2
+bug,Push down method,4
+bug,Rename method,26
+cache,Rename method,8
+cla: signed,Extract method,1
+cla: signed,Rename method,1
+cluster,Extract method,5
+cluster,Rename method,3
+core,Rename method,45
+das awesome,Extract method,2
+das awesome,Extract superclass,1
+das awesome,Move field,4
+das awesome,Move method,2
+das awesome,Rename method,1
+deprecation,Rename method,1
+discovery,Extract method,1
+discovery,Rename method,1
+enhancement,Extract interface,2
+enhancement,Extract method,62
+enhancement,Extract superclass,3
+enhancement,Inline method,10
+enhancement,Move field,8
+enhancement,Move method,19
+enhancement,Push down field,1
+enhancement,Rename method,107
+feature,Extract interface,2
+feature,Extract method,49
+feature,Inline method,6
+feature,Move field,8
+feature,Move method,2
+feature,Pull up field,3
+feature,Rename method,65
+fielddata,Extract method,1
+fielddata,Inline method,1
+fielddata,Rename method,2
+hamcrest,Extract method,1
+high hanging fruit,Rename method,1
+internal,Extract method,5
+internal,Inline method,4
+internal,Move field,14
+internal,Move method,1
+internal,Rename method,26
+java api,Move field,11
+java api,Pull up field,1
+low hanging fruit,Extract method,1
+lowhanging,Inline method,1
+mapping,Extract method,4
+mapping,Extract superclass,1
+mapping,Inline method,2
+mapping,Move field,4
+mapping,Move method,2
+mapping,Rename method,6
+network,Inline method,3
+non-issue,Extract method,10
+non-issue,Inline method,3
+non-issue,Move field,6
+non-issue,Move method,2
+non-issue,Pull up field,3
+non-issue,Rename method,8
+nonregression,Rename method,2
+parameterized,Rename method,2
+plugins,Extract method,1
+recovery,Extract method,1
+recovery,Inline method,1
+recovery,Rename method,1
+regression,Extract method,1
+release highlight,Extract method,2
+release highlight,Extract superclass,1
+release highlight,Move field,4
+release highlight,Move method,2
+release highlight,Rename method,1
+resiliency,Extract method,1
+resiliency,Rename method,2
+review,Extract method,4
+review,Extract superclass,1
+review,Inline method,2
+review,Move field,19
+review,Move method,3
+review,Rename method,8
+s:review,Extract method,1
+scripting,Move method,14
+settings,Extract method,1
+settings,Rename method,1
+stats,Extract method,6
+stats,Inline method,20
+stats,Rename method,3
+status: accepted,Extract method,1
+status: accepted,Rename method,1
+store,Extract method,1
+t:bug,Extract method,1
+t:bug,Rename method,3
+t:enhancement,Extract method,2
+t:enhancement,Rename method,1
+test,Extract method,3
+test,Rename method,4
+theories,Extract method,3
+theories,Rename method,3
+upgrade,Rename method,44

@@ -1,0 +1,88 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "Recent refactoring in TransportReplicationAction has moved all logic to clear units. We can take an extra step and extract those classes so they can be tested (and added to other tests) without requiring a (fake) transport layer and support.\n\nThis is a POC pending feedback. The usage of the new classes is shown in TransportReplicationAction2 - which is now nothing but network glue. Also, TransportIndexAction2 is an example implementation. Note how that class contains it's own IndexShardReference which is in charge of doing the actual work. This allows us in the future to extract that class and use it to setup a unit test with multiple shards connected by the replication logic, but without the transport and other unneeded dependencies.\n\n@s1monw @jasontedor @ywelsch @areek I would like to get your feedback on this.\n", 
+    "closed_at": "2016-04-19T13:02:28Z", 
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1006375?v=3", 
+        "events_url": "https://api.github.com/users/bleskes/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/bleskes/followers", 
+        "following_url": "https://api.github.com/users/bleskes/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/bleskes/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/bleskes", 
+        "id": 1006375, 
+        "login": "bleskes", 
+        "organizations_url": "https://api.github.com/users/bleskes/orgs", 
+        "received_events_url": "https://api.github.com/users/bleskes/received_events", 
+        "repos_url": "https://api.github.com/users/bleskes/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/bleskes/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/bleskes/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/bleskes"
+    }, 
+    "comments": 12, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/16492/comments", 
+    "created_at": "2016-02-07T21:53:21Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/16492/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/pull/16492", 
+    "id": 132018095, 
+    "labels": [
+        {
+            "color": "009800", 
+            "default": false, 
+            "id": 152506210, 
+            "name": ":Cluster", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/:Cluster"
+        }, 
+        {
+            "color": "cfcfcf", 
+            "default": false, 
+            "id": 73544, 
+            "name": "non-issue", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/non-issue"
+        }, 
+        {
+            "color": "dddddd", 
+            "default": false, 
+            "id": 352250322, 
+            "name": "v5.0.0-alpha2", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v5.0.0-alpha2"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/16492/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 16492, 
+    "pull_request": {
+        "diff_url": "https://github.com/elastic/elasticsearch/pull/16492.diff", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/16492", 
+        "patch_url": "https://github.com/elastic/elasticsearch/pull/16492.patch", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/pulls/16492"
+    }, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Extract non-transport logic from TransportReplicationAction", 
+    "updated_at": "2016-04-25T14:05:36Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/16492", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1006375?v=3", 
+        "events_url": "https://api.github.com/users/bleskes/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/bleskes/followers", 
+        "following_url": "https://api.github.com/users/bleskes/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/bleskes/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/bleskes", 
+        "id": 1006375, 
+        "login": "bleskes", 
+        "organizations_url": "https://api.github.com/users/bleskes/orgs", 
+        "received_events_url": "https://api.github.com/users/bleskes/received_events", 
+        "repos_url": "https://api.github.com/users/bleskes/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/bleskes/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/bleskes/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/bleskes"
+    }
+}

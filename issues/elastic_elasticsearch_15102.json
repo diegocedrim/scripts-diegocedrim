@@ -1,0 +1,82 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "To avoid default => default definition.\nTo prepare for the BM25 default switch in Lucene 6.0.\n", 
+    "closed_at": "2015-12-30T16:42:40Z", 
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/15977469?v=3", 
+        "events_url": "https://api.github.com/users/jimczi/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/jimczi/followers", 
+        "following_url": "https://api.github.com/users/jimczi/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/jimczi/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/jimczi", 
+        "id": 15977469, 
+        "login": "jimczi", 
+        "organizations_url": "https://api.github.com/users/jimczi/orgs", 
+        "received_events_url": "https://api.github.com/users/jimczi/received_events", 
+        "repos_url": "https://api.github.com/users/jimczi/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/jimczi/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/jimczi/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/jimczi"
+    }, 
+    "comments": 1, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/15102/comments", 
+    "created_at": "2015-11-30T10:38:15Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/15102/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/15102", 
+    "id": 119465407, 
+    "labels": [
+        {
+            "color": "009800", 
+            "default": false, 
+            "id": 141145460, 
+            "name": ":Mapping", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/:Mapping"
+        }, 
+        {
+            "color": "207de5", 
+            "default": false, 
+            "id": 110815527, 
+            "name": "adoptme", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/adoptme"
+        }, 
+        {
+            "color": "ff0000", 
+            "default": false, 
+            "id": 33660, 
+            "name": "breaking", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/breaking"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/15102/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 15102, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Rename \"default\" similarity into \"classic\" and map default module to classic.", 
+    "updated_at": "2015-12-30T16:42:40Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/15102", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/15977469?v=3", 
+        "events_url": "https://api.github.com/users/jimczi/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/jimczi/followers", 
+        "following_url": "https://api.github.com/users/jimczi/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/jimczi/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/jimczi", 
+        "id": 15977469, 
+        "login": "jimczi", 
+        "organizations_url": "https://api.github.com/users/jimczi/orgs", 
+        "received_events_url": "https://api.github.com/users/jimczi/received_events", 
+        "repos_url": "https://api.github.com/users/jimczi/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/jimczi/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/jimczi/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/jimczi"
+    }
+}

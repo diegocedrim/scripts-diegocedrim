@@ -1,0 +1,83 @@
+[
+    {
+        "commit_id": "1fc37e59547ba544ab1a4677f2622c9e39b26313", 
+        "commit_url": "https://api.github.com/repos/elastic/elasticsearch/commits/1fc37e59547ba544ab1a4677f2622c9e39b26313", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/43300539", 
+        "created_at": "2013-03-28T14:34:42Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+            "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+            "url": "https://api.github.com/users/kimchy", 
+            "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+            "html_url": "https://github.com/kimchy", 
+            "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+            "repos_url": "https://api.github.com/users/kimchy/repos", 
+            "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "kimchy", 
+            "type": "User", 
+            "id": 41300, 
+            "followers_url": "https://api.github.com/users/kimchy/followers"
+        }, 
+        "event": "closed", 
+        "id": 43300539
+    }, 
+    {
+        "commit_id": "1c70c664518c39bdd86235125633936b724a43ef", 
+        "commit_url": "https://api.github.com/repos/pdegeus/elasticsearch/commits/1c70c664518c39bdd86235125633936b724a43ef", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/43305752", 
+        "created_at": "2013-03-28T15:07:39Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/pdegeus/following{/other_user}", 
+            "events_url": "https://api.github.com/users/pdegeus/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/pdegeus/orgs", 
+            "url": "https://api.github.com/users/pdegeus", 
+            "gists_url": "https://api.github.com/users/pdegeus/gists{/gist_id}", 
+            "html_url": "https://github.com/pdegeus", 
+            "subscriptions_url": "https://api.github.com/users/pdegeus/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/149718?v=3", 
+            "repos_url": "https://api.github.com/users/pdegeus/repos", 
+            "received_events_url": "https://api.github.com/users/pdegeus/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/pdegeus/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "pdegeus", 
+            "type": "User", 
+            "id": 149718, 
+            "followers_url": "https://api.github.com/users/pdegeus/followers"
+        }, 
+        "event": "referenced", 
+        "id": 43305752
+    }, 
+    {
+        "commit_id": "f962469a3a9386c525f2eba8596549edacc6674f", 
+        "commit_url": "https://api.github.com/repos/aparo/elasticsearch/commits/f962469a3a9386c525f2eba8596549edacc6674f", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/50979375", 
+        "created_at": "2013-05-31T21:00:24Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/aparo/following{/other_user}", 
+            "events_url": "https://api.github.com/users/aparo/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/aparo/orgs", 
+            "url": "https://api.github.com/users/aparo", 
+            "gists_url": "https://api.github.com/users/aparo/gists{/gist_id}", 
+            "html_url": "https://github.com/aparo", 
+            "subscriptions_url": "https://api.github.com/users/aparo/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/28075?v=3", 
+            "repos_url": "https://api.github.com/users/aparo/repos", 
+            "received_events_url": "https://api.github.com/users/aparo/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/aparo/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "aparo", 
+            "type": "User", 
+            "id": 28075, 
+            "followers_url": "https://api.github.com/users/aparo/followers"
+        }, 
+        "event": "referenced", 
+        "id": 50979375
+    }
+]

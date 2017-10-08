@@ -1,0 +1,109 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "This makes all numeric fields including `date`, `ip` and `token_count` use\npoints instead of the inverted index as a lookup structure. This is expected\nto perform worse for exact queries, but faster for range queries. It also\nrequires less storage.\n\nNotes about how the change works:\n- Numeric mappers have been split into a legacy version that is essentially\n  the current mapper, and a new version that uses points, eg.\n  LegacyDateFieldMapper and DateFieldMapper.\n- Since new and old fields have the same names, the decision about which one\n  to use is made based on the index creation version.\n- If you try to force using a legacy field on a new index or a field that uses\n  points on an old index, you will get an exception.\n- IP addresses now support IPv6 via Lucene's InetAddressPoint and store them\n  in SORTED_SET doc values using the same encoding (fixed length of 16 bytes\n  and sortable).\n- The internal MappedFieldType that is stored by the new mappers does not have\n  any of the points-related properties set. Instead, it keeps setting the index\n  options when parsing the `index` property of mappings and does\n  `if (fieldType.indexOptions() != IndexOptions.NONE) { // add point field }`\n  when parsing documents.\n\nKnown issues that won't fix:\n- You can't use numeric fields in significant terms aggregations anymore since\n  this requires document frequencies, which points do not record.\n- Term queries on numeric fields will now return constant scores instead of\n  giving better scores to the rare values.\n\nKnown issues that we could work around (in follow-up PRs, this one is too large\nalready):\n- Range queries on `ip` addresses only work if both the lower and upper bounds\n  are inclusive (exclusive bounds are not exposed in Lucene). We could either\n  decide to implement it, or drop range support entirely and tell users to\n  query subnets using the CIDR notation instead.\n- Since IP addresses now use a different representation for doc values,\n  aggregations will fail when running a terms aggregation on an ip field on a\n  list of indices that contains both pre-5.0 and 5.0 indices.\n- The ip range aggregation does not work on the new ip field. We need to either\n  implement range aggs for SORTED_SET doc values or drop support for ip ranges\n  and tell users to use filters instead. #17700\n\nCloses #16751\nCloses #17007\nCloses #11513\n", 
+    "closed_at": "2016-04-14T15:57:09Z", 
+    "closed_by": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+        "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/jpountz/followers", 
+        "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/jpountz", 
+        "id": 299848, 
+        "login": "jpountz", 
+        "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+        "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+        "repos_url": "https://api.github.com/users/jpountz/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/jpountz"
+    }, 
+    "comments": 14, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/17746/comments", 
+    "created_at": "2016-04-14T08:12:55Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/17746/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/pull/17746", 
+    "id": 148285954, 
+    "labels": [
+        {
+            "color": "009800", 
+            "default": false, 
+            "id": 141145460, 
+            "name": ":Mapping", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/:Mapping"
+        }, 
+        {
+            "color": "006b75", 
+            "default": false, 
+            "id": 288534437, 
+            "name": "das awesome", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/das%20awesome"
+        }, 
+        {
+            "color": "4a4ea8", 
+            "default": true, 
+            "id": 23174, 
+            "name": "enhancement", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/enhancement"
+        }, 
+        {
+            "color": "fbca04", 
+            "default": false, 
+            "id": 108108556, 
+            "name": "release highlight", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/release%20highlight"
+        }, 
+        {
+            "color": "0052cc", 
+            "default": false, 
+            "id": 94283388, 
+            "name": "review", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/review"
+        }, 
+        {
+            "color": "dddddd", 
+            "default": false, 
+            "id": 352250322, 
+            "name": "v5.0.0-alpha2", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v5.0.0-alpha2"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/17746/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 17746, 
+    "pull_request": {
+        "diff_url": "https://github.com/elastic/elasticsearch/pull/17746.diff", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/17746", 
+        "patch_url": "https://github.com/elastic/elasticsearch/pull/17746.patch", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/pulls/17746"
+    }, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Use the new points API to index numeric fields.", 
+    "updated_at": "2016-04-14T15:57:10Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/17746", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+        "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/jpountz/followers", 
+        "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/jpountz", 
+        "id": 299848, 
+        "login": "jpountz", 
+        "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+        "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+        "repos_url": "https://api.github.com/users/jpountz/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/jpountz"
+    }
+}

@@ -1,0 +1,999 @@
+[
+    {
+        "committer": {
+            "date": "2016-01-19T08:38:15Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "author": {
+            "date": "2016-01-19T08:38:15Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/4b80452b2ef1a8853e04cfff075da563cfe0426b", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/deb6a873cbc8da86edd80c442295b8d1887ccbb4", 
+            "sha": "deb6a873cbc8da86edd80c442295b8d1887ccbb4"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/4b80452b2ef1a8853e04cfff075da563cfe0426b", 
+        "sha": "4b80452b2ef1a8853e04cfff075da563cfe0426b", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/ac75cdfaf0f3f4d7883f2499e18e8c959c069604", 
+                "sha": "ac75cdfaf0f3f4d7883f2499e18e8c959c069604", 
+                "html_url": "https://github.com/realm/realm-java/commit/ac75cdfaf0f3f4d7883f2499e18e8c959c069604"
+            }
+        ], 
+        "message": "WIP", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-01-19T11:18:15Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "author": {
+            "date": "2016-01-19T11:18:15Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/d63016749ba61e19676300aa500a465921e39515", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/647b6b76268a667d0ff5fcf6668b7faab5ceabad", 
+            "sha": "647b6b76268a667d0ff5fcf6668b7faab5ceabad"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/d63016749ba61e19676300aa500a465921e39515", 
+        "sha": "d63016749ba61e19676300aa500a465921e39515", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/4b80452b2ef1a8853e04cfff075da563cfe0426b", 
+                "sha": "4b80452b2ef1a8853e04cfff075da563cfe0426b", 
+                "html_url": "https://github.com/realm/realm-java/commit/4b80452b2ef1a8853e04cfff075da563cfe0426b"
+            }, 
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/f8e9347de4771e74cc646b248a235661f5525a7c", 
+                "sha": "f8e9347de4771e74cc646b248a235661f5525a7c", 
+                "html_url": "https://github.com/realm/realm-java/commit/f8e9347de4771e74cc646b248a235661f5525a7c"
+            }
+        ], 
+        "message": "Merge branch 'master' into cm/bug/iterators", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-01-20T11:01:50Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "author": {
+            "date": "2016-01-20T11:01:50Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/322304f7491604ecc17726ce9ef0f417c238a216", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/30838018d06114c97c71a675306a168eef51ca59", 
+            "sha": "30838018d06114c97c71a675306a168eef51ca59"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/322304f7491604ecc17726ce9ef0f417c238a216", 
+        "sha": "322304f7491604ecc17726ce9ef0f417c238a216", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/d63016749ba61e19676300aa500a465921e39515", 
+                "sha": "d63016749ba61e19676300aa500a465921e39515", 
+                "html_url": "https://github.com/realm/realm-java/commit/d63016749ba61e19676300aa500a465921e39515"
+            }
+        ], 
+        "message": "WIP", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-01-20T13:39:15Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "author": {
+            "date": "2016-01-20T13:39:15Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/acd4621e78d75f63559173d99520d1184589e6bf", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/2303e13844e883a6e9980d9c6f046f602b4d52e0", 
+            "sha": "2303e13844e883a6e9980d9c6f046f602b4d52e0"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/acd4621e78d75f63559173d99520d1184589e6bf", 
+        "sha": "acd4621e78d75f63559173d99520d1184589e6bf", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/322304f7491604ecc17726ce9ef0f417c238a216", 
+                "sha": "322304f7491604ecc17726ce9ef0f417c238a216", 
+                "html_url": "https://github.com/realm/realm-java/commit/322304f7491604ecc17726ce9ef0f417c238a216"
+            }, 
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/c4535b7e24d4463d60ff3b0946cc31f3d845dcca", 
+                "sha": "c4535b7e24d4463d60ff3b0946cc31f3d845dcca", 
+                "html_url": "https://github.com/realm/realm-java/commit/c4535b7e24d4463d60ff3b0946cc31f3d845dcca"
+            }
+        ], 
+        "message": "Merge branch 'master' into cm/bug/iterators", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-01-20T15:34:48Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "author": {
+            "date": "2016-01-20T15:34:48Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/79bb33dc578cdded7992ac006b36ff26958e90dc", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/6caa20b6f946a5504e54234a0a946e5536e756aa", 
+            "sha": "6caa20b6f946a5504e54234a0a946e5536e756aa"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/79bb33dc578cdded7992ac006b36ff26958e90dc", 
+        "sha": "79bb33dc578cdded7992ac006b36ff26958e90dc", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/acd4621e78d75f63559173d99520d1184589e6bf", 
+                "sha": "acd4621e78d75f63559173d99520d1184589e6bf", 
+                "html_url": "https://github.com/realm/realm-java/commit/acd4621e78d75f63559173d99520d1184589e6bf"
+            }
+        ], 
+        "message": "Cleanup current unit tests.", 
+        "event": "committed"
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/realm/realm-java/issues/events/520530398", 
+        "created_at": "2016-01-20T15:53:50Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/cmelchior/following{/other_user}", 
+            "events_url": "https://api.github.com/users/cmelchior/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/cmelchior/orgs", 
+            "url": "https://api.github.com/users/cmelchior", 
+            "gists_url": "https://api.github.com/users/cmelchior/gists{/gist_id}", 
+            "html_url": "https://github.com/cmelchior", 
+            "subscriptions_url": "https://api.github.com/users/cmelchior/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/406066?v=3", 
+            "repos_url": "https://api.github.com/users/cmelchior/repos", 
+            "received_events_url": "https://api.github.com/users/cmelchior/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/cmelchior/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "cmelchior", 
+            "type": "User", 
+            "id": 406066, 
+            "followers_url": "https://api.github.com/users/cmelchior/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "ededed", 
+            "name": "P1"
+        }, 
+        "id": 520530398
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/realm/realm-java/issues/events/520530399", 
+        "created_at": "2016-01-20T15:53:50Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/cmelchior/following{/other_user}", 
+            "events_url": "https://api.github.com/users/cmelchior/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/cmelchior/orgs", 
+            "url": "https://api.github.com/users/cmelchior", 
+            "gists_url": "https://api.github.com/users/cmelchior/gists{/gist_id}", 
+            "html_url": "https://github.com/cmelchior", 
+            "subscriptions_url": "https://api.github.com/users/cmelchior/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/406066?v=3", 
+            "repos_url": "https://api.github.com/users/cmelchior/repos", 
+            "received_events_url": "https://api.github.com/users/cmelchior/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/cmelchior/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "cmelchior", 
+            "type": "User", 
+            "id": 406066, 
+            "followers_url": "https://api.github.com/users/cmelchior/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "fbca04", 
+            "name": "WIP"
+        }, 
+        "id": 520530399
+    }, 
+    {
+        "body": "Does this mean that `RealmResults` will now not auto-refresh itself when the items under the original query change?", 
+        "url": "https://api.github.com/repos/realm/realm-java/issues/comments/173333890", 
+        "event": "commented", 
+        "created_at": "2016-01-20T19:31:15Z", 
+        "html_url": "https://github.com/realm/realm-java/pull/2124#issuecomment-173333890", 
+        "actor": {
+            "following_url": "https://api.github.com/users/Saketme/following{/other_user}", 
+            "events_url": "https://api.github.com/users/Saketme/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/Saketme/orgs", 
+            "url": "https://api.github.com/users/Saketme", 
+            "gists_url": "https://api.github.com/users/Saketme/gists{/gist_id}", 
+            "html_url": "https://github.com/Saketme", 
+            "subscriptions_url": "https://api.github.com/users/Saketme/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/2387680?v=3", 
+            "repos_url": "https://api.github.com/users/Saketme/repos", 
+            "received_events_url": "https://api.github.com/users/Saketme/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/Saketme/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "Saketme", 
+            "type": "User", 
+            "id": 2387680, 
+            "followers_url": "https://api.github.com/users/Saketme/followers"
+        }, 
+        "updated_at": "2016-01-20T19:31:20Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/Saketme/following{/other_user}", 
+            "events_url": "https://api.github.com/users/Saketme/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/Saketme/orgs", 
+            "url": "https://api.github.com/users/Saketme", 
+            "gists_url": "https://api.github.com/users/Saketme/gists{/gist_id}", 
+            "html_url": "https://github.com/Saketme", 
+            "subscriptions_url": "https://api.github.com/users/Saketme/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/2387680?v=3", 
+            "repos_url": "https://api.github.com/users/Saketme/repos", 
+            "received_events_url": "https://api.github.com/users/Saketme/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/Saketme/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "Saketme", 
+            "type": "User", 
+            "id": 2387680, 
+            "followers_url": "https://api.github.com/users/Saketme/followers"
+        }, 
+        "id": 173333890, 
+        "issue_url": "https://api.github.com/repos/realm/realm-java/issues/2124"
+    }, 
+    {
+        "body": "Not within the same loop event, no. It will still be refreshed at the beginning of the run loop, if you call `refresh` or another thread makes any changes.", 
+        "url": "https://api.github.com/repos/realm/realm-java/issues/comments/173352198", 
+        "event": "commented", 
+        "created_at": "2016-01-20T20:38:11Z", 
+        "html_url": "https://github.com/realm/realm-java/pull/2124#issuecomment-173352198", 
+        "actor": {
+            "following_url": "https://api.github.com/users/cmelchior/following{/other_user}", 
+            "events_url": "https://api.github.com/users/cmelchior/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/cmelchior/orgs", 
+            "url": "https://api.github.com/users/cmelchior", 
+            "gists_url": "https://api.github.com/users/cmelchior/gists{/gist_id}", 
+            "html_url": "https://github.com/cmelchior", 
+            "subscriptions_url": "https://api.github.com/users/cmelchior/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/406066?v=3", 
+            "repos_url": "https://api.github.com/users/cmelchior/repos", 
+            "received_events_url": "https://api.github.com/users/cmelchior/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/cmelchior/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "cmelchior", 
+            "type": "User", 
+            "id": 406066, 
+            "followers_url": "https://api.github.com/users/cmelchior/followers"
+        }, 
+        "updated_at": "2016-01-20T20:38:11Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/cmelchior/following{/other_user}", 
+            "events_url": "https://api.github.com/users/cmelchior/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/cmelchior/orgs", 
+            "url": "https://api.github.com/users/cmelchior", 
+            "gists_url": "https://api.github.com/users/cmelchior/gists{/gist_id}", 
+            "html_url": "https://github.com/cmelchior", 
+            "subscriptions_url": "https://api.github.com/users/cmelchior/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/406066?v=3", 
+            "repos_url": "https://api.github.com/users/cmelchior/repos", 
+            "received_events_url": "https://api.github.com/users/cmelchior/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/cmelchior/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "cmelchior", 
+            "type": "User", 
+            "id": 406066, 
+            "followers_url": "https://api.github.com/users/cmelchior/followers"
+        }, 
+        "id": 173352198, 
+        "issue_url": "https://api.github.com/repos/realm/realm-java/issues/2124"
+    }, 
+    {
+        "body": "Interesting :+1:", 
+        "url": "https://api.github.com/repos/realm/realm-java/issues/comments/173476745", 
+        "event": "commented", 
+        "created_at": "2016-01-21T06:55:12Z", 
+        "html_url": "https://github.com/realm/realm-java/pull/2124#issuecomment-173476745", 
+        "actor": {
+            "following_url": "https://api.github.com/users/Saketme/following{/other_user}", 
+            "events_url": "https://api.github.com/users/Saketme/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/Saketme/orgs", 
+            "url": "https://api.github.com/users/Saketme", 
+            "gists_url": "https://api.github.com/users/Saketme/gists{/gist_id}", 
+            "html_url": "https://github.com/Saketme", 
+            "subscriptions_url": "https://api.github.com/users/Saketme/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/2387680?v=3", 
+            "repos_url": "https://api.github.com/users/Saketme/repos", 
+            "received_events_url": "https://api.github.com/users/Saketme/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/Saketme/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "Saketme", 
+            "type": "User", 
+            "id": 2387680, 
+            "followers_url": "https://api.github.com/users/Saketme/followers"
+        }, 
+        "updated_at": "2016-01-21T06:55:12Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/Saketme/following{/other_user}", 
+            "events_url": "https://api.github.com/users/Saketme/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/Saketme/orgs", 
+            "url": "https://api.github.com/users/Saketme", 
+            "gists_url": "https://api.github.com/users/Saketme/gists{/gist_id}", 
+            "html_url": "https://github.com/Saketme", 
+            "subscriptions_url": "https://api.github.com/users/Saketme/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/2387680?v=3", 
+            "repos_url": "https://api.github.com/users/Saketme/repos", 
+            "received_events_url": "https://api.github.com/users/Saketme/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/Saketme/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "Saketme", 
+            "type": "User", 
+            "id": 2387680, 
+            "followers_url": "https://api.github.com/users/Saketme/followers"
+        }, 
+        "id": 173476745, 
+        "issue_url": "https://api.github.com/repos/realm/realm-java/issues/2124"
+    }, 
+    {
+        "committer": {
+            "date": "2016-01-21T07:12:51Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "author": {
+            "date": "2016-01-21T07:12:51Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/42502463a96ea0bdc5975338bdb82055bc5673ec", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/082b65b109f682a9aeba74a91fb19af98b661aac", 
+            "sha": "082b65b109f682a9aeba74a91fb19af98b661aac"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/42502463a96ea0bdc5975338bdb82055bc5673ec", 
+        "sha": "42502463a96ea0bdc5975338bdb82055bc5673ec", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/79bb33dc578cdded7992ac006b36ff26958e90dc", 
+                "sha": "79bb33dc578cdded7992ac006b36ff26958e90dc", 
+                "html_url": "https://github.com/realm/realm-java/commit/79bb33dc578cdded7992ac006b36ff26958e90dc"
+            }
+        ], 
+        "message": "Javadoc fixes", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-01-21T10:07:55Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "author": {
+            "date": "2016-01-21T10:07:55Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/797efb5c729b5d8a120dcd7f6b4135dd48f3670a", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/bef724197fc5a97ccea8b092df25d5c63d9c6277", 
+            "sha": "bef724197fc5a97ccea8b092df25d5c63d9c6277"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/797efb5c729b5d8a120dcd7f6b4135dd48f3670a", 
+        "sha": "797efb5c729b5d8a120dcd7f6b4135dd48f3670a", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/42502463a96ea0bdc5975338bdb82055bc5673ec", 
+                "sha": "42502463a96ea0bdc5975338bdb82055bc5673ec", 
+                "html_url": "https://github.com/realm/realm-java/commit/42502463a96ea0bdc5975338bdb82055bc5673ec"
+            }, 
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/a6ca6699616fce2aea14b159c559e7dae6dc051b", 
+                "sha": "a6ca6699616fce2aea14b159c559e7dae6dc051b", 
+                "html_url": "https://github.com/realm/realm-java/commit/a6ca6699616fce2aea14b159c559e7dae6dc051b"
+            }
+        ], 
+        "message": "Merge branch 'master' into cm/bug/iterators", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-01-21T13:02:20Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "author": {
+            "date": "2016-01-21T13:02:20Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/39c062a6ddac6275c439e81e43c8162decdd7798", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/ef2c5da491eb1cb823b555a2291580f04a79506b", 
+            "sha": "ef2c5da491eb1cb823b555a2291580f04a79506b"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/39c062a6ddac6275c439e81e43c8162decdd7798", 
+        "sha": "39c062a6ddac6275c439e81e43c8162decdd7798", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/797efb5c729b5d8a120dcd7f6b4135dd48f3670a", 
+                "sha": "797efb5c729b5d8a120dcd7f6b4135dd48f3670a", 
+                "html_url": "https://github.com/realm/realm-java/commit/797efb5c729b5d8a120dcd7f6b4135dd48f3670a"
+            }
+        ], 
+        "message": "Added support for RealmResults.listIterator() + unit tests.", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-01-22T12:35:25Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "author": {
+            "date": "2016-01-22T12:35:25Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/d9cc72e8a49cc346d73a118443523d26e4fc31b1", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/31a27e9111a0203b803740a5ad09e610e7826eaf", 
+            "sha": "31a27e9111a0203b803740a5ad09e610e7826eaf"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/d9cc72e8a49cc346d73a118443523d26e4fc31b1", 
+        "sha": "d9cc72e8a49cc346d73a118443523d26e4fc31b1", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/39c062a6ddac6275c439e81e43c8162decdd7798", 
+                "sha": "39c062a6ddac6275c439e81e43c8162decdd7798", 
+                "html_url": "https://github.com/realm/realm-java/commit/39c062a6ddac6275c439e81e43c8162decdd7798"
+            }
+        ], 
+        "message": "Added notification tests for none-synched RealmResults.", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-01-22T12:35:39Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "author": {
+            "date": "2016-01-22T12:35:39Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/513c0f7f118be50474f7321bfbc2ad6554d83353", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/24a24ebbd21850dbe0630b3780f228ce6a197de5", 
+            "sha": "24a24ebbd21850dbe0630b3780f228ce6a197de5"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/513c0f7f118be50474f7321bfbc2ad6554d83353", 
+        "sha": "513c0f7f118be50474f7321bfbc2ad6554d83353", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/d9cc72e8a49cc346d73a118443523d26e4fc31b1", 
+                "sha": "d9cc72e8a49cc346d73a118443523d26e4fc31b1", 
+                "html_url": "https://github.com/realm/realm-java/commit/d9cc72e8a49cc346d73a118443523d26e4fc31b1"
+            }, 
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/6fae910f476675c508b16915aa922394f1f32762", 
+                "sha": "6fae910f476675c508b16915aa922394f1f32762", 
+                "html_url": "https://github.com/realm/realm-java/commit/6fae910f476675c508b16915aa922394f1f32762"
+            }
+        ], 
+        "message": "Merge branch 'master' into cm/bug/iterators", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-01-22T15:33:36Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "author": {
+            "date": "2016-01-22T15:33:36Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/e9fbc2952b14cfbea068047b2b1d061de631cc0f", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/d0d1a765d5075563e523c708abff9e3ab39c22a2", 
+            "sha": "d0d1a765d5075563e523c708abff9e3ab39c22a2"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/e9fbc2952b14cfbea068047b2b1d061de631cc0f", 
+        "sha": "e9fbc2952b14cfbea068047b2b1d061de631cc0f", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/513c0f7f118be50474f7321bfbc2ad6554d83353", 
+                "sha": "513c0f7f118be50474f7321bfbc2ad6554d83353", 
+                "html_url": "https://github.com/realm/realm-java/commit/513c0f7f118be50474f7321bfbc2ad6554d83353"
+            }
+        ], 
+        "message": "Fix refreshing of tableviews.", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-01-22T15:45:58Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "author": {
+            "date": "2016-01-22T15:45:58Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/0ddf13f557cb44b44a51d504f9ccd93b524e4f42", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/dd790b2445c7073c2466683e1d6bb5f427e87698", 
+            "sha": "dd790b2445c7073c2466683e1d6bb5f427e87698"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/0ddf13f557cb44b44a51d504f9ccd93b524e4f42", 
+        "sha": "0ddf13f557cb44b44a51d504f9ccd93b524e4f42", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/e9fbc2952b14cfbea068047b2b1d061de631cc0f", 
+                "sha": "e9fbc2952b14cfbea068047b2b1d061de631cc0f", 
+                "html_url": "https://github.com/realm/realm-java/commit/e9fbc2952b14cfbea068047b2b1d061de631cc0f"
+            }
+        ], 
+        "message": "Better error reporting from RunInLooperThread", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-01-22T21:39:03Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "author": {
+            "date": "2016-01-22T21:39:03Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/cb7d51329b21c9772d2a97014118598d65e5fc47", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/e381bd83b43101b930ca901d0506ab8344d418ef", 
+            "sha": "e381bd83b43101b930ca901d0506ab8344d418ef"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/cb7d51329b21c9772d2a97014118598d65e5fc47", 
+        "sha": "cb7d51329b21c9772d2a97014118598d65e5fc47", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/0ddf13f557cb44b44a51d504f9ccd93b524e4f42", 
+                "sha": "0ddf13f557cb44b44a51d504f9ccd93b524e4f42", 
+                "html_url": "https://github.com/realm/realm-java/commit/0ddf13f557cb44b44a51d504f9ccd93b524e4f42"
+            }
+        ], 
+        "message": "HandlerController is always available.", 
+        "event": "committed"
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/realm/realm-java/issues/events/526216680", 
+        "created_at": "2016-01-26T09:31:27Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/cmelchior/following{/other_user}", 
+            "events_url": "https://api.github.com/users/cmelchior/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/cmelchior/orgs", 
+            "url": "https://api.github.com/users/cmelchior", 
+            "gists_url": "https://api.github.com/users/cmelchior/gists{/gist_id}", 
+            "html_url": "https://github.com/cmelchior", 
+            "subscriptions_url": "https://api.github.com/users/cmelchior/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/406066?v=3", 
+            "repos_url": "https://api.github.com/users/cmelchior/repos", 
+            "received_events_url": "https://api.github.com/users/cmelchior/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/cmelchior/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "cmelchior", 
+            "type": "User", 
+            "id": 406066, 
+            "followers_url": "https://api.github.com/users/cmelchior/followers"
+        }, 
+        "event": "assigned", 
+        "assignee": {
+            "following_url": "https://api.github.com/users/cmelchior/following{/other_user}", 
+            "events_url": "https://api.github.com/users/cmelchior/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/cmelchior/orgs", 
+            "url": "https://api.github.com/users/cmelchior", 
+            "gists_url": "https://api.github.com/users/cmelchior/gists{/gist_id}", 
+            "html_url": "https://github.com/cmelchior", 
+            "subscriptions_url": "https://api.github.com/users/cmelchior/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/406066?v=3", 
+            "repos_url": "https://api.github.com/users/cmelchior/repos", 
+            "received_events_url": "https://api.github.com/users/cmelchior/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/cmelchior/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "cmelchior", 
+            "type": "User", 
+            "id": 406066, 
+            "followers_url": "https://api.github.com/users/cmelchior/followers"
+        }, 
+        "id": 526216680
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/realm/realm-java/issues/events/535584393", 
+        "created_at": "2016-02-02T10:06:28Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/bmunkholm/following{/other_user}", 
+            "events_url": "https://api.github.com/users/bmunkholm/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/bmunkholm/orgs", 
+            "url": "https://api.github.com/users/bmunkholm", 
+            "gists_url": "https://api.github.com/users/bmunkholm/gists{/gist_id}", 
+            "html_url": "https://github.com/bmunkholm", 
+            "subscriptions_url": "https://api.github.com/users/bmunkholm/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/1215687?v=3", 
+            "repos_url": "https://api.github.com/users/bmunkholm/repos", 
+            "received_events_url": "https://api.github.com/users/bmunkholm/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/bmunkholm/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "bmunkholm", 
+            "type": "User", 
+            "id": 1215687, 
+            "followers_url": "https://api.github.com/users/bmunkholm/followers"
+        }, 
+        "event": "unlabeled", 
+        "label": {
+            "color": "fbca04", 
+            "name": "wip - remove label"
+        }, 
+        "id": 535584393
+    }, 
+    {
+        "body": "is there a timeline for this PR to be merged in? I have a few bugs in my project that seem to be related with this. I can implement workarounds but I would prefer not to.", 
+        "url": "https://api.github.com/repos/realm/realm-java/issues/comments/179916995", 
+        "event": "commented", 
+        "created_at": "2016-02-04T16:01:53Z", 
+        "html_url": "https://github.com/realm/realm-java/pull/2124#issuecomment-179916995", 
+        "actor": {
+            "following_url": "https://api.github.com/users/renam/following{/other_user}", 
+            "events_url": "https://api.github.com/users/renam/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/renam/orgs", 
+            "url": "https://api.github.com/users/renam", 
+            "gists_url": "https://api.github.com/users/renam/gists{/gist_id}", 
+            "html_url": "https://github.com/renam", 
+            "subscriptions_url": "https://api.github.com/users/renam/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/1470447?v=3", 
+            "repos_url": "https://api.github.com/users/renam/repos", 
+            "received_events_url": "https://api.github.com/users/renam/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/renam/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "renam", 
+            "type": "User", 
+            "id": 1470447, 
+            "followers_url": "https://api.github.com/users/renam/followers"
+        }, 
+        "updated_at": "2016-02-04T16:01:53Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/renam/following{/other_user}", 
+            "events_url": "https://api.github.com/users/renam/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/renam/orgs", 
+            "url": "https://api.github.com/users/renam", 
+            "gists_url": "https://api.github.com/users/renam/gists{/gist_id}", 
+            "html_url": "https://github.com/renam", 
+            "subscriptions_url": "https://api.github.com/users/renam/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/1470447?v=3", 
+            "repos_url": "https://api.github.com/users/renam/repos", 
+            "received_events_url": "https://api.github.com/users/renam/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/renam/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "renam", 
+            "type": "User", 
+            "id": 1470447, 
+            "followers_url": "https://api.github.com/users/renam/followers"
+        }, 
+        "id": 179916995, 
+        "issue_url": "https://api.github.com/repos/realm/realm-java/issues/2124"
+    }, 
+    {
+        "body": "It is under active development, but there is no deadline. You should be able to use the work-around describe here though: https://github.com/realm/realm-java/issues/640#issuecomment-103798064", 
+        "url": "https://api.github.com/repos/realm/realm-java/issues/comments/179920652", 
+        "event": "commented", 
+        "created_at": "2016-02-04T16:08:55Z", 
+        "html_url": "https://github.com/realm/realm-java/pull/2124#issuecomment-179920652", 
+        "actor": {
+            "following_url": "https://api.github.com/users/cmelchior/following{/other_user}", 
+            "events_url": "https://api.github.com/users/cmelchior/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/cmelchior/orgs", 
+            "url": "https://api.github.com/users/cmelchior", 
+            "gists_url": "https://api.github.com/users/cmelchior/gists{/gist_id}", 
+            "html_url": "https://github.com/cmelchior", 
+            "subscriptions_url": "https://api.github.com/users/cmelchior/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/406066?v=3", 
+            "repos_url": "https://api.github.com/users/cmelchior/repos", 
+            "received_events_url": "https://api.github.com/users/cmelchior/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/cmelchior/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "cmelchior", 
+            "type": "User", 
+            "id": 406066, 
+            "followers_url": "https://api.github.com/users/cmelchior/followers"
+        }, 
+        "updated_at": "2016-02-04T16:08:55Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/cmelchior/following{/other_user}", 
+            "events_url": "https://api.github.com/users/cmelchior/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/cmelchior/orgs", 
+            "url": "https://api.github.com/users/cmelchior", 
+            "gists_url": "https://api.github.com/users/cmelchior/gists{/gist_id}", 
+            "html_url": "https://github.com/cmelchior", 
+            "subscriptions_url": "https://api.github.com/users/cmelchior/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/406066?v=3", 
+            "repos_url": "https://api.github.com/users/cmelchior/repos", 
+            "received_events_url": "https://api.github.com/users/cmelchior/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/cmelchior/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "cmelchior", 
+            "type": "User", 
+            "id": 406066, 
+            "followers_url": "https://api.github.com/users/cmelchior/followers"
+        }, 
+        "id": 179920652, 
+        "issue_url": "https://api.github.com/repos/realm/realm-java/issues/2124"
+    }, 
+    {
+        "source": {
+            "url": "https://api.github.com/repos/realm/realm-java/issues/2233", 
+            "id": 131587550, 
+            "actor": {
+                "following_url": "https://api.github.com/users/cmelchior/following{/other_user}", 
+                "events_url": "https://api.github.com/users/cmelchior/events{/privacy}", 
+                "organizations_url": "https://api.github.com/users/cmelchior/orgs", 
+                "url": "https://api.github.com/users/cmelchior", 
+                "gists_url": "https://api.github.com/users/cmelchior/gists{/gist_id}", 
+                "html_url": "https://github.com/cmelchior", 
+                "subscriptions_url": "https://api.github.com/users/cmelchior/subscriptions", 
+                "avatar_url": "https://avatars.githubusercontent.com/u/406066?v=3", 
+                "repos_url": "https://api.github.com/users/cmelchior/repos", 
+                "received_events_url": "https://api.github.com/users/cmelchior/received_events", 
+                "gravatar_id": "", 
+                "starred_url": "https://api.github.com/users/cmelchior/starred{/owner}{/repo}", 
+                "site_admin": false, 
+                "login": "cmelchior", 
+                "type": "User", 
+                "id": 406066, 
+                "followers_url": "https://api.github.com/users/cmelchior/followers"
+            }
+        }, 
+        "created_at": "2016-02-05T06:49:11-02:00", 
+        "updated_at": "2016-02-05T06:49:11-02:00", 
+        "event": "cross-referenced"
+    }, 
+    {
+        "committer": {
+            "date": "2016-02-15T15:56:39Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "author": {
+            "date": "2016-02-15T15:39:11Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/33edf3b21ea152b30d76b326fec6adbc9fef5dd5", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/2bbb60be1a95d092a53b1289f31e8c9ee20776eb", 
+            "sha": "2bbb60be1a95d092a53b1289f31e8c9ee20776eb"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/33edf3b21ea152b30d76b326fec6adbc9fef5dd5", 
+        "sha": "33edf3b21ea152b30d76b326fec6adbc9fef5dd5", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/e3430d67de3828012de162ef9d71b4a712a400d0", 
+                "sha": "e3430d67de3828012de162ef9d71b4a712a400d0", 
+                "html_url": "https://github.com/realm/realm-java/commit/e3430d67de3828012de162ef9d71b4a712a400d0"
+            }
+        ], 
+        "message": "Thread local notifactions are now triggered using the Looper instead of immediately", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-02-16T16:19:25Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "author": {
+            "date": "2016-02-16T16:19:25Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/c7dd3083af825d5becd3e454371caed8b3409478", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/ac4b8fb88f59e6b49a05fb26ec3368bde6eff9d7", 
+            "sha": "ac4b8fb88f59e6b49a05fb26ec3368bde6eff9d7"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/c7dd3083af825d5becd3e454371caed8b3409478", 
+        "sha": "c7dd3083af825d5becd3e454371caed8b3409478", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/33edf3b21ea152b30d76b326fec6adbc9fef5dd5", 
+                "sha": "33edf3b21ea152b30d76b326fec6adbc9fef5dd5", 
+                "html_url": "https://github.com/realm/realm-java/commit/33edf3b21ea152b30d76b326fec6adbc9fef5dd5"
+            }, 
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/24b89d6efc5e24348028de210b61552e5537939e", 
+                "sha": "24b89d6efc5e24348028de210b61552e5537939e", 
+                "html_url": "https://github.com/realm/realm-java/commit/24b89d6efc5e24348028de210b61552e5537939e"
+            }
+        ], 
+        "message": "Merge branch 'master' into cm/handler-notifications", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-02-17T11:16:39Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "author": {
+            "date": "2016-02-17T11:16:39Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/95b511b34251794976d4d39a6a41178996eef3af", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/de9dead65e8a2f54e8da11a2629f375213f82290", 
+            "sha": "de9dead65e8a2f54e8da11a2629f375213f82290"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/95b511b34251794976d4d39a6a41178996eef3af", 
+        "sha": "95b511b34251794976d4d39a6a41178996eef3af", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/c7dd3083af825d5becd3e454371caed8b3409478", 
+                "sha": "c7dd3083af825d5becd3e454371caed8b3409478", 
+                "html_url": "https://github.com/realm/realm-java/commit/c7dd3083af825d5becd3e454371caed8b3409478"
+            }
+        ], 
+        "message": "PR feedback", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-02-17T11:20:43Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "author": {
+            "date": "2016-02-17T11:20:43Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/9394cd7652cacf409ef0aa657b8cc9095dc7cc2a", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/fba839a290edbedf94c5885b7419e08a2924d023", 
+            "sha": "fba839a290edbedf94c5885b7419e08a2924d023"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/9394cd7652cacf409ef0aa657b8cc9095dc7cc2a", 
+        "sha": "9394cd7652cacf409ef0aa657b8cc9095dc7cc2a", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/95b511b34251794976d4d39a6a41178996eef3af", 
+                "sha": "95b511b34251794976d4d39a6a41178996eef3af", 
+                "html_url": "https://github.com/realm/realm-java/commit/95b511b34251794976d4d39a6a41178996eef3af"
+            }
+        ], 
+        "message": "PR feedback", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-02-17T20:03:34Z", 
+            "name": "Nabil Hachicha", 
+            "email": "nabil.hachicha@gmail.com"
+        }, 
+        "author": {
+            "date": "2016-02-17T20:03:34Z", 
+            "name": "Nabil Hachicha", 
+            "email": "nabil.hachicha@gmail.com"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/795cd6e25fd1a930f4b0bda74f8344db64dad777", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/8463641451b2cbdbf9767a8c3d021a18d4c42d52", 
+            "sha": "8463641451b2cbdbf9767a8c3d021a18d4c42d52"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/795cd6e25fd1a930f4b0bda74f8344db64dad777", 
+        "sha": "795cd6e25fd1a930f4b0bda74f8344db64dad777", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/9394cd7652cacf409ef0aa657b8cc9095dc7cc2a", 
+                "sha": "9394cd7652cacf409ef0aa657b8cc9095dc7cc2a", 
+                "html_url": "https://github.com/realm/realm-java/commit/9394cd7652cacf409ef0aa657b8cc9095dc7cc2a"
+            }
+        ], 
+        "message": "Refactor notify listeners", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-02-19T16:38:09Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "author": {
+            "date": "2016-02-19T16:38:09Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/4542af7263191e9322f56401c8395db4d137b567", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/3283896f56064236085bb0c5dffedc67153c3c9d", 
+            "sha": "3283896f56064236085bb0c5dffedc67153c3c9d"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/4542af7263191e9322f56401c8395db4d137b567", 
+        "sha": "4542af7263191e9322f56401c8395db4d137b567", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/cb7d51329b21c9772d2a97014118598d65e5fc47", 
+                "sha": "cb7d51329b21c9772d2a97014118598d65e5fc47", 
+                "html_url": "https://github.com/realm/realm-java/commit/cb7d51329b21c9772d2a97014118598d65e5fc47"
+            }, 
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/30d3281b1f3a6378ea9b37e49d3945d892856248", 
+                "sha": "30d3281b1f3a6378ea9b37e49d3945d892856248", 
+                "html_url": "https://github.com/realm/realm-java/commit/30d3281b1f3a6378ea9b37e49d3945d892856248"
+            }
+        ], 
+        "message": "Merge branch 'cm/handler-notifications' into cm/bug/iterators\n\nConflicts:\n\trealm/realm-jni/src/io_realm_internal_tableview.cpp\n\trealm/realm-library/src/androidTest/java/io/realm/NotificationsTest.java\n\trealm/realm-library/src/androidTest/java/io/realm/RealmObjectTests.java\n\trealm/realm-library/src/androidTest/java/io/realm/RealmResultsTests.java\n\trealm/realm-library/src/androidTest/java/io/realm/rule/RunInLooperThread.java\n\trealm/realm-library/src/main/java/io/realm/BaseRealm.java\n\trealm/realm-library/src/main/java/io/realm/HandlerController.java\n\trealm/realm-library/src/main/java/io/realm/RealmObject.java\n\trealm/realm-library/src/main/java/io/realm/RealmResults.java", 
+        "event": "committed"
+    }, 
+    {
+        "committer": {
+            "date": "2016-02-20T07:03:44Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "author": {
+            "date": "2016-02-20T07:03:44Z", 
+            "name": "Christian Melchior", 
+            "email": "christian@ilios.dk"
+        }, 
+        "url": "https://api.github.com/repos/realm/realm-java/git/commits/04a8ee2ab978153664f8286a305085f554f263cf", 
+        "tree": {
+            "url": "https://api.github.com/repos/realm/realm-java/git/trees/1e97bcd8ec3423bf2412018a6b9fd4667f430706", 
+            "sha": "1e97bcd8ec3423bf2412018a6b9fd4667f430706"
+        }, 
+        "html_url": "https://github.com/realm/realm-java/commit/04a8ee2ab978153664f8286a305085f554f263cf", 
+        "sha": "04a8ee2ab978153664f8286a305085f554f263cf", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/realm/realm-java/git/commits/4542af7263191e9322f56401c8395db4d137b567", 
+                "sha": "4542af7263191e9322f56401c8395db4d137b567", 
+                "html_url": "https://github.com/realm/realm-java/commit/4542af7263191e9322f56401c8395db4d137b567"
+            }
+        ], 
+        "message": "Backup", 
+        "event": "committed"
+    }
+]

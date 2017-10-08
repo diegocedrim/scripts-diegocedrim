@@ -1,0 +1,83 @@
+[
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/3655266", 
+        "created_at": "2011-09-27T18:44:51Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+            "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+            "url": "https://api.github.com/users/kimchy", 
+            "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+            "html_url": "https://github.com/kimchy", 
+            "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+            "repos_url": "https://api.github.com/users/kimchy/repos", 
+            "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "kimchy", 
+            "type": "User", 
+            "id": 41300, 
+            "followers_url": "https://api.github.com/users/kimchy/followers"
+        }, 
+        "event": "subscribed", 
+        "id": 3655266
+    }, 
+    {
+        "commit_id": "de8644d95a216c0251ca483f3c7fdcffc7d94547", 
+        "commit_url": "https://api.github.com/repos/elastic/elasticsearch/commits/de8644d95a216c0251ca483f3c7fdcffc7d94547", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/3657883", 
+        "created_at": "2011-09-27T19:56:58Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+            "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+            "url": "https://api.github.com/users/kimchy", 
+            "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+            "html_url": "https://github.com/kimchy", 
+            "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+            "repos_url": "https://api.github.com/users/kimchy/repos", 
+            "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "kimchy", 
+            "type": "User", 
+            "id": 41300, 
+            "followers_url": "https://api.github.com/users/kimchy/followers"
+        }, 
+        "event": "closed", 
+        "id": 3657883
+    }, 
+    {
+        "commit_id": "b9aaecb32432777b38d27c59aa689f7bd556c080", 
+        "commit_url": "https://api.github.com/repos/mute/elasticsearch/commits/b9aaecb32432777b38d27c59aa689f7bd556c080", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/368549233", 
+        "created_at": "2015-07-29T16:48:58Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/mute/following{/other_user}", 
+            "events_url": "https://api.github.com/users/mute/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/mute/orgs", 
+            "url": "https://api.github.com/users/mute", 
+            "gists_url": "https://api.github.com/users/mute/gists{/gist_id}", 
+            "html_url": "https://github.com/mute", 
+            "subscriptions_url": "https://api.github.com/users/mute/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/730349?v=3", 
+            "repos_url": "https://api.github.com/users/mute/repos", 
+            "received_events_url": "https://api.github.com/users/mute/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/mute/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "mute", 
+            "type": "User", 
+            "id": 730349, 
+            "followers_url": "https://api.github.com/users/mute/followers"
+        }, 
+        "event": "referenced", 
+        "id": 368549233
+    }
+]

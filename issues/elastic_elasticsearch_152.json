@@ -1,0 +1,57 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "An xcontent abstraction on top how elasticsearch handles data (both parsing and generation). Inspired by JSON format (actually, one by one to json) with two default implementations: JSON, and XSON. XSON (maps to Content-Type `application/xson`) is an optimized binary representation of JSON.\n\nIn general, content in elasticsearch is broken down into the following:\n- Indexed content. In this case, the content type can be derived from the stream (thought can be set using `Content-Type`.\n- Request: Search, Count (query), and other request body allow for xContent data now. Again, the content type can be derived from the stream.\n- Response: The format of the response. Uses the `Content-Type` for this. If not available, and REST body is available, then tries to derive it from it. If not, defaults to JSON.\n\nIn Java, all custom builders (aside from index source) have been renamed. This include the query / filter builders. By default, they now generate xson format (the \"user\" is not aware of the format used, and xson is more optimized).\n", 
+    "closed_at": "2010-04-29T20:10:59Z", 
+    "closed_by": null, 
+    "comments": 1, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/152/comments", 
+    "created_at": "2010-04-29T20:09:47Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/152/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/152", 
+    "id": 183392, 
+    "labels": [
+        {
+            "color": "328a58", 
+            "default": false, 
+            "id": 23172, 
+            "name": "feature", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/feature"
+        }, 
+        {
+            "color": "DDDDDD", 
+            "default": false, 
+            "id": 29489, 
+            "name": "v0.07.0", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.07.0"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/152/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 152, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "XContent - An abstraction on top of content (JSON inspired)", 
+    "updated_at": "2010-04-29T20:10:59Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/152", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+        "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/kimchy/followers", 
+        "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/kimchy", 
+        "id": 41300, 
+        "login": "kimchy", 
+        "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+        "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+        "repos_url": "https://api.github.com/users/kimchy/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/kimchy"
+    }
+}

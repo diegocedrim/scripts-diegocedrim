@@ -1,0 +1,698 @@
+[
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/154237976", 
+        "created_at": "2014-08-19T00:02:08Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+            "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+            "url": "https://api.github.com/users/kimchy", 
+            "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+            "html_url": "https://github.com/kimchy", 
+            "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+            "repos_url": "https://api.github.com/users/kimchy/repos", 
+            "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "kimchy", 
+            "type": "User", 
+            "id": 41300, 
+            "followers_url": "https://api.github.com/users/kimchy/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "0052cc", 
+            "name": "review"
+        }, 
+        "id": 154237976
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/154237988", 
+        "created_at": "2014-08-19T00:02:11Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+            "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+            "url": "https://api.github.com/users/kimchy", 
+            "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+            "html_url": "https://github.com/kimchy", 
+            "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+            "repos_url": "https://api.github.com/users/kimchy/repos", 
+            "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "kimchy", 
+            "type": "User", 
+            "id": 41300, 
+            "followers_url": "https://api.github.com/users/kimchy/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "eeeeee", 
+            "name": "v1.4.0"
+        }, 
+        "id": 154237988
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/154238010", 
+        "created_at": "2014-08-19T00:02:14Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+            "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+            "url": "https://api.github.com/users/kimchy", 
+            "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+            "html_url": "https://github.com/kimchy", 
+            "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+            "repos_url": "https://api.github.com/users/kimchy/repos", 
+            "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "kimchy", 
+            "type": "User", 
+            "id": 41300, 
+            "followers_url": "https://api.github.com/users/kimchy/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "dddddd", 
+            "name": "v2.0.0"
+        }, 
+        "id": 154238010
+    }, 
+    {
+        "committer": {
+            "date": "2014-08-19T00:02:25Z", 
+            "name": "Shay Banon", 
+            "email": "kimchy@gmail.com"
+        }, 
+        "author": {
+            "date": "2014-08-19T00:01:12Z", 
+            "name": "Shay Banon", 
+            "email": "kimchy@gmail.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/34ef3ff738be71ec9a02731ad5e7a9e8da95b44c", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/1502b7141feb542122ceb9c099f03ed19d032c76", 
+            "sha": "1502b7141feb542122ceb9c099f03ed19d032c76"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/34ef3ff738be71ec9a02731ad5e7a9e8da95b44c", 
+        "sha": "34ef3ff738be71ec9a02731ad5e7a9e8da95b44c", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/81ced48f99ba5bf1ec36b8b917125b384796a4bd", 
+                "sha": "81ced48f99ba5bf1ec36b8b917125b384796a4bd", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/81ced48f99ba5bf1ec36b8b917125b384796a4bd"
+            }
+        ], 
+        "message": "Warmer (search) to support query cache\nallow for search based warmer to support query cache flag on the search request, and use the index level query caching flag if set.\n Note, this change required changing the logic in warmer, to pass the actual searcher that will be used on for the actual search requests to the warmers. This changes the previous behavior of only using readers that were not warmed during merges, or already around. This change simplifies the warmer code significantly, and the overhead will be very small for existing warmed readers (like after a merge), yet allow us to implement warmers like the query cache (and actually have a cleaner contract, \"same as search\").\ncloses #7326", 
+        "event": "committed"
+    }, 
+    {
+        "body": "@jpountz hey, would for you to look at this, since in order to change that, I ended up changing the warmer logic in which searcher to provide.", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/comments/52573748", 
+        "event": "commented", 
+        "created_at": "2014-08-19T00:03:30Z", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/7326#issuecomment-52573748", 
+        "actor": {
+            "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+            "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+            "url": "https://api.github.com/users/kimchy", 
+            "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+            "html_url": "https://github.com/kimchy", 
+            "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+            "repos_url": "https://api.github.com/users/kimchy/repos", 
+            "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "kimchy", 
+            "type": "User", 
+            "id": 41300, 
+            "followers_url": "https://api.github.com/users/kimchy/followers"
+        }, 
+        "updated_at": "2014-08-19T00:03:30Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+            "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+            "url": "https://api.github.com/users/kimchy", 
+            "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+            "html_url": "https://github.com/kimchy", 
+            "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+            "repos_url": "https://api.github.com/users/kimchy/repos", 
+            "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "kimchy", 
+            "type": "User", 
+            "id": 41300, 
+            "followers_url": "https://api.github.com/users/kimchy/followers"
+        }, 
+        "id": 52573748, 
+        "issue_url": "https://api.github.com/repos/elastic/elasticsearch/issues/7326"
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/154238314", 
+        "created_at": "2014-08-19T00:03:30Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+            "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+            "url": "https://api.github.com/users/jpountz", 
+            "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+            "html_url": "https://github.com/jpountz", 
+            "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+            "repos_url": "https://api.github.com/users/jpountz/repos", 
+            "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "jpountz", 
+            "type": "User", 
+            "id": 299848, 
+            "followers_url": "https://api.github.com/users/jpountz/followers"
+        }, 
+        "event": "mentioned", 
+        "id": 154238314
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/154238315", 
+        "created_at": "2014-08-19T00:03:30Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+            "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+            "url": "https://api.github.com/users/jpountz", 
+            "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+            "html_url": "https://github.com/jpountz", 
+            "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+            "repos_url": "https://api.github.com/users/jpountz/repos", 
+            "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "jpountz", 
+            "type": "User", 
+            "id": 299848, 
+            "followers_url": "https://api.github.com/users/jpountz/followers"
+        }, 
+        "event": "subscribed", 
+        "id": 154238315
+    }, 
+    {
+        "body": "I am worried that this might have significant impact on users who have large shards/lots of warmer queries/complex warmer queries? I wouldn't be surprised that warmer queries often use a `match_all` query, and in such a case the warmer would need to collect _every_ document on every _every_ refresh while most of time there is just a new smallish NRT segment?", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/comments/52603883", 
+        "event": "commented", 
+        "created_at": "2014-08-19T08:25:23Z", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/7326#issuecomment-52603883", 
+        "actor": {
+            "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+            "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+            "url": "https://api.github.com/users/jpountz", 
+            "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+            "html_url": "https://github.com/jpountz", 
+            "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+            "repos_url": "https://api.github.com/users/jpountz/repos", 
+            "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "jpountz", 
+            "type": "User", 
+            "id": 299848, 
+            "followers_url": "https://api.github.com/users/jpountz/followers"
+        }, 
+        "updated_at": "2014-08-19T08:25:23Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+            "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+            "url": "https://api.github.com/users/jpountz", 
+            "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+            "html_url": "https://github.com/jpountz", 
+            "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+            "repos_url": "https://api.github.com/users/jpountz/repos", 
+            "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "jpountz", 
+            "type": "User", 
+            "id": 299848, 
+            "followers_url": "https://api.github.com/users/jpountz/followers"
+        }, 
+        "id": 52603883, 
+        "issue_url": "https://api.github.com/repos/elastic/elasticsearch/issues/7326"
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/154348764", 
+        "created_at": "2014-08-19T08:25:29Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+            "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+            "url": "https://api.github.com/users/jpountz", 
+            "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+            "html_url": "https://github.com/jpountz", 
+            "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+            "repos_url": "https://api.github.com/users/jpountz/repos", 
+            "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "jpountz", 
+            "type": "User", 
+            "id": 299848, 
+            "followers_url": "https://api.github.com/users/jpountz/followers"
+        }, 
+        "event": "unlabeled", 
+        "label": {
+            "color": "0052cc", 
+            "name": "review"
+        }, 
+        "id": 154348764
+    }, 
+    {
+        "committer": {
+            "date": "2014-08-19T20:42:09Z", 
+            "name": "Shay Banon", 
+            "email": "kimchy@gmail.com"
+        }, 
+        "author": {
+            "date": "2014-08-19T20:42:09Z", 
+            "name": "Shay Banon", 
+            "email": "kimchy@gmail.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/e90500424cb02be0e027c5efde460dbf0882e57c", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/ea8adc98e168f89b44f64e7999184f876e1fb457", 
+            "sha": "ea8adc98e168f89b44f64e7999184f876e1fb457"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/e90500424cb02be0e027c5efde460dbf0882e57c", 
+        "sha": "e90500424cb02be0e027c5efde460dbf0882e57c", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/34ef3ff738be71ec9a02731ad5e7a9e8da95b44c", 
+                "sha": "34ef3ff738be71ec9a02731ad5e7a9e8da95b44c", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/34ef3ff738be71ec9a02731ad5e7a9e8da95b44c"
+            }
+        ], 
+        "message": "Second round of query cache warmer\ntry and keep the existing only warm new segments, but extend the top warming to also execute in search, also, make methods names a bit more readable", 
+        "event": "committed"
+    }, 
+    {
+        "body": "LGTM, I just left minor (costmetics) comments", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/comments/52779262", 
+        "event": "commented", 
+        "created_at": "2014-08-20T13:42:34Z", 
+        "html_url": "https://github.com/elastic/elasticsearch/pull/7326#issuecomment-52779262", 
+        "actor": {
+            "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+            "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+            "url": "https://api.github.com/users/jpountz", 
+            "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+            "html_url": "https://github.com/jpountz", 
+            "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+            "repos_url": "https://api.github.com/users/jpountz/repos", 
+            "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "jpountz", 
+            "type": "User", 
+            "id": 299848, 
+            "followers_url": "https://api.github.com/users/jpountz/followers"
+        }, 
+        "updated_at": "2014-08-20T13:42:34Z", 
+        "user": {
+            "following_url": "https://api.github.com/users/jpountz/following{/other_user}", 
+            "events_url": "https://api.github.com/users/jpountz/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/jpountz/orgs", 
+            "url": "https://api.github.com/users/jpountz", 
+            "gists_url": "https://api.github.com/users/jpountz/gists{/gist_id}", 
+            "html_url": "https://github.com/jpountz", 
+            "subscriptions_url": "https://api.github.com/users/jpountz/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/299848?v=3", 
+            "repos_url": "https://api.github.com/users/jpountz/repos", 
+            "received_events_url": "https://api.github.com/users/jpountz/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/jpountz/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "jpountz", 
+            "type": "User", 
+            "id": 299848, 
+            "followers_url": "https://api.github.com/users/jpountz/followers"
+        }, 
+        "id": 52779262, 
+        "issue_url": "https://api.github.com/repos/elastic/elasticsearch/issues/7326"
+    }, 
+    {
+        "committer": {
+            "date": "2014-08-20T16:30:33Z", 
+            "name": "Shay Banon", 
+            "email": "kimchy@gmail.com"
+        }, 
+        "author": {
+            "date": "2014-08-20T16:30:33Z", 
+            "name": "Shay Banon", 
+            "email": "kimchy@gmail.com"
+        }, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/3caafd92bfadcf5603868b14146911112cbb7819", 
+        "tree": {
+            "url": "https://api.github.com/repos/elastic/elasticsearch/git/trees/0dc6a8ef29cead8b5c191b57a8a1726907b766cd", 
+            "sha": "0dc6a8ef29cead8b5c191b57a8a1726907b766cd"
+        }, 
+        "html_url": "https://github.com/elastic/elasticsearch/commit/3caafd92bfadcf5603868b14146911112cbb7819", 
+        "sha": "3caafd92bfadcf5603868b14146911112cbb7819", 
+        "parents": [
+            {
+                "url": "https://api.github.com/repos/elastic/elasticsearch/git/commits/e90500424cb02be0e027c5efde460dbf0882e57c", 
+                "sha": "e90500424cb02be0e027c5efde460dbf0882e57c", 
+                "html_url": "https://github.com/elastic/elasticsearch/commit/e90500424cb02be0e027c5efde460dbf0882e57c"
+            }
+        ], 
+        "message": "third review round", 
+        "event": "committed"
+    }, 
+    {
+        "commit_id": "3a52296358f28ed7dd465d525e6cb3e85f055f3b", 
+        "commit_url": "https://api.github.com/repos/elastic/elasticsearch/commits/3a52296358f28ed7dd465d525e6cb3e85f055f3b", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/155101221", 
+        "created_at": "2014-08-20T16:31:59Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+            "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+            "url": "https://api.github.com/users/kimchy", 
+            "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+            "html_url": "https://github.com/kimchy", 
+            "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+            "repos_url": "https://api.github.com/users/kimchy/repos", 
+            "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "kimchy", 
+            "type": "User", 
+            "id": 41300, 
+            "followers_url": "https://api.github.com/users/kimchy/followers"
+        }, 
+        "event": "closed", 
+        "id": 155101221
+    }, 
+    {
+        "commit_id": "9eefe631525d57494b436cf6aba5642ebf3c4e63", 
+        "commit_url": "https://api.github.com/repos/elastic/elasticsearch/commits/9eefe631525d57494b436cf6aba5642ebf3c4e63", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/155101275", 
+        "created_at": "2014-08-20T16:32:03Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+            "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+            "url": "https://api.github.com/users/kimchy", 
+            "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+            "html_url": "https://github.com/kimchy", 
+            "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+            "repos_url": "https://api.github.com/users/kimchy/repos", 
+            "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "kimchy", 
+            "type": "User", 
+            "id": 41300, 
+            "followers_url": "https://api.github.com/users/kimchy/followers"
+        }, 
+        "event": "referenced", 
+        "id": 155101275
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/155101407", 
+        "created_at": "2014-08-20T16:32:18Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+            "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+            "url": "https://api.github.com/users/kimchy", 
+            "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+            "html_url": "https://github.com/kimchy", 
+            "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+            "repos_url": "https://api.github.com/users/kimchy/repos", 
+            "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "kimchy", 
+            "type": "User", 
+            "id": 41300, 
+            "followers_url": "https://api.github.com/users/kimchy/followers"
+        }, 
+        "event": "head_ref_deleted", 
+        "id": 155101407
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/155101530", 
+        "created_at": "2014-08-20T16:32:39Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+            "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+            "url": "https://api.github.com/users/kimchy", 
+            "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+            "html_url": "https://github.com/kimchy", 
+            "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+            "repos_url": "https://api.github.com/users/kimchy/repos", 
+            "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "kimchy", 
+            "type": "User", 
+            "id": 41300, 
+            "followers_url": "https://api.github.com/users/kimchy/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "4a4ea8", 
+            "name": "enhancement"
+        }, 
+        "id": 155101530
+    }, 
+    {
+        "commit_id": "26cc837d14e24fb95e2de9dce7fe5674591bed0a", 
+        "commit_url": "https://api.github.com/repos/episerver/elasticsearch/commits/26cc837d14e24fb95e2de9dce7fe5674591bed0a", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/155476587", 
+        "created_at": "2014-08-21T10:18:57Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/lindstromhenrik/following{/other_user}", 
+            "events_url": "https://api.github.com/users/lindstromhenrik/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/lindstromhenrik/orgs", 
+            "url": "https://api.github.com/users/lindstromhenrik", 
+            "gists_url": "https://api.github.com/users/lindstromhenrik/gists{/gist_id}", 
+            "html_url": "https://github.com/lindstromhenrik", 
+            "subscriptions_url": "https://api.github.com/users/lindstromhenrik/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/866643?v=3", 
+            "repos_url": "https://api.github.com/users/lindstromhenrik/repos", 
+            "received_events_url": "https://api.github.com/users/lindstromhenrik/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/lindstromhenrik/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "lindstromhenrik", 
+            "type": "User", 
+            "id": 866643, 
+            "followers_url": "https://api.github.com/users/lindstromhenrik/followers"
+        }, 
+        "event": "referenced", 
+        "id": 155476587
+    }, 
+    {
+        "commit_id": "05a10269594cdff0efcd53805558e0189a562ebe", 
+        "commit_url": "https://api.github.com/repos/elastic/elasticsearch/commits/05a10269594cdff0efcd53805558e0189a562ebe", 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/162559096", 
+        "created_at": "2014-09-08T15:43:47Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/kimchy/following{/other_user}", 
+            "events_url": "https://api.github.com/users/kimchy/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/kimchy/orgs", 
+            "url": "https://api.github.com/users/kimchy", 
+            "gists_url": "https://api.github.com/users/kimchy/gists{/gist_id}", 
+            "html_url": "https://github.com/kimchy", 
+            "subscriptions_url": "https://api.github.com/users/kimchy/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/41300?v=3", 
+            "repos_url": "https://api.github.com/users/kimchy/repos", 
+            "received_events_url": "https://api.github.com/users/kimchy/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/kimchy/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "kimchy", 
+            "type": "User", 
+            "id": 41300, 
+            "followers_url": "https://api.github.com/users/kimchy/followers"
+        }, 
+        "event": "referenced", 
+        "id": 162559096
+    }, 
+    {
+        "commit_id": null, 
+        "rename": {
+            "to": "Query cache: Warmer (search) to support query cache", 
+            "from": "Warmer (search) to support query cache"
+        }, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/162668217", 
+        "created_at": "2014-09-08T18:48:58Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/clintongormley/following{/other_user}", 
+            "events_url": "https://api.github.com/users/clintongormley/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/clintongormley/orgs", 
+            "url": "https://api.github.com/users/clintongormley", 
+            "gists_url": "https://api.github.com/users/clintongormley/gists{/gist_id}", 
+            "html_url": "https://github.com/clintongormley", 
+            "subscriptions_url": "https://api.github.com/users/clintongormley/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/56599?v=3", 
+            "repos_url": "https://api.github.com/users/clintongormley/repos", 
+            "received_events_url": "https://api.github.com/users/clintongormley/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/clintongormley/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "clintongormley", 
+            "type": "User", 
+            "id": 56599, 
+            "followers_url": "https://api.github.com/users/clintongormley/followers"
+        }, 
+        "event": "renamed", 
+        "id": 162668217
+    }, 
+    {
+        "commit_id": null, 
+        "rename": {
+            "to": "Query Cache: Warmer (search) to support query cache", 
+            "from": "Query cache: Warmer (search) to support query cache"
+        }, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/164149486", 
+        "created_at": "2014-09-11T11:06:03Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/clintongormley/following{/other_user}", 
+            "events_url": "https://api.github.com/users/clintongormley/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/clintongormley/orgs", 
+            "url": "https://api.github.com/users/clintongormley", 
+            "gists_url": "https://api.github.com/users/clintongormley/gists{/gist_id}", 
+            "html_url": "https://github.com/clintongormley", 
+            "subscriptions_url": "https://api.github.com/users/clintongormley/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/56599?v=3", 
+            "repos_url": "https://api.github.com/users/clintongormley/repos", 
+            "received_events_url": "https://api.github.com/users/clintongormley/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/clintongormley/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "clintongormley", 
+            "type": "User", 
+            "id": 56599, 
+            "followers_url": "https://api.github.com/users/clintongormley/followers"
+        }, 
+        "event": "renamed", 
+        "id": 164149486
+    }, 
+    {
+        "commit_id": null, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/324648620", 
+        "created_at": "2015-06-07T12:21:41Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/clintongormley/following{/other_user}", 
+            "events_url": "https://api.github.com/users/clintongormley/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/clintongormley/orgs", 
+            "url": "https://api.github.com/users/clintongormley", 
+            "gists_url": "https://api.github.com/users/clintongormley/gists{/gist_id}", 
+            "html_url": "https://github.com/clintongormley", 
+            "subscriptions_url": "https://api.github.com/users/clintongormley/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/56599?v=3", 
+            "repos_url": "https://api.github.com/users/clintongormley/repos", 
+            "received_events_url": "https://api.github.com/users/clintongormley/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/clintongormley/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "clintongormley", 
+            "type": "User", 
+            "id": 56599, 
+            "followers_url": "https://api.github.com/users/clintongormley/followers"
+        }, 
+        "event": "labeled", 
+        "label": {
+            "color": "009800", 
+            "name": ":Cache"
+        }, 
+        "id": 324648620
+    }, 
+    {
+        "commit_id": null, 
+        "rename": {
+            "to": "Warmer (search) to support query cache", 
+            "from": "Query Cache: Warmer (search) to support query cache"
+        }, 
+        "commit_url": null, 
+        "url": "https://api.github.com/repos/elastic/elasticsearch/issues/events/324648647", 
+        "created_at": "2015-06-07T12:21:51Z", 
+        "actor": {
+            "following_url": "https://api.github.com/users/clintongormley/following{/other_user}", 
+            "events_url": "https://api.github.com/users/clintongormley/events{/privacy}", 
+            "organizations_url": "https://api.github.com/users/clintongormley/orgs", 
+            "url": "https://api.github.com/users/clintongormley", 
+            "gists_url": "https://api.github.com/users/clintongormley/gists{/gist_id}", 
+            "html_url": "https://github.com/clintongormley", 
+            "subscriptions_url": "https://api.github.com/users/clintongormley/subscriptions", 
+            "avatar_url": "https://avatars.githubusercontent.com/u/56599?v=3", 
+            "repos_url": "https://api.github.com/users/clintongormley/repos", 
+            "received_events_url": "https://api.github.com/users/clintongormley/received_events", 
+            "gravatar_id": "", 
+            "starred_url": "https://api.github.com/users/clintongormley/starred{/owner}{/repo}", 
+            "site_admin": false, 
+            "login": "clintongormley", 
+            "type": "User", 
+            "id": 56599, 
+            "followers_url": "https://api.github.com/users/clintongormley/followers"
+        }, 
+        "event": "renamed", 
+        "id": 324648647
+    }
+]

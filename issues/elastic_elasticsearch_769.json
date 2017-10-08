@@ -1,0 +1,57 @@
+{
+    "assignee": null, 
+    "assignees": [], 
+    "body": "Allow to set `preference` when performing a search or get operation. By default, the operation is randomized across shards to be executed.\n\nThe `preference` can be set to:\n- `_primary`: The operation will go and be executed only on the primary shards.\n- `_local`: The operation will prefer to be executed on a local allocated shard is possible.\n- Custom (string) value: A custom value will be used to guarantee that the same shards will be used for the same custom value. This can help with \"jumping values\" when hitting different shards in different refresh states. A sample value can be something like the web session id, or the user name.\n\nDiscussed in\nhttp://elasticsearch-users.115913.n3.nabble.com/Bulk-indexing-and-search-with-two-different-threads-tp2664361p2664361.html\n", 
+    "closed_at": "2011-03-14T09:30:20Z", 
+    "closed_by": null, 
+    "comments": 1, 
+    "comments_url": "https://api.github.com/repos/elastic/elasticsearch/issues/769/comments", 
+    "created_at": "2011-03-11T14:15:18Z", 
+    "events_url": "https://api.github.com/repos/elastic/elasticsearch/issues/769/events", 
+    "html_url": "https://github.com/elastic/elasticsearch/issues/769", 
+    "id": 665336, 
+    "labels": [
+        {
+            "color": "328a58", 
+            "default": false, 
+            "id": 23172, 
+            "name": "feature", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/feature"
+        }, 
+        {
+            "color": "ededed", 
+            "default": false, 
+            "id": 76649, 
+            "name": "v0.16.0", 
+            "url": "https://api.github.com/repos/elastic/elasticsearch/labels/v0.16.0"
+        }
+    ], 
+    "labels_url": "https://api.github.com/repos/elastic/elasticsearch/issues/769/labels{/name}", 
+    "locked": false, 
+    "milestone": null, 
+    "number": 769, 
+    "repository_url": "https://api.github.com/repos/elastic/elasticsearch", 
+    "state": "closed", 
+    "title": "Search / Get: Allow to specify a preference on which shards (or order) it will be executed", 
+    "updated_at": "2011-03-14T09:30:20Z", 
+    "url": "https://api.github.com/repos/elastic/elasticsearch/issues/769", 
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/66875?v=3", 
+        "events_url": "https://api.github.com/users/enguzekli/events{/privacy}", 
+        "followers_url": "https://api.github.com/users/enguzekli/followers", 
+        "following_url": "https://api.github.com/users/enguzekli/following{/other_user}", 
+        "gists_url": "https://api.github.com/users/enguzekli/gists{/gist_id}", 
+        "gravatar_id": "", 
+        "html_url": "https://github.com/enguzekli", 
+        "id": 66875, 
+        "login": "enguzekli", 
+        "organizations_url": "https://api.github.com/users/enguzekli/orgs", 
+        "received_events_url": "https://api.github.com/users/enguzekli/received_events", 
+        "repos_url": "https://api.github.com/users/enguzekli/repos", 
+        "site_admin": false, 
+        "starred_url": "https://api.github.com/users/enguzekli/starred{/owner}{/repo}", 
+        "subscriptions_url": "https://api.github.com/users/enguzekli/subscriptions", 
+        "type": "User", 
+        "url": "https://api.github.com/users/enguzekli"
+    }
+}
