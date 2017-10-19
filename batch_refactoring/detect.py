@@ -22,7 +22,7 @@ def load_rerefs(filename):
 
 def load_commits_by_devs():
     commits_by_dev = {}
-    with open("rerefs/commits_and_devs_all.csv") as csvfile:
+    with open("rerefs/commits_and_devs.csv") as csvfile:
         reader = csv.DictReader(csvfile, delimiter=',', quotechar='"')
         for row in reader:
             key = (row["project_name"], row["author_email"])
@@ -69,7 +69,7 @@ def find_batches(key):
     return batches
 
 
-rerefs = load_rerefs("rerefs/refactored_elements_all.csv")
+rerefs = load_rerefs("rerefs/refactored_elements.csv")
 commits_by_devs = load_commits_by_devs()
 # print commits_by_devs[("alibaba/dubbo", "ding.lid@1a56cb94-b969-4eaa-88fa-be21384802f2")]
 # exit()
@@ -83,17 +83,17 @@ all_batches = []
 for key in rerefs:
     batches = find_batches(key)
     all_batches += batches
-    # for batch in batches:
-    #     print "Batch", i
-    #     i += 1
-    #     orders = set()
-    #     for ref in batch:
-    #         print ref["element"], ref["author_email"], ref["order"]
-    #         orders.add(ref["order"])
-    #     if len(orders) > 1:
-    #         multiple += 1
-    #     print ""
-# print len(all_batches)
+    for batch in batches:
+        print "Batch", i
+        i += 1
+        orders = set()
+        for ref in batch:
+            print ref["element"], ref["author_email"], ref["order"]
+            orders.add(ref["order"])
+        if len(orders) > 1:
+            multiple += 1
+        print ""
+print len(all_batches)
 
 print json.dumps(all_batches, indent=4)
-# print "Batches: %s (%s multiples)" % (len(all_batches), multiple)
+print "Batches: %s (%s multiples)" % (len(all_batches), multiple)
