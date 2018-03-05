@@ -1,0 +1,18 @@
+// Refused Bequest
+digraph {
+	graph [rankdir=LR]
+	node [fillcolor=grey shape=box style=filled]
+	"Refused Bequest"
+	node [fillcolor="#df9e9e" shape=box style=filled]
+	"Move Attribute, Extract Superclass"
+	"Move Attribute, Extract Superclass" -> "Refused Bequest" [label=0.50]
+	node [fillcolor="#e08e8e" shape=box style=filled]
+	"Push Down Attribute{n}, Push Down Method{n}"
+	"Push Down Attribute{n}, Push Down Method{n}" -> "Refused Bequest" [label=0.56]
+	node [fillcolor="#ace562" shape=box style=filled]
+	"Pull Up Method{n}, Move Method{n}"
+	"Refused Bequest" -> "Pull Up Method{n}, Move Method{n}" [label=0.71]
+	node [fillcolor="#ace562" shape=box style=filled]
+	"Pull Up Attribute{n}, Pull Up Method{n}"
+	"Refused Bequest" -> "Pull Up Attribute{n}, Pull Up Method{n}" [label=0.71]
+}

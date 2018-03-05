@@ -1,0 +1,9 @@
+// Long Parameter List
+digraph {
+	graph [rankdir=LR]
+	node [fillcolor=grey shape=box style=filled]
+	"Long Parameter List"
+	node [fillcolor="#e94f4f" shape=box style=filled]
+	"Move Attribute{n}, Extract Method{n}"
+	"Move Attribute{n}, Extract Method{n}" -> "Long Parameter List" [label=0.77]
+}

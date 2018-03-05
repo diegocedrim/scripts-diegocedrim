@@ -1,0 +1,57 @@
+// Complex Class
+digraph {
+	graph [rankdir=LR]
+	node [fillcolor=grey shape=box style=filled]
+	"Complex Class"
+	node [fillcolor="#e08e8e" shape=box style=filled]
+	"Pull Up Attribute{n}, Move Attribute, Pull Up Attribute{n}, Move Attribute, Pull Up Attribute"
+	"Pull Up Attribute{n}, Move Attribute, Pull Up Attribute{n}, Move Attribute, Pull Up Attribute" -> "Complex Class" [label=0.56]
+	node [fillcolor="#ec4141" shape=box style=filled]
+	"Rename Method{n}, Extract Method{n}"
+	"Rename Method{n}, Extract Method{n}" -> "Complex Class" [label=0.81]
+	node [fillcolor="#b7e46b" shape=box style=filled]
+	"Inline Method{n}, Extract Method{n}"
+	"Complex Class" -> "Inline Method{n}, Extract Method{n}" [label=0.68]
+	node [fillcolor="#cfe086" shape=box style=filled]
+	"Pull Up Method, Move Method, Pull Up Method{n}"
+	"Complex Class" -> "Pull Up Method, Move Method, Pull Up Method{n}" [label=0.59]
+	node [fillcolor="#dadf96" shape=box style=filled]
+	"Push Down Method{n}"
+	"Complex Class" -> "Push Down Method{n}" [label=0.53]
+	node [fillcolor="#d5e08e" shape=box style=filled]
+	"Inline Method{n}, Extract Method"
+	"Complex Class" -> "Inline Method{n}, Extract Method" [label=0.56]
+	node [fillcolor="#c0e274" shape=box style=filled]
+	"Move Method, Pull Up Method, Move Method, Pull Up Method{n}"
+	"Complex Class" -> "Move Method, Pull Up Method, Move Method, Pull Up Method{n}" [label=0.65]
+	node [fillcolor="#ace562" shape=box style=filled]
+	"Pull Up Method{n}, Move Method{n}"
+	"Complex Class" -> "Pull Up Method{n}, Move Method{n}" [label=0.71]
+	node [fillcolor="#93e94f" shape=box style=filled]
+	"Move Attribute{n}, Extract Method{n}"
+	"Complex Class" -> "Move Attribute{n}, Extract Method{n}" [label=0.77]
+	node [fillcolor="#74ee3a" shape=box style=filled]
+	"Pull Up Attribute{n}, Move Method"
+	"Complex Class" -> "Pull Up Attribute{n}, Move Method" [label=0.83]
+	node [fillcolor="#8fea4b" shape=box style=filled]
+	"Pull Up Method{n}, Move Method, Pull Up Method{n}"
+	"Complex Class" -> "Pull Up Method{n}, Move Method, Pull Up Method{n}" [label=0.78]
+	node [fillcolor="#48f422" shape=box style=filled]
+	"Pull Up Attribute{n}, Move Method{n}, Pull Up Method{n}"
+	"Complex Class" -> "Pull Up Attribute{n}, Move Method{n}, Pull Up Method{n}" [label=0.90]
+	node [fillcolor="#a8e65f" shape=box style=filled]
+	"Move Method{n}"
+	"Complex Class" -> "Move Method{n}" [label=0.72]
+	node [fillcolor="#bae36e" shape=box style=filled]
+	"Extract Method{n}, Inline Method"
+	"Complex Class" -> "Extract Method{n}, Inline Method" [label=0.67]
+	node [fillcolor="#c3e277" shape=box style=filled]
+	"Inline Method, Extract Method{n}"
+	"Complex Class" -> "Inline Method, Extract Method{n}" [label=0.64]
+	node [fillcolor="#c0e274" shape=box style=filled]
+	"Extract Method{n}"
+	"Complex Class" -> "Extract Method{n}" [label=0.65]
+	node [fillcolor="#cfe086" shape=box style=filled]
+	"Move Attribute{n}, Extract Superclass"
+	"Complex Class" -> "Move Attribute{n}, Extract Superclass" [label=0.59]
+}

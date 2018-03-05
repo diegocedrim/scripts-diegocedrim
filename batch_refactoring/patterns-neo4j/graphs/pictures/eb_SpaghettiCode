@@ -1,0 +1,33 @@
+// Spaghetti Code
+digraph {
+	graph [rankdir=LR]
+	node [fillcolor=grey shape=box style=filled]
+	"Spaghetti Code"
+	node [fillcolor="#ec4141" shape=box style=filled]
+	"Rename Method{n}, Extract Method{n}"
+	"Rename Method{n}, Extract Method{n}" -> "Spaghetti Code" [label=0.81]
+	node [fillcolor="#cfe086" shape=box style=filled]
+	"Pull Up Method, Move Method, Pull Up Method{n}"
+	"Spaghetti Code" -> "Pull Up Method, Move Method, Pull Up Method{n}" [label=0.59]
+	node [fillcolor="#d8df94" shape=box style=filled]
+	"Move Attribute, Extract Method{n}"
+	"Spaghetti Code" -> "Move Attribute, Extract Method{n}" [label=0.54]
+	node [fillcolor="#c0e274" shape=box style=filled]
+	"Move Method, Pull Up Method, Move Method, Pull Up Method{n}"
+	"Spaghetti Code" -> "Move Method, Pull Up Method, Move Method, Pull Up Method{n}" [label=0.65]
+	node [fillcolor="#74ee3a" shape=box style=filled]
+	"Pull Up Attribute{n}, Move Method"
+	"Spaghetti Code" -> "Pull Up Attribute{n}, Move Method" [label=0.83]
+	node [fillcolor="#8fea4b" shape=box style=filled]
+	"Pull Up Method{n}, Move Method, Pull Up Method{n}"
+	"Spaghetti Code" -> "Pull Up Method{n}, Move Method, Pull Up Method{n}" [label=0.78]
+	node [fillcolor="#48f422" shape=box style=filled]
+	"Pull Up Attribute{n}, Move Method{n}, Pull Up Method{n}"
+	"Spaghetti Code" -> "Pull Up Attribute{n}, Move Method{n}, Pull Up Method{n}" [label=0.90]
+	node [fillcolor="#d3e08b" shape=box style=filled]
+	"Extract Method{n}, Inline Method"
+	"Spaghetti Code" -> "Extract Method{n}, Inline Method" [label=0.57]
+	node [fillcolor="#dcdf99" shape=box style=filled]
+	"Inline Method, Extract Method{n}"
+	"Spaghetti Code" -> "Inline Method, Extract Method{n}" [label=0.52]
+}

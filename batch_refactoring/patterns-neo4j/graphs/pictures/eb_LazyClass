@@ -1,0 +1,42 @@
+// Lazy Class
+digraph {
+	graph [rankdir=LR]
+	node [fillcolor=grey shape=box style=filled]
+	"Lazy Class"
+	node [fillcolor="#df9e9e" shape=box style=filled]
+	"Move Attribute, Extract Superclass"
+	"Move Attribute, Extract Superclass" -> "Lazy Class" [label=0.50]
+	node [fillcolor="#e18383" shape=box style=filled]
+	"Extract Superclass, Move Method"
+	"Extract Superclass, Move Method" -> "Lazy Class" [label=0.60]
+	node [fillcolor="#cae180" shape=box style=filled]
+	"Push Down Method{n}"
+	"Lazy Class" -> "Push Down Method{n}" [label=0.61]
+	node [fillcolor="#7fec41" shape=box style=filled]
+	"Move Method{n}, Move Attribute{n}, Move Method{n}"
+	"Lazy Class" -> "Move Method{n}, Move Attribute{n}, Move Method{n}" [label=0.81]
+	node [fillcolor="#c0e274" shape=box style=filled]
+	"Move Method, Pull Up Method, Move Method, Pull Up Method{n}"
+	"Lazy Class" -> "Move Method, Pull Up Method, Move Method, Pull Up Method{n}" [label=0.65]
+	node [fillcolor="#cfe086" shape=box style=filled]
+	"Move Method{n}, Move Attribute"
+	"Lazy Class" -> "Move Method{n}, Move Attribute" [label=0.59]
+	node [fillcolor="#cae180" shape=box style=filled]
+	"Move Method{n}, Move Attribute{n}, Move Method"
+	"Lazy Class" -> "Move Method{n}, Move Attribute{n}, Move Method" [label=0.61]
+	node [fillcolor="#dadf96" shape=box style=filled]
+	"Move Method, Move Attribute{n}, Move Method{n}"
+	"Lazy Class" -> "Move Method, Move Attribute{n}, Move Method{n}" [label=0.53]
+	node [fillcolor="#ace562" shape=box style=filled]
+	"Pull Up Attribute{n}, Pull Up Method{n}"
+	"Lazy Class" -> "Pull Up Attribute{n}, Pull Up Method{n}" [label=0.71]
+	node [fillcolor="#bae36e" shape=box style=filled]
+	"Move Attribute{n}, Move Method{n}, Move Attribute{n}, Move Method{n}"
+	"Lazy Class" -> "Move Attribute{n}, Move Method{n}, Move Attribute{n}, Move Method{n}" [label=0.67]
+	node [fillcolor="#bae36e" shape=box style=filled]
+	"Move Method{n}, Move Attribute{n}"
+	"Lazy Class" -> "Move Method{n}, Move Attribute{n}" [label=0.67]
+	node [fillcolor="#d3e08b" shape=box style=filled]
+	"Move Attribute, Move Method{n}, Move Attribute{n}, Move Method{n}"
+	"Lazy Class" -> "Move Attribute, Move Method{n}, Move Attribute{n}, Move Method{n}" [label=0.57]
+}

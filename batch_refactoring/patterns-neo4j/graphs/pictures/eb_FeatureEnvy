@@ -1,0 +1,45 @@
+// Feature Envy
+digraph {
+	graph [rankdir=LR]
+	node [fillcolor=grey shape=box style=filled]
+	"Feature Envy"
+	node [fillcolor="#e18383" shape=box style=filled]
+	"Move Attribute{n}, Extract Method"
+	"Move Attribute{n}, Extract Method" -> "Feature Envy" [label=0.60]
+	node [fillcolor="#e46868" shape=box style=filled]
+	"Move Attribute, Extract Method{n}"
+	"Move Attribute, Extract Method{n}" -> "Feature Envy" [label=0.69]
+	node [fillcolor="#e56565" shape=box style=filled]
+	"Move Attribute, Extract Method"
+	"Move Attribute, Extract Method" -> "Feature Envy" [label=0.70]
+	node [fillcolor="#e17a7a" shape=box style=filled]
+	"Rename Method{n}, Extract Method{n}"
+	"Rename Method{n}, Extract Method{n}" -> "Feature Envy" [label=0.63]
+	node [fillcolor="#93e94f" shape=box style=filled]
+	"Inline Method{n}, Extract Method{n}"
+	"Feature Envy" -> "Inline Method{n}, Extract Method{n}" [label=0.77]
+	node [fillcolor="#1afb0b" shape=box style=filled]
+	"Extract Method, Move Attribute{n}"
+	"Feature Envy" -> "Extract Method, Move Attribute{n}" [label=0.96]
+	node [fillcolor="#b3e468" shape=box style=filled]
+	"Inline Method{n}, Extract Method"
+	"Feature Envy" -> "Inline Method{n}, Extract Method" [label=0.69]
+	node [fillcolor="#c0e274" shape=box style=filled]
+	"Extract Method, Inline Method"
+	"Feature Envy" -> "Extract Method, Inline Method" [label=0.65]
+	node [fillcolor="#cae180" shape=box style=filled]
+	"Inline Method, Extract Method"
+	"Feature Envy" -> "Inline Method, Extract Method" [label=0.61]
+	node [fillcolor="#bae36e" shape=box style=filled]
+	"Extract Method{n}, Inline Method"
+	"Feature Envy" -> "Extract Method{n}, Inline Method" [label=0.67]
+	node [fillcolor="#7aed3e" shape=box style=filled]
+	"Extract Method, Move Attribute"
+	"Feature Envy" -> "Extract Method, Move Attribute" [label=0.82]
+	node [fillcolor="#a4e65c" shape=box style=filled]
+	"Extract Method, Move Method"
+	"Feature Envy" -> "Extract Method, Move Method" [label=0.73]
+	node [fillcolor="#c5e17a" shape=box style=filled]
+	"Inline Method, Extract Method{n}"
+	"Feature Envy" -> "Inline Method, Extract Method{n}" [label=0.63]
+}

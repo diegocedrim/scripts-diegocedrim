@@ -1,0 +1,33 @@
+// Class Data Should Be Private
+digraph {
+	graph [rankdir=LR]
+	node [fillcolor=grey shape=box style=filled]
+	"Class Data Should Be Private"
+	node [fillcolor="#e08e8e" shape=box style=filled]
+	"Extract Superclass, Move Method"
+	"Extract Superclass, Move Method" -> "Class Data Should Be Private" [label=0.56]
+	node [fillcolor="#dedf9e" shape=box style=filled]
+	"Move Method, Move Attribute{n}"
+	"Class Data Should Be Private" -> "Move Method, Move Attribute{n}" [label=0.50]
+	node [fillcolor="#ace562" shape=box style=filled]
+	"Pull Up Method{n}, Move Method, Pull Up Method"
+	"Class Data Should Be Private" -> "Pull Up Method{n}, Move Method, Pull Up Method" [label=0.71]
+	node [fillcolor="#8fea4b" shape=box style=filled]
+	"Pull Up Method{n}, Move Method, Pull Up Method{n}"
+	"Class Data Should Be Private" -> "Pull Up Method{n}, Move Method, Pull Up Method{n}" [label=0.78]
+	node [fillcolor="#85eb45" shape=box style=filled]
+	"Pull Up Attribute{n}, Pull Up Method{n}"
+	"Class Data Should Be Private" -> "Pull Up Attribute{n}, Pull Up Method{n}" [label=0.80]
+	node [fillcolor="#dedf9e" shape=box style=filled]
+	"Move Attribute{n}, Move Method{n}, Move Attribute{n}"
+	"Class Data Should Be Private" -> "Move Attribute{n}, Move Method{n}, Move Attribute{n}" [label=0.50]
+	node [fillcolor="#bae36e" shape=box style=filled]
+	"Pull Up Method{n}"
+	"Class Data Should Be Private" -> "Pull Up Method{n}" [label=0.67]
+	node [fillcolor="#ace562" shape=box style=filled]
+	"Pull Up Attribute{n}, Pull Up Method{n}, Move Method, Pull Up Method"
+	"Class Data Should Be Private" -> "Pull Up Attribute{n}, Pull Up Method{n}, Move Method, Pull Up Method" [label=0.71]
+	node [fillcolor="#dddf9b" shape=box style=filled]
+	"Pull Up Attribute, Pull Up Method{n}"
+	"Class Data Should Be Private" -> "Pull Up Attribute, Pull Up Method{n}" [label=0.51]
+}

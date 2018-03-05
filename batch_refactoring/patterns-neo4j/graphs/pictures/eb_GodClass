@@ -1,0 +1,42 @@
+// God Class
+digraph {
+	graph [rankdir=LR]
+	node [fillcolor=grey shape=box style=filled]
+	"God Class"
+	node [fillcolor="#ec4141" shape=box style=filled]
+	"Rename Method{n}, Extract Method{n}"
+	"Rename Method{n}, Extract Method{n}" -> "God Class" [label=0.81]
+	node [fillcolor="#cfe086" shape=box style=filled]
+	"Inline Method{n}, Extract Method{n}"
+	"God Class" -> "Inline Method{n}, Extract Method{n}" [label=0.59]
+	node [fillcolor="#ace562" shape=box style=filled]
+	"Pull Up Method{n}, Move Method, Pull Up Method"
+	"God Class" -> "Pull Up Method{n}, Move Method, Pull Up Method" [label=0.71]
+	node [fillcolor="#8fea4b" shape=box style=filled]
+	"Pull Up Method{n}, Move Method, Pull Up Method{n}"
+	"God Class" -> "Pull Up Method{n}, Move Method, Pull Up Method{n}" [label=0.78]
+	node [fillcolor="#cae180" shape=box style=filled]
+	"Move Method{n}"
+	"God Class" -> "Move Method{n}" [label=0.61]
+	node [fillcolor="#dedf9e" shape=box style=filled]
+	"Extract Method{n}, Inline Method"
+	"God Class" -> "Extract Method{n}, Inline Method" [label=0.50]
+	node [fillcolor="#cae180" shape=box style=filled]
+	"Pull Up Attribute{n}, Pull Up Method{n}"
+	"God Class" -> "Pull Up Attribute{n}, Pull Up Method{n}" [label=0.61]
+	node [fillcolor="#dddf9b" shape=box style=filled]
+	"Inline Method{n}"
+	"God Class" -> "Inline Method{n}" [label=0.51]
+	node [fillcolor="#cfe086" shape=box style=filled]
+	"Extract Method{n}"
+	"God Class" -> "Extract Method{n}" [label=0.59]
+	node [fillcolor="#bde371" shape=box style=filled]
+	"Pull Up Method{n}"
+	"God Class" -> "Pull Up Method{n}" [label=0.66]
+	node [fillcolor="#ace562" shape=box style=filled]
+	"Pull Up Attribute{n}, Pull Up Method{n}, Move Method, Pull Up Method"
+	"God Class" -> "Pull Up Attribute{n}, Pull Up Method{n}, Move Method, Pull Up Method" [label=0.71]
+	node [fillcolor="#d3e08b" shape=box style=filled]
+	"Pull Up Attribute, Pull Up Method{n}"
+	"God Class" -> "Pull Up Attribute, Pull Up Method{n}" [label=0.57]
+}

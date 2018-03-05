@@ -1,5 +1,5 @@
 match (b:Batch)-[co:COMPOSED_OF]->(r:Refactoring)-->(c:Commit)
-where b.type = 'scope-based'
+where b.type = 'element-based'
 with b, co, r
 
 optional match (r)-[:CHANGED]->(eb:Element)-->(sb:Smell)

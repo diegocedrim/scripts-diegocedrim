@@ -1,0 +1,1 @@
+Constrói grafos a partir dos padrões de introdução/remoção

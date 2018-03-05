@@ -1,0 +1,9 @@
+// Message Chain
+digraph {
+	graph [rankdir=LR]
+	node [fillcolor=grey shape=box style=filled]
+	"Message Chain"
+	node [fillcolor="#e46b6b" shape=box style=filled]
+	"Move Attribute, Rename Method{n}"
+	"Move Attribute, Rename Method{n}" -> "Message Chain" [label=0.68]
+}

@@ -1,0 +1,18 @@
+// Data Class
+digraph {
+	graph [rankdir=LR]
+	node [fillcolor=grey shape=box style=filled]
+	"Data Class"
+	node [fillcolor="#e27474" shape=box style=filled]
+	"Move Method, Pull Up Method, Move Method, Pull Up Method{n}"
+	"Move Method, Pull Up Method, Move Method, Pull Up Method{n}" -> "Data Class" [label=0.65]
+	node [fillcolor="#cfe086" shape=box style=filled]
+	"Pull Up Method, Move Method, Pull Up Method{n}"
+	"Data Class" -> "Pull Up Method, Move Method, Pull Up Method{n}" [label=0.59]
+	node [fillcolor="#56f229" shape=box style=filled]
+	"Move Attribute{n}, Rename Method"
+	"Data Class" -> "Move Attribute{n}, Rename Method" [label=0.88]
+	node [fillcolor="#5cf12c" shape=box style=filled]
+	"Move Attribute{n}, Rename Method{n}"
+	"Data Class" -> "Move Attribute{n}, Rename Method{n}" [label=0.87]
+}
