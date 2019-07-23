@@ -83,7 +83,9 @@ reds = list(Color("#FFFFFF").range_to(Color("#FF0000"),100))
 greens = list(Color("#FFFFFF").range_to(Color("#00FF00"),100))
 introductions = load_patterns("../summaries/element_based_introduced.csv")
 removals = load_patterns("../summaries/element_based_removed.csv")
-generate_singledotfile(introductions, removals, "eb_")
+#generate_singledotfile(introductions, removals, "eb_")
+
+generate_dotfiles(introductions, removals, "eb_")
 
 
 

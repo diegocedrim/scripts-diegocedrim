@@ -1,0 +1,11 @@
+match (p:Project)--(c:Commit)--(r:Refactoring) where p.name = 'opus-research_academico-ufal' detach delete r;
+match (p:Project)--(c:Commit)--(e:Element)--(s:Smell) where p.name = 'opus-research_academico-ufal' detach delete s;
+match (p:Project)--(c:Commit)--(e:Element) where p.name = 'opus-research_academico-ufal' detach delete e;
+match (p:Project)--(c:Commit) where p.name = 'opus-research_academico-ufal' detach delete c;
+match (p:Project) where p.name = 'opus-research_academico-ufal' detach delete p;
+match (p:Project)--(c:Commit)--(r:Refactoring) where p.name = 'opus-research_meyer-control' detach delete r;
+match (p:Project)--(c:Commit)--(e:Element)--(s:Smell) where p.name = 'opus-research_meyer-control' detach delete s;
+match (p:Project)--(c:Commit)--(e:Element) where p.name = 'opus-research_meyer-control' detach delete e;
+match (p:Project)--(c:Commit) where p.name = 'opus-research_meyer-control' detach delete c;
+match (p:Project) where p.name = 'opus-research_meyer-control' detach delete p;
+match (p:Project) where p.name = 'ArgoUML' or p.name = 'JBoss Xerces' set p.url = null;

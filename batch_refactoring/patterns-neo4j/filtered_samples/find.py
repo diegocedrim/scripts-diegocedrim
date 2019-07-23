@@ -15,13 +15,12 @@ with open("element_based-samples_filtered.csv") as csvfile:
         values = destination.get(key, [])
         values.append(row)
         destination[key] = values
-1
-1
-interference = sys.argv[1]
-smell = sys.argv[2]
 
-# interference = "introduction"
-# smell = "FeatureEnvy"
+# interference = sys.argv[1]
+# smell = sys.argv[2]
+
+interference = "introduction"
+smell = "FeatureEnvy"
 
 samples = None
 if interference == "removal":

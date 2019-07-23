@@ -12,28 +12,20 @@ def export_to_json(cursor, filename):
 
 
 query = """
-match (b:Batch)-[co:COMPOSED_OF]->(r:Refactoring)-->(c:Commit)
-where b.type = 'version-based'
-with b, co, r
-
-optional match (r)-[:CHANGED]->(eb:Element)-->(sb:Smell)
-with b, co, r, collect(sb.type) as smells_before
-
-optional match (r)-[:PRODUCED]->(eb:Element)-->(sb:Smell)
-return
-    b as batch,
-    co as composed_of,
-    r as refactoring,
-    smells_before,
-    collect(sb.type) as smells_after
-
-order by b.hash_id, co.order;
+match (b:Batch)-->(r:Refactoring)-->(c:Commit)-->(p:Project)
+where b.type = 'element-based'
+with p.name as project, b.element as element, b order by p.name, b.element, b.order
+with project, element, collect(distinct b) as batches
+where size(batches) >= 2
+return  project, element, batches
 """
 
-filename = "../batch_refactoring/patterns-neo4j/batches/batch_and_smells_version_based.json"
+filename = "../icse_ana/batches_per_elements.json"
 graph = Graph(password="boil2.eat")
 tx = graph.begin()
 cursor = tx.run(query)
 export_to_json(cursor, filename)
 tx.commit()
+
+
 

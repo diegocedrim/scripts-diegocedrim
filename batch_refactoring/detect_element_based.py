@@ -22,7 +22,7 @@ def load_rerefs(filename):
 
 def load_commits_by_devs():
     commits_by_dev = {}
-    with open("rerefs/commits_and_devs.csv") as csvfile:
+    with open("commits_by_desenv_liferay.csv") as csvfile:
         reader = csv.DictReader(csvfile, delimiter=',', quotechar='"')
         for row in reader:
             key = (row["project_name"], row["author_email"])
@@ -69,7 +69,7 @@ def find_batches(key):
     return batches
 
 
-rerefs = load_rerefs("rerefs/refactored_elements.csv")
+rerefs = load_rerefs("liferay_refs.csv")
 commits_by_devs = load_commits_by_devs()
 
 i = 1
@@ -90,7 +90,7 @@ for key in rerefs:
         print ""
 
 
-with open("results/element_batches_to_import.json", "w") as output:
+with open("results/liferay_element_batches_to_import.json", "w") as output:
     output.write(json.dumps(all_batches, indent=4))
 
 # print len(all_batches)

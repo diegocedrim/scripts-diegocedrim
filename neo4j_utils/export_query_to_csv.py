@@ -15,23 +15,15 @@ def export_to_csv(cursor, filename):
             writer.writerow(record)
 
 
+# query = """
+# match (b:Batch) where b.type = 'version-based' return b.size as size order by b.size
+# """
+
 query = """
-match (r:Refactoring)-[:CHANGED]->(el:Element)-->(c:Commit)-->(p:Project)
-return
-    toLower(p.name) as project_name,
-    el.name as element,
-    c.order as order,
-    c.author_email as author_email,
-    r.hash_id as ref_id,
-    r.type as type,
-    c.hash_id as commit_id,
-    c.hash as commit_hash,
-    el.hash_id as resource_id
-order by
-    toLower(p.name), toLower(p.name), c.order
+match (b:Batch) return b.type as type, b.size as size order by b.type, b.size
 """
 
-filename = "../batch_refactoring/rerefs/refactored_elements.csv"
+filename = "sizes.csv"
 graph = Graph(password="boil2.eat")
 tx = graph.begin()
 cursor = tx.run(query)

@@ -3,9 +3,6 @@ digraph {
 	graph [rankdir=LR]
 	node [fillcolor=grey shape=box style=filled]
 	"Complex Class"
-	node [fillcolor="#e08e8e" shape=box style=filled]
-	"Pull Up Attribute{n}, Move Attribute, Pull Up Attribute{n}, Move Attribute, Pull Up Attribute"
-	"Pull Up Attribute{n}, Move Attribute, Pull Up Attribute{n}, Move Attribute, Pull Up Attribute" -> "Complex Class" [label=0.56]
 	node [fillcolor="#ec4141" shape=box style=filled]
 	"Rename Method{n}, Extract Method{n}"
 	"Rename Method{n}, Extract Method{n}" -> "Complex Class" [label=0.81]

@@ -3,6 +3,7 @@ from collections import Counter
 from json import JSONEncoder
 import csv
 
+
 class MyEncoder(JSONEncoder):
     def default(self, o):
         return o.__dict__
@@ -144,6 +145,15 @@ def changes(smells_before, smells_after):
     return list(introductions), list(removals)
 
 
+def load_batches_project():
+    with open("batches/project_by_batch_id.csv") as f:
+        project_by_batch_id = {}
+        reader = csv.DictReader(f, delimiter=",")
+        for row in reader:
+            project_by_batch_id[int(row["b.hash_id"])] = row["p.name"]
+        return project_by_batch_id
+
+
 def print_impact(impact):
     for i in impact:
         print i
@@ -158,6 +168,7 @@ def interferences(batches):
     samples = []
     total = len(batches)
     current = 0
+    project_by_batch_id = load_batches_project()
     for hash_id, refactorings in batches.iteritems():
         current += 1
         print "Processing %s/%s" % (current, total)
@@ -178,7 +189,8 @@ def interferences(batches):
                     "interference": "introduction",
                     "refactorings": refs,
                     "batch_id": hash_id,
-                    "element": refactorings[0].element
+                    "element": refactorings[0].element,
+                    "project": project_by_batch_id[hash_id]
                 }
                 samples.append(sample)
 
@@ -191,7 +203,8 @@ def interferences(batches):
                     "interference": "removal",
                     "refactorings": refs,
                     "batch_id": hash_id,
-                    "element": refactorings[0].element
+                    "element": refactorings[0].element,
+                    "project": project_by_batch_id[hash_id]
                 }
                 samples.append(sample)
 
@@ -219,7 +232,7 @@ def detect(batches_filename, alias, only_single=False):
         data = json.dumps(ints.values(), indent=4, cls=MyEncoder, sort_keys=True)
         out.write(data)
     with open("interferences/%s-samples.csv" % alias, "w") as samplefile:
-        header = ["batch", "smell", "interference", "batch_id", "element", "refactorings"]
+        header = ["project", "batch", "smell", "interference", "batch_id", "element", "refactorings"]
         writer = csv.DictWriter(samplefile, fieldnames=header, delimiter=";")
         writer.writeheader()
         writer.writerows(samples)
